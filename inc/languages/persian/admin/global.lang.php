@@ -256,7 +256,7 @@ $l['locked_out_message'] = "{1}،
 
 جهت بازگشایی مجدد حساب به آدرس زیر بروید.
 
-{4}/{5}/index.php?action=unlock&token={6}
+{4}/{5}/index.php?action=unlock&uid={7}&token={6}
 
 اگر آدرس بالا کار نکرد، ابتدا به آدرس زیر بروید
 
