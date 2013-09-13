@@ -718,7 +718,7 @@ div.error ul {
 		</stylesheet>
 		<stylesheet name="usercp.css" attachedto="usercp.php|usercp2.php|private.php" version="1600"><![CDATA[.usercp_nav_item {
 	display: block;
-	padding: 1px 0 1px 23px;
+	padding: 1px 23px 1px 0;
 }
 .usercp_nav_composepm {
 	background: url('images/usercp/composepm.gif') no-repeat right center;
@@ -826,7 +826,7 @@ div.error ul {
 }]]></stylesheet>
 		<stylesheet name="modcp.css" attachedto="modcp.php" version="1400"><![CDATA[.modcp_nav_item {
 	display: block;
-	padding: 1px 0 1px 23px;
+	padding: 1px 23px 1px 0;
 }
 
 .modcp_nav_home {
