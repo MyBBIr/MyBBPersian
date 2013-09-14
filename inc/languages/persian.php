@@ -9,7 +9,7 @@ $langinfo['author'] = "MyBB.CC And My-BB.Ir Group";
 $langinfo['website'] = "http://mybb.com/";
 
 // Compatible version of MyBB
-$langinfo['version'] = "1610";
+$langinfo['version'] = "1611";
 
 // Sets if the translation includes the Admin CP (1 = yes, 0 = no)
 $langinfo['admin'] = 1;
