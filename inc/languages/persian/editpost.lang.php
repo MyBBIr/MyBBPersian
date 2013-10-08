@@ -1,7 +1,7 @@
 <?php
 /**
  * MyBB 1.6 Persian Language Pack
- * Copyright 2012 My-BB.Ir Group, All Rights Reserved
+ * Copyright 2013 My-BB.Ir Group, All Rights Reserved
  * 
  * Translate By: MyBB.CC & My-BB.Ir
  */
@@ -16,7 +16,7 @@ $l['subject'] = "عنوان";
 $l['your_message'] = "پیام شما";
 $l['post_options'] = "گزینه‌های ارسال:";
 $l['options_sig'] = "<strong>امضا:</strong> شامل امضای شما باشد. (مخصوص اعضا)";
-$l['options_emailnotify'] = "<strong>آگاه سازی توسط ایمیل:</strong> دریافت ایمیل در صورت ارسال پاسخ جدید. (مخصوص اعضا)";
+$l['options_emailnotify'] = "<strong>آگاه سازی توسط رایانامه:</strong> دریافت رایانامه در صورت ارسال پاسخ جدید. (مخصوص اعضا)";
 $l['options_disablesmilies'] = "<strong>غیر فعال شدن شکلک‌ها:</strong> شکلک‌ها در این ارسال نمایش داده نشوند.";
 $l['preview_post'] = "پیش نمایش ارسال";
 $l['update_post'] = "به روز رسانی ارسال";

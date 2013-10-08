@@ -1,7 +1,7 @@
 <?php
 /**
  * MyBB 1.6 Persian Language Pack
- * Copyright 2012 My-BB.Ir Group, All Rights Reserved
+ * Copyright 2013 My-BB.Ir Group, All Rights Reserved
  * 
  * Translate By: MyBB.CC & My-BB.Ir
  */
@@ -28,7 +28,7 @@ $l['deselect_all'] = "عدم انتخاب همه";
 $l['select_forum_tables'] = "انتخاب جدول‌های انجمن";
 $l['file_type'] = "فرمت فایل";
 $l['file_type_desc'] = "فرمت فایلی که تمایل دارید طبق آن پشتیبان گیری انجام شود را انتخاب کنید.";
-$l['gzip_compressed'] = "فایل فشرده GZIP";
+$l['gzip_compressed'] = "فایل فشرده GZآی‌پی";
 $l['plain_text'] = "متن ساده";
 $l['save_method'] = "روش ذخیره";
 $l['save_method_desc'] = "یک روش برای ذخیره فایل پشتیبان مشخص کنید.";
@@ -50,7 +50,7 @@ $l['error_invalid_backup'] = "فایل پشتیبانی که انتخاب کرد
 $l['error_backup_doesnt_exist'] = "فایل پشتیبان انتخاب شده وجود ندارد.";
 $l['error_backup_not_deleted'] = "فایل پشتیبان حذف نشده است.";
 $l['error_tables_not_selected'] = "شما هیچ جدولی را انتخاب نکرده‌اید.";
-$l['error_no_zlib'] = "کتابخانه zlib برای PHP فعال نشده است - شما نمی‌توانید فایل پشتیبانی را به صورت فایل فشرده GZIP ذخیره کنید.";
+$l['error_no_zlib'] = "کتابخانه zlib برای پی‌اچ‌پی فعال نشده است - شما نمی‌توانید فایل پشتیبانی را به صورت فایل فشرده GZآی‌پی ذخیره کنید.";
 $l['alert_not_writable'] = "امکان نوشتن در پوشه پشتیبان (واقع در پوشه مدیر) وجود ندارد.";
 $l['confirm_backup_deletion'] = "آیا از حذف این فایل پشتیان اظمینان دارید؟";
 $l['success_backup_deleted'] = "فایل پشتیبان با موفقیت حذف شد.";

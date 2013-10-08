@@ -1,7 +1,7 @@
 <?php
 /**
  * MyBB 1.6 Persian Language Pack
- * Copyright 2012 My-BB.Ir Group, All Rights Reserved
+ * Copyright 2013 My-BB.Ir Group, All Rights Reserved
  * 
  * Translate By: MyBB.CC & My-BB.Ir
  */
@@ -24,18 +24,18 @@ $l['install_and_activate'] = "نصب و فعال‌‌سازی";
 $l['uninstall'] = "حذف";
 $l['created_by'] = "نویسنده:";
 $l['no_plugins'] = "در حال حاضر در تالار شما هیچ افزونه‌ای وجود ندارد.";
-$l['plugin_incompatible'] = "این افزونه با MyBB {1} ناسازگار است.";
+$l['plugin_incompatible'] = "این افزونه با مای‌بی‌إی {1} ناسازگار است.";
 $l['error_vcheck_no_supported_plugins'] = "هیچکدام از افزونه‌های نصب شده از قابلیت بررسی نسخه پشتیبانی نمی‌کنند.";
-$l['error_vcheck_communications_problem'] = "مشکلی در ارتباط با سرور MyBB بوجود آمده است. لطفاً چند دقیقه بعد مجدداً تلاش کنید.";
-$l['recommended_plugins_for_mybb'] = "افزونه‌های پیشنهادی برای MyBB {1}";
-$l['browse_results_for_mybb'] = "جستجوی نتایج برای MyBB {1}";
+$l['error_vcheck_communications_problem'] = "مشکلی در ارتباط با سرور مای‌بی‌بی بوجود آمده است. لطفاً چند دقیقه بعد مجدداً تلاش کنید.";
+$l['recommended_plugins_for_mybb'] = "افزونه‌های پیشنهادی برای مای‌بی‌إی {1}";
+$l['browse_results_for_mybb'] = "جستجوی نتایج برای مای‌بی‌بی {1}";
 $l['search_for_plugins'] = "جستجو برای افزونه‌ها";
 $l['search'] = "جستجو";
 $l['error_no_results_found'] = "با کلمات کلیدی انتخاب شده نتیجه‌ای یافت نشد.";
 
 $l['error_no_input'] = "خطای 1: ورودی مشخص شده وجود ندارد.";
 $l['error_no_pids'] = "خطا شماره 2: هیچ شماره افزونه‌ای مشخص نشده است.";
-$l['error_communication_problem'] = "مشکلی در ارتباط با سرور MyBB بوجود آمده است.";
+$l['error_communication_problem'] = "مشکلی در ارتباط با سرور مای‌بی‌بی بوجود آمده است.";
 $l['error_invalid_plugin'] = "افزونه انتخابی وجود ندارد.";
 $l['success_plugins_up_to_date'] = "تبریک ! تمام افزونه‌های شما آخرین نسخه هستند.";
 $l['success_plugin_activated'] = "فعال‌سازی افزونه انتخاب شده با موفقیت به پایان رسید.";

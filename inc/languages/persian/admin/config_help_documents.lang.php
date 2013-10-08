@@ -1,6 +1,6 @@
 <?php
 /**
- * MyBB 1.6 Farsi Language Pack
+ * MyBB 1.6 Persian Language Pack
  * Copyright © 2012 MyBB.CC، All Rights Reserved
  */
 
@@ -31,7 +31,7 @@ $l['custom_doc_sec'] = "سند / بخش دلخواه";
 $l['default_doc_sec'] = "سند / بخش پیشفرض";
 $l['no_help_documents'] = "در حال حاضر سند راهنمایی در تالار شما وجود ندارد.";
 $l['section_document'] = "بخش / سند";
-$l['error_section_missing_name'] = "شما باید نامی برای بخش تعیین کنید .";
+$l['error_section_missing_name'] = "شما باید نامی‌برای بخش تعیین کنید .";
 $l['error_section_missing_description'] = "شما باید شرح کوتاهی برای بخش تعیین کنید .";
 $l['error_section_missing_enabled'] = "شما باید بله یا خیر را برای فعال کردن تعیین کنید ؟
 ";

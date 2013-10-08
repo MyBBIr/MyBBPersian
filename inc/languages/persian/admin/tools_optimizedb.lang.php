@@ -1,14 +1,14 @@
 <?php
 /**
  * MyBB 1.6 Persian Language Pack
- * Copyright 2012 My-BB.Ir Group, All Rights Reserved
+ * Copyright 2013 My-BB.Ir Group, All Rights Reserved
  * 
  * Translate By: MyBB.CC & My-BB.Ir
  */
 
 $l['optimize_database'] = "بهینه سازی بانک اطلاعاتی";
 $l['table_selection'] = "انتخاب جدول";
-$l['tables_select_desc'] = "شما می توانید جدول‌هایی از بانک اطلاعاتی را انتخاب نمایید که می خواهید این عمل را بر رو آن‌ها اجرا نمایید. برای انتخاب چندین جدول CTRL را نگه دارید.";
+$l['tables_select_desc'] = "شما می‌توانید جدول‌هایی از بانک اطلاعاتی را انتخاب نمایید که می‌خواهید این عمل را بر رو آن‌ها اجرا نمایید. برای انتخاب چندین جدول CTRL را نگه دارید.";
 $l['select_all'] = "انتخاب همه";
 $l['deselect_all'] = "لغو انتخاب‌ها";
 $l['select_forum_tables'] = "انتخاب جدول‌های انجمن";

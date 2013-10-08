@@ -1,7 +1,7 @@
 <?php
 /**
  * MyBB 1.6 Persian Language Pack
- * Copyright 2012 My-BB.Ir Group, All Rights Reserved
+ * Copyright 2013 My-BB.Ir Group, All Rights Reserved
  * 
  * Translate By: MyBB.CC & My-BB.Ir
  */
@@ -19,7 +19,7 @@ $l['details'] = "جرئیات";
 $l['filter_warning_logs'] = "فیلتر گزارش‌های اخطار";
 $l['filter_warned_user'] = "کاربر اخطار گرفته:";
 $l['filter_issued_by'] = "اخطار صادر شده توسط:";
-$l['filter_reason'] = "دلیل شامل میشود:";
+$l['filter_reason'] = "دلیل شامل می‌شود:";
 $l['sort_by'] = "چیدن بر اساس:";
 $l['results_per_page'] = "نتایج بر صفحه:";
 $l['view'] = "مشاهده";

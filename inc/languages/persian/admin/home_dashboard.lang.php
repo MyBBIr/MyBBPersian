@@ -1,7 +1,7 @@
 <?php
 /**
  * MyBB 1.6 Persian Language Pack
- * Copyright 2012 My-BB.Ir Group, All Rights Reserved
+ * Copyright 2013 My-BB.Ir Group, All Rights Reserved
  * 
  * Translate By: MyBB.CC & My-BB.Ir
  */
@@ -14,9 +14,9 @@ $l['mybb_version'] = "نسخه انجمن";
 $l['threads'] = "موضوعات";
 $l['new_today'] = "جدید";
 $l['unapproved'] = "تایید نشده";
-$l['php_version'] = "نسخه PHP";
+$l['php_version'] = "نسخه پی‌اچ‌پی";
 $l['posts'] = "ارسال‌ها";
-$l['sql_engine'] = "نسخه SQL";
+$l['sql_engine'] = "نسخه اس‌کیو‌ال";
 $l['users'] = "کاربران";
 $l['registered_users'] = "کاربران ثبت شده";
 $l['active_users'] = "کاربران فعال";

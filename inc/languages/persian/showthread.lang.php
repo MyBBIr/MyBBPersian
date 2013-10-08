@@ -1,7 +1,7 @@
 <?php
 /**
  * MyBB 1.6 Persian Language Pack
- * Copyright 2012 My-BB.Ir Group, All Rights Reserved
+ * Copyright 2013 My-BB.Ir Group, All Rights Reserved
  * 
  * Translate By: MyBB.CC & My-BB.Ir
  */
@@ -14,7 +14,7 @@ $l['author'] = "نویسنده";
 $l['message'] = "پیام";
 $l['threaded'] = "حالت موضوعی";
 $l['linear'] = "حالت خطی";
-$l['next_oldest'] = "قدیمی تر";
+$l['next_oldest'] = "قدیمی‌تر";
 $l['next_newest'] = "جدید تر";
 $l['view_printable'] = "نمایش نسخه قابل چاپ";
 $l['send_thread'] = "ارسال این موضوع به دوستان";
@@ -49,7 +49,7 @@ $l['undo_vote'] = "به قبل بازگرداندن رای";
 $l['quick_reply'] = "پاسخ سریع";
 $l['message_note'] = "پاسخ خود را برای این پیام در اینجا بنویسید.";
 $l['signature'] = "امضا";
-$l['email_notify'] = "آگاه سازی توسط ایمیل";
+$l['email_notify'] = "آگاه سازی توسط رایانامه";
 $l['disable_smilies'] = "غیر فعال کردن شکلک‌ها";
 $l['post_reply'] = "ارسال پاسخ";
 $l['post_reply_img'] = "ارسال پاسخ";
@@ -79,7 +79,7 @@ $l['clear'] = "پاک کن";
 $l['thread_closed'] = "موضوع بسته شده";
 $l['no_subject'] = "بدون موضوع";
 $l['error_nonextnewest'] = "موضوع جدیدتری از آخرین بازدید شما موجود نمی‌باشد.";
-$l['error_nonextoldest'] = "موضوع قدیمی تری از آخرین بازدید شما موجود نمی‌باشد.";
+$l['error_nonextoldest'] = "موضوع قدیمی‌تری از آخرین بازدید شما موجود نمی‌باشد.";
 $l['quickreply_multiquote_selected'] = "شما یک یا چند ارسال را برای نقل قول کردن انتخاب کرده‌اید.";
 $l['quickreply_multiquote_now'] = "نقل قول ارسال‌ها";
 $l['or'] =" | ";

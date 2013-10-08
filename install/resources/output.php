@@ -15,9 +15,9 @@ class installerOutput {
 	public $openedform;
 	public $script = "index.php";
 	public $steps = array();
-	public $title = "MyBB Installation Wizard";
+	public $title = "نصب کننده مای‌بی‌بی";
 
-	function print_header($title="Welcome", $image="welcome", $form=1, $error=0)
+	function print_header($title="خوش‌آمدید", $image="welcome", $form=1, $error=0)
 	{
 		global $mybb, $lang;
 		
@@ -35,7 +35,7 @@ class installerOutput {
 		}
 		echo <<<END
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xml:lang="fa" lang="fa" dir="rtl" xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<title>$this->title &gt; $title</title>
 	<link rel="stylesheet" href="stylesheet.css" type="text/css" />
@@ -54,7 +54,7 @@ END;
 		echo <<<END
 		<div id="container">
 		<div id="logo">
-			<h1><span class="invisible">MyBB</span></h1>
+			<h1><span class="invisible">مای‌بی‌بی</span></h1>
 		</div>
 		<div id="inner_container">
 		<div id="header">$this->title</div>
@@ -137,7 +137,10 @@ END;
 		$copyyear = date('Y');
 		echo <<<END
 			<div id="copyright">
-				MyBB &copy; 2002-$copyyear MyBB Group
+				مای‌بی‌بی &copy; ۲۰۰۲-$copyyear گروه مای‌بی‌بی
+				<span style="float:left">
+					ترجمه شده توسط: <a href="http://my-bb.ir" target="_blank">My-BB.Ir</a>
+				</span>
 			</div>
 		</div>
 		</div>

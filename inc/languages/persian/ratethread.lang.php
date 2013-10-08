@@ -1,9 +1,9 @@
 <?php
 /**
- * MyBB 1.6 English Language Pack
- * Copyright 2012 MyBB Group, All Rights Reserved
+ * MyBB 1.6 Persian Language Pack
+ * Copyright 2013 My-BB.Ir Group, All Rights Reserved
  * 
- * $Id: ratethread.lang.php 5297 2012-12-28 22:01:14Z Tomm $
+ * Translate By: MyBB.CC & My-BB.Ir
  */
 
 $l['redirect_threadrated'] = "متشکریم, موضوع با موفقیت رتبه دهی شد. شما اکنون به موضوع باز خواهید گشت.";

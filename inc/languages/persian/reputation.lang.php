@@ -1,7 +1,7 @@
 <?php
 /**
  * MyBB 1.6 Persian Language Pack
- * Copyright 2012 My-BB.Ir Group, All Rights Reserved
+ * Copyright 2013 My-BB.Ir Group, All Rights Reserved
  * 
  * Translate By: MyBB.CC & My-BB.Ir
  */
@@ -70,7 +70,7 @@ $l['show_positive'] = "نمایش: رتبه‌های مثبت";
 $l['show_neutral'] = "نمایش:رتبه‌های خنثی";
 $l['show_negative'] = "نمایش: رتبه‌های منفی";
 $l['sort_updated'] = "مرتب سازی بر اساس: تاریخ آخرین ویرایش";
-$l['sort_username'] = "مرتب سازی بر اساس: نام کاربری";
+$l['sort_username'] = "مرتب سازی بر اساس: نام‌کاربری";
 $l['last_updated'] = "آخرین ویرایش {1}، {2}";
 $l['postrep_post'] = "ارسال #";
 $l['postrep_given'] = "رتبه دریافت شده برای {1}<br />";

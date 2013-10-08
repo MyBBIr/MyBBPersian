@@ -1,7 +1,7 @@
 <?php
 /**
  * MyBB 1.6 Persian Language Pack
- * Copyright 2012 My-BB.Ir Group, All Rights Reserved
+ * Copyright 2013 My-BB.Ir Group, All Rights Reserved
  * 
  * Translate By: MyBB.CC & My-BB.Ir
  */
@@ -15,7 +15,7 @@ $l['pending_requests'] = "درخواست‌های عضویت معلق";
 $l['num_requests_pending'] = "<strong>{1}</strong> درخواست عضویت معلق برای این گروه کاربری وجود دارد.";
 $l['group_management'] = "مدیریت گروه";
 $l['members_of'] = "اعضای \"{1}\"";
-$l['user_name'] = "نام کاربری";
+$l['user_name'] = "نام‌کاربری";
 $l['contact'] = "تماس";
 $l['reg_date'] = "تاریخ عضویت";
 $l['post_count'] = "ارسال‌ها";
@@ -36,7 +36,7 @@ $l['no_users'] = "کاربری در این گروه‌کاربری وجود ند
 $l['user_added'] = "کاربر به گروه کاربری افزوده شد.";
 $l['users_removed'] = "کاربران انتخاب شده از گروه کاربری خارج شدند.";
 $l['group_no_members'] = "عضوی در این گروه وجود ندارد.<br />جهت بازگشت به صفحه مدیریت گروه‌ها <a href=\"usercp.php?action=usergroups\">اینجا</a> کلیک کنید.";
-$l['group_public_moderated'] = "این یک گروه کاربری عمومی است و همه می‌توانند در آن عضو شوند. تمامی درخواست عضویت‌ها می‌بایست به تایید یک مدیر برسند.";
+$l['group_public_moderated'] = "این یک گروه کاربری عمومی است و همه می‌توانند در آن عضو شوند. تمامی‌درخواست عضویت‌ها می‌بایست به تایید یک مدیر برسند.";
 $l['group_public_not_moderated'] = "این یک گروه کاربر عمومی است که عضویت در آن نیاز به تایید مدیران ندارد.";
 $l['group_private'] = "این یک گروه کاربری خصوصی می‌باشد. اعضای این گروه تنها توسط مدیر گروه اضافه می‌شوند.";
 $l['group_default'] = "این یک گروه کاربری ریشه‌ای است.";

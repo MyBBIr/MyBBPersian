@@ -1,7 +1,7 @@
 <?php
 /**
  * MyBB 1.6 Persian Language Pack
- * Copyright 2012 My-BB.Ir Group, All Rights Reserved
+ * Copyright 2013 My-BB.Ir Group, All Rights Reserved
  * 
  * Translate By: MyBB.CC & My-BB.Ir
  */
@@ -24,7 +24,7 @@ $l['edit_prefix_desc'] = "در این بخش می‌توانید پیشوند م
 $l['prefix'] = "پیشوند";
 $l['prefix_desc'] = "نسخه‌ی متنی ساده از پیشوند جهت نمایش داده شدن در منوی انتخاب.";
 $l['display_style'] = "حالت نمایش";
-$l['display_style_desc'] = "این مشخص می‌کند که پیشوند چگونه در کنار عنوان موضوع نمایش داده خواهد شد. شما می‌توانید یک کد HTML را وارد نمایید و یا صرفاً از همان نسخه‌ی متنی ساده‌ی بالا استفاده کنید.";
+$l['display_style_desc'] = "این مشخص می‌کند که پیشوند چگونه در کنار عنوان موضوع نمایش داده خواهد شد. شما می‌توانید یک کد اچ‌تی‌ام‌ال را وارد نمایید و یا صرفاً از همان نسخه‌ی متنی ساده‌ی بالا استفاده کنید.";
 $l['available_in_forums'] = "قابل دسترسی در انجمن‌ها";
 $l['available_to_groups'] = "قابل دسترسی برای گروه‌ها";
 $l['all_forums'] = "تمام انجمن‌ها";

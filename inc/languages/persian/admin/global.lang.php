@@ -1,7 +1,7 @@
 <?php
 /**
  * MyBB 1.6 Persian Language Pack
- * Copyright 2012 My-BB.Ir Group, All Rights Reserved
+ * Copyright 2013 My-BB.Ir Group, All Rights Reserved
  * 
  * Translate By: MyBB.CC & My-BB.Ir
  */
@@ -19,31 +19,34 @@ $l['size_kb'] = "KB";
 $l['size_bytes'] = "بایت";
 $l['na'] = "نا مشخص";
 // Header language strings
-$l['mybb_admin_panel'] = "کنترل پنل MyBB";
-$l['mybb_admin_cp'] = "کنترل پنل مدیریت MyBB";
+$l['mybb_admin_panel'] = "کنترل پنل مای‌بی‌بی";
+$l['mybb_admin_cp'] = "کنترل پنل مدیریت مای‌بی‌بی";
 $l['logged_in_as'] = "وارد شده با";
 $l['view_board'] = "نمایش انجمن";
 $l['logout'] = "خروج";
 // Footer language strings
 $l['generated_in'] = "با {2} درخواست در {1} ثانیه ایجاد شده است. حافظه‌ مصرفی: {3}";
 // Login page
-$l['enter_username_and_password'] = "جهت ادامه عملیات، نام کاربری و رمز ورود خود را وارد نمایید.";
-$l['mybb_admin_login'] = "کنترل پنل MyBB - ورود";
+$l['enter_username_and_password'] = "جهت ادامه عملیات، نام‌کاربری و رمز ورود خود را وارد نمایید.";
+$l['mybb_admin_login'] = "کنترل پنل مای‌بی‌بی - ورود";
 $l['return_to_forum'] = "بازگشت به انجمن";
 $l['please_login'] = "لطفاً وارد شوید";
-$l['username'] = "نام کاربری:";
-$l['username1'] = "ایمیل:";
-$l['username2'] = "نام‌کاربری/ایمیل:";
+$l['username'] = "نام‌کاربری:";
+$l['username1'] = "رایانامه:";
+$l['username2'] = "نام‌کاربری/رایانامه:";
 $l['password'] = "رمز ورود:";
 $l['login'] = "ورود";
 $l['lost_password'] = "رمز ورود خود را فراموش کرده‌اید؟";
 $l['error_invalid_admin_session'] = "انقضای دوره دسترسی مدیریتی";
 $l['error_admin_session_expired'] = "دوره دسترسی مدیریتی شما منقضی شده است";
-$l['error_invalid_ip'] = "آدرس IP شما برای این دوره دسترسی معتبر نمی باشد";
+$l['error_invalid_ip'] = "آدرس آی‌پی شما برای این دوره دسترسی معتبر نمی‌باشد";
 $l['error_mybb_admin_lockedout'] = "این حساب قفل شده است";
-$l['error_mybb_admin_lockedout_message'] = "حساب کاربری شما پس از {1} تلاش نا موفق برای ورود بسته شد. ایمیلی برای شما ارسال گردیده که در آن نحوه‌ی بازگشایی مجدد حساب کاربری شما شرح داده شده است.";
+$l['error_mybb_admin_lockedout_message'] = "حساب کاربری شما پس از {1} تلاش نا موفق برای ورود بسته شد. رایانامهی برای شما ارسال گردیده که در آن نحوه‌ی بازگشایی مجدد حساب کاربری شما شرح داده شده است.";
+$l['error_invalid_username'] = "نام‌کاربری وارد شده نامعتبر است."; 
+$l['error_invalid_uid'] = "آی‌دی کاربر وارد شده نامعتبر است."; 
+$l['error_invalid_token'] = "کد فعال‌سازی وارد شده نامعتبر است.";
 $l['success_logged_out'] = "شما با موفقیت خارج شده اید.";
-$l['error_invalid_username_password'] = "نام کاربری و رمز ورود شما با یکدیگر همخوانی ندارد.";
+$l['error_invalid_username_password'] = "نام‌کاربری و رمز ورود شما با یکدیگر همخوانی ندارد.";
 // Action Confirmation
 $l['confirm_action'] = "با اطمینان مایلید این عملیات صورت گیرد؟";
 // Common words and phrases
@@ -70,36 +73,36 @@ $l['go'] = "اعمال";
 $l['clear'] = "حذف";
 $l['unknown'] = "نا مشخص";
 $l['year'] = "سال";
-$l['year_short'] = "y";
+$l['year_short'] = "سال";
 $l['years'] = "سال";
-$l['years_short'] = "y";
+$l['years_short'] = "سال";
 $l['month'] = "ماه";
-$l['month_short'] = "m";
+$l['month_short'] = "ماه";
 $l['months'] = "ماه";
-$l['months_short'] = "m";
+$l['months_short'] = "ماه";
 $l['week'] = "هفته";
-$l['week_short'] = "w";
+$l['week_short'] = "هفته";
 $l['weeks'] = "هفته";
-$l['weeks_short'] = "w";
+$l['weeks_short'] = "هفته";
 $l['day'] = "روز";
-$l['day_short'] = "d";
+$l['day_short'] = "روز";
 $l['days'] = "روز";
-$l['days_short'] = "d";
+$l['days_short'] = "روز";
 $l['hour'] = "ساعت";
-$l['hour_short'] = "h";
+$l['hour_short'] = "ساعت";
 $l['hours'] = "ساعت";
-$l['hours_short'] = "h";
+$l['hours_short'] = "ساعت";
 $l['minute'] = "دقیقه";
-$l['minute_short'] = "m";
+$l['minute_short'] = "دقیقه";
 $l['minutes'] = "دقیقه";
-$l['minutes_short'] = "m";
+$l['minutes_short'] = "دقیقه";
 $l['second'] = "ثانیه";
-$l['second_short'] = "s";
+$l['second_short'] = "ثانیه";
 $l['seconds'] = "ثانیه";
-$l['seconds_short'] = "s";
+$l['seconds_short'] = "ثانیه";
 $l['permanent'] = "ثابت";
 $l['all_forums'] = "کلیه انجمن‌ها";
-$l['mybb_acp'] = "کنترل پنل مدیریت MyBB";
+$l['mybb_acp'] = "کنترل پنل مدیریت مای‌بی‌بی";
 $l['pages'] = "صفحات";
 $l['previous'] = "قبلی";
 $l['page'] = "صفحه";
@@ -113,26 +116,26 @@ $l['off'] = "غیرفعال";
 $l['quote'] = "نقل قول:";
 $l['wrote'] = "نوشته است:";
 $l['code'] = "کد:";
-$l['php_code'] = "کد PHP:";
+$l['php_code'] = "کد پی‌اچ‌پی:";
 $l['linkback'] = "ارسال اصلی";
 // The months of the year
-$l['january'] = "January";
-$l['february'] = "February";
-$l['march'] = "March";
-$l['april'] = "April";
-$l['may'] = "May";
-$l['june'] = "June";
-$l['july'] = "July";
-$l['august'] = "August";
-$l['september'] = "September";
-$l['october'] = "October";
-$l['november'] = "November";
-$l['december'] = "December";
+$l['january'] = "ژانویه";
+$l['february'] = "فوریه";
+$l['march'] = "مارس";
+$l['april'] = "آوریل";
+$l['may'] = "مه";
+$l['june'] = "ژوئن";
+$l['july'] = "جولای";
+$l['august'] = "آگوست";
+$l['september'] = "سپتامبر";
+$l['october'] = "اکتبر";
+$l['november'] = "نوامبر";
+$l['december'] = "دسامبر";
 // Access Denied
-$l['access_denied'] = "دسترسی امکان پذیر نمی باشد";
+$l['access_denied'] = "دسترسی امکان پذیر نمی‌باشد";
 $l['access_denied_desc'] = "مجوز دسترسی به این بخش از کنترل پنل مدیریت را ندارید.";
 // Super Administrator required
-$l['cannot_perform_action_super_admin_general'] = "تنها مدیران ارشد قادر به اجرای این عملیات می باشند<br /><br />جهت دسترسی به این عملیات بایستی نام کاربری خود را به عنوان مدیر ارشد در فایل inc/config.php وارد نمایید.";
+$l['cannot_perform_action_super_admin_general'] = "تنها مدیران ارشد قادر به اجرای این عملیات می‌باشند<br /><br />جهت دسترسی به این عملیات بایستی نام‌کاربری خود را به عنوان مدیر ارشد در فایل inc/config.php وارد نمایید.";
 // AJAX
 $l['loading_text'] = "در حال بارگذاری<br />لطفاً منتظر بمانید ...";
 // Time zone selection boxes
@@ -192,16 +195,16 @@ $l['editor_title_numlist'] = "افزودن لیست شماره گذاری شده
 $l['editor_title_bulletlist'] = "افزودن لیست نقطه گذاری شده";
 $l['editor_title_image'] = "افزودن تصویر";
 $l['editor_title_hyperlink'] = "افزودن لینک";
-$l['editor_title_email'] = "افزودن آدرس ایمیل";
+$l['editor_title_email'] = "افزودن آدرس رایانامه";
 $l['editor_title_quote'] = "افزودن متن نقل قول شده";
 $l['editor_title_code'] = "افزودن کد قالب بندی شده";
-$l['editor_title_php'] = "افزودن کد PHP قالب بندی شده";
-$l['editor_title_close_tags'] = "بستن تگ MyCode باز شده";
+$l['editor_title_php'] = "افزودن کد پی‌اچ‌پی قالب بندی شده";
+$l['editor_title_close_tags'] = "بستن تگ مای‌کد باز شده";
 $l['editor_enter_list_item'] = "اقلام لیست را وارد نمایید. جهت اتمام لیست، آن را خالی گذارده یا بر روی دکمه انصراف کلیک نمایید.";
 $l['editor_enter_url'] = "لطفاً لینک وب سایت مورد نظر را وارد نمایید.";
-$l['editor_enter_url_title'] = "به صورت اختیاری می توانید به لینک مورد نظر یک عنوان اختصاص دهید.";
-$l['editor_enter_email'] = "لطفاً آدرس ایمیل مورد نظر را وارد نمایید.";
-$l['editor_enter_email_title'] = "به صورت اختیاری می توانید به آدرس ایمیل مورد نظر یک عنوان اختصاص دهید.";
+$l['editor_enter_url_title'] = "به صورت اختیاری می‌توانید به لینک مورد نظر یک عنوان اختصاص دهید.";
+$l['editor_enter_email'] = "لطفاً آدرس رایانامه مورد نظر را وارد نمایید.";
+$l['editor_enter_email_title'] = "به صورت اختیاری می‌توانید به آدرس رایانامه مورد نظر یک عنوان اختصاص دهید.";
 $l['editor_enter_image'] = "لطفاً لینک تصویر مورد نظر را وارد نمایید.";
 $l['editor_enter_video_url'] = "لطفاً لینک فیلم را وارد کنید.";
 $l['editor_video_dailymotion'] = "Dailymotion";
@@ -220,8 +223,8 @@ $l['editor_size_xx_large'] = "خیلی‌خیلی بزرگ";
 $l['editor_font'] = "قلم";
 $l['editor_size'] = "اندازه قلم";
 $l['editor_color'] = "رنگ قلم";
-$l['missing_task'] = "خطا: فایل ماموریت موجود نمی باشد";
-$l['task_backup_cannot_write_backup'] = "خطا: پشتیبان پایگاه داده نمی تواند در پوشه backups ذخیره شود.";
+$l['missing_task'] = "خطا: فایل ماموریت موجود نمی‌باشد";
+$l['task_backup_cannot_write_backup'] = "خطا: پشتیبان پایگاه داده نمی‌تواند در پوشه backups ذخیره شود.";
 $l['task_backup_ran'] = "پشتیبان گیری از پایگاه داده با موفقیت صورت پذیرفت.";
 $l['task_checktables_ran'] = "بررسی جداول بدون شناسایی هیچ جدول معیوبی با موفقیت صورت پذیرفت.";
 $l['task_checktables_ran_found'] = "تذکر: بررسی جداول با موفقیت صورت پذیرفت و {1} جدول معیوب تعمیر گردید.";
@@ -231,18 +234,18 @@ $l['task_logcleanup_ran'] = "پاک سازی گزارشات با موفقیت ص
 $l['task_promotions_ran'] = "توسعه با موفقیت صورت پذیرفت.";
 $l['task_threadviews_ran'] = "مشاهدات موضوع با موفقیت صورت پذیرفت.";
 $l['task_usercleanup_ran'] = "پاک سازی کاربر با موفقیت صورت پذیرفت.";
-$l['task_massmail_ran'] = "ارسال ایمیل گروهی با موفقیت صورت پذیرفت.";
+$l['task_massmail_ran'] = "ارسال رایانامه گروهی با موفقیت صورت پذیرفت.";
 $l['task_userpruning_ran'] = "پاک سازی کاربران با موفقیت انجام شد.";
 $l['task_delayedmoderation_ran'] = "مدیریت تاخیری با موفقیت انجام شد.";
 $l['task_massmail_ran_errors'] = "یک یا چند مشکلات رخداده شده به \"{1}\" ارسال شد:
 {2}";
-$l['massmail_username'] = "نام کاربری";
-$l['email_addr'] = "آدرس ایمیل";
+$l['massmail_username'] = "نام‌کاربری";
+$l['email_addr'] = "آدرس رایانامه";
 $l['board_name'] = "نام انجمن";
 $l['board_url'] = "آدرس بنجمن";
 // Unlock ACP
 $l['lockout_unlock'] = "بازکردن قفل پنل مدیریت";
-$l['enter_username_and_token'] = "لطفاً جهت ادامه، نام کاربری و کد فعال‌سازی را وارد نمایید.";
+$l['enter_username_and_token'] = "لطفاً جهت ادامه، نام‌کاربری و کد فعال‌سازی را وارد نمایید.";
 $l['unlock_token'] = "کد فعال‌سازی:";
 $l['unlock_account'] = "بازکردن قفل حساب";
 // Email message for if an admin account has been locked out
@@ -253,14 +256,14 @@ $l['locked_out_message'] = "{1}،
 
 جهت بازگشایی مجدد حساب به آدرس زیر بروید.
 
-{4}/{5}/index.php?action=unlock&token={6}
+{4}/{5}/index.php?action=unlock&uid={7}&token={6}
 
 اگر آدرس بالا کار نکرد، ابتدا به آدرس زیر بروید
 
 {4}/{5}/index.php?action=unlock
 
 و سپس این اطلاعات را وارد کنید:
-نام کاربری: {1}
+نام‌کاربری: {1}
 کد فعال‌سازی: {6}
 
 با تشکر,

@@ -1,7 +1,7 @@
 <?php
 /**
  * MyBB 1.6 Persian Language Pack
- * Copyright 2012 My-BB.Ir Group, All Rights Reserved
+ * Copyright 2013 My-BB.Ir Group, All Rights Reserved
  * 
  * Translate By: MyBB.CC & My-BB.Ir
  */
@@ -10,7 +10,7 @@ $l['nav_memberlist'] = "لیست اعضا";
 $l['memberlist_disabled'] = "لیست اعضا توسط مدیریت انجمن غیر فعال شده است.";
 $l['member_list'] = "لیست اعضا";
 $l['avatar'] = "آواتار";
-$l['username'] = "نام کاربری";
+$l['username'] = "نام‌کاربری";
 $l['joined'] = "تاریخ عضویت";
 $l['lastvisit'] = "آخرین بازدید";
 $l['posts'] = "تعداد ارسال‌ها";
@@ -19,7 +19,7 @@ $l['search_members'] = "جستجو در لیست کاربران";
 $l['website'] = "وب سایت";
 $l['sort_by'] = "مرتب سازی بر اساس";
 $l['contains'] = "شامل:";
-$l['sort_by_username'] = "مرتب سازی بر اساس: نام کاربری";
+$l['sort_by_username'] = "مرتب سازی بر اساس: نام‌کاربری";
 $l['sort_by_regdate'] = "مرتب سازی بر اساس: تاریخ عضویت";
 $l['sort_by_lastvisit'] = "مرتب سازی بر اساس: تاریخ آخرین بازدید";
 $l['sort_by_posts'] = "مرتب سازی بر اساس: تعداد ارسال";

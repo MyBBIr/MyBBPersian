@@ -1,13 +1,12 @@
 <?php
 /**
  * MyBB 1.6 Persian Language Pack
- * Copyright 2012 My-BB.Ir Group, All Rights Reserved
+ * Copyright 2013 My-BB.Ir Group, All Rights Reserved
  * 
  * Translate By: MyBB.CC & My-BB.Ir
  */
 
 $l['nav_newreply'] = "ارسال پاسخ";
-
 $l['post_reply_to'] = "ارسال پاسخ به {1}";
 $l['post_new_reply'] = "ارسال پاسخ جدید";
 $l['reply_to'] = "پاسخ به موضوع: {1}";
@@ -15,7 +14,7 @@ $l['post_subject'] = "عنوان ارسال:";
 $l['your_message'] = "متن:";
 $l['post_options'] = "گزینه‌های ارسال:";
 $l['options_sig'] = "<strong>امضا:</strong> شامل شدن امضای شما. (مخصوص اعضا)";
-$l['options_emailnotify'] = "<strong>آگاه سازی توسط ایمیل:</strong> دریافت ایمیل در صورت ارسال پاسخ جدید. (مخصوص اعضا)";
+$l['options_emailnotify'] = "<strong>آگاه سازی توسط رایانامه:</strong> دریافت رایانامه در صورت ارسال پاسخ جدید. (مخصوص اعضا)";
 $l['options_disablesmilies'] = "<strong>غیر فعال شدن شکلک‌ها:</strong> شکلک‌ها در این ارسال نمایش داده نشوند.";
 $l['post_reply'] = "ارسال پاسخ";
 $l['preview_post'] = "پیش نمایش ارسال";
@@ -37,7 +36,6 @@ $l['multiquote_external_one_deselect'] = "عدم انتخاب این ارسال"
 $l['multiquote_external_deselect'] = "عدم انتخاب این ارسال‌ها";
 $l['multiquote_external_one_quote'] = "این ارسال را نیز نقل قول کن";
 $l['multiquote_external_quote'] = "این ارسال‌ها را نیز نقل قول کن";
-
 $l['redirect_newreply'] = "متشکریم، پاسخ شما ارسال شد.";
 $l['redirect_newreply_moderation'] = "<br />مدیر تالار مشخص نموده که تمام ارسال‌های جدید می‌بایست مدیریت شوند. شما اکنون به موضوع برگردانده خواهید شد.";
 $l['redirect_newreply_post'] = "<br />شما اکنون به موضوع برگردانده خواهید شد.";

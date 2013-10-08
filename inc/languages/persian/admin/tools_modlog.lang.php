@@ -1,24 +1,24 @@
 <?php
 /**
  * MyBB 1.6 Persian Language Pack
- * Copyright 2012 My-BB.Ir Group, All Rights Reserved
+ * Copyright 2013 My-BB.Ir Group, All Rights Reserved
  * 
  * Translate By: MyBB.CC & My-BB.Ir
  */
 
 
 $l['mod_logs'] = "گزارشات ناظم";
-$l['mod_logs_desc'] = "در اینجا شما می‌توانید فهرست اقدامات کاربران (حذف ارسال یا موضوع خود) و دیگر اقدامات انجام شده توسط ناظم ها را مشاهده، جستجو و حذف نمایید.";
+$l['mod_logs_desc'] = "در اینجا شما می‌توانید فهرست اقدامات کاربران (حذف ارسال یا موضوع خود) و دیگر اقدامات انجام شده توسط ناظم‌ها را مشاهده، جستجو و حذف نمایید.";
 $l['prune_mod_logs'] = "حذف گزارشات ناظم";
-$l['prune_mod_logs_desc'] = "در اینجا شما می‌توانید گزارشات ناظم ها را که با الگوی مشخصی مطابقت دارند حذف نمایید.";
+$l['prune_mod_logs_desc'] = "در اینجا شما می‌توانید گزارشات ناظم‌ها را که با الگوی مشخصی مطابقت دارند حذف نمایید.";
 
 $l['no_modlogs'] = "هیچ گزارشی با الگوی مشخص شده وجود ندارد.";
 
-$l['username'] = "نام کاربری";
+$l['username'] = "نام‌کاربری";
 $l['date'] = "تاریخ";
 $l['action'] = "کار";
 $l['information'] = "اطلاعات";
-$l['ipaddress'] = "آدرس IP";
+$l['ipaddress'] = "آدرس آی‌پی";
 
 $l['forum'] = "انجمن:";
 $l['thread'] = "موضوع:";
@@ -29,8 +29,8 @@ $l['filter_moderator_logs'] = "انتخابی کردن گزارشات ناظم";
 $l['forum_moderator'] = "ناظم انجمن:";
 $l['sort_by'] = "مرتب سازی بر اساس:";
 $l['results_per_page'] = "نتایج در هر صفحه:";
-$l['all_moderators'] = "همه ی مدیران";
-$l['older_than'] = "قدیمی تر از ";
+$l['all_moderators'] = "همه‌ی مدیران";
+$l['older_than'] = "قدیمی‌تر از ";
 
 $l['forum_name'] = "نام انجمن";
 $l['thread_subject'] = "عنوان موضوع";

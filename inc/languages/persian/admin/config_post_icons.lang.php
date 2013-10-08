@@ -1,7 +1,7 @@
 <?php
 /**
  * MyBB 1.6 Persian Language Pack
- * Copyright 2012 My-BB.Ir Group, All Rights Reserved
+ * Copyright 2013 My-BB.Ir Group, All Rights Reserved
  * 
  * Translate By: MyBB.CC & My-BB.Ir
  */
@@ -15,7 +15,7 @@ $l['edit_post_icon'] = "ویرایش آیکون ارسال";
 $l['edit_post_icon_desc'] = "اینجا شما می‌توانید یک آیکون ارسال را ویرایش کنید.";
 $l['manage_post_icons'] = "مدیریت آیکون‌های ارسال";
 $l['manage_post_icons_desc'] = "این بخش به شما اجازه می‌دهد تا آیکون‌های ارسال خود را ویرایش، حذف و مدیریت کنید .";
-$l['name_desc'] = "این نامی برای آیکون ارسال است ";
+$l['name_desc'] = "این نامی‌برای آیکون ارسال است ";
 $l['image_path'] = "مسیر تصویر";
 $l['image_path_desc'] = "این مسیر به تصویر آیکون ارسال است .";
 $l['save_post_icon'] = "ذخیره آیکون ارسال";

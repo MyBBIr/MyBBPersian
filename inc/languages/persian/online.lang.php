@@ -1,7 +1,7 @@
 <?php
 /**
  * MyBB 1.6 Persian Language Pack
- * Copyright 2012 My-BB.Ir Group, All Rights Reserved
+ * Copyright 2013 My-BB.Ir Group, All Rights Reserved
  * 
  * Translate By: MyBB.CC & My-BB.Ir
  */
@@ -29,7 +29,7 @@ $l['registering'] = "<a href=\"member.php?action=register\">در حال عضوی
 $l['logging_in'] = "<a href=\"member.php?action=login\">در حال ورود</a>";
 $l['logging_in_plain'] = "در حال ورود";
 $l['logging_out'] = "در حال خروج";
-$l['emailing_user'] = "در حال ارسال ایمیل";
+$l['emailing_user'] = "در حال ارسال رایانامه";
 $l['rating_user'] = "در حال اعتباردهی به کاربر";
 $l['viewing_memberlist'] = "در حال مشاهده <a href=\"memberlist.php\">لیست کاربران</a>";
 $l['viewing_whoposted'] = "در حال مشاهده چه کسانی ارسال داشته اند";
@@ -52,7 +52,7 @@ $l['voting_poll'] = "در حال نظر دادن در نظر سنجی";
 $l['using_modtools'] = "در حال استفاده از ابزار مدیر";
 $l['sending_pm'] = "در حال ارسال پیام خصوصی";
 $l['reading_pm'] = "در حال خواندن پیام خصوصی";
-$l['editing_pmfolders'] = "در حال ویرایش پوشه های پیام‌های خصوصی";
+$l['editing_pmfolders'] = "در حال ویرایش پوشه‌های پیام‌های خصوصی";
 $l['using_pmsystem'] = "در حال استفاده از سیستم پیام خصوصی";
 $l['reporting_post'] = "در حال گزارش یک ارسال";
 $l['searching_forum'] = "<a href=\"search.php\">در حال جستجو</a> {1}";
@@ -64,13 +64,13 @@ $l['updating_profile'] = "<a href=\"usercp.php?action=profile\">در حال بر
 $l['updating_options'] = "<a href=\"usercp.php?action=options\">در حال  بروزرسانی تنظیمات</a>";
 $l['editing_signature'] = "<a href=\"usercp.php?action=editsig\">در حال ویرایش امضا</a>";
 $l['changing_avatar'] = "<a href=\"usercp.php?action=avatar\">در حال تغییر آواتار</a>";
-$l['viewing_subscriptions'] = "در حال  مشاهده <a href=\"usercp.php?action=subscriptions\">موضوع های مشترک شده</a>";
-$l['viewing_favorites'] = "در حال  مشاهده <a href=\"usercp.php?action=favorites\">موضوع های مورد علاقه</a>";
+$l['viewing_subscriptions'] = "در حال  مشاهده <a href=\"usercp.php?action=subscriptions\">موضوع‌های مشترک شده</a>";
+$l['viewing_favorites'] = "در حال  مشاهده <a href=\"usercp.php?action=favorites\">موضوع‌های مورد علاقه</a>";
 $l['editing_pad'] = "در حال  ویرایش <a href=\"usercp.php?action=notepad\">دفترچه یادداشت</a>";
 $l['editing_password'] = "در حال ویرایش <a href=\"usercp.php?action=password\">رمز عبور</a>";
 $l['user_cp'] = "در حال مشاهده <a href=\"usercp.php\">کنترل پنل کاربر</a>";
 $l['viewing_portal'] = "در حال مشاهده <a href=\"portal.php\">سردر</a>";
-$l['viewing_noperms'] = "در حال مشاهده صفحه عدم دسترسی ها";
+$l['viewing_noperms'] = "در حال مشاهده صفحه عدم دسترسی‌ها";
 $l['unknown_location'] = "<a href=\"{1}\"> مکان نامعلوم </a>";
 $l['giving_reputation'] = "در حال اهدا اعتبار به <a href=\"{1}\">{2}</a>";
 $l['viewing_reputation_report'] = "در حال مشاهده <a href=\"{1}\">اعتبارات {2}</a>";
@@ -81,7 +81,7 @@ $l['sending_thread'] = "در حال ارسال موضوعی به دوستان";
 $l['guest'] = "مهمان";
 $l['page'] = "صفحه";
 $l['users_online'] = "افراد حاضر";
-$l['on_username'] = "نام کاربری";
+$l['on_username'] = "نام‌کاربری";
 $l['time'] = "زمان";
 $l['location'] = "موقعیت";
 $l['online_today'] = "چه کسانی امروز در انجمن حضور داشته اند";
@@ -95,10 +95,10 @@ $l['online_anon_singular'] = "هستند";
 $l['online_guest_plural'] = "مهمان";
 $l['online_guest_singular'] = "مهمان";
 $l['online_count'] = "{1} {2} فعال در {3} دقیقه گذشته ({4} {5}، که {6} از آنها پنهان {7} و {8} {9}).";
-$l['ip'] = "IP:";
+$l['ip'] = "آی‌پی:";
 $l['resolves_to'] = "نام میزبان:";
 $l['if_resolvable'] = "(در صورت امکان)";
-$l['admin_options'] = "گزینه های مدیر:";
+$l['admin_options'] = "گزینه‌های مدیر:";
 $l['search_regip_users'] = "جستجو کسانی که با این آیپی ثبت نام کرده اند";
 $l['search_postip_users'] = "جستجو کسانی که با این آی پی ارسال داشته اند";
 $l['lookup'] = "[جستجو]";
@@ -116,7 +116,7 @@ $l['viewing_modlogs'] = "در حال مشاهده لاگ‌های ناظم";
 $l['managing_announcements'] = "در حال مدیریت اعلانات";
 $l['search_for_user'] = "در حال جستجو برای کاربران";
 $l['managing_warninglogs'] = "در حال مدیریت لاگ‌های اخطار";
-$l['searching_ips'] = "در حال جستجوی IP‌ها";
+$l['searching_ips'] = "در حال جستجوی آی‌پی‌ها";
 $l['viewing_reports'] = "در حال مشاهده ارسال‌های گزارش شده";
 $l['adding_announcement'] = "در حال اضافه کردن یک اعلان";
 $l['deleting_announcement'] = "در حال حذف یک اعلان";

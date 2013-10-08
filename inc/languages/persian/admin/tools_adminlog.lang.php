@@ -1,7 +1,7 @@
 <?php
 /**
  * MyBB 1.6 Persian Language Pack
- * Copyright 2012 My-BB.Ir Group, All Rights Reserved
+ * Copyright 2013 My-BB.Ir Group, All Rights Reserved
  * 
  * Translate By: MyBB.CC & My-BB.Ir
  */
@@ -14,10 +14,10 @@ $l['prune_admin_logs_desc'] = "در اینجا شما می‌توانید گزا
 
 $l['no_adminlogs'] = "هیچ گزارشی با الگوی مشخص شده وجود ندارد.";
 
-$l['username'] = "نام کاربری";
+$l['username'] = "نام‌کاربری";
 $l['date'] = "تاریخ";
 $l['information'] = "اطلاعات";
-$l['ipaddress'] = "آدرس IP";
+$l['ipaddress'] = "آدرس آی‌پی";
 
 $l['filter_administrator_logs'] = "انتخابی کردن گزارشات مدیر";
 $l['administrator'] = "مدیر:";
@@ -25,7 +25,7 @@ $l['sort_by'] = "چیدمان بر اساس:";
 $l['results_per_page'] = "نتایج در هر صفحه:";
 $l['all_administrators'] = "تمام مدیران";
 $l['all_modules'] = "تمام بخش‌ها";
-$l['older_than'] = "قدیمی تر از ";
+$l['older_than'] = "قدیمی‌تر از ";
 $l['days'] = "روز";
 
 $l['prune_administrator_logs'] = "حذف گزارشات مدیر";
@@ -40,20 +40,20 @@ $l['order'] = "چیده شود";
 
 $l['success_pruned_admin_logs'] = "گزارشات مدیر با موفقیت حذف شد.";
 
-$l['admin_log_config_attachment_types_add'] = "پسوند ضمیمه افزوده شد #{1} ({2})";
-$l['admin_log_config_attachment_types_edit'] = "پسوند ضمیمه ویرایش شد #{1} ({2})";
-$l['admin_log_config_attachment_types_delete'] = "پسوند ضمیمه حذف شد #{1} ({2})";
+$l['admin_log_config_attachment_types_add'] = "پسوند پیوست افزوده شد #{1} ({2})";
+$l['admin_log_config_attachment_types_edit'] = "پسوند پیوست ویرایش شد #{1} ({2})";
+$l['admin_log_config_attachment_types_delete'] = "پسوند پیوست حذف شد #{1} ({2})";
 
 $l['admin_log_config_badwords_add'] = "فیلتر کلمه اضافه شد #{1} ({2})";
 $l['admin_log_config_badwords_edit'] = "فیلتر کلمه ویرایش شد #{1} ({2})";
 $l['admin_log_config_badwords_delete'] = "فیلتر کلمه حذف شد #{1} ({2})";
 
-$l['admin_log_config_banning_add_ip'] = "IP مسدود اضافه شد #{1} ({2})";
-$l['admin_log_config_banning_add_username'] = "نام کاربری غیر مجاز اضافه شد #{1} ({2})";
-$l['admin_log_config_banning_add_email'] = "ایمیل غیر مجاز اضافه شد #{1} ({2})";
-$l['admin_log_config_banning_delete_ip'] = "مسدودیت IP رفع شد #{1} ({2})";
-$l['admin_log_config_banning_delete_username'] = "ممنوعیت نام کاربری رفع شد #{1} ({2})";
-$l['admin_log_config_banning_delete_email'] = "ممنوعیت ایمیل رفع شد #{1} ({2})";
+$l['admin_log_config_banning_add_ip'] = "آی‌پی محروم اضافه شد #{1} ({2})";
+$l['admin_log_config_banning_add_username'] = "نام‌کاربری غیر مجاز اضافه شد #{1} ({2})";
+$l['admin_log_config_banning_add_email'] = "رایانامه غیر مجاز اضافه شد #{1} ({2})";
+$l['admin_log_config_banning_delete_ip'] = "محرومیت آی‌پی رفع شد #{1} ({2})";
+$l['admin_log_config_banning_delete_username'] = "ممنوعیت نام‌کاربری رفع شد #{1} ({2})";
+$l['admin_log_config_banning_delete_email'] = "ممنوعیت رایانامه رفع شد #{1} ({2})";
 
 $l['admin_log_config_calendars_add'] = "تقویم اضافه شد #{1} ({2})";
 $l['admin_log_config_calendars_permissions'] = "سطوح دسترسی تقویم تغییر داده شد #{1} ({2})";
@@ -79,11 +79,11 @@ $l['admin_log_config_mod_tools_edit_thread_tool'] = "ابزار مدیریت م�
 $l['admin_log_config_mod_tools_add_post_tool'] = "ابزار مدیریت ارسال اضافه گردید #{1} ({2})";
 $l['admin_log_config_mod_tools_add_thread_tool'] = "ابزار مدیریت موضوع اضافه گردید #{1} ({2})";
 
-$l['admin_log_config_mycode_toggle_status_enabled'] = "MyCode اختیاری فعال شد #{1} ({2})";
-$l['admin_log_config_mycode_toggle_status_disabled'] = "MyCode اختیاری غیر فعال شد #{1} ({2})";
-$l['admin_log_config_mycode_add'] = "MyCode اختیاری اضافه شد #{1} ({2})";
-$l['admin_log_config_mycode_edit'] = "MyCode اختیاری ویرایش شد #{1} ({2})";
-$l['admin_log_config_mycode_delete'] = "MyCode اختیاری حذف شد #{1} ({2})";
+$l['admin_log_config_mycode_toggle_status_enabled'] = "مای‌کد اختیاری فعال شد #{1} ({2})";
+$l['admin_log_config_mycode_toggle_status_disabled'] = "مای‌کد اختیاری غیر فعال شد #{1} ({2})";
+$l['admin_log_config_mycode_add'] = "مای‌کد اختیاری اضافه شد #{1} ({2})";
+$l['admin_log_config_mycode_edit'] = "مای‌کد اختیاری ویرایش شد #{1} ({2})";
+$l['admin_log_config_mycode_delete'] = "مای‌کد اختیاری حذف شد #{1} ({2})";
 
 $l['admin_log_config_plugins_activate'] = "افزونه فعال شد: {1}";
 $l['admin_log_config_plugins_activate_install'] = "افزونه فعال و نصب شد: {1}";
@@ -130,8 +130,8 @@ $l['admin_log_forum_announcements_add'] = "اعلان اضافه شد #{1} ({2})
 $l['admin_log_forum_announcements_edit'] = "اعلان ویرایش شد #{1} ({2})";
 $l['admin_log_forum_announcements_delete'] = "اعلان حذف شد #{1} ({2})";
 
-$l['admin_log_forum_attachments_delete_post'] = "ضمیمه #{1} ({2}) از ارسال #{3} حذف شد";
-$l['admin_log_forum_attachments_delete'] = "ضمیمه حذف شد. #{1} ({2})";
+$l['admin_log_forum_attachments_delete_post'] = "پیوست #{1} ({2}) از ارسال #{3} حذف شد";
+$l['admin_log_forum_attachments_delete'] = "پیوست حذف شد. #{1} ({2})";
 $l['admin_log_forum_attachments_delete_orphans'] = "ضمایم جدا حذف شدند";
 
 $l['admin_log_forum_management_copy'] = "تنظیمات از انجمن #{1} ({2}) به انجمن #{3} ({4}) منتقل شدند";
@@ -176,15 +176,15 @@ $l['admin_log_style_themes_export'] = "پوسته #{1} ({2}) استخراج شد
 
 $l['admin_log_tools_system_health_utf8_conversion'] = "جدول {1} به UTF-8 تبدیل شد.";
 
-$l['admin_log_tools_adminlog_prune'] = "{4} گزارش مدیر قدیمی تر از {1} روز حذف شدند";
-$l['admin_log_tools_adminlog_prune_user'] = "{4} گزارش مدیر قدیمی تر از {1} روز برای کاربر {2} حذف شدند";
-$l['admin_log_tools_adminlog_prune_module'] = "{4} گزارش مدیر قدیمی تر از {1} روز برای بخش {3} حذف شدند";
-$l['admin_log_tools_adminlog_prune_user_module'] = "{4} گزارش مدیر قدیمی تر از {1} روز برای کاربر {2} و بخش {3} حذف شدند";
+$l['admin_log_tools_adminlog_prune'] = "{4} گزارش مدیر قدیمی‌تر از {1} روز حذف شدند";
+$l['admin_log_tools_adminlog_prune_user'] = "{4} گزارش مدیر قدیمی‌تر از {1} روز برای کاربر #{2} حذف شدند";
+$l['admin_log_tools_adminlog_prune_module'] = "{4} گزارش مدیر قدیمی‌تر از {1} روز برای بخش {3} حذف شدند";
+$l['admin_log_tools_adminlog_prune_user_module'] = "{4} گزارش مدیر قدیمی‌تر از {1} روز برای کاربر #{2} و بخش {3} حذف شدند";
 
-$l['admin_log_tools_modlog_prune'] = "{4} گزارش مدیر قدیمی تر از {1} روز حذف شدند";
-$l['admin_log_tools_modlog_prune_user'] = "{4} گزارش مدیر قدیمی تر از {1} روز برای کاربر {2} حذف شدند";
-$l['admin_log_tools_modlog_prune_forum'] = "{4} گزارش مدیر قدیمی تر از {1} روز برای انجمن #{3} ({5}) حذف شدند";
-$l['admin_log_tools_modlog_prune_user_forum'] = "{4} گزارش مدیر قدیمی تر از {1} روز برای کاربر {2} و انجمن #{5} ({4}) حذف شدند";
+$l['admin_log_tools_modlog_prune'] = "{4} گزارش مدیر قدیمی‌تر از {1} روز حذف شدند";
+$l['admin_log_tools_modlog_prune_user'] = "{4} گزارش مدیر قدیمی‌تر از {1} روز برای کاربر {2} حذف شدند";
+$l['admin_log_tools_modlog_prune_forum'] = "{4} گزارش مدیر قدیمی‌تر از {1} روز برای انجمن #{3} ({5}) حذف شدند";
+$l['admin_log_tools_modlog_prune_user_forum'] = "{4} گزارش مدیر قدیمی‌تر از {1} روز برای کاربر #{2} و انجمن #{3} ({5}) حذف شدند";
 
 $l['admin_log_tools_backupdb_dlbackup'] = "یک فایل پشتیبان موجود دریافت شد: {1}";
 $l['admin_log_tools_backupdb_delete'] = "یک فابل پشتیبان حذف شد: {1}";
@@ -195,11 +195,11 @@ $l['admin_log_tools_cache_rebuild'] = "حافظه ({1}) بازسازی شد";
 
 $l['admin_log_tools_index_utf8_conversion'] = "جدول {1} به UTF-8 تبدیل شد";
 
-$l['admin_log_tools_mailerrors_prune'] = "{1} گزارش خطای ایمیل حذف شد";
+$l['admin_log_tools_mailerrors_prune'] = "{1} گزارش خطای رایانامه حذف شد";
 
 $l['admin_log_tools_optimizedb_'] = "جداول بانک اطلاعاتی بهینه سازی شدند: {1}";
 
-$l['admin_log_tools_php_info_phpinfo'] = "PHP Info مشاهده شد";
+$l['admin_log_tools_php_info_phpinfo'] = "پی‌اچ‌پی Info مشاهده شد";
 
 $l['admin_log_tools_recount_rebuild_'] = "({1}) بازشماری و بازسازی شد";
 $l['admin_log_tools_recount_rebuild_stats'] = "آمار بازشماری و بازسازی شد";
@@ -221,9 +221,9 @@ $l['admin_log_user_admin_permissions_edit_group'] = "سطوح دسترسی گر�
 $l['admin_log_user_admin_permissions_edit'] = "سطوح دسترسی پیش فرض مدیریت ویرایش شدند";
 
 $l['admin_log_user_banning_lift'] = "محرومیت برای کاربر #{1} ({2}) برداشته شد";
-$l['admin_log_user_banning_edit'] = "مسدودیت برای کاربر #{1} ({2}) ویرایش شد";
-$l['admin_log_user_banning_add_permanent'] = "کاربر #{1} ({2}) بطور دائمی مسدود شد";
-$l['admin_log_user_banning_add_temporary'] = "کاربر #{1} ({2}) تا {3} مسدود شد";
+$l['admin_log_user_banning_edit'] = "محرومیت برای کاربر #{1} ({2}) ویرایش شد";
+$l['admin_log_user_banning_add_permanent'] = "کاربر #{1} ({2}) بطور دائمی محروم شد";
+$l['admin_log_user_banning_add_temporary'] = "کاربر #{1} ({2}) تا {3} محروم شد";
 
 $l['admin_log_user_group_promotions_disable'] = "ارتقای گروه غیر فعال شد #{1} ({2})";
 $l['admin_log_user_group_promotions_delete'] = "ارتقای گروه حذف شد #{1} ({2})";
@@ -231,7 +231,7 @@ $l['admin_log_user_group_promotions_enable'] = "ارتقای گروه فعال �
 $l['admin_log_user_group_promotions_edit'] = "ارتقای گروه ویرایش شد #{1} ({2})";
 $l['admin_log_user_group_promotions_add'] = "ارتقای گروه اضافه شد #{1} ({2})";
 
-$l['admin_log_user_groups_export'] = "گروه‌های کاربری بصورت XML استخراج شدند";
+$l['admin_log_user_groups_export'] = "گروه‌های کاربری بصورت ایکس‌اِم‌اِل استخراج شدند";
 $l['admin_log_user_groups_add_leader'] = "کاربر #{1} ({2}) به عنوان سرپرست گروه کاربری #{3} ({4}) اضافه شد";
 $l['admin_log_user_groups_delete_leader'] = "کاربر #{1} ({2}) عنوان سرپرست گروه کاربری #{3} ({4}) حذف شد";
 $l['admin_log_user_groups_edit_leader'] = "کاربر #{1} ({2}) عنوان سرپرست گروه کاربری #{3} ({4}) ویرایش شد";
@@ -242,19 +242,19 @@ $l['admin_log_user_groups_disporder'] = "ترتیب نمایش گروه‌های
 $l['admin_log_user_groups_join_requests_approve'] = "درخواست‌های عضویت انتخاب شده برای گروه کاربری #{1} ({2}) تایید شدند";
 $l['admin_log_user_groups_join_requests_deny'] = "درخواست‌های عضویت انتخاب شده برای گروه کاربری #{1} ({2}) رد شدند";
 
-$l['admin_log_user_titles_add'] = "نام کاربری اختیاری پیش فرض #{1} ({2}) در {3} ارسال اضافه شد";
-$l['admin_log_user_titles_edit'] = "نام کاربری اختیاری پیش فرض #{1} ({2}) در {3} ارسال ویرایش شد";
-$l['admin_log_user_titles_delete'] = "نام کاربری اختیاری پیش فرض #{1} ({2}) در {3} ارسال حذف شد";
+$l['admin_log_user_titles_add'] = "نام‌کاربری اختیاری پیش فرض #{1} ({2}) در {3} ارسال اضافه شد";
+$l['admin_log_user_titles_edit'] = "نام‌کاربری اختیاری پیش فرض #{1} ({2}) در {3} ارسال ویرایش شد";
+$l['admin_log_user_titles_delete'] = "نام‌کاربری اختیاری پیش فرض #{1} ({2}) در {3} ارسال حذف شد";
 
 $l['admin_log_user_users_avatar_gallery'] = "آواتار جدیدی برای کاربر #{1} ({2}) انتخاب شد";
 $l['admin_log_user_users_activate_user'] = "کاربر #{1} ({2}) فعال شد";
 $l['admin_log_user_users_add'] = "کاربر #{1} ({2}) ساخته شد";
 $l['admin_log_user_users_edit'] = "کاربر #{1} ({2}) ویرایش شد";
 $l['admin_log_user_users_delete'] = "کاربر #{1} ({2}) حذف شد";
-$l['admin_log_user_users_ipaddresses'] = "IP کاربر #{1} ({2}) مشاهده شد";
+$l['admin_log_user_users_ipaddresses'] = "آی‌پی کاربر #{1} ({2}) مشاهده شد";
 $l['admin_log_user_users_merge'] = "کاربر #{1} ({2}) در #{3} ({4}) ادغام شد";
 
-$l['admin_log_user_mass_mail_delete'] = "ایمیل گروهی #{1} ({2}) حذف شد"; 
+$l['admin_log_user_mass_mail_delete'] = "رایانامه گروهی #{1} ({2}) حذف شد"; 
  
 $l['admin_log_config_languages_quick_phrases'] = "عبارت سریع ساخته شده در بسته‌ی زبان: {1}";
 $l['admin_log_config_thread_prefixes_add_prefix'] = 'پیشوند موضوع اضافه شده #{1} ({2})';

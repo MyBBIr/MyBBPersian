@@ -1,7 +1,7 @@
 <?php
 /**
  * MyBB 1.6 Persian Language Pack
- * Copyright 2012 My-BB.Ir Group, All Rights Reserved
+ * Copyright 2013 My-BB.Ir Group, All Rights Reserved
  * 
  * Translate By: MyBB.CC & My-BB.Ir
  */
@@ -12,7 +12,7 @@ $l['nav_dayview'] = "مشاهده روز";
 $l['nav_addevent'] = "افزودن رویداد";
 $l['nav_editevent'] = "ویرایش رویداد";
 $l['nav_move_event'] = "جابجا کردن رویداد";
-$l['calendar_disabled'] = "شما نمی توانید از قابلیت های تقویم استفاده کنید زیرا تقویم توسط مدیریت غیر فعال شده است";
+$l['calendar_disabled'] = "شما نمی‌توانید از قابلیت‌های تقویم استفاده کنید زیرا تقویم توسط مدیریت غیر فعال شده است";
 // In some languages these months need to be slightly different than those defined in global.lang.php
 $l['alt_month_1'] = "ژانویه";
 $l['alt_month_2'] = "فوریه";
@@ -87,12 +87,12 @@ $l['delete_now'] = "حذف در حال حاضر";
 $l['jump_to_calendar'] = "پرش به تقویم:";
 $l['select_calendar'] = "تقویم:";
 $l['type_single'] = "رویداد منفرد (یک روز)";
-$l['type_ranged'] = "رویداد های دوره ای";
+$l['type_ranged'] = "رویداد‌های دوره ای";
 $l['enter_time'] = "زمان:";
 $l['start_time'] = "زمان شروع:";
 $l['end_time'] = "زمان پایان:";
 $l['timezone'] = "زمان منطقه ای:";
-$l['ignore_timezone'] = "<strong> نادیده گرفتن منطقه زمانی: </strong> در این رویداد از منطقه زمانی بیننده استفاده می شود";
+$l['ignore_timezone'] = "<strong> نادیده گرفتن منطقه زمانی: </strong> در این رویداد از منطقه زمانی بیننده استفاده می‌شود";
 $l['repeats'] = "تکرارها:";
 $l['does_not_repeat'] = "بدون تکرار:";
 $l['repeats_daily'] = "روزانه";
@@ -127,10 +127,10 @@ $l['finishes'] = "پایان:";
 $l['error_incorrectday'] = "روز که انتخاب کرده اید وجود ندارد. لطفا به عقب برگردید و دوباره سعی کنید.";
 $l['error_invalidevent'] = "رویدادی که مشخص کرده اید یا نامعتبر است و یا وجود ندارد.";
 $l['invalid_calendar'] = "تقویم مشخص شده وجود ندارد. آیا شما مطمئن هستید که شما در حال بازدید از یک صفحه درست هستید؟";
-$l['redirect_eventdeleted'] = "رویداد با موفقیت حذف شد.<br />اکنون به تقویم باز می گردید";
-$l['redirect_eventupdated'] = "رویداد با موفقیت بروزرسانی شد.<br />اکنون به این رویداد باز می گردید";
-$l['redirect_eventadded'] = "رویداد با موفقیت اضافه شد.<br />اکنون به مشاهده این رویداد باز می گردید.";
-$l['redirect_eventadded_moderation'] = "رویداد با موفقیت اضافه شد اما نیاز به تایید مدیریت دارد.<br />اکنون به تقویم باز می گردید";
-$l['redirect_eventunapproved'] = "رویداد با موفقیت رد تایید شد<br />اکنون به رویداد باز می گردید";
-$l['redirect_eventapproved'] = "رویداد با موفقیت تایید شد<br />اکنون به رویداد باز می گردید";
+$l['redirect_eventdeleted'] = "رویداد با موفقیت حذف شد.<br />اکنون به تقویم باز می‌گردید";
+$l['redirect_eventupdated'] = "رویداد با موفقیت بروزرسانی شد.<br />اکنون به این رویداد باز می‌گردید";
+$l['redirect_eventadded'] = "رویداد با موفقیت اضافه شد.<br />اکنون به مشاهده این رویداد باز می‌گردید.";
+$l['redirect_eventadded_moderation'] = "رویداد با موفقیت اضافه شد اما نیاز به تایید مدیریت دارد.<br />اکنون به تقویم باز می‌گردید";
+$l['redirect_eventunapproved'] = "رویداد با موفقیت رد تایید شد<br />اکنون به رویداد باز می‌گردید";
+$l['redirect_eventapproved'] = "رویداد با موفقیت تایید شد<br />اکنون به رویداد باز می‌گردید";
 ?>

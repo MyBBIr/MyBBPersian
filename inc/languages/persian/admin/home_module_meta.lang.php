@@ -1,16 +1,16 @@
 <?php
 /**
  * MyBB 1.6 Persian Language Pack
- * Copyright 2012 My-BB.Ir Group, All Rights Reserved
+ * Copyright 2013 My-BB.Ir Group, All Rights Reserved
  * 
  * Translate By: MyBB.CC & My-BB.Ir
  */
  
 $l['home'] = "صفحه اصلی";
 $l['dashboard'] = "میزِکار";
-$l['preferences'] = "اولویت‌ها";
+$l['preferences'] = "تنظیم‌های شخصی";
 $l['version_check'] = "بررسی نسخه";
-$l['mybb_credits'] = "اعتبار MyBB";
+$l['mybb_credits'] = "اعتبار مای‌بی‌بی";
 $l['add_new_forum'] = "افزودن انجمن جدید";
 $l['search_for_users'] = "جستجوی کاربر";
 $l['themes'] = "پوسته‌ها";

@@ -1,7 +1,7 @@
 <?php
 /**
  * MyBB 1.6 Persian Language Pack
- * Copyright 2012 My-BB.Ir Group, All Rights Reserved
+ * Copyright 2013 My-BB.Ir Group, All Rights Reserved
  * 
  * Translate By: MyBB.CC & My-BB.Ir
  */
@@ -22,12 +22,12 @@ $l['captcha_not_exists'] = "کد تصویری‌ای که شما قصد دوبا
 $l['captcha_valid_not_exists'] = "کد تصویری‌ای که شما قصد بررسی آن را دارید وجود ندارد.";
 $l['captcha_does_not_match'] = "کد تصویری وارد شده صحیح نمی‌باشد. لطفاً آن را دقیقاً مانند آنچه در تصویر نمایش داده شده است وارد نمایید.";
 $l['captcha_matches'] = "کد تصویری وارد شده معتبر می‌باشد.";
-$l['banned_username'] = "استفاده از نام کاربری وارد شده توسط مدیریت ممنوع شده است";
-$l['banned_characters_username'] = "نام کاربری شما دارای یک یا چند کاراکتر غیر مجاز است";
+$l['banned_username'] = "استفاده از نام‌کاربری وارد شده توسط مدیریت ممنوع شده است";
+$l['banned_characters_username'] = "نام‌کاربری شما دارای یک یا چند کاراکتر غیر مجاز است";
 $l['complex_password_fails'] = "رمز ورود به اندازه کافی پیچیده نیست";
 $l['username_taken'] = "متاسفیم، {1} توسط کاربر دیگری ثبت شده است";
 $l['username_available'] = "{1} قابل انتخاب است";
-$l['invalid_username'] = "{1} نام کاربری یک کاربر عضو شده نیست";
+$l['invalid_username'] = "{1} نام‌کاربری یک کاربر عضو شده نیست";
 $l['valid_username'] = "{1} یک معرف معتبر است.";
 $l['buddylist_error'] = "شما دوستی در لیست دوستان خود ندارید. لطفاً ابتدا کاربری را به لیست دوستان خود اضافه کنید.";
 $l['close'] = "بستن";

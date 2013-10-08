@@ -1,7 +1,7 @@
 <?php
 /**
  * MyBB 1.6 Persian Language Pack
- * Copyright 2012 My-BB.Ir Group, All Rights Reserved
+ * Copyright 2013 My-BB.Ir Group, All Rights Reserved
  * 
  * Translate By: MyBB.CC & My-BB.Ir
  */
@@ -18,7 +18,7 @@ $l['private_messages'] = "پیام‌های‌خصوصی";
 $l['pms_received_new'] = "{1}، شما <b>{2}</b> پیام‌خصوصی خوانده نشده دارید.";
 $l['pms_unread'] = "پیام خوانده نشده";
 $l['pms_total'] = "همه‌ی پیام‌ها";
-$l['search_forums'] = "جستجو در انجمن ها";
+$l['search_forums'] = "جستجو در انجمن‌ها";
 $l['advanced_search'] = "جستجو‌ی پیشرفته";
 $l['forum_stats'] = "آمار انجمن";
 $l['num_members'] = "کاربران:";
