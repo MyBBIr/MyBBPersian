@@ -1,7 +1,7 @@
-<?php
+<?php 
 /**
  * MyBB 1.6 Persian Language Pack
- * Copyright © 2012 MyBB.CC، All Rights Reserved
+ * Copyright © 2012 iora.ir، All Rights Reserved
  */
 
 $l['help_documents'] = "سند‌های راهنمایی";

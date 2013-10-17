@@ -1,4 +1,4 @@
-<?php
+<?php 
 /**
  * MyBB 1.6 English Language Pack
  * Copyright 2012 MyBB Group, All Rights Reserved

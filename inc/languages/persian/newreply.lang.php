@@ -1,9 +1,9 @@
-<?php
+<?php 
 /**
  * MyBB 1.6 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group, All Rights Reserved
+ * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
- * Translate By: MyBB.CC & My-BB.Ir
+ * Translate By: iora.ir & My-BB.Ir
  */
 
 $l['nav_newreply'] = "ارسال پاسخ";

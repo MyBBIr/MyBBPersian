@@ -1,9 +1,9 @@
-<?php
+<?php 
 /**
  * MyBB 1.6 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group, All Rights Reserved
+ * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
- * Translate By: MyBB.CC & My-BB.Ir
+ * Translate By: iora.ir & My-BB.Ir
  */
 
 $l['redirect_width'] = "50%";
@@ -266,7 +266,7 @@ $l['banned_warning2'] = "علت محرومیت:";
 $l['banned_warning3'] = "تاریخ پایان محرومیت:";
 $l['banned_lifted_never'] = "هرگز";
 $l['banned_email_warning'] = "شما از رایانامه نا معتبری استفاده می‌کنید، لطفا برای ادامه یک رایانامه دیگر را وارد کنید.";
-$l['powered_by'] = "تــرجمـه شده توسط: <a href=\"http://mybb.cc/licenses/def/\" rel=\"license\">mybb.cc</a> و <a href=\"http://my-bb.ir\" target=\"_blank\" title=\"گروه پشتیبانی مای‌بی‌بی در ایران\">Www.My-BB.Ir</a><br />قدرت گرفته از: ";
+$l['powered_by'] = "تــرجمـه شده توسط: <a href=\"http://my-bb.ir\" target=\"_blank\" title=\"گروه پشتیبانی مای‌بی‌بی در ایران\">Www.My-BB.Ir</a> و <a href=\"http://iora.ir/?r=mybb\">iora.ir</a><br />قدرت گرفته از: ";
 $l['copyright'] = "حق چاپ و انتشار";
 $l['attach_quota'] = "شما از <strong>{1}</strong> حجم برای پیوست‌ها از بیشتر حجم مجاز ({2}) استفاده می‌کنید.";
 $l['view_attachments'] = "[نمایش همه پیوست‌های من]";

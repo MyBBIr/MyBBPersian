@@ -1,9 +1,9 @@
-<?php
+<?php 
 /**
  * MyBB 1.6 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group, All Rights Reserved
+ * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
- * Translate By: MyBB.CC & My-BB.Ir
+ * Translate By: iora.ir & My-BB.Ir
  */
 
 $l['nav_calendar'] = "تقویم";
@@ -13,7 +13,7 @@ $l['nav_addevent'] = "افزودن رویداد";
 $l['nav_editevent'] = "ویرایش رویداد";
 $l['nav_move_event'] = "جابجا کردن رویداد";
 $l['calendar_disabled'] = "شما نمی‌توانید از قابلیت‌های تقویم استفاده کنید زیرا تقویم توسط مدیریت غیر فعال شده است";
-// In some languages these months need to be slightly different than those defined in global.lang.php
+/* In some languages these months need to be slightly different than those defined in global.lang.php */
 $l['alt_month_1'] = "ژانویه";
 $l['alt_month_2'] = "فوریه";
 $l['alt_month_3'] = "مارس";
