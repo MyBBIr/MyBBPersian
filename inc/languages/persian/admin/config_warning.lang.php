@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 /**
  * MyBB 1.6 Persian Language Pack
@@ -6,6 +7,16 @@
  * Translate By: MyBB.CC & My-BB.Ir
  */
  
+=======
+<?php 
+/**
+ * MyBB 1.6 Persian Language Pack
+ * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
+ * 
+ * Translate By: iora.ir & My-BB.Ir
+ */
+ 
+>>>>>>> stable
 $l['warning_system'] = "سیستم اخطار";
 $l['warning_types'] = "شیوه‌های اخطار";
 $l['warning_types_desc'] = "در اینجا شما می‌توانید لیستی از شیوه‌های اخطار به کاربران را مدیریت کنید.";

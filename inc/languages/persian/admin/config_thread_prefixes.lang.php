@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 <?php
 /**
  * MyBB 1.6 Persian Language Pack
  * Copyright 2013 My-BB.Ir Group, All Rights Reserved
  * 
  * Translate By: MyBB.CC & My-BB.Ir
+=======
+<?php 
+/**
+ * MyBB 1.6 Persian Language Pack
+ * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
+ * 
+ * Translate By: iora.ir & My-BB.Ir
+>>>>>>> stable
  */
 
 $l['thread_prefixes'] = "پیشوندهای موضوع";
@@ -46,4 +55,8 @@ $l['error_missing_display_style'] = "لطفاً یک حالت نمایش برا�
 $l['error_no_forums_selected'] = "لطفاً انجمن‌هایی که این پیشوند می‌بایست در آنها فعال باشد را انتخاب نمایید.";
 $l['error_no_groups_selected'] = "لطفاً گروه‌هایی که این پیشوند می‌بایست برای آنها فعال باشد را انتخاب نمایید.";
 $l['error_invalid_prefix'] = "پیشوند موضوع انتخابی وجود ندارد.";
+<<<<<<< HEAD
 ?>
+=======
+?>
+>>>>>>> stable

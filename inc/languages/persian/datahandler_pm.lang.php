@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 <?php
 /**
  * MyBB 1.6 Persian Language Pack
  * Copyright 2013 My-BB.Ir Group, All Rights Reserved
  * 
  * Translate By: MyBB.CC & My-BB.Ir
+=======
+<?php 
+/**
+ * MyBB 1.6 Persian Language Pack
+ * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
+ * 
+ * Translate By: iora.ir & My-BB.Ir
+>>>>>>> stable
  */
 
 $l['pmdata_too_long_subject'] = "عنوانی که برای پیام خصوصی انتخاب کرده اید طولانی است، لطفا عنوان کوتاه تری را انتخاب کنید.";

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 /**
  * MyBB 1.6 Persian Language Pack
@@ -6,6 +7,16 @@
  * Translate By: MyBB.CC & My-BB.Ir
  */
 
+=======
+<?php 
+/**
+ * MyBB 1.6 Persian Language Pack
+ * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
+ * 
+ * Translate By: iora.ir & My-BB.Ir
+ */
+
+>>>>>>> stable
 $l['nav_register'] = "عضویت";
 $l['nav_activate'] = "فعال سازی";
 $l['nav_resendactivation'] = "ارسال دوباره رایانامه فعال سازی";
@@ -99,8 +110,13 @@ $l['dst_correction'] = "تنظیمات DST: ";
 $l['dst_correction_auto'] = "به طور خودکار تنظیمات DST را شناسایی کن";
 $l['dst_correction_enabled'] = "همیشه از DST استفاده کن";
 $l['dst_correction_disabled'] = "هرگز از DST استفاده نکن";
+<<<<<<< HEAD
 $l['redirect_registered_coppa_activate'] = "{2} عط! از عضویت شما در {1} ممنونیم.
 حساب کاربری شما با موفقیت ایجاد شده است در صورتی که شما زیر 13 سالگی هستید جهت این که این حساب مورد استفاده قرار گیرد رضایت و اجازه‌ی والدین شما نیاز است .<br /><br /> نیاز است که اجازه نامه‌ی والدین دریافت و پر شود و به ما ارسال شود.<a href=\"member.php?action=coppa_form\"> فرم رضایت نامه‌ی COPPA </a>.</br><br> هنگامی که ما فرم پر شده را دریافت نماییم حساب شما تایید خواهد شد.
+=======
+$l['redirect_registered_coppa_activate'] = "{2} عط! از عضویت شما در {1} ممنونیم.
+حساب کاربری شما با موفقیت ایجاد شده است در صورتی که شما زیر 13 سالگی هستید جهت این که این حساب مورد استفاده قرار گیرد رضایت و اجازه‌ی والدین شما نیاز است .<br /><br /> نیاز است که اجازه نامه‌ی والدین دریافت و پر شود و به ما ارسال شود.<a href=\"member.php?action=coppa_form\"> فرم رضایت نامه‌ی COPPA </a>.</br><br> هنگامی که ما فرم پر شده را دریافت نماییم حساب شما تایید خواهد شد.
+>>>>>>> stable
 ";
 $l['coppa_compliance'] = "توافقنامه COPPA";
 $l['coppa_desc'] = "برای عضویت در این انجمن‌ها، شما باید سن خودتان را در a href=\"http://coppa.org/\" title=\"Children's Online Privacy Protection Act\" target=\"_blank\">COPPA</a> تأیید کنید. لطفاً تاریخ تولدتان را وارد کنید. </br></br> اگر شما کمتر از 13 سال سن دارید باید فرم <a href=\"member.php?action=coppa_form\" target=\"_blank\">COPPA Compliance &amp; Permission form</a> رضایت از والدین را، والدینتان پر کرده و یک کپی از آن را برای ما ارسال کنید.";
@@ -125,7 +141,11 @@ $l['coppa_parent_agreement'] = "من تأیید می‌کنم که این اطل
 $l['coppa_agreement_1'] = "کاربران زیر 13 سال باید اجازه والدین و یا سرپرست خود را دریافت کنند جهت ثبت نام در {1}.";
 $l['coppa_agreement_2'] = "والدین و یا سرپرست قانونی باید این فایل را دریافت کنند، آن را پر کنند و برای ما ارسال نمایند <a href=\"member.php?action=coppa_form\" target=\"_blank\">COPPA Compliance &amp; Permission form</a> برای فعال کردن عضویت.";
 $l['coppa_agreement_3'] = "اگر تمایل به ثبت نام بدون اجازه والدین دارید همین الان می‌توانید ثبت نام کنید ولی تازمانی که اجازه نامه به دست ما نرسد حساب شما فعال نخواهد شد.";
+<<<<<<< HEAD
 $l['error_invalid_birthday'] = 'تاریخ تولد واردشده نامعتبر است، لطفا یک تاریخ تولد معتبر وارد نمایید.';
+=======
+$l['error_invalid_birthday'] = 'تاریخ تولد واردشده نامعتبر است، لطفا یک تاریخ تولد معتبر وارد نمایید.';
+>>>>>>> stable
 $l['error_awaitingcoppa'] = "شما نمی‌توانید از حسابی که در لیست انتظار COPPA وجود دارد پیش از تأیید والدین و یا سرپرست قانونی استفاده کنید.<br /><br />والدین و یا قیم قانونی نیاز به دریافت این فایل خواهند داشت، آن را پر کنند و برای ما ارسال نمایند <a href=\"member.php?action=coppa_form\" target=\"_blank\">COPPA Compliance &amp; Permission form</a> با دریافت کامل این فرم، حساب کاربری شما فعال خواهد شد.";
 $l['lang_select'] = "تنظیمات زبان: ";
 $l['lang_select_desc'] = "اگر در کشوری که زبان آن با زبان انجمن مغایرت دارد زندگی می‌کنید می‌توانید بسته زبان خود را در صورت وجود از این لیست انتخاب نمایید.";

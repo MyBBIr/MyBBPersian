@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 /**
  * MyBB 1.6 Persian Language Pack
@@ -6,6 +7,16 @@
  * Translate By: MyBB.CC & My-BB.Ir
  */
 
+=======
+<?php 
+/**
+ * MyBB 1.6 Persian Language Pack
+ * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
+ * 
+ * Translate By: iora.ir & My-BB.Ir
+ */
+
+>>>>>>> stable
 $l['forum_management'] = "مدیریت انجمن";
 $l['forum_management_desc'] = "این قسمت به شما امکان می‌دهد تا سطوح دسترسی و مدیران دسته‌ها و انجمن‌های خود را مدیریت نمایید. در صورتی که ترتیب نمایش دسته یا انجمنی را تغییر داده اید، از ذخیره تغییرات اطمینان حاصل نمایید.";
 $l['add_forum'] = "افزودن انجمن جدید";
