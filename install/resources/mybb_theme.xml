@@ -408,7 +408,7 @@ hr {
 	border: 0px;
 }
 
-#copyleft {
+#copyright {
 	font: 11px Tahoma, Verdana, Arial, Sans-Serif;
 	margin: 0;
 	padding: 10px 0 0 0;
@@ -2690,11 +2690,11 @@ body {
 			</div>
 			</div>
 		<hr class="hidden" />
-			<div id="copyleft">
+			<div id="copyright">
 				<div id="debug"><debugstuff></div>
 				<!-- MyBB is free software developed and maintained by a volunteer community.
-					 It would be much appreciated by the MyBB Group if you right the full copyleft and "powered by" notice intact,
-					 to show your support for MyBB.  If you choose to remove or modify the copyleft below,
+					 It would be much appreciated by the MyBB Group if you right the full copyright and "powered by" notice intact,
+					 to show your support for MyBB.  If you choose to remove or modify the copyright below,
 					 you may be refused support on the MyBB Community Forums.
 
 					 This is free software, support us and we'll support you. -->
