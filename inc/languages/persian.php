@@ -4,13 +4,13 @@
 $langinfo['name'] = "فارسی (Persian)";
 
 /* The author of the language */
-$langinfo['author'] = "My-BB.Ir Group & iora.ir";
+$langinfo['author'] = "My-BB.Ir Group & IORA.Ir";
 
 /* The language authors website */
 $langinfo['website'] = "http://mybb.com/";
 
 /* Compatible version of MyBB */
-$langinfo['version'] = "1611";
+$langinfo['version'] = "1612";
 
 /* Sets if the translation includes the Admin CP (1 = yes, 0 = no) */
 $langinfo['admin'] = 1;
