@@ -1,9 +1,9 @@
-<?php
+<?php 
 /**
  * MyBB 1.6 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group, All Rights Reserved
+ * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
  *
- * Translate By: MyBB.CC & My-BB.Ir
+ * Translate By: iora.ir & My-BB.Ir
  */
 
 $l['system_health'] = "وضعیت سیستم";
@@ -15,6 +15,8 @@ $l['convert_all'] = "تبدیل همگی";
 $l['converting_to_utf8'] = "مای‌بی‌بی در حال تبدیل جدول \"{1}\" از فرمت {2} به فرمت UTF-8 می‌باشد.";
 $l['convert_to_utf8'] = "شما در حال تبدیل جدول \"{1}\" از فرمت {2} به فرمت UTF-8 می‌باشید.";
 $l['convert_all_to_utf'] = "شما در حال تبدیل تمام جداول از فرمت {2} به فرمت UTF-8 می‌باشید.";
+$l['convert_all_to_utf8mb4'] = "شما در حال تبدیل فرمت تمامی جدول‌ها از {1} به 4-Byte UTF-8 Unicode می‌باشید.";
+$l['converting_to_utf8mb4'] = "مای‌بی‌بی در حال تبدیل  \"{1}\" جدول از فرمت {2} به فرمت  4-Byte UTF-8 Unicode  می‌باشد..";
 $l['please_wait'] = "لطفا\" منتظر بمانید . . .";
 $l['converting_table'] = "تبدیل کردن جدول:";
 $l['convert_table'] = "تبدیل جدول";
@@ -22,7 +24,10 @@ $l['convert_tables'] = "تبدیل همه جدول‌ها";
 $l['convert_database_table'] = "تبدیل جدول دیتابیس";
 $l['convert_database_tables'] = "تبدیل همه جدول‌های دیتابیس";
 $l['table'] = "جدول";
-$l['status'] = "وضعیت";
+$l['status_utf8'] = "وضعیت UTF-8";
+$l['status_utf8mb4'] = "پشتیبانی 4-Byte UTF-8<br />(نیاز به مای‌اس‌کیو‌ال ۵.۵.۳ یا بالاتر)";
+$l['not_available'] = "در دسترس نیست";
+$l['all_tables'] = "همه‌ی جدول‌ها";
 $l['convert_now'] = "الآن تبدیل کند";
 $l['totals'] = "مجموع";
 $l['attachments'] = "پیوست‌ها";

@@ -1,9 +1,9 @@
-<?php
+<?php 
 /**
  * MyBB 1.6 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group, All Rights Reserved
+ * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
- * Translate By: MyBB.CC & My-BB.Ir
+ * Translate By: iora.ir & My-BB.Ir
  */
  
 $l['today'] = "امروز";
@@ -18,15 +18,15 @@ $l['size_mb'] = "MB";
 $l['size_kb'] = "KB";
 $l['size_bytes'] = "بایت";
 $l['na'] = "نا مشخص";
-// Header language strings
+/* Header language strings */
 $l['mybb_admin_panel'] = "کنترل پنل مای‌بی‌بی";
 $l['mybb_admin_cp'] = "کنترل پنل مدیریت مای‌بی‌بی";
 $l['logged_in_as'] = "وارد شده با";
 $l['view_board'] = "نمایش انجمن";
 $l['logout'] = "خروج";
-// Footer language strings
+/* Footer language strings */
 $l['generated_in'] = "با {2} درخواست در {1} ثانیه ایجاد شده است. حافظه‌ مصرفی: {3}";
-// Login page
+/* Login page */
 $l['enter_username_and_password'] = "جهت ادامه عملیات، نام‌کاربری و رمز ورود خود را وارد نمایید.";
 $l['mybb_admin_login'] = "کنترل پنل مای‌بی‌بی - ورود";
 $l['return_to_forum'] = "بازگشت به انجمن";
@@ -47,9 +47,9 @@ $l['error_invalid_uid'] = "آی‌دی کاربر وارد شده نامعتبر
 $l['error_invalid_token'] = "کد فعال‌سازی وارد شده نامعتبر است.";
 $l['success_logged_out'] = "شما با موفقیت خارج شده اید.";
 $l['error_invalid_username_password'] = "نام‌کاربری و رمز ورود شما با یکدیگر همخوانی ندارد.";
-// Action Confirmation
+/* Action Confirmation */
 $l['confirm_action'] = "با اطمینان مایلید این عملیات صورت گیرد؟";
-// Common words and phrases
+/* Common words and phrases */
 $l['home'] = "خانه";
 $l['name'] = "نام";
 $l['size'] = "اندازه";
@@ -112,13 +112,13 @@ $l['reset'] = "از نو";
 $l['and'] = "و";
 $l['on'] = "فعال";
 $l['off'] = "غیرفعال";
-// Parser bits
+/* Parser bits */
 $l['quote'] = "نقل قول:";
 $l['wrote'] = "نوشته است:";
 $l['code'] = "کد:";
 $l['php_code'] = "کد پی‌اچ‌پی:";
 $l['linkback'] = "ارسال اصلی";
-// The months of the year
+/* The months of the year */
 $l['january'] = "ژانویه";
 $l['february'] = "فوریه";
 $l['march'] = "مارس";
@@ -131,14 +131,14 @@ $l['september'] = "سپتامبر";
 $l['october'] = "اکتبر";
 $l['november'] = "نوامبر";
 $l['december'] = "دسامبر";
-// Access Denied
+/* Access Denied */
 $l['access_denied'] = "دسترسی امکان پذیر نمی‌باشد";
 $l['access_denied_desc'] = "مجوز دسترسی به این بخش از کنترل پنل مدیریت را ندارید.";
-// Super Administrator required
+/* Super Administrator required */
 $l['cannot_perform_action_super_admin_general'] = "تنها مدیران ارشد قادر به اجرای این عملیات می‌باشند<br /><br />جهت دسترسی به این عملیات بایستی نام‌کاربری خود را به عنوان مدیر ارشد در فایل inc/config.php وارد نمایید.";
-// AJAX
+/* AJAX */
 $l['loading_text'] = "در حال بارگذاری<br />لطفاً منتظر بمانید ...";
-// Time zone selection boxes
+/* Time zone selection boxes */
 $l['timezone_gmt_minus_1200'] = "(GMT -12:00) Eniwetok, Kwajalein";
 $l['timezone_gmt_minus_1100'] = "(GMT -11:00) Nome, Midway Island, Samoa";
 $l['timezone_gmt_minus_1000'] = "(GMT -10:00) Hawaii";
@@ -171,19 +171,19 @@ $l['timezone_gmt_1000'] = "(GMT +10:00) Melbourne, Papua New Guinea, Sydney, Vla
 $l['timezone_gmt_1100'] = "(GMT +11:00) Magadan, New Caledonia, Solomon Islands";
 $l['timezone_gmt_1200'] = "(GMT +12:00) Auckland, Wellington, Fiji, Marshall Island";
 $l['timezone_gmt_short'] = "GMT {1}({2})";
-// Global language strings used for log deletion pages
+/* Global language strings used for log deletion pages */
 $l['confirm_delete_logs'] = "گزارشات انتخاب شده حذف گردد؟";
 $l['confirm_delete_all_logs'] = "کلیه گزارشات حذف گردد؟";
 $l['selected_logs_deleted'] = "گزارشات انتخاب شده حذف گردید.";
 $l['all_logs_deleted'] = "کلیه گزارشات حذف گردید.";
 $l['delete_selected'] = "حذف انتخاب شده‌ها";
 $l['delete_all'] = "حذف کلیه فیلتـر شده‌ها";
-// Misc
+/* Misc */
 $l['encountered_errors'] = "خطاهای زیر رخ داده است:";
 $l['invalid_post_verify_key'] = "یک کد غیر مجاز شناسایی شد. در صورت تمایل به اجرای عملیات زیر، تایید نمایید.";
 $l['invalid_post_verify_key2'] = "خطای عدم تطابق کد مجوز، لطفا بررسی کنید به درستی به این صفحه آمده اید.";
 $l['forums_colon'] = "انجمن‌ها:";
-// Code buttons editor language strings
+/* Code buttons editor language strings */
 $l['editor_title_bold'] = "افزودن متن ضخیم";
 $l['editor_title_italic'] = "افزودن متن مورب";
 $l['editor_title_underline'] = "افزودن متن زیرخط دار";
@@ -243,12 +243,12 @@ $l['massmail_username'] = "نام‌کاربری";
 $l['email_addr'] = "آدرس رایانامه";
 $l['board_name'] = "نام انجمن";
 $l['board_url'] = "آدرس بنجمن";
-// Unlock ACP
+/* Unlock ACP */
 $l['lockout_unlock'] = "بازکردن قفل پنل مدیریت";
 $l['enter_username_and_token'] = "لطفاً جهت ادامه، نام‌کاربری و کد فعال‌سازی را وارد نمایید.";
 $l['unlock_token'] = "کد فعال‌سازی:";
 $l['unlock_account'] = "بازکردن قفل حساب";
-// Email message for if an admin account has been locked out
+/* Email message for if an admin account has been locked out */
 $l['locked_out_subject'] = "حساب کاربری مدیریت در {1} قفل شد";
 $l['locked_out_message'] = "{1}،
 
@@ -269,7 +269,7 @@ $l['locked_out_message'] = "{1}،
 با تشکر,
 مدیریت {2}";
 $l['comma'] = "، ";
-// If the language string for "Username" is too cramped in the ACP Login box
-// then use this to define how much larger you want the gap to be (in px)
-// $l['login_field_width'] = "0";
+/* If the language string for "Username" is too cramped in the ACP Login box 
+ then use this to define how much larger you want the gap to be (in px) */
+/* $l['login_field_width'] = "0"; */
 ?>
