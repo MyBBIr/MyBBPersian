@@ -4,7 +4,11 @@
 $langinfo['name'] = "فارسی (Persian)";
 
 /* The author of the language */
+<<<<<<< HEAD
 $langinfo['author'] = "My-BB.Ir Group & IORA.Ir";
+=======
+$langinfo['author'] = "My-BB.Ir Group & iora.ir";
+>>>>>>> stable
 
 /* The language authors website */
 $langinfo['website'] = "http://mybb.com/";
