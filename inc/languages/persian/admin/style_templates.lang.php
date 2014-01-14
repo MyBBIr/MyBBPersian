@@ -65,7 +65,7 @@ $l['group_calendar'] = "<span style=\"float:left\">Calendar Templates</span>قا
 $l['group_forumdisplay'] = "<span style=\"float:left\">Forum Display Templates</span>قالب‌های نمایشگر انجمن‌ها";
 $l['group_index'] = "<span style=\"float:left\">Index Page Templates</span>قالب‌های صفحه نخست";
 $l['group_error'] = "<span style=\"float:left\">Error Message Templates</span>قالب‌های پیام خطا";
-$l['group_memberlist'] = "<span style=\"float:left\">Member List Templates</span>قالب‌های لیست‌اعضا";
+$l['group_memberlist'] = "<span style=\"float:left\">Member List Templates</span>قالب‌های لیست‌کاربران";
 $l['group_multipage'] = "<span style=\"float:left\">Multipage Pagination Templates</span>قالب‌های صفحه‌بندی چند‌صفحه‌ای";
 $l['group_private'] = "<span style=\"float:left\">Private Messaging Templates</span>قالب‌های پیام‌های خصوصی";
 $l['group_portal'] = "<span style=\"float:left\">Portal Templates</span>قالب‌های سردر";
