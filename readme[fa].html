@@ -1,103 +1,143 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="fa" dir="rtl">
+<!DOCTYPE HTML>
+<html lang="fa" dir="rtl">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8" />
 <title>MyBB - Readme for the Persian language pack</title>
-
 <style type="text/css">
-
 body {
 	background: #efefef;
+	padding:0;
+	margin:0;
+	font-size:12px;
 }
+
+a:link, a:visited {
+	text-decoration:none;
+	color:#0066ff;
+}
+
+a:hover {
+	text-decoration:none;
+	color:#003399;
+}
+
+a:active {
+	text-decoration:none;
+	color:#ed0303;
+}
+
 #container {
 	background: #fff;
-	font-size: 20px;
-	width: 900px;
-	padding: 2em;
-	margin: 30px auto;
-	position: relative;
-	-webkit-border-radius: 12px; /* Saf3-4, iOS 1-3.2, Android 1.6 */
-	-moz-border-radius: 12px; /* FF1-3.6 */
-	border-radius: 12px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
-	-webkit-box-shadow: 0px 0px 10px #cdcdc3; /* Saf3.0+, Chrome */
-	-moz-box-shadow: 0px 0px 10px #cdcdc3; /* FF3.5 - 3.6 */
-	box-shadow: 0px 0px 10px #cdcdc3; /* Opera 10.5, IE9, FF4+, Chrome 10+ */
-
+	font-size: 12px;
+	width: auto;
+	padding: 0 2% 20px 2%;
+	margin: 0 15%;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-top:5px solid #169fe6;
+	box-shadow:0 0 5px rgba(0,0,0,0.1);
 }
-.title {
-	margin-left:50px;
-	margin-top: -55px;
-	width:350px;
-	float:left;
-	background: #FFFFBF;
-	border: 1px solid #FC0;
-	padding: 5px 10px;
-	-webkit-transition: background-color 0.3s ease-out;  /* Saf3.2+, Chrome */
-	-moz-transition: all 0.3s ease-out;  /* FF4+ */
-	-ms-transition: all 0.3s ease-out;  /* IE10? */
-	-o-transition: all 0.3s ease-out;  /* Opera 10.5+ */
-	transition: all 0.3s ease-out;
-	-webkit-border-radius: 12px; /* Saf3-4, iOS 1-3.2, Android 1.6 */
-	-moz-border-radius: 12px; /* FF1-3.6 */
-	border-radius: 12px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
+
+header {
+	border-bottom:1px solid #ccc;
+	position:relative;
+	height:100px;
+	width:auto;
+}
+
+#logo {
+	background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOAAAABLCAMAAABeKHv+AAADAFBMVEUAAAAGCAgkKysmKywJCQsiJycnKysCBQIEBgcYGSQoLC0NDg8oLC0rLC0AAAAoKysnKywAAAAAAAAnKislKSkmKywnKiwoLCwODw8GBAcaICInKyspLS4mKiomKiwlKiomKywmKioAAAAAAAAnKywjKSr///4vOEUnKywjJygnKiskKislKCknKiz///8mKiwmKSomKCknKyslKSolKisnKiwmKismKiomKiwnKysmKSoODg7///4nKisoKiwlKSonJyckKSn///8nLCz//vz//////fzn5+YgNTUmKiwAAAAgIiX///7////////9+vj//fz///0pKSsAAAD//////f3////9//////7k5OQBAQESEhL///8AAAB4eHkTJC///fzHxcSzsrL//f29urgAAAClpqb//////fzT0tFdXl4oKyzHx8f//Ph4eHj///7q6urV1dUmKivPz8/l5eWkoKAAAAD//fvi4uJra2udnZ07Ozuurq6Oj4/e3t5BQUH///+Sk5HX1dODgoIAAADd3d3v7+//+/alo6Lw8PAoKywVFRkoLC0pLS7///8pLS8mKywoLC0BfcwAecslKSohJSYeIiMAAAAEe8yAgIC/v78ZhtAMgM4diNEAe8wAd8rw8PAuMDF/vOYAdsmQkJAdICE+QEAQgc79/f0UhM8Ifs0hitLV1dXA3/MwktUAfM00ODjO5/jg399Qo9zV6fdAm9ifn59gYGBKTk5QUlL39/avsLD5+fmMxOn2/P7u+f7o8/soj9Nnr+DPz8+Cvua02vOgzu1utONDRkdwcXGYmpqEhYZhrN/h8fuVyeu2trba29v8/f3//frq6uphZGWHwOfc8fxEntp0t+NVWFiq0++v1vBzdXbz8/PG5Peoqanv7+94ueRnamvNzcyKjI0QEBBbqt5Vpt273PLa7flrbm5aXV0XGx14entKo904l9ep1/Stra3FxsYAcsis1e/Jysqkpqacnp99stTh6/AoLC0oLC0oLC3w7+8nLC0mLC16uj95AAAAjHRSTlMAGVKACzSKAQMU1Qb9ES2340ZdZn7w6iEOCSW+bXTZO/decX2pKmYDxhiPMUSYM6NUi7CDWdKGecudSBF0lN9jLkwGz60lx/4JtBY+uI7w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') no-repeat top left;
+	width:239px;
+	height:75px;
+	position:absolute;
+	top:10px;
+	left:20px;
+}
+
+#title {
+	position:absolute;
+	top:30px;
+	left:253px;
 	font-family:Tahoma;
-	font-size:18px;
-	text-align:center;
+	font-size:16px;
+	color:#333;
+	border-left:1px solid #ccc;
+	padding:10px;
 }
 
-.title:hover {
-	background: #FFF2BE; 
+footer {
+	background:#333;
+	font-size: 13px;
+	width: auto;
+	padding: 10px 2%;
+	margin: 0 15%;
+	border-top:5px solid #666;
+	border-left:1px solid #000;
+	border-right:1px solid #000;
+	color:#fff;
+	direction:ltr;
+	text-align:left;
+}
+
+footer a:link, footer a:visited {
+	color:#fff;
+	text-decoration:none;
+}
+
+footer a:hover, footer a:active {
+	color:#eee;
 }
 
 .subtitle {
-	font-size: 12pt;
+	font-size: 14px;
 	font-family: Tahoma, Arial;
 }
 
 .contents {
-	font-size: 10pt;
+	font-size: 12px;
 	font-family: Tahoma, Arial;
 	font-weight: bold;
 	margin-top: 60px;
 }
 
 .contlist {
-	font-size: 12pt;
+	font-size: 13px;
 	font-family: Tahoma, Arial;
 	line-height: 1.5;
+	list-style:numbered
 }
 
 .smtitle {
-	font-size: 12pt;
+	font-size: 14px;
 	font-family: Tahoma, Arial;
 	font-weight: bold;
 	margin-top: 60px;
 }
 
 .content {
-	font-size: 10pt;
+	font-size: 12px;
 	font-family: Tahoma, Arial;
 }
 
 .instlist {
-	font-size: 10pt;
+	font-size: 12px;
 	font-family: Tahoma, Arial;
 }
 
 .footer1 {
-	font-size: 10pt;
+	font-size: 12px;
 	font-family: Tahoma, Arial;
 	margin-top: 60px;
 }
 
 .footer2 {
-	font-size: 10pt;
+	font-size: 12px;
 	font-family: Tahoma, Arial;
 	text-indent: 3em;
 	line-height: 1.5 ;
 }
 .grn {
-	color: #339966;
+	color: #009933;
 }
 </style>
 </head>
@@ -105,76 +145,75 @@ body {
 <body>
 <div id="container">
 	<a id="top"></a>
-
-	<p class="title">راهنمای نصب پكیج زبان فارسی برای MyBB</p>
-
-	<p class="subtitle">این بسته‌ی زبان برای  <b>MyBB 1.6</b> فراهم گردیده است.اگر از نسخه‌ی متفاوتی از MyBB استفاده می‌كنید لطفاً به جدیدترین نسخه بروز رسانی نمائید و بررسی كنید كه آیا بسته‌ی زبان جدیدی موجود است یا خیر؟ برای این منظور به <a href="http://www.mybb.com/" target="_blank">http://www.mybb.com</a> رفته، به بخش  <a href="http://www.mybb.com/downloads" target="_blank">دانلودها </a> &nbsp;وارد شده و  <a href="http://www.mybb.com/downloads/translations" target="_blank">ترجمه ها</a> را برگزینید.</p>
-
-
+	<header>
+		<div id="logo">&nbsp;</div>
+		<div id="title">راهنمای نصب بسته‌ی زبان فارسی MyBB</div>
+	</header>
+		<p class="subtitle">این بسته‌ی زبان برای  <strong>MyBB 1.6</strong> فراهم گردیده است.اگر از نسخه‌ی متفاوتی از MyBB استفاده می‌كنید، لطفاً به جدیدترین نسخه بروزرسانی نمایید و بررسی كنید كه آیا بسته‌ی زبان جدیدی موجود است یا خیر، به‌این منظور به <a href="http://www.mybb.com/" target="_blank">http://www.mybb.com</a> رفته، به بخش  <a href="http://www.mybb.com/downloads" target="_blank">دانلودها </a> &nbsp;وارد شده و  <a href="http://www.mybb.com/downloads/translations" target="_blank">ترجمه ها</a> را برگزینید.</p>
 	<p class="contents"><a id="inhoud">محتوا</a>&nbsp;</p>
-	<ol class="contlist" type="1">
+	<ol class="contlist">
 	  <li><a href="#subj1">معرفی</a></li>
 	  <li><a href="#subj2">نصب</a></li>
 	  <li><a href="#subj3">اطلاعات اضافی</a></li>
 	</ol>
 
 
-	<p class="smtitle"><a id="subj1">1. معرفی</a></p>
+	<p class="smtitle"><a id="subj1">۱. معرفی</a></p>
 
-	<p class="content"> به منظور استفاده‌ی هرچه بیشتر كاربران از <i>MyBB</i>، این نرم افزار با قابلیت چند زبانگی طراحی گردیده است. به صورت پیشفرض، <i>MyBB</i> با زبان انگلیسی نصب میشود ولی با سپاس از داوطلبان بسیار، این نرم افزار در زبان‌های دیگری هم قابل استفاده گردیده است. این بسته شما را قادر می‌سازد كه از <i>MyBB</i> در زبان <b>فارسی</b> استفاده نمایید.</p>
+	<p class="content"> به منظور استفاده‌ی هرچه بیشتر كاربران از <i>MyBB</i>، این نرم افزار با قابلیت چند زبانه‌بودن طراحی گردیده‌است. به صورت پیشفرض، <i>MyBB</i> با زبان انگلیسی نصب می‌شود ولی با سپاس از داوطلبان بسیار، این نرم افزار در زبان‌های دیگری هم قابل استفاده گردیده‌است. این بسته شما را قادر می‌سازد كه از <i>MyBB</i> در زبان <b>فارسی</b> استفاده نمایید.</p>
 
 
-	<p class="smtitle"><a id="subj2">2. نصب</a></p>
+	<p class="smtitle"><a id="subj2">۲. نصب</a></p>
 
 	<p class="content">
-		متن‌های <b>فارسی</b> درون فایلهای این بسته ذخیره شده‌اند كه با این فایل  راهنما و نسخه‌ی انگلیسی آن در یك فایل فشرده قرار داده شده شده‌اند. این فایل‌ها، در تعدادی پوشه جداسازی شده‌اند كه در آن‌ها تعدادی فایل عكس نیز موجود است. این عكس‌ها ترجمه ی <b>فارسی</b> دكمه‌ها و عكس‌های گروه‌های <i>MyBB</i> هستند.</p>
+		متن‌های <b>فارسی</b> درون فایل‌های این بسته ذخیره شده‌اند كه با این فایل  راهنما و نسخه‌ی انگلیسی آن در یك فایل فشرده قرار داده شده شده‌اند. این فایل‌ها، در تعدادی پوشه جداسازی شده‌اند كه در آن‌ها تعدادی فایل عكس نیز موجود است. این عكس‌ها ترجمه‌ی <b>فارسی</b> دكمه‌ها و عكس‌های گروه‌های <i>مای‌بی‌بی</i> هستند.</p>
 		
 		<p class="content">
-			جهت نصب فارسی‌ساز كافیست این بسته را با همین ساختاری كه دارد، روی ریشه ی <i>MyBB</i> خود در
-			هاست (host) خود بارگذاری كنید. در زیر دستور العمل ریز این كار آمده است. فرض گردیده كه شما قادرید
+			جهت نصب فارسی‌ساز كافیست این بسته را با همین ساختاری كه دارد، روی ریشه‌ی <i>MyBB</i> خود در
+			هاست (host) خود بارگذاری كنید. در زیر، دستور العمل این كار آمده‌است. فرض گردیده كه شما قادرید
 			فایل فشرده شده را باز كنید و همچنین اطلاعات كافی از شیوه‌ی كار با FTP را دارید.<br /></p>
 
 	<ol class="instlist" style="list-style:numbered">
 
-	  <li>با برنامه‌ی FTP خود به پوشه ی كه روی آن <i>MyBB</i> نصب كرده‌اید (در هاست) بروید.<br /></li>
+	  <li>با برنامه‌ی FTP خود به پوشه‌ای كه روی آن <i>MyBB</i> نصب كرده‌اید (در هاست) بروید.<br /></li>
 
 	  <li>اگر در پوشه <i>MyBB</i> باشید باید دو پوشه <span class="grn">images</span> و <span class="grn">inc</span> را بین بقیه ی فایل‌ها و
 		  پوشه ها ببینید.<br /></li>
 
-	  <li>در اینصورت، كافیست تمام فایل‌ها و پوشه های بسته ی زبان را روی هاست بارگذاری كنید. اگر پیش از این بسته زبان فارسی را در سایت خود بارگذاری کرده‌اید، پیامی مبنی بر وجود فایل‌های هم‌نام دریافت خواهید کرد. در این‌صورت تایید كنید كه فایل‌ها رونویسی شوند.<br /></li>
+	  <li>در این‌صورت، كافیست تمام فایل‌ها و پوشه‌های بسته‌ی زبان را روی هاست بارگذاری كنید. اگر پیش از این بسته زبان فارسی را در سایت خود بارگذاری کرده‌اید، پیامی مبنی بر وجود فایل‌های هم‌نام دریافت خواهید کرد. در این‌صورت تایید كنید كه فایل‌ها رونویسی شوند.<br /></li>
 	</ol>
 		<p>
-			<span style="font-size: 10pt; font-family: Tahoma, Arial">هم اكنون شما تمامی فایل‌های
+			<span style="font-size: 10pt; font-family: Tahoma, Arial">هم‌اكنون شما تمامی فایل‌های
 				لازمه برای نصب بسته‌ی زبان را بارگذاری كرده‌اید. لطفاً برای شیوه‌ی فعالسازی زبان فارسی
 				روی سایتتان به ادامه‌ی راهنما توجه فرمائید.</span></p>
 
 	<p class="content">
-		پس از آنكه تمای فایلها را روی كپی <i>MyBB</i> خود در هاست بارگذاری نمودید، قادر خواهید
+		پس از آنكه تمای فایل‌ها را روی كپی <i>MyBB</i> خود در هاست بارگذاری نمودید، قادر خواهید
 		بود زبان فارسی را برای سایتتان فعال نمائید. در اینجا به این می‌پردازیم كه چگونه زبان
 		سایت را برای كاربران فارسی كنیم و چگونه زبان
-		سایت برای میهمانان فارسی باشد.</p>
+		سایت برای مهمانان فارسی باشد.</p>
 
-	<ul class="instlist" type="square">
-	  <li>&nbsp;برای كاربرد زبان فارسی در سایت، كاربر میبایستی زبان مورد نظر خود را در كنترل
-		  پانل كاربری خود (UserCP) برگزیند. برای اینكار به كنترل پنل كاربری خود بروید و به
-		  گزینه‌ی ویرایش اختیارات رجوع كرده و از كادر اختیارات اضافی، گزینه ی زبان سایت را
-		  فارسی برگزیند.</li><br />
-		<li>برای برگزیدن فارسی بعنوان زبان پیشفرض سایت شما، كه برای میهمانان و بعنوان زبان پیشفرض
-			كاربران، استفاده میشود، مدیر سایت میبایستی به كنترل پانل مدیریت خود رجوع نموده و
-			از تب تنظیمات، تنظیمات عمومی (General Configuration) را برگزیند. سپس از ردیف زبان
+	<ul class="instlist">
+	  <li>&nbsp;برای كاربرد زبان فارسی در سایت، كاربر باید زبان مورد نظر خود را در كنترل
+		  پنل كاربری خود (UserCP) برگزیند. برای اینكار به كنترل‌پنل كاربری خود بروید و به
+		  گزینه‌ی ویرایش تنظیمات رفته و از كادر سایر تنظیمات، گزینه‌ی زبان انجمن را
+		  فارسی برگزیند.<br /></li>
+		<li>برای برگزیدن فارسی به‌عنوان زبان پیشفرض سایت شما، كه برای مهمانان و به‌عنوان زبان پیشفرض
+			كاربران، استفاده می‌شود، مدیر سایت باید به كنترل پنل مدیریت خود رفته و
+			از بخش تنظیمات، تنظیمات عمومی (General Configuration) را برگزیند. سپس از ردیف زبان
 			پیشفرض (Default Language) زبان فارسی را برگزیده و تغییرات را ذخیره كند.<br />
-		</li><br />
+		<br /></li>
 		<li>جهت فارسی‌سازی پنل مدیر لازم است که فایل <span class="grn">inc/languages/persian.php</span> را با یک ویرایشگر متن باز نموده و مقدار <span style="direction:ltr;display:inline-table;">$langinfo['admin']</span> را برابر 1 قرار دهید.</li>
 	</ul>
 
 
-	<p class="smtitle"><a id="subj3">3. اطلاعات</a> اضافی</p>
+	<p class="smtitle"><a id="subj3">۳. اطلاعات</a> اضافی</p>
 
 	<p class="content">
-		اگر مایلید با مترجمین این بسته تماس‌ حاصل نمائید، لطفاً به كنترل پانل ادمین رفته
+		اگر مایلید با مترجمین این بسته تماس‌ حاصل نمائید، لطفاً به كنترل پنل ادمین رفته
 		و در بخش تنظیمات، به زیر منوی زبان بروید تا لیست زبان‌های نصب شده روی سایتتان را
-		مشاهده كنید. اینجا وب سایت مترجمین بسته‌های مختلف روبروی نامشان نوشته شده‌است. بعلاوه
-		میتوانید به&nbsp; <a href="http://community.mybb.com/" target="_blank">MyBB Community Forums</a> رفته و دنبال اسم مترجم زبانتان بگردید. همچنین میتوانید در فروم Internationalization ارسال برای پشتیبانی داشته باشید. نظرات شما منبع ارزشمند ارزیابی و بهینه سازی كار
+		مشاهده كنید. اینجا وب سایت مترجمین بسته‌های مختلف روبروی نامشان نوشته شده‌است. به‌علاوه
+		می‌توانید به&nbsp; <a href="http://community.mybb.com/" target="_blank">MyBB Community Forums</a> رفته و دنبال اسم مترجم زبانتان بگردید. همچنین میتوانید در فروم Internationalization ارسال برای پشتیبانی داشته باشید. نظرات شما منبع ارزشمند ارزیابی و بهینه سازی كار
 		ما هستند.</p>
 		<p class="content">
 			<strong>كاربران فارسی زبان</strong> كه از این بسته استفاده می‌كنند، میتوانند از طریق 
@@ -183,5 +222,9 @@ body {
 
 
 	<p class="footer1">به امید لذت شما از <i>MyBB</i></p>
+	
 </div>
+<footer>
+	Powered by: <a href="http://mybb.com" target="_blank">MyBB</a>
+</footer>
 </body></html>
