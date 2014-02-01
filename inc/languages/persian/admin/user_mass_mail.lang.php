@@ -23,7 +23,7 @@ $l['board_url'] = "آدرس انجمن";
 $l['personalize_message'] = "جنبه شخصی دادن به این نامه";
 
 $l['message_settings'] = "تنظیمات انجمن";
-$l['subject_desc'] = ".لطفاً موضوع پیغام را وارد کنید";
+$l['subject_desc'] = ".لطفاً موضوع پیام را وارد کنید";
 $l['send_via_email'] = "ارسال به وسیله رایانامه";
 $l['send_via_pm'] = "ارسال به وسیله پیام خصوصی";
 $l['message_type'] = "نوع پیام";
