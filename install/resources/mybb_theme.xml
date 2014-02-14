@@ -2592,7 +2592,7 @@ body {
 </td>
 <td class="{$bgcolor}" valign="top" align="center" style="white-space: nowrap">{$threads}{$unapproved['unapproved_threads']}</td>
 <td class="{$bgcolor}" valign="top" align="center" style="white-space: nowrap">{$posts}{$unapproved['unapproved_posts']}</td>
-<td class="{$bgcolor}" valign="top" align="left" style="white-space: nowrap">{$lastpost}</td>
+<td class="{$bgcolor}" valign="top" align="right" style="white-space: nowrap">{$lastpost}</td>
 </tr>]]></template>
 		<template name="forumbit_depth3" version="1404"><![CDATA[{$comma}{$statusicon}<a href="{$forum_url}" title="{$forum_viewers_text_plain}">{$forum['name']}</a>]]></template>
 		<template name="forumbit_depth3_statusicon" version="1400"><![CDATA[<img src="{$theme['imgdir']}/{$lightbulb['folder']}.gif" alt="{$lightbulb['altonoff']}" title="{$lightbulb['altonoff']}" class="subforumicon ajax_mark_read" id="mark_read_{$forum['fid']}" />]]></template>
@@ -7501,7 +7501,7 @@ body { font-family: Tahoma, Verdana, Arial, sans-serif; font-size: 13px; }
 </td>
 <td class="{$bgcolor}" valign="top" align="center" style="white-space: nowrap">{$threads}{$unapproved['unapproved_threads']}</td>
 <td class="{$bgcolor}" valign="top" align="center" style="white-space: nowrap">{$posts}{$unapproved['unapproved_posts']}</td>
-<td class="{$bgcolor}" valign="top" align="left" style="white-space: nowrap">{$lastpost}</td>
+<td class="{$bgcolor}" valign="top" align="right" style="white-space: nowrap">{$lastpost}</td>
 </tr>]]></template>
 		<template name="forumbit_depth1_cat_subforum" version="1400"><![CDATA[<tr>
 <td class="tcat" colspan="6"><strong>&raquo;&nbsp;&nbsp;<a href="{$forum_url}">{$forum['name']}</a></strong><br /><span class="smalltext">{$forum['description']}</span></td></tr>{$sub_forums}]]></template>
