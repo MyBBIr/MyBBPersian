@@ -1016,19 +1016,19 @@ ul.thread_tools li {
 }
 
 ul.thread_tools li.printable {
-	background: url('images/printable.gif') no-repeat 0px 0px;
+	background: url('images/printable.gif') no-repeat top right;
 }
 
 ul.thread_tools li.sendthread {
-	background: url('images/send.gif') no-repeat 0px 0px;
+	background: url('images/send.gif') no-repeat top right;
 }
 
 ul.thread_tools li.subscription_add {
-	background: url('images/subscribe.gif') no-repeat 0px 0px;
+	background: url('images/subscribe.gif') no-repeat top right;
 }
 
 ul.thread_tools li.subscription_remove {
-	background: url('images/unsubscribe.gif') no-repeat 0px 0px;
+	background: url('images/unsubscribe.gif') no-repeat top right;
 }]]></stylesheet>
 	</stylesheets>
 	<templates>
