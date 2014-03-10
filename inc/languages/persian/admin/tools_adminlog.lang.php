@@ -59,7 +59,7 @@ $l['admin_log_config_calendars_add'] = "تقویم اضافه شد #{1} ({2})";
 $l['admin_log_config_calendars_permissions'] = "سطوح دسترسی تقویم تغییر داده شد #{1} ({2})";
 $l['admin_log_config_calendars_edit'] = "تقویم ویرایش شد #{1} ({2})";
 $l['admin_log_config_calendars_delete'] = "Dتقویم پاک شد #{1} ({2})";
-$l['admin_log_config_calendars_update_orders'] = "نحوه چیدمان تقویم به روز شد";
+$l['admin_log_config_calendars_update_order'] = "نحوه چیدمان تقویم به روز شد";
 
 $l['admin_log_config_help_documents_add_section'] = "بخش راهنما اضافه گردید #{1} ({2})";
 $l['admin_log_config_help_documents_add_document'] = "سند راهنما اضافه گردید #{1} ({2})";
@@ -191,7 +191,8 @@ $l['admin_log_tools_backupdb_delete'] = "یک فابل پشتیبان حذف ش�
 $l['admin_log_tools_backupdb_backup'] = "یک فایل پشتیبان ساخته شد: {2}";
 $l['admin_log_tools_backupdb_backup_download'] = "یک پشتیبان از بانک اطلاعاتی دریافت شد";
 
-$l['admin_log_tools_cache_rebuild'] = "حافظه ({1}) بازسازی شد";
+$l['admin_log_tools_cache_rebuild'] = "حافظه‌ی ({1}) بازسازی شد";
+$l['admin_log_tools_cache_reload'] = "حافظه‌ی ({1}) بارگذاری‌دوباره شد";
 
 $l['admin_log_tools_index_utf8_conversion'] = "جدول {1} به UTF-8 تبدیل شد";
 
