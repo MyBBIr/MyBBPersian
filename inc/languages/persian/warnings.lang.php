@@ -35,20 +35,12 @@ $l['send_pm'] = "اطلاع به کاربر:";
 $l['send_user_warning_pm'] = "یک پیام خصوصی به این کاربر ارسال کنید که او را از دریافت این اخطار مطلع سازد.";
 $l['send_pm_subject'] = "موضوع:";
 $l['warning_pm_subject'] = "شما یک اخطار دریافت نموده اید.";
-$l['send_pm_message'] = "پیغام:";
-<<<<<<< HEAD
+$l['send_pm_message'] = "پیام:";
 $l['warning_pm_message'] = "{1} عزیز
 
 شما یک اخطار از طرف مدیر {2} دریافت کرده‌اید.
 --
 
-=======
-$l['warning_pm_message'] = "{1} عزیز
-
-شما یک اخطار از طرف مدیر {2} دریافت کرده‌اید.
---
-
->>>>>>> stable
 --";
 $l['expiration_never'] = "دائمی";
 $l['expiration_hours'] = "ساعت";

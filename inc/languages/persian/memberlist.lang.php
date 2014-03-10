@@ -6,12 +6,12 @@
  * Translate By: iora.ir & My-BB.Ir
  */
 
-$l['nav_memberlist'] = "لیست اعضا";
-$l['memberlist_disabled'] = "لیست اعضا توسط مدیریت انجمن غیر فعال شده است.";
-$l['member_list'] = "لیست اعضا";
+$l['nav_memberlist'] = "لیست کاربران";
+$l['memberlist_disabled'] = "لیست کاربران توسط مدیریت انجمن غیر فعال شده است.";
+$l['member_list'] = "لیست کاربران";
 $l['avatar'] = "آواتار";
 $l['username'] = "نام‌کاربری";
-$l['joined'] = "تاریخ عضویت";
+$l['joined'] = "تاریخ ثبت‌نام";
 $l['lastvisit'] = "آخرین بازدید";
 $l['posts'] = "تعداد ارسال‌ها";
 $l['referrals'] = "معرفین";
@@ -20,7 +20,7 @@ $l['website'] = "وب سایت";
 $l['sort_by'] = "مرتب سازی بر اساس";
 $l['contains'] = "شامل:";
 $l['sort_by_username'] = "مرتب سازی بر اساس: نام‌کاربری";
-$l['sort_by_regdate'] = "مرتب سازی بر اساس: تاریخ عضویت";
+$l['sort_by_regdate'] = "مرتب سازی بر اساس: تاریخ ثبت‌نام";
 $l['sort_by_lastvisit'] = "مرتب سازی بر اساس: تاریخ آخرین بازدید";
 $l['sort_by_posts'] = "مرتب سازی بر اساس: تعداد ارسال";
 $l['sort_by_referrals'] = "مرتب سازی بر اساس: کاربران معرفی شده";
@@ -28,7 +28,7 @@ $l['order_asc'] = "چیدمان صعودی‌";
 $l['order_desc'] = "چیدمان نزولی";
 $l['forumteam'] = "نمایش کادر مدیریت";
 $l['advanced_search'] = "جستجوی پیشرفته";
-$l['search_member_list'] = "جستجو در لیست اعضا";
+$l['search_member_list'] = "جستجو در لیست کاربران";
 $l['search_criteria'] = "معیارهای جستجو";
 $l['begins_with'] = "شروع با";
 $l['username_contains'] = "شامل";

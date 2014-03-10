@@ -25,7 +25,7 @@ $l['viewing_index'] = "{1} <a href=\"index.php\">صفحه نخست</a>";
 $l['activating_account'] = "در حال فعال سازی حساب کاربری";
 $l['viewing_profile'] = "در حال مشاهده مشخصات";
 $l['viewing_profile2'] = "در حال مشاهده مشخصات <a href=\"{1}\">{2}</a>";
-$l['registering'] = "<a href=\"member.php?action=register\">در حال عضویت</a>";
+$l['registering'] = "<a href=\"member.php?action=register\">در حال ثبت‌نام</a>";
 $l['logging_in'] = "<a href=\"member.php?action=login\">در حال ورود</a>";
 $l['logging_in_plain'] = "در حال ورود";
 $l['logging_out'] = "در حال خروج";
@@ -88,8 +88,8 @@ $l['online_today'] = "چه کسانی امروز در انجمن حضور داش
 $l['refresh_page'] = "بارگزاری مجدد این صفحه";
 $l['online_online_plural'] = "کاربر حاضر";
 $l['online_online_singular'] = "کاربر حاضر";
-$l['online_member_plural'] = "عضو";
-$l['online_member_singular'] = "عضو";
+$l['online_member_plural'] = "کاربر";
+$l['online_member_singular'] = "کاربر";
 $l['online_anon_plural'] = "هستند";
 $l['online_anon_singular'] = "هستند";
 $l['online_guest_plural'] = "مهمان";
@@ -106,7 +106,7 @@ $l['member_online_today'] = "<strong>یک</strong> کاربر امروز در ا
 $l['members_were_online_today'] = "<strong>{1}</strong> کاربر امروز در انجمن حضور داشته اند";
 $l['member_online_hidden'] = " ({1} کاربر پنهان)";
 $l['members_online_hidden'] = " ({1} کاربر پنهان)";
-$l['rating_thread'] = "در حال رتبه دادن به موضوع";
+$l['rating_thread'] = "در حال امتیاز دادن به موضوع";
 $l['viewing_imcenter'] = "در حال مشاهده مرکز IM ";
 $l['managing_favorites'] = "در حال مدیریت موضوعات مورد علاقه";
 $l['managing_subscriptions'] = "در حال مدیریت موضوع‌های مشترک شده";
