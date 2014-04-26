@@ -183,6 +183,7 @@ $l['edited_user_info'] = "<strong>کاربر:</strong> <a href=\"{2}\">{1}</a>";
 $l['edited_user_ban'] = "محرومیت کاربر ویرایش شد";
 $l['banned_user'] = "کاربر محروم شد";
 $l['lifted_ban'] = "محرومیت کاربر خاتمه یافت";
++$l['no_bans_ending'] = "هیچ محرومیتی وجود ندارد که به زودی پایان یابد.";
 $l['warning_logs'] = "لاگ‌های اخطار";
 $l['warned_user'] = "کاربر مورد اخطار";
 $l['warning'] = "اخطار";
