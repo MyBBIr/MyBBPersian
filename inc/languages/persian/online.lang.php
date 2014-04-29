@@ -7,7 +7,7 @@
  */
 
 $l['nav_online'] = "افراد حاضر در انجمن";
-$l['nav_onlinetoday'] = "افرادی که امروز در انجمن بوده اند";
+$l['nav_onlinetoday'] = "افرادی که امروز در انجمن بوده‌اند";
 $l['viewing_announcements'] = "در حال مشاهده اطلاعیه <a href=\"{1}\">{2}</a>";
 $l['viewing_announcements2'] = "در حال مشاهده اطلاعیه";
 $l['viewing_attachment'] = "در حال مشاهده پیوست";
@@ -85,7 +85,7 @@ $l['on_username'] = "نام‌کاربری";
 $l['time'] = "زمان";
 $l['location'] = "موقعیت";
 $l['online_today'] = "چه کسانی امروز در انجمن حضور داشته اند";
-$l['refresh_page'] = "بارگزاری مجدد این صفحه";
+$l['refresh_page'] = "بارگذاری مجدد این صفحه";
 $l['online_online_plural'] = "کاربر حاضر";
 $l['online_online_singular'] = "کاربر حاضر";
 $l['online_member_plural'] = "کاربر";
