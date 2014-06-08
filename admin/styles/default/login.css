@@ -9,6 +9,7 @@ body {
 	background: #fff;
 	color: #000000;
 	margin: 0;
+	direction: rtl;
 }
 
 a {
