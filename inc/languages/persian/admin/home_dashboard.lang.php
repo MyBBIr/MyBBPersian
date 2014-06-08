@@ -1,18 +1,9 @@
-<<<<<<< HEAD
-<?php
-/**
- * MyBB 1.6 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group, All Rights Reserved
- * 
- * Translate By: MyBB.CC & My-BB.Ir
-=======
 <?php 
 /**
- * MyBB 1.6 Persian Language Pack
+ * MyBB 1.8 Persian Language Pack
  * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
->>>>>>> stable
  */
  
 $l['dashboard'] = "میزِکار";
@@ -34,8 +25,25 @@ $l['awaiting_activation'] = "منتظر تایید";
 $l['server_load'] = "سرعت بارگذاری سرور";
 $l['attachments'] = "پیوست‌ها";
 $l['used'] = "استفاده شده است";
+
+$l['version_check'] = "بررسی برای بروزرسانی‌ها";
 $l['last_update_check_two_weeks'] = "آخرین باری که  <a href=\"{1}\"> نسخه انجمن </a>را چک کردید دو هفته قبل بود";
 $l['new_version_available'] = "شما در حال استفاده از نسخه {1} هستید در حالی که آخرین نسخه {2} هست.";
+$l['latest_mybb_announcements'] = "آخرین اطلاعیه‌های مای‌بی‌بی";
+$l['no_announcements'] = "هیچ اطلاعیه‌ی ذخیره‌شده‌ای یافت نشد. <a href=\"index.php?module=home&amp;action=version_check\">بررسی برای بروزرسانی‌ها</a>.";
+$l['your_version'] = "نسخه‌شما";
+$l['latest_version'] = "آخرین نسخه";
+$l['update_forum'] = "لطفا با مراجعه به <a href=\"http://www.mybb.com\" target=\"_blank\">وب‌سایت مای‌بی‌بی</a> یا <a href=\"http://my-bb.ir\" target=\"_blank\">پشتیبانی فارسی آن</a> نسخه خود را بروزکنید.";
+$l['read_more'] = "بیشتر بخوانید";
+
+$l['success_up_to_date'] = "تبریک می‌گوییم، شما از آخرین نسخه مای‌بی‌بی استفاده می‌کنید.";
+
+$l['error_out_of_date'] = "نسخه‌ی مای‌بی‌بی شما قدیمی است.";
+$l['error_communication'] = "یک مشکل برای متصل شدن به سرور مای‌بی‌بی برای بررسی نسخه به وجود آمده است، لطفا چنددقیقه دیگر بررسی کنید.";
+$l['error_fetch_news'] = "مای‌بی‌بی با موفقیت آخرین اطلاعیه‌ها را از وب‌سایت مای‌بی‌بی دریافت کرد.";
+
+$l['news_description'] = "آخرین اخبار از <a href=\"http://blog.mybb.com/\" target=\"_blank\">وبلاگ مای‌بی‌بی</a>.";
+
 $l['admin_notes_public'] = "این یادداشت را تمام مدیران می‌توانند مشاهده کنند";
 $l['admin_notes'] = "یادداشت‌های مدیریت";
 $l['save_notes'] = "ذخیره یادداشت";

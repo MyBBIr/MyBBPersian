@@ -1,18 +1,9 @@
-<<<<<<< HEAD
-<?php
-/**
- * MyBB 1.6 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group, All Rights Reserved
- *
- * Translate By: MyBB.CC & My-BB.Ir
-=======
 <?php 
 /**
- * MyBB 1.6 Persian Language Pack
+ * MyBB 1.8 Persian Language Pack
  * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
  *
  * Translate By: iora.ir & My-BB.Ir
->>>>>>> stable
  */
 
 $l['task_manager'] = "مدیریت وظایف";
@@ -57,12 +48,10 @@ $l['data'] = "عملیات";
 $l['no_task_logs'] = "هیچ گزارشی بری این وظیفه وجود ندارد.";
 $l['next_run'] = "اجرای بعدی";
 $l['run_task_now'] = "اجرای این وظیفه هم اکنون";
-$l['run_task'] = "اجرای وظیفه";
 $l['disable_task'] = "غیر فعال سازی وظیفه";
+$l['run_task'] = "اجرای وظیفه";
 $l['enable_task'] = "فعال سازی وظیفه";
 $l['delete_task'] = "حذف وظیفه";
-$l['alt_enabled'] = "فعال شد";
-$l['alt_disabled'] = "غیرفعال شد";
 $l['error_invalid_task'] = "وظیفه مشخص شده وجود ندارد.";
 $l['error_missing_title'] = "شما عنوانی را برای این وظیفه وارد نکرده اید.";
 $l['error_missing_description'] = "شما توضیحی را برای این وظیفه وارد نکرده اید.";
@@ -80,4 +69,5 @@ $l['success_task_disabled'] = "وظیفه با موفقیت غیرفعال شد"
 $l['success_task_run'] = "وظیفه با موفقیت اجرا شد";
 $l['confirm_task_deletion'] = "آیا می‌خواهید این وظیفه را حذف کنید؟";
 $l['confirm_task_enable'] = "<strong>هشدار:</strong> شما در تلاش برای فعال سازی وظیفه ای هستید که تنها از طریق یک Cron اجرا می‌شود. (لطفا <a href=\"http://docs.mybb.com/Help-Task_System.html\" target=\"_blank\">مسندات</a> را برای اطلاعات بیشتر مشاهده کنید). ادامه?";
+$l['no_tasks'] = "هیچ وظیفه‌ای در این انجمن وجود ندارد.";
 ?>

@@ -1,18 +1,9 @@
-<<<<<<< HEAD
-<?php
-/**
- * MyBB 1.6 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group, All Rights Reserved
- * 
- * Translate By: MyBB.CC & My-BB.Ir
-=======
 <?php 
 /**
- * MyBB 1.6 Persian Language Pack
+ * MyBB 1.8 Persian Language Pack
  * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
->>>>>>> stable
  */
  
 $l['nav_profile'] = "پروفایل {1}";
@@ -21,6 +12,7 @@ $l['nav_add_warning'] = "اخطار به کاربر";
 $l['nav_view_warning'] = "جزئیات اخطار";
 $l['warning_for_post'] = "... ارسال:";
 $l['already_expired'] = "منقضی شده";
+$l['details_username'] = "نام‌کاربری";
 $l['warning_active'] = "فعال";
 $l['warning_revoked'] = "لغو شده";
 $l['warning_log'] = "اخطارهای ثبت شده";
@@ -35,10 +27,12 @@ $l['no_warnings'] = "این کاربر هیچ اخطاری دریافت نکرد
 $l['warn_user'] = "اخطار به کاربر";
 $l['post'] = "ارسال:";
 $l['warning_note'] = "یادداشت‌های مدیریت:";
+$l['details_warning_note'] = "یادداشت‌های مدیریت";
 $l['warning_type'] = "نوع اخطار:";
 $l['custom'] = "دلیل اختیاری";
 $l['reason'] = "دلیل:";
 $l['points'] = "موارد:";
+$l['details_reason'] = "دلیل";
 $l['warn_user_desc'] = "در اینجا شما می‌توانید درجه اخطار کاربر را در صورتیکه یک یا تعداد بیشتری قانون را نقض کرده باشد، افزایش دهید.";
 $l['send_pm'] = "اطلاع به کاربر:";
 $l['send_user_warning_pm'] = "یک پیام خصوصی به این کاربر ارسال کنید که او را از دریافت این اخطار مطلع سازد.";
@@ -78,8 +72,8 @@ $l['warning_details'] = "جزئیات اخطار";
 $l['revoke_warning'] = "لغو این اخطار";
 $l['revoke_warning_desc'] = "جهت لغو این اخطار، لطفا یک دلیل در پایین بنویسید. این هیچ تحریم یا تعلیق تحمیل شده با این اخطار را حذف نخواهد کرد.";
 $l['warning_is_revoked'] = "این اخطار لغو شده است.";
-$l['revoked_by'] = "لغو شده توسط:";
-$l['date_revoked'] = "تاریخ لغو:";
+$l['revoked_by'] = "لغو شده توسط";
+$l['date_revoked'] = "تاریخ لغو";
 $l['warning_already_revoked'] = "این اخطار پیش از این لغو شده بود.";
 $l['no_revoke_reason'] = "شما دلیلی برای لغو این اخطار وارد نکرده‌اید.";
 $l['redirect_warning_revoked'] = "این اخطار با موفقیت لغو گردید و درجه اخطار کاربران کاهش یافت.<br /><br />شما اکنون به اخطار بازگردانده خواهید شد.";

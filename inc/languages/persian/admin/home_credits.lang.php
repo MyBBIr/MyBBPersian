@@ -1,27 +1,15 @@
-<<<<<<< HEAD
-<?php
-/**
- * MyBB 1.6 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group, All Rights Reserved
- * 
- * Translate By: MyBB.CC & My-BB.Ir
-=======
 <?php 
 /**
- * MyBB 1.6 Persian Language Pack
+ * MyBB 1.8 Persian Language Pack
  * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
->>>>>>> stable
  */
 
-$l['mybb_credits'] = "اعتبار‌های مای‌بی‌بی";
+$l['mybb_credits'] = "سازندگان مای‌بی‌بی";
 $l['mybb_credits_description'] = "این اشخاص بودند که زمان خود را برای ساخت مای‌بی‌بی گذاشتند.";
 $l['about_the_team'] = "درباره‌ی گروه";
-$l['product_managers'] = "گردانندگان محصول.";
-$l['developers'] = "توسعه دهندگان.";
-$l['graphics_and_style'] = "گرافیک و قالب";
-$l['software_quality_assurance'] = "تضمین کنندگان کیفیت نرم افزار";
-$l['support_representative'] = "نماینده پشتیبانی";
-$l['pr_liaison'] = "روابط عمومی";
+$l['check_for_updates'] = "بررسی برای بروزرسانی";
+$l['error_communication'] = "یک مشکل در دریافت نام سازندگان مای‌بی‌‌بی پیش آمده‌است، لطفا چنددقیقه‌ی دیگر تلاش کنید.";
+$l['no_credits'] = "هیچ سازنده‌ای ذخیره نشده‌است. <a href=\"index.php?module=home-credits&amp;fetch_new=1\">بررسی بروزرسانی‌ها</a>.";
 ?>

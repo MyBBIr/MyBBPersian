@@ -1,18 +1,9 @@
-<<<<<<< HEAD
-<?php
-/**
- * MyBB 1.6 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group, All Rights Reserved
- * 
- * Translate By: MyBB.CC & My-BB.Ir
-=======
 <?php 
 /**
- * MyBB 1.6 Persian Language Pack
+ * MyBB 1.8 Persian Language Pack
  * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
->>>>>>> stable
  */
 
 $l['ucp_nav_width'] = "180";
@@ -35,6 +26,7 @@ $l['ucp_nav_favorite_threads'] = "موضوعات مورد‌علاقه";
 $l['ucp_nav_subscribed_threads'] = "موضوعات مشترک شده";
 $l['ucp_nav_forum_subscriptions'] = "انجمن‌های مشترک شده";
 $l['ucp_nav_drafts'] = "پیش‌نویس‌ها";
+$l['ucp_nav_drafts_active'] = "<strong>پیش‌نویس‌های ذخیره‌شده ({1})</strong>";
 $l['ucp_nav_notepad'] = "دفترچه یادداشت شخصی";
 $l['ucp_nav_view_profile'] = "نمایش مشخصات";
 $l['ucp_nav_home'] = "کنترل پنل کاربر";

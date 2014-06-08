@@ -1,18 +1,9 @@
-<<<<<<< HEAD
-<?php
-/**
- * MyBB 1.6 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group, All Rights Reserved
- * 
- * Translate By: MyBB.CC & My-BB.Ir
-=======
 <?php 
 /**
- * MyBB 1.6 Persian Language Pack
+ * MyBB 1.8 Persian Language Pack
  * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
->>>>>>> stable
  */
 
 $l['forum_announcements'] = "اعلانات انجمن";
@@ -20,6 +11,7 @@ $l['forum_announcements_desc'] = "اینجا شما می‌توانید اعلا
 $l['add_announcement'] = "اضافه کردن اعلان";
 $l['add_announcement_desc'] = "اینجا شما می‌توانید برای یک یا تمام انجمن‌ها اعلان اضافه کنید .";
 $l['update_announcement'] = "ذخیره اعلان";
+$l['preview_announcement'] = "پیش نمایش اعلان";
 $l['update_announcement_desc'] = "اینجا شما می‌توانید جزئیات اعلانات را به روز رسانی کنید.
 ";
 $l['start_date_desc'] = "در این تاریخ و زمان ( در GMT ) اعلان در انجمن انتخاب شده ظاهر می‌شود .";
@@ -59,4 +51,6 @@ $l['allow_mycode'] = "اجازه برای استفاده مای‌کد؟";
 $l['allow_smilies'] = "اجازه برای استفاده شکلک‌ها ؟";
 $l['time'] = "زمان:";
 $l['set_time'] = "آغاز زمان";
+
+$l['announcement_preview'] = 'پیش‌نمایش اعلان';
 ?>

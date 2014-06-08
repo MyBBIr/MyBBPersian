@@ -1,18 +1,9 @@
-<<<<<<< HEAD
-<?php
-/**
- * MyBB 1.6 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group, All Rights Reserved
- * 
- * Translate By: MyBB.CC & My-BB.Ir
-=======
 <?php 
 /**
- * MyBB 1.6 Persian Language Pack
+ * MyBB 1.8 Persian Language Pack
  * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
->>>>>>> stable
  */
 
 $l['nav_portal'] = "سردر";
@@ -55,7 +46,6 @@ $l['online'] = "کاربران حاضر";
 $l['online_user'] = "ما یک کاربر حاضر در انجمن دارید";
 $l['online_users'] = "ما <b>{1}</b> کاربر حاضر در انجمن دارید";
 $l['online_counts'] = "<b>{1}</b> کاربر عضو | <b>{2}</b> مهمان";
-$l['no_one'] = "هیچ کس";
 $l['print_this_item'] = "چاپ این بخش";
 $l['send_to_friend'] = "ارسال این بخش به یکی از دوستان";
 ?>

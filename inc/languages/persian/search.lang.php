@@ -1,18 +1,9 @@
-<<<<<<< HEAD
-<?php
-/**
- * MyBB 1.6 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group, All Rights Reserved
- * 
- * Translate By: MyBB.CC & My-BB.Ir
-=======
 <?php 
 /**
- * MyBB 1.6 Persian Language Pack
+ * MyBB 1.8 Persian Language Pack
  * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
->>>>>>> stable
  */
 
 $l['nav_search'] = "جست‌و‌جو";
@@ -77,7 +68,9 @@ $l['delete_threads'] = "حذف موضوعات";
 $l['move_threads'] = "جابه‌جائی موضوعات";
 $l['approve_threads'] = "تائید موضوع";
 $l['unapprove_threads'] = "رد تائید موضوع";
-$l['inline_delete_posts'] = "حذف ارسال‌ها";
+$l['inline_soft_delete_posts'] = "قراردادن ارسال‌ها درحالت حذف‌شده";
+$l['inline_restore_posts'] = "بازگردانی ارسال‌ها";
+$l['inline_delete_posts'] = "حذف ارسال‌ها برای همیشه";
 $l['inline_merge_posts'] = "ادغام ارسالها";
 $l['inline_split_posts'] = "ادغام ارسالها";
 $l['inline_approve_posts'] = "تایید ارسال‌ها";
@@ -101,6 +94,7 @@ $l['mod_options'] = "تنظیمات مدیر";
 $l['find_all'] = "جستجوی همه";
 $l['find_only_approved'] = "جستجو تائید شده‌ها";
 $l['find_only_unapproved'] = "جستجو تائید نشده‌ها";
+$l['find_only_softdeleted'] = "یافتن ارسال‌های حذف‌شده";
 $l['redirect_searchresults'] = "جستجوی شما با موفقیت انجام شد، اکنون به صفحه نتایج هدایت می‌شوید.";
 $l['error_minsearchlength'] = "یک یا چند واژه مورد جستجوی شما کوتاه تر از حداقل طول است. حداقل طول برای جستجو {1} حرف می‌باشد. <br />اگر شما در حال تلاش برای جستجو تمام عبارت جستجو، آن را در داخل کوتیشن قرار دهید. به عنوان مثال \"گروه مای‌بی‌بی در ایران -My-BB,.Ir\".";
 $l['error_nosearchresults'] = "متاسفیم، نتیجه‌ای برای جستجوی شما پیدا نشد. لطفاً برگردید و عبارات مورد جستجوی خود را تغییر دهید.";

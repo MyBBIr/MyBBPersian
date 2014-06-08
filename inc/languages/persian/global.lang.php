@@ -1,22 +1,15 @@
-<<<<<<< HEAD
-<?php
-/**
- * MyBB 1.6 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group, All Rights Reserved
- * 
- * Translate By: MyBB.CC & My-BB.Ir
-=======
 <?php 
 /**
- * MyBB 1.6 Persian Language Pack
+ * MyBB 1.8 Persian Language Pack
  * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
->>>>>>> stable
  */
 
 $l['redirect_width'] = "50%";
 $l['lastvisit_never'] = "هرگز";
+$l['lastvisit_hidden'] = "(پنهان)";
+$l['search_button'] = 'بگرد';
 $l['toplinks_memberlist'] = "لیست اعضا";
 $l['toplinks_search'] = "جست‌و‌جو";
 $l['toplinks_calendar'] = "تقویم";
@@ -24,7 +17,6 @@ $l['toplinks_help'] = "راهنما";
 $l['toplinks_portal'] = "سردر";
 $l['bottomlinks_contactus'] = "تماس با ما";
 $l['bottomlinks_returntop'] = "بازگشت به بالا";
-$l['bottomlinks_returncontent'] = "بازگشت به محتوا";
 $l['bottomlinks_syndication'] = "پیوند سایتی آراِس‌اِس";
 $l['bottomlinks_litemode'] = "حالت آرشیو";
 $l['welcome_usercp'] = "کنترل پنل کاربر";
@@ -42,9 +34,7 @@ $l['welcome_back'] = "<strong>{1} عزیز، خوش آمدید.</strong>آخری
 $l['welcome_guest'] = "مهمان عزیز خوش‌آمدید.";
 $l['welcome_current_time'] = "<strong>زمان کنونی:</strong> {1}";
 $l['moved_prefix'] = "منتقل شده:";
-$l['sticky_prefix'] = "<strong>مهم:</strong>";
 $l['poll_prefix'] = "نظرسنجی:";
-$l['announcement_prefix'] = "<strong>اطلاعیّه:</strong>";
 $l['forumbit_announcements'] = "اطلاعیه‌ها";
 $l['forumbit_stickies'] = "موضوع‌های مهم";
 $l['forumbit_forum'] = "انجمن";
@@ -56,6 +46,7 @@ $l['new_posts'] = "انجمن دارای ارسال تازه است";
 $l['no_new_posts'] = "انجمن فاقد ارسال تازه است";
 $l['click_mark_read'] = "نشانه‌گذاری به عنوان خوانده‌شده";
 $l['forum_locked'] = "انجمن بسته شده است";
+$l['forum_redirect'] = "انجمن یک تغییردهنده‌ی مسیر است";
 $l['lastpost_never'] = "-";
 $l['viewing_one'] = " (یک کاربر درحال مرور)";
 $l['viewing_multiple'] = " ({1} در حال مرور)";
@@ -108,6 +99,7 @@ $l['yes'] = "بله";
 $l['no'] = "خیر";
 $l['and'] = "و";
 $l['date'] = "تاریخ";
+$l['nobody'] = "هیچ‌کس";
 $l['attachments'] = "پیوست‌ها";
 $l['attachments_desc'] = "درصورت تمایل، شما می‌توانید یک یا چند فایل را به این پست پیوست کنید. برای این کار لازم است فایل را انتخاب و بروی گزینه سمت راست (افزودن پیوست) کلیک کنید.";
 $l['remove_attachment'] = "حذف";
@@ -121,7 +113,8 @@ $l['post_preview'] = "پیش‌نمایش";
 $l['change_user'] = "تغییر کاربر";
 $l['post_icon'] = "نماد ارسال:";
 $l['no_post_icon'] = "بدون نماد";
-$l['thread_subscription_method'] = "<strong>اشتراک‌گذاری موضوع:</strong><br /><span class=\"smalltext\">با اشتراک در موضوع در صورت بروزرسانی موضوع از طریق رایانامه به شما خبر داده می‌شود (تنها برای اعضاء)</span>";
+$l['thread_subscription_method'] = "اشتراک‌گذاری موضوع:";
+$l['thread_subscription_method_desc'] = "با اشتراک در موضوع در صورت بروزرسانی موضوع از طریق رایانامه به شما خبر داده می‌شود (تنها برای اعضاء)";
 $l['no_subscribe'] = "عدم اشتراک گذاری";
 $l['no_email_subscribe'] = "اشتراک گذاری بدون ارسال رایانامه برای اطلاع از پاسخ‌های جدید";
 $l['instant_email_subscribe'] = "اشتراک گذاری همراه با ارسال رایانامه برای اطلاع از پاسخ‌های جدید";
@@ -189,7 +182,7 @@ $l['postbit_posts'] = "پست‌ها:";
 $l['postbit_group'] = "گروه کاربری:";
 $l['postbit_joined'] = "تاریخ عضویت:";
 $l['postbit_status'] = "آمار:";
-$l['postbit_attachments'] = "فایل(های) پیوست";
+$l['postbit_attachments'] = "فایل‌های پیوست";
 $l['postbit_attachment_size'] = "اندازه";
 $l['postbit_attachment_downloads'] = "تعداد دانلود:";
 $l['postbit_attachments_images'] = "عکس(ها)";
@@ -200,6 +193,7 @@ $l['postbit_status_online'] = "آنلاین";
 $l['postbit_status_offline'] = "آفلاین";
 $l['postbit_status_away'] = "غایب";
 $l['postbit_edited'] = "آخرین ویرایش در {1} {2} توسط";
+$l['postbit_editreason'] = "دلیل ویرایش";
 $l['postbit_ipaddress'] = "آدرس آی‌پی:";
 $l['postbit_ipaddress_logged'] = "وارد شده";
 $l['postbit_post'] = "ارسال:";
@@ -221,6 +215,22 @@ $l['postbit_show_ignored_post'] = "نمایش ارسال";
 $l['postbit_currently_ignoring_user'] = "محتویات این ارسال پنهان می‌باشد، زیر کاربر {1} در <a href=\"usercp.php?action=editlists\">لیست سیاه</a> شما قرار دارد.";
 $l['postbit_warning_level'] = "درصد اخطار:";
 $l['postbit_warn'] = "اخطار به نویسنده ارسال:";
+$l['postbit_button_reputation_add'] = 'اهدا اعتبار';
+$l['postbit_button_website'] = 'وب‌سایت';
+$l['postbit_button_email'] = 'رایانامه';
+$l['postbit_button_find'] = 'یافتن';
+$l['postbit_button_report'] = 'گزارش';
+$l['postbit_button_quote'] = 'پاسخ';
+$l['postbit_button_qdelete'] = 'حذف';
+$l['postbit_button_profile'] = 'مشخصات';
+$l['postbit_button_pm'] = 'پ.خ';
+$l['postbit_button_warn'] = 'اخطار';
+$l['postbit_button_edit'] = 'ویرایش';
+$l['postbit_button_multiquote'] = 'نقل‌قول';
+$l['postbit_button_reply_pm'] = 'پاسخ';
+$l['postbit_button_reply_all'] = 'پاسخ به‌همه';
+$l['postbit_button_forward'] = 'ارسال به‌دیگری';
+$l['postbit_button_delete_pm'] = 'حذف';
 $l['forumjump'] = "پرش به انجمن:";
 $l['forumjump_select'] = "لطفا یکی را انتخاب کنید:";
 $l['forumjump_pms'] = "پیام خصوصی";
@@ -230,6 +240,7 @@ $l['forumjump_search'] = "جستجو";
 $l['forumjump_home'] = "صفحه اصلی انجمن";
 $l['redirect'] = "اکنون شما هدایت می‌شوید.";
 $l['unknown_error'] = "یک خطای ناشناخته رخ داده است.";
+$l['post_fetch_error'] = 'یک خطا در گرفتن ارسال‌ها وجود دارد.';
 $l['smilieinsert'] = "شکلک‌ها";
 $l['smilieinsert_getmore'] = "بقیه شکلک‌ها";
 $l['on'] = "روشن";
@@ -266,6 +277,15 @@ $l['second'] = "ثانیه";
 $l['second_short'] = "s";
 $l['seconds'] = "ثانیه";
 $l['seconds_short'] = "s";
+$l['rel_in'] = "در ";
+$l['rel_ago'] = "قبل";
+$l['rel_less_than'] = "کمتر‌از ";
+$l['rel_time'] = "{1}{2} {3} {4}";
+$l['rel_minutes_single'] = "دقیقه";
+$l['rel_minutes_plural'] = "دقیقه";
+$l['rel_hours_single'] = "ساعت";
+$l['rel_hours_plural'] = "ساعت";
+
 $l['permanent'] = "دائمی";
 $l['save_draft'] = "ذخیره به عنوان پیش‌نویس";
 $l['go'] = "برو";
@@ -275,11 +295,7 @@ $l['banned_warning2'] = "علت محرومیت:";
 $l['banned_warning3'] = "تاریخ پایان محرومیت:";
 $l['banned_lifted_never'] = "هرگز";
 $l['banned_email_warning'] = "شما از رایانامه نا معتبری استفاده می‌کنید، لطفا برای ادامه یک رایانامه دیگر را وارد کنید.";
-<<<<<<< HEAD
-$l['powered_by'] = "تــرجمـه شده توسط: <a href=\"http://mybb.cc/licenses/def/\" rel=\"license\">mybb.cc</a> و <a href=\"http://my-bb.ir\" target=\"_blank\" title=\"گروه پشتیبانی مای‌بی‌بی در ایران\">Www.My-BB.Ir</a><br />قدرت گرفته از: ";
-=======
 $l['powered_by'] = "تــرجمـه شده توسط: <a href=\"http://my-bb.ir\" target=\"_blank\" title=\"گروه پشتیبانی مای‌بی‌بی در ایران\">Www.My-BB.Ir</a> و <a href=\"http://iora.ir/?r=mybb\">iora.ir</a><br />قدرت گرفته از: ";
->>>>>>> stable
 $l['copyright'] = "حق چاپ و انتشار";
 $l['attach_quota'] = "شما از <strong>{1}</strong> حجم برای پیوست‌ها از بیشتر حجم مجاز ({2}) استفاده می‌کنید.";
 $l['view_attachments'] = "[نمایش همه پیوست‌های من]";
@@ -323,10 +339,14 @@ $l['ajax_loading'] = "در حال بارگذاری<br />لطفا کمی صبر �
 $l['saving_changes'] = "در حال ذخیره تغییرات...";
 $l['refresh'] = "تازه سازی";
 $l['select_language'] = "انتخاب سریع زبان";
+$l['select_theme'] = "انتخاب سریع پوسته";
 $l['invalid_post_code'] = "عدم تطابق کد مجوز. آیا شما به این کارکرد به به طور درست دسترسی پیدا کردید؟ لطفا برگردید و دوباره تلاش نمایید.";
 $l['invalid_captcha'] = "لطفا برای ادامه کد تصویر امنیتی را وارد کنید، لطفا دقیقا همان چیز که در تصویر می‌بینید را وارد کنید";
 $l['invalid_captcha_verify'] = "کد تصویر امنیتی وارد شده نادرست است. لطفا همان‌چیز که در تصویر می‌بینید ر وارد کنید";
 $l['invalid_captcha_transmit'] = "برای تصویر امنیتی خطایی رخ داده‌است، لطفا مجدد تلاش فرمائید.";
+$l['captcha_fetch_failure'] = 'یک خطا در گرفتن تصویر امنیتی جدید رخ‌داده است.';
+$l['invalid_ayah_result'] = "بازی آیا شما یک انسان‌هستید تکمیل نشده‌است، لطفا دوباره تلاش کنید.";
+
 $l['timezone_gmt_minus_1200'] = "(GMT -12:00) Enitwetok, Kwajalien";
 $l['timezone_gmt_minus_1100'] = "(GMT -11:00) Nome, Midway Island, Samoa";
 $l['timezone_gmt_minus_1000'] = "(GMT -10:00) Hawaii";
@@ -375,6 +395,8 @@ $l['task_userpruning_ran'] = "پاک سازی کاربران با موفقیت �
 $l['task_delayedmoderation_ran'] = "مدیریت تاخیری با موفقیت انجام شد.";
 $l['task_massmail_ran_errors'] = "یک یا چند مشکل در هنگام ارسال به \"{1}\" رخ داده است:
 {2}";
+$l['task_versioncheck_ran'] = "بررسی نسخه با موفقیت اجرا شد.";
+$l['task_versioncheck_ran_errors'] = "نمی‌تواند برای بررسی نسخه به مای‌بی‌بی متصل شود.";
 $l['dismiss_notice'] = "نادیده گرفتن این تذکر";
 $l['next'] = "بعدی";
 $l['previous'] = "قبلی";
@@ -384,4 +406,11 @@ $l['email_addr'] = "آدرس‌رایانامه";
 $l['board_name'] = "نام‌انجمن";
 $l['board_url'] = "آدرس‌انجمن";
 $l['comma'] = "،";
+
+$l['debug_generated_in'] = "ایجاد شده در {1}";
+$l['debug_weight'] = "({1}% PHP / {2}% {3})";
+$l['debug_sql_queries'] = "کوئری‌های اس‌کیو‌ال: {1}";
+$l['debug_server_load'] = "بارگذاری سرور: {1}";
+$l['debug_memory_usage'] = "حافظه مصرفی: {1}";
+$l['debug_advanced_details'] = "اطلاعات پیشرفته";
 ?>

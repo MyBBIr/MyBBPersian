@@ -1,18 +1,9 @@
-<<<<<<< HEAD
-<?php
-/**
- * MyBB 1.6 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group, All Rights Reserved
- * 
- * Translate By: MyBB.CC & My-BB.Ir
-=======
 <?php 
 /**
- * MyBB 1.6 Persian Language Pack
+ * MyBB 1.8 Persian Language Pack
  * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
->>>>>>> stable
  */
 
 $l['no_new_subject'] = "عنوان جدیدی وارد نشده است.";
@@ -24,7 +15,7 @@ $l['no_permission_edit_subject'] = "شما اجازه تغییر عنوان مو
 $l['thread_closed_edit_message'] = "این موضوع بسته شده است و شما نمی‌توانید مطالب آن را ویرایش کنید.";
 $l['no_permission_edit_post'] = "شما اجازه ویرایش این متن را ندارید.";
 $l['edit_time_limit'] = "شما تنها می‌توانید {1} دقیقه پس از ارسال مطلب، آن را ویرایش کنید.";
-$l['postbit_edited'] = "آخرین تغییر در ارسال: {1} {2} توسط";
+$l['postbit_edited'] = "آخرین تغییر در ارسال: {1} توسط";
 $l['save_changes'] = "ذخیره تغییرات";
 $l['cancel_edit'] = "لغو ویرایش";
 $l['captcha_not_exists'] = "کد تصویری‌ای که شما قصد دوباره سازی آن را دارید وجود ندارد.";

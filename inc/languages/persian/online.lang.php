@@ -1,18 +1,9 @@
-<<<<<<< HEAD
-<?php
-/**
- * MyBB 1.6 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group, All Rights Reserved
- * 
- * Translate By: MyBB.CC & My-BB.Ir
-=======
 <?php 
 /**
- * MyBB 1.6 Persian Language Pack
+ * MyBB 1.8 Persian Language Pack
  * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
->>>>>>> stable
  */
 
 $l['nav_online'] = "افراد حاضر در انجمن";
@@ -107,7 +98,7 @@ $l['online_count'] = "{1} {2} فعال در {3} دقیقه گذشته ({4} {5}،
 $l['ip'] = "آی‌پی:";
 $l['resolves_to'] = "نام میزبان:";
 $l['if_resolvable'] = "(در صورت امکان)";
-$l['admin_options'] = "گزینه‌های مدیر:";
+$l['admin_options'] = "گزینه‌های مدیر";
 $l['search_regip_users'] = "جستجو کسانی که با این آیپی ثبت نام کرده اند";
 $l['search_postip_users'] = "جستجو کسانی که با این آی پی ارسال داشته اند";
 $l['lookup'] = "[جستجو]";

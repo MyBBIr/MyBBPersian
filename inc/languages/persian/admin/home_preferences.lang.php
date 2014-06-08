@@ -1,18 +1,9 @@
-<<<<<<< HEAD
-<?php
-/**
- * MyBB 1.6 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group, All Rights Reserved
- * 
- * Translate By: MyBB.CC & My-BB.Ir
-=======
 <?php 
 /**
- * MyBB 1.6 Persian Language Pack
+ * MyBB 1.8 Persian Language Pack
  * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
->>>>>>> stable
  */
 
 $l['preferences_and_personal_notes'] = "تنظیم‌ها و یادداشت‌های شخصی";
@@ -20,11 +11,13 @@ $l['prefs_and_personal_notes_description'] = "در اینجا شما می‌تو
 $l['preferences'] = "تنظیم‌ها";
 $l['global_preferences'] = "تنظیم‌های عمومی";
 $l['acp_theme'] = "پوسته‌ی کنترل پنل مدیر";
-$l['select_acp_theme'] = "لطفا یک پوسته انتخاب کنید تا از آن در کنترل پنل مدیر استفاده نمایید";
+$l['select_acp_theme'] = "لطفا یک پوسته انتخاب کنید تا از آن در کنترل پنل مدیر استفاده نمایید.";
+$l['acp_language'] = "زبان کنترل‌پنل‌مدیریت";
+$l['select_acp_language'] = "لطفا یک زبان را برای استفاده در کنترل‌پنل‌مدیریت انتخاب کنید.";
 $l['notes_not_shared'] = "این یادداشت‌ها برای مدیران دیگر قابل نمایش نیستند.";
 $l['save_notes_and_prefs'] = "ذخیره";
 $l['personal_notes'] = "یادداشت‌های شخصی";
-$l['codepress'] = "روشن یا خاموش کردن کدپرس";
-$l['use_codepress_desc'] = "در صورتی که اینترنت شما کم سرعت است این را خاموش کنید. (کدپرس سیستمی است که در قسمت ویرایش کدهای مختلف را رنگی می‌کند).";
+$l['codemirror'] = "روشن یا خاموش کردن کدمیرور";
+$l['use_codemirror_desc'] = "در صورتی که اینترنت شما کم سرعت است این را خاموش کنید. (کدمیرور سیستمی است که در قسمت ویرایش کدهای مختلف را رنگی می‌کند).";
 $l['success_preferences_updated'] = "تنظیم‌ها با موفقیت ذخیره شدند.";
 ?>

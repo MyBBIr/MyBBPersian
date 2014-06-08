@@ -1,18 +1,9 @@
-<<<<<<< HEAD
-<?php
-/**
- * MyBB 1.6 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group, All Rights Reserved
- * 
- * Translate By: MyBB.CC & My-BB.Ir
-=======
 <?php 
 /**
- * MyBB 1.6 Persian Language Pack
+ * MyBB 1.8 Persian Language Pack
  * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
->>>>>>> stable
  */
  
 $l['banning'] = "محرومیت";
@@ -39,7 +30,7 @@ $l['add_disallowed_email_address'] = "اضافه کردن یک آدرس رایا
 $l['email_address_desc'] = "*توجه : برای نشان دادن مطابقت wild card ، از این قسمت استفاده کنید";
 $l['disallow_email_address'] = "رایانامه پذیرفته نشده";
 $l['ban_an_ip_address'] = "آدرسهای آی‌پی محروم شده";
-$l['ip_address_desc'] = "* تذکر: برای محروم کردن یک دامنه آی‌پی به مثال زیر توجه کنید. (* مثال: 127.0.0 )";
+$l['ip_address_desc'] = "* تذکر: برای محروم کردن یک دامنه آی‌پی به مثال زیر توجه کنید. (* مثال: 127.0.0 ) یا نماد CIDR (مثال 127.0.0.0/8)";
 $l['ban_ip_address'] = "محروم کردن آدرس آی‌پی";
 $l['error_missing_ban_input'] = "برای محرومیت باید یک مقدار وارد کنید.";
 $l['error_invalid_filter'] = "فیلتر مشخص شده وجودندارد.";

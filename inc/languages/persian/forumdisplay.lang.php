@@ -1,18 +1,9 @@
-<<<<<<< HEAD
-<?php
-/**
- * MyBB 1.6 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group, All Rights Reserved
- * 
- * Translate By: MyBB.CC & My-BB.Ir
-=======
 <?php 
 /**
- * MyBB 1.6 Persian Language Pack
+ * MyBB 1.8 Persian Language Pack
  * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
->>>>>>> stable
  */
 
 $l['post_thread'] = "ارسال موضوع";
@@ -65,7 +56,9 @@ $l['close_threads'] = "بستن موضوعات";
 $l['open_threads'] = "باز کردن موضوعات";
 $l['stick_threads'] = "سنجاق کردن موضوعات";
 $l['unstick_threads'] = "برداشتن سنجاق از موضوعات";
-$l['delete_threads'] = "حذف موضوعات";
+$l['soft_delete_threads'] = "قراردادن موضوعات درحالت حذف‌شده";
+$l['restore_threads'] = "بازگردانی موضوعات";
+$l['delete_threads'] = "حذف موضوعات برای همیشه";
 $l['move_threads'] = "انتقال موضوعات";
 $l['approve_threads'] = "تایید موضوعات";
 $l['unapprove_threads'] = "عدم تایید موضوعات";
@@ -97,4 +90,6 @@ $l['all_selected'] = "همه <strong>{1}</strong> موضوع این انجمن �
 $l['select_all'] = "انتخاب همه <strong>{1}</strong> موضوع این انجمن";
 $l['clear_selection'] = "پاک کردن انتخاب‌ها";
 $l['error_containsnoforums'] = "متاسفیم، انجمنی که در حال مشاهده آن هستید فاقد زیرانجمن می‌باشد.";
+
+$l['inline_edit_description'] = '(برای ویرایش کلیک‌کرده و نگه‌دارید)';
 ?>

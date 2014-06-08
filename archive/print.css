@@ -59,7 +59,7 @@ h1 a {
 .post .header .dateline {
 	padding: 4px;
 	color: #777;
-	float: left;
+	float: right;
 	margin-top: -20px;
 }
 
@@ -141,5 +141,5 @@ h3 {
 }
 
 .quote_body, .code_body {
-	margin-right: 18px;
+	margin-left: 18px;
 }

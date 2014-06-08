@@ -1,18 +1,9 @@
-<<<<<<< HEAD
-<?php
-/**
- * MyBB 1.6 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group, All Rights Reserved
- * 
- * Translate By: MyBB.CC & My-BB.Ir
-=======
 <?php 
 /**
- * MyBB 1.6 Persian Language Pack
+ * MyBB 1.8 Persian Language Pack
  * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
->>>>>>> stable
  */
 
 
@@ -53,8 +44,8 @@ $l['days'] = "روز";
 
 $l['prune_moderator_logs'] = "حذف گزارشات ناظم";
 $l['date_range'] = "محدوده زمانی:";
-$l['all_forums'] = "همه‌ی انجمن‌ها";
 
 $l['success_pruned_mod_logs'] = "گزارشات مدیر با موفقیت حذف شدند!";
+$l['note_logs_locked'] = "به دلایل امنیتی، نمی‌توان گزارشات ۲۴ ساعت گذشته را حذف کرد.";
 
 ?>

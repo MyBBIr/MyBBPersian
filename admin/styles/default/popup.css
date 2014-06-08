@@ -14,7 +14,7 @@ body {
 }
 
 .popup_title {
-	font-family: 'Lucida Grande', 'Trebuchet MS', Verdana, Sans-Serif;
+	font-family: Tahoma, 'Lucida Grande', 'Trebuchet MS', Verdana, Sans-Serif;
 	font-size: 170%;
 	letter-spacing: -1px;
 	font-weight: bold;
@@ -24,7 +24,7 @@ body {
 }
 
 .close_link {
-	float: right;
+	float: left;
 	font-size: 13px;
 	margin-top: 7px;
 	font-weight: normal;

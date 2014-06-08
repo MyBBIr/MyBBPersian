@@ -1,18 +1,9 @@
-<<<<<<< HEAD
-<?php
-/**
- * MyBB 1.6 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group, All Rights Reserved
- * 
- * Translate By: MyBB.CC & My-BB.Ir
-=======
 <?php 
 /**
- * MyBB 1.6 Persian Language Pack
+ * MyBB 1.8 Persian Language Pack
  * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
->>>>>>> stable
  */
 
 $l['nav_calendar'] = "تقویم";
@@ -22,11 +13,7 @@ $l['nav_addevent'] = "افزودن رویداد";
 $l['nav_editevent'] = "ویرایش رویداد";
 $l['nav_move_event'] = "جابجا کردن رویداد";
 $l['calendar_disabled'] = "شما نمی‌توانید از قابلیت‌های تقویم استفاده کنید زیرا تقویم توسط مدیریت غیر فعال شده است";
-<<<<<<< HEAD
-// In some languages these months need to be slightly different than those defined in global.lang.php
-=======
 /* In some languages these months need to be slightly different than those defined in global.lang.php */
->>>>>>> stable
 $l['alt_month_1'] = "ژانویه";
 $l['alt_month_2'] = "فوریه";
 $l['alt_month_3'] = "مارس";
@@ -146,4 +133,5 @@ $l['redirect_eventadded'] = "رویداد با موفقیت اضافه شد.<br 
 $l['redirect_eventadded_moderation'] = "رویداد با موفقیت اضافه شد اما نیاز به تایید مدیریت دارد.<br />اکنون به تقویم باز می‌گردید";
 $l['redirect_eventunapproved'] = "رویداد با موفقیت رد تایید شد<br />اکنون به رویداد باز می‌گردید";
 $l['redirect_eventapproved'] = "رویداد با موفقیت تایید شد<br />اکنون به رویداد باز می‌گردید";
+$l['redirect_eventmoved'] = "رویداد با موفقیت انتقال داده شد.<br />اکنون بازگردانده می‌شوید.";
 ?>

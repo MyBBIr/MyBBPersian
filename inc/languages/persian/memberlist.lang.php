@@ -1,18 +1,9 @@
-<<<<<<< HEAD
-<?php
-/**
- * MyBB 1.6 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group, All Rights Reserved
- * 
- * Translate By: MyBB.CC & My-BB.Ir
-=======
 <?php 
 /**
- * MyBB 1.6 Persian Language Pack
+ * MyBB 1.8 Persian Language Pack
  * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
->>>>>>> stable
  */
 
 $l['nav_memberlist'] = "لیست اعضا";
@@ -37,13 +28,15 @@ $l['order_asc'] = "چیدمان صعودی‌";
 $l['order_desc'] = "چیدمان نزولی";
 $l['forumteam'] = "نمایش کادر مدیریت";
 $l['advanced_search'] = "جستجوی پیشرفته";
+$l['nav_memberlist_search'] = "جستجو";
 $l['search_member_list'] = "جستجو در لیست اعضا";
 $l['search_criteria'] = "معیارهای جستجو";
 $l['begins_with'] = "شروع با";
 $l['username_contains'] = "شامل";
 $l['search_website'] = "وب سایت";
 $l['search_aim'] = "AIM Screen Name";
-$l['search_msn'] = "Windows Live Messenger Address";
+$l['search_skype'] = "Skype Address";
+$l['search_google'] = "Google Talk Address";
 $l['search_yahoo'] = "Yahoo! Messenger Screen Name";
 $l['search_icq'] = "ICQ Number";
 $l['search_options'] = "گزینه‌های جستجو";
