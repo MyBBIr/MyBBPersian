@@ -59,6 +59,7 @@ $l['subject'] = "عنوان";
 $l['message'] = "پیام";
 $l['text_based'] = "مبنی بر متن";
 $l['preview'] = "پیش نمایش";
+$l['mass_mail_preview'] = "پیش‌نمایش پیام‌انبوه";
 $l['html_based'] = "مبنی بر اچ‌تی‌ام‌ال";
 $l['total_recipients'] = "کل دریافت کنندگان";
 $l['change_recipient_conds'] = "تغییر دریافت کنندگان";

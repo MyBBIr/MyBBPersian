@@ -183,7 +183,8 @@ $l['edited_user_info'] = "<strong>کاربر:</strong> <a href=\"{2}\">{1}</a>";
 $l['edited_user_ban'] = "محرومیت کاربر ویرایش شد";
 $l['banned_user'] = "کاربر محروم شد";
 $l['lifted_ban'] = "محرومیت کاربر خاتمه یافت";
-+$l['no_bans_ending'] = "هیچ محرومیتی وجود ندارد که به زودی پایان یابد.";
+$l['no_bans_ending'] = "هیچ محرومیتی وجود ندارد که به زودی پایان یابد.";
+$l['close_window'] = "بستن پنجره";
 $l['warning_logs'] = "لاگ‌های اخطار";
 $l['warned_user'] = "کاربر مورد اخطار";
 $l['warning'] = "اخطار";
@@ -272,4 +273,7 @@ $l['error_invalid_start_date'] = "تاریخ شروع نمایش اطلاعیه 
 $l['error_invalid_end_date'] = "تاریخ پایان نمایش اطلاعیه نامعتبر است.";
 $l['error_end_before_start'] = "تاریخ پایان باید پس از تاریخ شروع باشد.";
 $l['error_invalid_announcement'] = "اعلان مشخص شده معتبر نمی‌باشد.";
+$l['announcement_added'] = "اطلاعیه اضافه شد";
+$l['announcement_edited'] = "اطلاعیه ویرایش شد";
+$l['announcement_deleted'] = "اطلاعیه حذف شد";
 ?>

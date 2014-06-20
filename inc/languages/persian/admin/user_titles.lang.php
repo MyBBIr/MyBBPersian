@@ -12,6 +12,7 @@ $l['add_new_user_title'] = "افزودن عنوان کاربری جدید";
 $l['add_new_user_title_desc'] = "این قسمت به شما اجازه می‌دهد تا یک عنوان کاربری اضافه کنید. <i>پیام: این <u><a href=\"index.php?module=user-group_promotions\">سیستم ترفیع</a></u><strong>نمی‌باشد.</strong>";
 $l['error_missing_title'] = "شما عنوانی برای این عنوان کابری وارد نکرده‌اید.";
 $l['error_missing_posts'] = "شما حداقل ارسال‌ها را برای این عنوان کاربری وارد نکرده‌اید.";
++$l['error_cannot_have_same_posts'] = "این عنوان کاربری نمی‌تواند دارای حداقل تعداد ارسال مشابه عنوان کاربری دیگر باشد.";
 $l['error_invalid_user_title'] = "شما یک عنوان کاربری بی اعتبار مشخص کرده‌اید.";
 $l['success_user_title_created'] = "عنوان کاربری جدید با موفقیت ایجاد شد.";
 $l['success_user_title_updated'] = "عنوان کابری با موفقیت بروز شد.";
