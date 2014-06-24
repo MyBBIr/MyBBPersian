@@ -276,4 +276,6 @@ $l['error_invalid_announcement'] = "اعلان مشخص شده معتبر نمی
 $l['announcement_added'] = "اطلاعیه اضافه شد";
 $l['announcement_edited'] = "اطلاعیه ویرایش شد";
 $l['announcement_deleted'] = "اطلاعیه حذف شد";
+
+$l['post'] = 'ارسال';
 ?>
