@@ -216,6 +216,8 @@ $l['admin_log_tools_tasks_enable'] = "وظیفه #{1} ({2}) فعال شد";
 $l['admin_log_tools_tasks_disable'] = "وظیفه #{1} ({2}) غیر فعال شد";
 $l['admin_log_tools_tasks_run'] = "وظیفه #{1} ({2}) اجرا شد";
 
+$l['admin_log_user_admin_permissions_delete_user'] = "سطوح دسترسی مدیریت برای کاربر #{1} ({2}) حذف شد";
+$l['admin_log_user_admin_permissions_delete_group'] = "سطوح دسترسی گروه مدیریت برای گروه کاربری #{1} ({2}) حذف شد";
 $l['admin_log_user_admin_permissions_edit_user'] = "سطوح دسترسی مدیریت برای کاربر #{1} ({2}) ویرایش شد";
 $l['admin_log_user_admin_permissions_edit_group'] = "سطوح دسترسی گروه مدیریت برای گروه کاربری #{1} ({2}) ویرایش شد";
 $l['admin_log_user_admin_permissions_edit'] = "سطوح دسترسی پیش فرض مدیریت ویرایش شدند";

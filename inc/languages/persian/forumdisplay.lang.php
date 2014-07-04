@@ -71,6 +71,7 @@ $l['forum_announcements'] = "اعلانات انجمن";
 $l['sticky_threads'] = "موضوعات سنجاق‌شده";
 $l['normal_threads'] = "موضوعات معمولی";
 $l['icon_dot'] = "شامل ارسال‌های شما. ";
+$l['icon_no_new'] = "فاقد ارسال‌های تازه.";
 $l['icon_new'] = "ارسال‌های جدید.";
 $l['icon_hot'] = " موضوع داغ.";
 $l['icon_lock'] = " موضوع قفل شده.";
