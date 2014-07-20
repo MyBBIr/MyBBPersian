@@ -405,7 +405,7 @@ $l['massmail_username'] = "نام‌کاربری";
 $l['email_addr'] = "آدرس‌رایانامه";
 $l['board_name'] = "نام‌انجمن";
 $l['board_url'] = "آدرس‌انجمن";
-$l['comma'] = "،";
+$l['comma'] = "، ";
 
 $l['debug_generated_in'] = "ایجاد شده در {1}";
 $l['debug_weight'] = "({1}% PHP / {2}% {3})";
