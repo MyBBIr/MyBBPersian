@@ -370,5 +370,5 @@ $l['massmail_username'] = "نام‌کاربری";
 $l['email_addr'] = "آدرس‌رایانامه";
 $l['board_name'] = "نام‌انجمن";
 $l['board_url'] = "آدرس‌انجمن";
-$l['comma'] = "،";
+$l['comma'] = "، ";
 ?>
