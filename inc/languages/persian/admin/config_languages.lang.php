@@ -48,5 +48,3 @@ $l['alert_note_cannot_write'] = "پیش از آنکه این فایل زبانی
 $l['success_langfile_updated'] = "فایل زبانی با موفقیت به روزرسانی شد.";
 $l['success_langprops_updated'] = "خواص زبان با موفقیت به روزرسانی شد.";
 $l['success_quickphrases_updated'] = "عبارات زبان با موفقیت به روز رسانی گردیدند.";
-
-?>

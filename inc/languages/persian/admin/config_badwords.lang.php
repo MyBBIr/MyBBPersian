@@ -28,4 +28,3 @@ $l['success_added_bad_word'] = "فیلتر با موفقیت اضافه شد. ";
 $l['success_deleted_bad_word'] = "فیلتر با موفقیت حذف شد.";
 $l['success_updated_bad_word'] = "فیلتر با موفقیت به روز رسانی شد.";
 $l['confirm_bad_word_deletion'] = "آیا مطمئنید که می‌خواهید این فیلتر را حذف کنید؟";
-?>

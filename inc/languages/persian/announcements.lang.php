@@ -13,4 +13,3 @@ $l['error_invalidannouncement'] = "اطلاعیه مشخص شده نامعتبر
 $l['announcement_edit'] = "ویرایش این اطلاعیه";
 $l['announcement_qdelete'] = "حذف این اطلاعیه";
 $l['announcement_quickdelete_confirm'] = "آیا شما مطمئن هستید که می‌خواهید این اطلاعیه را حذف کنید؟";
-?>

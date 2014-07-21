@@ -281,5 +281,3 @@ $l['admin_log_user_users_inline_banned_perm'] = "{1} کاربر بطور دائ�
 $l['admin_log_user_users_inline_banned_temp'] = "{1} کاربر تا {2} محروم شد";
 $l['admin_log_user_users_inline_activated'] = "{1} کاربر فعال گردید";
 $l['admin_log_user_users_inline_lift'] = "محرومیت {1} کاربر برداشته شد";
-
-?>

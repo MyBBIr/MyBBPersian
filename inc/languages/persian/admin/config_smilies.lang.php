@@ -55,4 +55,3 @@ $l['success_multiple_smilies_updated'] = "شکلک‌ها با موفقیت به
 $l['success_smilie_deleted'] = "شکلک انتخاب شده با موفقیت حذف گردید.";
 $l['success_mass_edit_updated'] = "شکلک‌ها با موفقیت به روز رسانی گردیند.";
 $l['confirm_smilie_deletion'] = "آیا شما مطمئن هستید که می‌خواهید این شکلک را حذف نمایید؟";
-?>

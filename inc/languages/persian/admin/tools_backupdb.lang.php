@@ -55,4 +55,3 @@ $l['alert_not_writable'] = "امکان نوشتن در پوشه پشتیبان (
 $l['confirm_backup_deletion'] = "آیا از حذف این فایل پشتیان اظمینان دارید؟";
 $l['success_backup_deleted'] = "فایل پشتیبان با موفقیت حذف شد.";
 $l['success_backup_created'] = "فایل پشتیبان با موفقیت ایجاد شد.";
-?>

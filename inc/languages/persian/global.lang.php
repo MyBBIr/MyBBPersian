@@ -413,4 +413,3 @@ $l['debug_sql_queries'] = "کوئری‌های اس‌کیو‌ال: {1}";
 $l['debug_server_load'] = "بارگذاری سرور: {1}";
 $l['debug_memory_usage'] = "حافظه مصرفی: {1}";
 $l['debug_advanced_details'] = "اطلاعات پیشرفته";
-?>

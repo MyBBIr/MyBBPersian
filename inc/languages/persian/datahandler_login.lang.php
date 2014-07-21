@@ -12,4 +12,3 @@ $l['logindata_invalidpwordusernamecombo'] = "شما نام‌کاربری/رمز
 
 $l['logindata_regimageinvalid'] = "کد تصویر امنیتی وارد شده صحیح نمی‌باشد، لطفا  عیناً آنچه در تصویر است را وارد کنید.";
 $l['logindata_regimagerequired'] = "لطفا کدتصویر امنیتی را برای ادامه فرایند ورود در فیلد زیر وارد کنید.";
-?>

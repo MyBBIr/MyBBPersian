@@ -53,4 +53,3 @@ $l['time'] = "زمان:";
 $l['set_time'] = "آغاز زمان";
 
 $l['announcement_preview'] = 'پیش‌نمایش اعلان';
-?>

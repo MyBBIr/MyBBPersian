@@ -17,4 +17,3 @@ $l['no_problems_found'] = "مشکلی یافت نشد";
 $l['changed'] = "تغییر یافته";
 $l['missing'] = "حذف شده";
 $l['status'] = "وضعیت";
-?>

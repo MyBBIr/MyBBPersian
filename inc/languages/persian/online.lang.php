@@ -132,4 +132,3 @@ $l['changing_dst'] = "در حال تغییر وضعیت DST";
 $l['printing_thread'] = "در حال چاپ یک موضوع";
 $l['printing_thread2'] = "در حال چاپ موضوع <a href=\"{1}\">{2}</a>";
 $l['managing_buddyignorelist'] = "مدیریت لیست دوستان/لیست سیاه";
-?>

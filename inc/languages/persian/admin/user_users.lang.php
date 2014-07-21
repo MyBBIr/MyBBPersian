@@ -389,4 +389,3 @@ $l['custom_profile_fields_match'] = "مطابقت فیلد‌های اختیار
 $l['ipaddress_misc_info'] = "دیگر اطلاعات درباره‌ی '{1}'";
 $l['ipaddress_host_name'] = "نام میزبان";
 $l['ipaddress_location'] = "موقعیت GeoIP";
-?>

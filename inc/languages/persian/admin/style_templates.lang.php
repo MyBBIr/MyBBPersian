@@ -154,4 +154,3 @@ $l['success_template_set_saved'] = "مجموعه قالب انتخاب شده ب
 $l['success_template_set_deleted'] = "مجموعه قالب انتخاب شده با موفقیت حذف گردید.";
 $l['success_template_group_saved'] = "گروه‌قالب انتخاب شده با موفقیت ذخیره گردید.";
 $l['success_template_group_deleted'] = "گروه‌قالب انتخاب شده با موفقیت حذف گردید.";
-?>

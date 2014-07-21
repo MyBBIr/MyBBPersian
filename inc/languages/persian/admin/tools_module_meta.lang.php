@@ -38,5 +38,3 @@ $l['statistics'] = "آمار";
 
 $l['can_manage_file_verification'] = "بتواند اعتبارسنجی فایل را مدیریت کند؟";
 $l['can_view_statistics'] = "بتواند آمار را ببیند؟";
-
-?>

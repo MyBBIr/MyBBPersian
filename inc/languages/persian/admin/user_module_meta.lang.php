@@ -21,4 +21,3 @@ $l['can_manage_user_bans'] = "بتواند کاربران محروم را مدی
 $l['can_manage_admin_permissions'] = "بتواند دسترسی‌های مدیریت را مدیریت نماید؟";
 $l['can_send_mass_mail'] = "بتواند رایانامه گروهی ارسال نماید؟";
 $l['can_manage_group_promotions'] = "بتواند درجه‌های گروه را مدیریت نماید؟";
-?>

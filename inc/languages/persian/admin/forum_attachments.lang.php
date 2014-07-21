@@ -104,4 +104,3 @@ $l['in'] = "بصورت";
 $l['button_delete_orphans'] = "حذف پیوست‌های بدون صاحب انتخابی";
 $l['button_delete_attachments'] = "حذف پیوست‌های انتخابی";
 $l['button_find_attachments'] = "یافتن پیوست‌ها";
-?>

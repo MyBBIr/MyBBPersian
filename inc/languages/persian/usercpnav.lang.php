@@ -32,4 +32,3 @@ $l['ucp_nav_view_profile'] = "نمایش مشخصات";
 $l['ucp_nav_home'] = "کنترل پنل کاربر";
 $l['ucp_nav_usergroups'] = "گروه‌های من";
 $l['ucp_nav_attachments'] = "مدیریت پیوست‌ها";
-?>

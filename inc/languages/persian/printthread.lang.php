@@ -10,4 +10,3 @@ $l['forum'] = "انجمن:";
 $l['printable_version'] = "نسخه قابل چاپ";
 $l['pages'] = "صفحات";
 $l['thread'] = "موضوع:";
-?>

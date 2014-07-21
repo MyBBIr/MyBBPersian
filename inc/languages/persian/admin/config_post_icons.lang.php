@@ -39,4 +39,3 @@ $l['success_post_icons_added'] = "آیکون‌های ارسال انتخاب ش
 $l['success_post_icon_updated'] = "آیکون ارسال با موفقیت به روز شد.";
 $l['success_post_icon_deleted'] = "آیکون ارسال انتخاب شده با موفقیت حذف شد ";
 $l['confirm_post_icon_deletion'] = "آیا شما مایل به حذف این آیکون ارسال هستید ؟";
-?>

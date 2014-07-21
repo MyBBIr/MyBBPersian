@@ -19,4 +19,3 @@ $l['error_incorrect_cache'] = "کش نادرست تعیین شده.";
 $l['error_no_cache_specified'] = "شما نمی‌توانید یک کش را برای مشاهده مشخص کنید.";
 $l['success_cache_rebuilt'] = "بازسازی کش تکمیل شد.";
 $l['success_cache_reloaded'] = "کش با موفقیت بازسازی شد.";
-?>

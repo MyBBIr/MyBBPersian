@@ -28,4 +28,3 @@ $l['eventdata_invalid_repeat_month_interval'] = "تعداد ماه تکرار و
 $l['eventdata_invalid_repeat_year_interval'] = "تعداد سال تکرار وارد شده توسط شما نامعتبر است";
 $l['eventdata_event_wont_occur'] = "با استفاده از زمان شروع و پایان به همراه تنظیمات این رویداد، تکرار این رویداد رخ خواهد داد.";
 $l['eventdata_no_permission_private_event'] = "شما اجازه ارسال رویداد خصوصی ندارید.";
-?>

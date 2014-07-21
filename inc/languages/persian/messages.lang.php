@@ -379,4 +379,3 @@ $l['email_emailuser'] = "{1}،
 {4}/usercp.php?action=options
 
 ------------------------------------------";
-?>

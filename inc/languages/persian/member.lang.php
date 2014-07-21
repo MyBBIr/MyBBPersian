@@ -214,4 +214,3 @@ $l['add_to_buddy_list'] = "اضافه کردن به لیست دوستان";
 $l['remove_from_ignore_list'] = "حذف کردن از لیست سیاه";
 $l['add_to_ignore_list'] = "اضافه کردن به لیست سیاه";
 $l['report_user'] = "گزارش کاربر";
-?>

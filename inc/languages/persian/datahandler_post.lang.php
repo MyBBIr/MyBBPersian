@@ -22,4 +22,3 @@ $l['thread_closed'] = "موضوع بسته شد";
 $l['thread_opened'] = "موضوع باز شد";
 $l['thread_stuck'] = "موضوع تائید شد";
 $l['thread_unstuck'] = "موضوع رد تائید شد.";
-?>

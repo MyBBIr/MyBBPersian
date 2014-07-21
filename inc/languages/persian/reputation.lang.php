@@ -81,4 +81,3 @@ $l['delete_reputation_confirm'] = "آیا شما مطمئن هستید که می
 $l['delete_reputation_log'] = "رتبه حذف شده توسط {1}";
 $l['reputations_disabled_group'] = "سیستم رتبه بندی، برای کاربران این گروه کاربری غیر فعال شده است.";
 $l['rate_user'] = "دادن رتبه به کاربر";
-?>

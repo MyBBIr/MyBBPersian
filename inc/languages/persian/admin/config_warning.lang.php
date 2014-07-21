@@ -69,4 +69,3 @@ $l['success_warning_type_deleted'] = "شیوه اخطار انتخابی با م
 $l['confirm_warning_level_deletion'] = "آیا شما از حذف این سطح اخطار اطمینان دارید؟";
 $l['confirm_warning_type_deletion'] = "آیا شما از حذف این شیوه اخطار اطمینان دارید؟";
 $l['expiration_permanent'] = "دائمی";
-?>

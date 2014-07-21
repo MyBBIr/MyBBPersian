@@ -187,4 +187,3 @@ $l['success_group_leader_updated'] = "مدیر گروه انتخابی با مو
 $l['success_group_leader_deleted'] = "کاربر انتخابی از لیست مدیران گروه، برای این گروه با موفقیت حذف شد.";
 $l['confirm_group_deletion'] = "آیا برای حذف این گروه کاربری مطمئن‌ هستید؟";
 $l['confirm_group_leader_deletion'] = "آیا برای حذف این مدیر گروه مطمئن‌ هستید؟";
-?>

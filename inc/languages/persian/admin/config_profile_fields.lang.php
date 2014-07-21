@@ -64,4 +64,3 @@ $l['success_profile_field_added'] = "فیلد پروفایل اختصاصی با
 $l['success_profile_field_saved'] = "فیلد پروفایل اختصاصی با موفقیت ذخیره شد.";
 $l['success_profile_field_deleted'] = "فیلد پروفایل اختصاصی انتخاب شده با موفقیت حذف شد";
 $l['confirm_profile_field_deletion'] = "یا شما مطمئن هستید که می‌خواهید این فیلد پروفایل را حذف کنید ؟";
-?>

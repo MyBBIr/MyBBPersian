@@ -70,4 +70,3 @@ $l['success_task_run'] = "وظیفه با موفقیت اجرا شد";
 $l['confirm_task_deletion'] = "آیا می‌خواهید این وظیفه را حذف کنید؟";
 $l['confirm_task_enable'] = "<strong>هشدار:</strong> شما در تلاش برای فعال سازی وظیفه ای هستید که تنها از طریق یک Cron اجرا می‌شود. (لطفا <a href=\"http://docs.mybb.com/Help-Task_System.html\" target=\"_blank\">مسندات</a> را برای اطلاعات بیشتر مشاهده کنید). ادامه?";
 $l['no_tasks'] = "هیچ وظیفه‌ای در این انجمن وجود ندارد.";
-?>

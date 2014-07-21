@@ -48,4 +48,3 @@ $l['success_plugin_activated'] = "فعال‌سازی افزونه انتخاب 
 $l['success_plugin_deactivated'] = "غیرفعال‌سازی افزونه انتخابی با موفقیت به پایان رسید.";
 $l['success_plugin_installed'] = "افزونه انتخابی با موفقیت نصب و فعال شد.";
 $l['success_plugin_uninstalled'] = "افزونه انتخابی با موفقیت حذف شد.";
-?>

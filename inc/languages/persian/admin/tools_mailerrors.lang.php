@@ -28,4 +28,3 @@ $l['error_message_contains'] = "شامل پیام خطا";
 $l['to_address_contains'] = "شامل فرستاده شده به آدرس";
 $l['from_address_contains'] = "شامل فرستاده شده از آدرس";
 $l['find_emails_to_addr'] = "همه رایانامه‌های ارسال شده به این آدرس را پیدا کن.";
-?>

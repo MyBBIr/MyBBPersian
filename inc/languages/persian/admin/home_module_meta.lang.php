@@ -20,4 +20,3 @@ $l['quick_access'] = "دستیابی سریع";
 $l['online_admins'] = "مدیران آنلاین";
 $l['ipaddress'] = "آدرس آی‌پی:";
 $l['mybb_documentation'] = "مستندات مای‌بی‌بی";
-?>

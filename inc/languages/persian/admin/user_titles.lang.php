@@ -32,4 +32,3 @@ $l['user_title_deletion_confirmation'] = "آیا از اینکه می‌خواه
 $l['manage_user_titles'] = "مدیریت عنوان‌های کاربری";
 $l['user_title'] = "عنوان کاربری";
 $l['no_user_titles'] = "در حال حاضر شما هیچ عنوان کاربری تعیین شده ندارید.";
-?>

@@ -189,4 +189,3 @@ $l['quickreply_signature'] = "امضا";
 $l['quickreply_disable_smilies'] = "غیرفعال‌سازی شکلک‌ها";
 $l['quickreply_save_copy'] = "ذخیره‌ی یک رونوشت";
 $l['quickreply_read_receipt'] = "<strong>درخواست اطلاع از خوانده‌شدن</strong>";
-?>

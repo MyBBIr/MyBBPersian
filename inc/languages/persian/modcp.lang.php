@@ -299,4 +299,3 @@ $l['error_invalid_end_date'] = "تاریخ پایان نمایش اطلاعیه 
 $l['error_end_before_start'] = "تاریخ پایان باید پس از تاریخ شروع باشد.";
 $l['error_invalid_announcement'] = "اعلان مشخص شده معتبر نمی‌باشد.";
 $l['preview'] = 'پیش‌نمایش';
-?>

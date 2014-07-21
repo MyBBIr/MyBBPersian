@@ -96,4 +96,3 @@ $l['success_duplicate_settings_deleted'] = "تمام تنظیمات تکراری
 $l['searching'] = 'جستجو...';
 $l['search_error'] = 'یک خطا در گرفتن نتایج جستجو وجوددارد:';
 $l['search_done'] = 'انجام شد!';
-?>

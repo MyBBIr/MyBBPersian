@@ -83,4 +83,3 @@ $l['success_templates_checked'] = "قالب‌ها با موفقیت بررسی 
 $l['success_all_tables_already_converted'] = "تمام جداول به فرمت UTF-8 می‌باشند.";
 $l['success_table_converted'] = "جدول انتخابی \"{1}\" با موفقیت به فرمت UTF-8 تبدیل شد.";
 $l['success_chmod'] = "تمام فایلها و پوشه‌های مورد نیاز تنظیمات سطوح دسترسی مورد نظر را دارا می‌باشند.";
-?>
