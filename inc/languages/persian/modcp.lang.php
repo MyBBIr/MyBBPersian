@@ -297,5 +297,21 @@ $l['error_missing_forum'] = "انجمنی را انتخاب نکرده‌اید.
 $l['error_invalid_start_date'] = "تاریخ شروع نمایش اطلاعیه نامعتبر است.";
 $l['error_invalid_end_date'] = "تاریخ پایان نمایش اطلاعیه نامعتبر است.";
 $l['error_end_before_start'] = "تاریخ پایان باید پس از تاریخ شروع باشد.";
-$l['error_invalid_announcement'] = "اعلان مشخص شده معتبر نمی‌باشد.";
+$l['error_invalid_announcement'] = "اطلاعیه مشخص شده معتبر نمی‌باشد.";
+
+$l['announcement_added'] = "اطلاعیه اضافه شد";
+$l['announcement_edited'] = "اطلاعیه ویرایش شد";
+$l['announcement_deleted'] = "اطلاعیه حذف شد";
+
 $l['preview'] = 'پیش‌نمایش';
+
+$l['you_cannot_view_mod_logs'] = "شما دسترسی دیدن اعمال ثبت‌شده‌ی مدیران را ندارید.";
+$l['you_cannot_view_reported_posts'] = "شما دسترسی مدیریت ارسال‌های گزارش شده را ندارید.";
+$l['you_cannot_manage_announcements'] = "شما دسترسی مدیریت اطلاعیه‌ها را ندارید.";
+$l['you_cannot_moderate_threads'] = "شما دسترسی مدیریت موضوع‌ها را ندارید.";
+$l['you_cannot_moderate_posts'] = "شما دسترسی مدیریت ارسال‌ها را ندارید.";
+$l['you_cannot_moderate_attachments'] = "شما دسترسی مدیریت پیوست‌ها را ندارید.";
+$l['you_cannot_use_mod_queue'] = "شما دسترسی استفاده از مدیریت تاخیری را ندارید.";
+
+$l['post'] = 'ارسال';
+$l['search_user'] = "جستجو برای یک کاربر";
