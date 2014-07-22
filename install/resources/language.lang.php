@@ -225,7 +225,7 @@ $l['config_step_table'] = '<p>اکنون وقت آن رسیده است که شم
 				</tr>
 				<tr class="alt_row last">
 					<td class="first"><label for="bburl">آدرس انجمن (بدون اسلش در آخر آن):</label></td>
-					<td class="last alt_col"><input type="text" class="text_input" name="bburl" id="bburl" value="{2}" /></td>
+					<td class="last alt_col"><input type="text" class="text_input" name="bburl" id="bburl" value="{2}" onkeyup="warnUser(this, \'این گزینه به صورت خودکار پر می‌شود، اگر درباره آن مطمئن نیستید تغییر در آن ایجاد نکنید, درغیر این صورت پیوند‌ها در انجمن شما ممکن است شکسته شوند.\')" onchange="warnUser(this, \'این گزینه به صورت خودکار پر می‌شود، اگر درباره آن مطمئن نیستید تغییر در آن ایجاد نکنید, درغیر این صورت پیوند‌ها در انجمن شما ممکن است شکسته شوند.\')" /></td>
 				</tr>
 				<tr>
 					<th colspan="2" class="first last">اطلاعات وبسایت</th>
@@ -243,11 +243,11 @@ $l['config_step_table'] = '<p>اکنون وقت آن رسیده است که شم
 				</tr>
 				<tr>
 					<td class="first"><label for="cookiedomain">دامنه کوکی:</label></td>
-					<td class="last alt_col"><input type="text" class="text_input" name="cookiedomain" id="cookiedomain" value="{5}" /></td>
+					<td class="last alt_col"><input type="text" class="text_input" name="cookiedomain" id="cookiedomain" value="{5}" onkeyup="warnUser(this, \'این گزینه به صورت خودکار پر می‌شود، اگر درباره آن مطمئن نیستید تغییر در آن ایجاد نکنید, درغیر این صورت ورود و خروج در انجمن شما ممکن است شکسته شوند.\')" onchange="warnUser(this, \'این گزینه به صورت خودکار پر می‌شود، اگر درباره آن مطمئن نیستید تغییر در آن ایجاد نکنید, درغیر این صورت ورود و خروج در انجمن شما ممکن است شکسته شوند.\')" /></td>
 				</tr>
 				<tr class="alt_row last">
 					<td class="first"><label for="cookiepath">مسیر کوکی:</label></td>
-					<td class="last alt_col"><input type="text" class="text_input" name="cookiepath" id="cookiepath" value="{6}" /></td>
+					<td class="last alt_col"><input type="text" class="text_input" name="cookiepath" id="cookiepath" value="{6}" onkeyup="warnUser(this, \'این گزینه به صورت خودکار پر می‌شود، اگر درباره آن مطمئن نیستید تغییر در آن ایجاد نکنید, درغیر این صورت ورود و خروج در انجمن شما ممکن است شکسته شوند.\')" onchange="warnUser(this, \'این گزینه به صورت خودکار پر می‌شود، اگر درباره آن مطمئن نیستید تغییر در آن ایجاد نکنید, درغیر این صورت ورود و خروج در انجمن شما ممکن است شکسته شوند.\')" /></td>
 				</tr>
 				<tr>
 					<th colspan="2" class="first last">اطلاعات تماس</th>
@@ -270,7 +270,7 @@ $l['config_step_error_config'] = '<div class="error">
 </div>';
 $l['config_step_error_url'] = 'شما آدرس انجمن خود را وارد نکرده اید.';
 $l['config_step_error_name'] = 'شما عنوانی برای انجمن خود انتخاب نکرده اید.';
-
+$l['config_step_revert'] = 'برای بازگردانی تنظیمات به مقدار پیش‌فرض کلیک کنید.';
 
 $l['admin_step_setupsettings'] = '<p>در حال بارگذاری تنظیمات انجمن...</p>';
 $l['admin_step_insertesettings'] = '<p>{1} تنظیم و {2} گروه تنظیم اضافه شد.</p>
@@ -293,11 +293,11 @@ $l['admin_step_admintable'] = '<div class="border_wrapper">
 		</tr>
 		<tr class="alt_row">
 			<td class="first"><label for="adminpass">رمزعبور:</label></td>
-			<td class="alt_col last"><input type="password" class="text_input" name="adminpass" id="adminpass" value="" autocomplete="off"  /></td>
+			<td class="alt_col last"><input type="password" class="text_input" name="adminpass" id="adminpass" value="" autocomplete="off" onchange="comparePass()" /></td>
 		</tr>
 		<tr class="last">
 			<td class="first"><label for="adminpass2">تکرار‌رمزعبور:</label></td>
-			<td class="alt_col last"><input type="password" class="text_input" name="adminpass2" id="adminpass2" value="" autocomplete="off"  /></td>
+			<td class="alt_col last"><input type="password" class="text_input" name="adminpass2" id="adminpass2" value="" autocomplete="off" onchange="comparePass()" /></td>
 		</tr>
 		<tr>
 			<th colspan="2" class="first last">اطلاعات تماس</th>
@@ -321,6 +321,7 @@ $l['admin_step_error_nouser'] = 'شما نام‌کاربری ای برای حس
 $l['admin_step_error_nopassword'] = 'شما رمزعبور برای حساب مدیریت انتخاب نکرده اید.';
 $l['admin_step_error_nomatch'] = 'رمزهای عبور وارد شده با هم یکسان نیستند.';
 $l['admin_step_error_noemail'] = 'شما نشانی پست الکترونیکی ای برای حساب مدیریت وارد نکرده اید.';
+$l['admin_step_nomatch'] = 'رمزعبور با تکرار رمز عبور مطابقت ندارد. لطفا آن را قبل از ادامه درست کنید.';
 
 $l['done_step_usergroupsinserted'] = "<p>در حال وارد کردن گروه های کاربری...";
 $l['done_step_admincreated'] = '<p>در حال ساخت حساب مدیریت...';
@@ -349,8 +350,15 @@ $l['upgrade_template_reversion'] = "اخطار در تبدیل قالب‌ها";
 $l['upgrade_template_reversion_success'] = "<p>تمامی تغییرات در پایگاه داده ایجاد شد</p><p>قبل از کلیک بر روی 'مرحله بعد' از قالب های سفارشی شده خود یک پشتیبان تهیه کرده زیرا در این بروزرسانی تمامی قالب ها به قالب‌های بسته بروزرسانی تبدیل می شوند.";
 $l['upgrade_send_stats'] = "<p><input type=\"checkbox\" name=\"allow_anonymous_info\" value=\"1\" id=\"allow_anonymous\" checked=\"checked\" /> <label for=\"allow_anonymous\">ارسال اطلاعات ناشناس درباره مشخصات سرور شما و ... به گروه مای‌بی‌بی</label> (<a href=\"http://docs.mybb.com/Anonymous_Statistics.html\" style=\"color: #555;\" target=\"_blank\"><small>چه اطلاعاتی فرستاده می‌شود؟</small></a>)</p>";
 
+$l['please_login'] = "لطفا وارد شوید";
+$l['login'] = "ورود";
+$l['login_desc'] = "لطفا نام‌کاربری و رمزعبور خود را برای شروع فرایند بروزرسانی وارد کنید* شما باید یک مدیرکل معتبر باشید تا بتوانید فرایند بروزرسانی را انجام دهید.";
+$l['login_username'] = "نام‌کاربری";
+$l['login_password'] = "رمز‌عبور";
+$l['login_password_desc'] = "لطفا توجه داشته‌باشید که رمز‌عبور به بزرگی‌و‌کوچکی حروف حساس است.";
+
 /* Error messages */
 $l['development_preview'] = "<div class=\"error\"><h2 class=\"fail\">هشدار</h2><p>این نسخه از مای‌بی‌بی نسخه توسعه یافته‌ای برای پیش‌نمایش و آزمایش می‌باشد.</p><p>هیچ پشتیبانی‌ای برای پلاگین‌ها یا پوسته‌ها صورت نمی‌گیرد. نصب یا بروزرسانی این نسخه بر روی انجمن‌اصلی خود یک ریسک است..</div>";
 $l['locked'] = 'نصب کننده قفل شده است, لطفا فایل \'lock\' را از مسیر نصب مای‌بی‌بی حذف کنید.';
-$l['task_versioncheck_ran'] = "The version check task successfully ran.";
-?>
+$l['task_versioncheck_ran'] = "وظیفه‌ی بررسی نسخه با موفقیت اجرا شد.";
+$l['no_permision'] = "شما دسترسی اجرای فرایند بروزرسانی را ندارید. شما نیاز به دسترسی مدیر‌کل برای اجرای فرایند بروزرسانی دارید.<br /><br />اگر می‌خواهید خارج شوید، لطفا بر روی <a href=\"upgrade.php?action=logout&amp;logoutkey={1}\">اینجا</a> کلیک کنید. تا بتوانید با حساب‌کاربری مدیر‌کل خود وارد شوید.";
