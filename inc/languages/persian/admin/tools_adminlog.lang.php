@@ -100,6 +100,12 @@ $l['admin_log_config_profile_fields_add'] = "فیلد اختیاری پروفا�
 $l['admin_log_config_profile_fields_edit'] = "فیلد اختیاری پروفایل ویرایش شد #{1} ({2})";
 $l['admin_log_config_profile_fields_delete'] = "فیلد اختیاری پروفایل حذف شد #{1} ({2})";
 
+$l['admin_log_config_questions_add'] = "افزودن پرسش #{1} ({2})";
+$l['admin_log_config_questions_edit'] = "ویرایش پرسش #{1} ({2})";
+$l['admin_log_config_questions_delete'] = "حذف پرسش #{1} ({2})";
+$l['admin_log_config_questions_enable'] = "فعال سازی پرسش #{1} ({2})";
+$l['admin_log_config_questions_disable'] = "غیرفعال‌سازی پرسش #{1} ({2})";
+
 $l['admin_log_config_settings_delete_duplicates'] = "تنظیمات و گروه تنظیمات تکراری حذف شدند";
 $l['admin_log_config_settings_addgroup'] = "جزئیات گروه تنظیمات اضافه شد #{1} ({2})";
 $l['admin_log_config_settings_editgroup'] = "جزئیات گروه تنظیمات ویرایش شد #{1} ({2})";
@@ -214,6 +220,7 @@ $l['admin_log_tools_recount_rebuild_forum'] = "بازشماری و بازساز�
 $l['admin_log_tools_recount_rebuild_thread'] = "بازشماری و بازسازی شمارشگر موضوع";
 $l['admin_log_tools_recount_rebuild_poll'] = "بازشماری و بازسازی رای‌های نظرسنجی‌ها";
 $l['admin_log_tools_recount_rebuild_userposts'] = "بازشماری و بازسازی تعداد ارسال کاربران";
+$l['admin_log_tools_recount_rebuild_userthreads'] = "بازشماری و بازسازی تعداد موضوع کاربران";
 $l['admin_log_tools_recount_rebuild_attachmentthumbs'] = "بازشماری و بازسازی پیوست‌های بندانگشتی"; 
 $l['admin_log_tools_recount_rebuild_reputation'] = "بازشماری و بازسازی اعتبارهای کاربر";
 $l['admin_log_tools_recount_rebuild_warning'] = "بازشماری و بازسازی اخطار‌ها";
@@ -228,7 +235,8 @@ $l['admin_log_tools_tasks_enable'] = "وظیفه #{1} ({2}) فعال شد";
 $l['admin_log_tools_tasks_disable'] = "وظیفه #{1} ({2}) غیر فعال شد";
 $l['admin_log_tools_tasks_run'] = "وظیفه #{1} ({2}) اجرا شد";
 
-$l['admin_log_user_admin_permissions_delete'] = "سطوح دسترسی مدیریت برای کاربر #{1} ({2}) حذف شد";
+$l['admin_log_user_admin_permissions_delete_user'] = "سطوح دسترسی مدیریت برای کاربر #{1} ({2}) حذف شد";
+$l['admin_log_user_admin_permissions_delete_group'] = "سطوح دسترسی مدیریت برای گروه #{1} ({2}) حذف شد";
 $l['admin_log_user_admin_permissions_edit_user'] = "سطوح دسترسی مدیریت برای کاربر #{1} ({2}) ویرایش شد";
 $l['admin_log_user_admin_permissions_edit_group'] = "سطوح دسترسی گروه مدیریت برای گروه کاربری #{1} ({2}) ویرایش شد";
 $l['admin_log_user_admin_permissions_edit'] = "سطوح دسترسی پیش فرض مدیریت ویرایش شدند";
@@ -281,3 +289,5 @@ $l['admin_log_user_users_inline_banned_perm'] = "{1} کاربر بطور دائ�
 $l['admin_log_user_users_inline_banned_temp'] = "{1} کاربر تا {2} محروم شد";
 $l['admin_log_user_users_inline_activated'] = "{1} کاربر فعال گردید";
 $l['admin_log_user_users_inline_lift'] = "محرومیت {1} کاربر برداشته شد";
+
+$l['admin_log_admin_locked_out'] = 'ورود مدیر کل برای کاربر #{1} ({2}) قفل شد.';

@@ -25,6 +25,8 @@ $l['awaiting_activation'] = "منتظر تایید";
 $l['server_load'] = "سرعت بارگذاری سرور";
 $l['attachments'] = "پیوست‌ها";
 $l['used'] = "استفاده شده است";
+$l['reported_posts'] = "ارسال‌های گزارش‌شده";
+$l['unread_reports'] = "گزارش‌های خوانده‌نشده";
 
 $l['version_check'] = "بررسی برای بروزرسانی‌ها";
 $l['last_update_check_two_weeks'] = "آخرین باری که  <a href=\"{1}\"> نسخه انجمن </a>را چک کردید دو هفته قبل بود";

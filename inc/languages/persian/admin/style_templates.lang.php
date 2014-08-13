@@ -74,7 +74,7 @@ $l['group_multipage'] = "<span style=\"float:left\">Multipage Pagination Templat
 $l['group_private'] = "<span style=\"float:left\">Private Messaging Templates</span>قالب‌های پیام‌های خصوصی";
 $l['group_portal'] = "<span style=\"float:left\">Portal Templates</span>قالب‌های سردر";
 $l['group_postbit'] = "<span style=\"float:left\">Post Bit Templates</span>قالب‌های پست‌بیت";
-$l['group_redirect'] = "<span style=\"float:left\">Redirect Templates</span>قالب‌های صفحه انتقال";
+$l['group_posticons'] = "<span style=\"float:left\">Post Icon Templates</span>قالب‌های نماد ارسال";
 $l['group_showthread'] = "<span style=\"float:left\">Show Thread Templates</span>قالب‌های نمایشگر موضوع";
 $l['group_usercp'] = "<span style=\"float:left\">User Control Panel Templates</span>قالب‌های کنترل‌پنل کاربر";
 $l['group_online'] = "<span style=\"float:left\">Who's Online Templates</span>قالب‌های صفحه افراد‌آنلاین";

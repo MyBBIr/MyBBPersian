@@ -89,6 +89,7 @@ $l['page_selected'] = "همه <strong>{1}</strong> نتیجه این صفحه ا
 $l['all_selected'] = "همه <strong>{1}</strong> نتیجه این جست‌و‌جو انتخاب شده اند";
 $l['select_all'] = "انتخاب همه <strong>{1}</strong> نتیجه این جست‌و‌جو.";
 $l['clear_selection'] = "پاک کردن انتخاب‌ها";
+$l['search_user'] = "جستجو برای یک کاربر";
 $l['results'] = "نتایج";
 $l['mod_options'] = "تنظیمات مدیر";
 $l['find_all'] = "جستجوی همه";

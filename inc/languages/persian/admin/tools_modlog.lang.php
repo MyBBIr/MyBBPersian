@@ -24,6 +24,7 @@ $l['forum'] = "انجمن:";
 $l['thread'] = "موضوع:";
 $l['post'] = "ارسال:";
 $l['user_info'] = "کاربر:";
+$l['announcement'] = "اطلاعیه:";
 
 $l['filter_moderator_logs'] = "انتخابی کردن گزارشات ناظم";
 $l['forum_moderator'] = "ناظم انجمن:";

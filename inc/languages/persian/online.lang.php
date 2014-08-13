@@ -17,6 +17,7 @@ $l['viewing_event'] = "در حال مشاهده رویداد";
 $l['viewing_event2'] = "در حال مشاهده رویداد <a href=\"{1}\">{2}</a>";
 $l['adding_event'] = "<a href=\"calendar.php?action=addevent\">در حال افزودن رویداد</a>";
 $l['editing_event'] = "در حال ویرایش رویداد ";
+$l['viewing_contact_us'] = "درحال مشاهده <a href=\"contact.php\">تماس با ما</a>";
 $l['editing_post'] = "در حال ویرایش ارسال ";
 $l['viewing_forum'] = "در حال مشاهده انجمن ";
 $l['viewing_forum2'] = "در حال مشاهده انجمن <a href=\"{1}\">{2}</a>";
