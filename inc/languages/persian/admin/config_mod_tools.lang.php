@@ -90,6 +90,7 @@ $l['split_to_same_forum'] = "جداسازی به انجمن یکسان";
 $l['close_split_thread'] = "بستن تاپیک‌های جدا سازی شده؟";
 $l['stick_split_thread'] = "چسباندن تاپیک‌های جداسازی شده؟";
 $l['unapprove_split_thread'] = "عدم تایید تاپیک‌های جداسازی شده؟";
+$l['split_thread_prefix'] = "پیشوند موضوع جداسازی شده";
 $l['split_thread_subject'] = "عنوان تاپیک جداسازی شده";
 $l['split_thread_subject_desc'] = "فقط در صورت جداسازی تاپیک‌ها.{subject} عنوان اصلی را نمایش می‌دهد.";
 $l['add_new_split_reply'] = "افزودن پاسخ به تاپیک جداسازی شده";

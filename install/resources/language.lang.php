@@ -256,6 +256,13 @@ $l['config_step_table'] = '<p>اکنون وقت آن رسیده است که شم
 					<td class="first"><label for="contactemail">آدرس پست الکترونیک(ایمیل):</label></td>
 					<td class="last alt_col"><input type="text" class="text_input" name="contactemail" id="contactemail" value="{7}" /></td>
 				</tr>
+				<tr>
+					<th colspan="2" class="first last">تنظیمات امنیتی</th>
+				</tr>
+				<tr class="last">
+					<td class="first"><label for="acppin">کد پین مدیریت:</label><br />اگر نمی‌خواهید از این استفاده کنید آن را خالی نگه‌دارید</td>
+					<td class="last alt_col"><input type="password" class="text_input" name="pin" id="acppin" value="" /></td>
+				</tr>
 				</tbody>
 			</table>
 		</div>
