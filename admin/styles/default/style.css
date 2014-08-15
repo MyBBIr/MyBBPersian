@@ -40,3 +40,8 @@ ins, del {
 del {
 	background: #fdd;
 }
+
+.CodeMirror {
+	direction: ltr;
+	text-align: left;
+}
