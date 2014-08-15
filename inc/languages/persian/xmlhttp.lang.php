@@ -1,7 +1,7 @@
 <?php 
 /**
  * MyBB 1.8 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
+ * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
  */
@@ -17,12 +17,15 @@ $l['thread_closed_edit_message'] = "این موضوع بسته شده است و 
 $l['no_permission_edit_post'] = "شما اجازه ویرایش این متن را ندارید.";
 $l['edit_time_limit'] = "شما تنها می‌توانید {1} دقیقه پس از ارسال مطلب، آن را ویرایش کنید.";
 $l['postbit_edited'] = "آخرین تغییر در ارسال: {1} توسط";
+$l['postbit_editreason'] = "دلیل ویرایش";
 $l['save_changes'] = "ذخیره تغییرات";
 $l['cancel_edit'] = "لغو ویرایش";
+$l['answer_valid_not_exists'] = "پرسشی که شما قصد پاسخ‌به‌آن را دارید وجودندارد.";
 $l['captcha_not_exists'] = "کد تصویری‌ای که شما قصد دوباره سازی آن را دارید وجود ندارد.";
 $l['captcha_valid_not_exists'] = "کد تصویری‌ای که شما قصد بررسی آن را دارید وجود ندارد.";
 $l['captcha_does_not_match'] = "کد تصویری وارد شده صحیح نمی‌باشد. لطفاً آن را دقیقاً مانند آنچه در تصویر نمایش داده شده است وارد نمایید.";
 $l['captcha_matches'] = "کد تصویری وارد شده معتبر می‌باشد.";
+$l['answer_does_not_match'] = "پاسخی که شما واردکرده‌اید معتبر نمی‌باشد.";
 $l['banned_username'] = "استفاده از نام‌کاربری وارد شده توسط مدیریت ممنوع شده است";
 $l['banned_characters_username'] = "نام‌کاربری شما دارای یک یا چند کاراکتر غیر مجاز است";
 $l['complex_password_fails'] = "رمز ورود به اندازه کافی پیچیده نیست";

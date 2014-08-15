@@ -1,7 +1,7 @@
 <?php 
 /**
  * MyBB 1.8 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
+ * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
  */
@@ -104,6 +104,7 @@ $l['group_smilieinsert'] = "<span style=\"float:left\">Smilie Inserter Templates
 $l['group_stats'] = "<span style=\"float:left\">Statistics Templates</span>قالب‌های آمــار";
 $l['group_xmlhttp'] = "<span style=\"float:left\">XMLHTTP Templates</span>قالب‌های ایکس‌ام‌ال اچ‌تی‌تی‌پی (XMLHTTP)";
 $l['group_footer'] = "<span style=\"float:left\">Footer Templates</span>قالب‌های پانوشت";
+$l['group_video'] = "<span style=\"float:left\">Video MyCode Templates</span>قالب‌های مای‌کد ویدیو";
 $l['expand'] = "باز کردن زیر شاخه‌ها";
 $l['collapse'] = "بستن زیر شاخه‌ها";
 $l['save_continue'] = "ذخیره و ادامه ویرایش";

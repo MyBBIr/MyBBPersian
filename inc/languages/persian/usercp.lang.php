@@ -1,7 +1,7 @@
 <?php 
 /**
  * MyBB 1.8 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
+ * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
  */
@@ -350,7 +350,7 @@ $l['notification_method'] = "نحوه آگاه سازی:";
 $l['no_notification'] = "بدون آگاه‌سازی";
 $l['no_notification_desc'] = "برای شما هیچ آگاه‌سازی‌ای برای پاسخ‌های این موضوع ارسال نخواهد شد.";
 $l['email_notification'] = "آگاه سازی فوری با رایانامه";
-$l['instant_notification_desc'] = "شما با دریافت یک رایانامه آگاه سازی، از پاسخ‌های این موضوع مطلع خواهید شد.";
+$l['email_notification_desc'] = "شما با دریافت یک رایانامه آگاه سازی، از پاسخ‌های این موضوع مطلع خواهید شد.";
 $l['pm_notification'] = "آگاه سازی فوری با پیام‌خصوصی";
 $l['pm_notification_desc'] = "شما با دریافت یک پیام‌خصوصی آگاه سازی، از پاسخ‌های این موضوع مطلع خواهید شد.";
 $l['do_subscribe'] = "مشترک شدن در موضوع";
@@ -391,6 +391,7 @@ $l['icon_no_new'] = "بدون ارسال جدید.";
 $l['icon_new'] = "ارسال‌های جدید.";
 $l['icon_hot'] = " موضوع داغ.";
 $l['icon_lock'] = " موضوع بسته‌شده.";
+$l['search_user'] = "جستجو برای یک کاربر";
 
 $l['buddylist_error'] = 'یک خطا در گرفتن لیست دوستان وجوددارد. ';
 

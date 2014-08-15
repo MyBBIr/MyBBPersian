@@ -1,7 +1,7 @@
 <?php 
 /**
  * MyBB 1.8 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
+ * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
  */
@@ -75,7 +75,9 @@ $l['users_browsing_thread'] = "کاربران در حال بازدید این م
 $l['users_browsing_thread_guests'] = "{1} مهمان";
 $l['users_browsing_thread_invis'] = "{1} کاربر مخفی";
 $l['users_browsing_thread_reading'] = "در حال خواندن...";
-$l['inline_delete_posts'] = "حذف ارسال‌ها";
+$l['inline_soft_delete_posts'] = "حذف نرم ارسال‌ها";
+$l['inline_restore_posts'] = "بازگردانی ارسال‌ها";
+$l['inline_delete_posts'] = "حذف ارسال‌ها برای همیشه";
 $l['inline_merge_posts'] = "ادغام ارسال‌ها";
 $l['inline_split_posts'] = "جداسازی ارسال‌ها";
 $l['inline_move_posts'] = "انتقال ارسال‌ها";

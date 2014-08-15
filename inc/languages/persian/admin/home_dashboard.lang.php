@@ -1,7 +1,7 @@
 <?php 
 /**
  * MyBB 1.8 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
+ * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
  */
@@ -31,6 +31,7 @@ $l['unread_reports'] = "گزارش‌های خوانده‌نشده";
 $l['version_check'] = "بررسی برای بروزرسانی‌ها";
 $l['last_update_check_two_weeks'] = "آخرین باری که  <a href=\"{1}\"> نسخه انجمن </a>را چک کردید دو هفته قبل بود";
 $l['new_version_available'] = "شما در حال استفاده از نسخه {1} هستید در حالی که آخرین نسخه {2} هست.";
+$l['version_check_description'] = "در اینجا شما می‌توانید بررسی کنید که از آخرین نسخه‌ی ارائه شده‌ی مای بی‌بی استفاده می‌کنید یا نه و همچنین اخبار مای بی‌بی را ببینید.";
 $l['latest_mybb_announcements'] = "آخرین اطلاعیه‌های مای‌بی‌بی";
 $l['no_announcements'] = "هیچ اطلاعیه‌ی ذخیره‌شده‌ای یافت نشد. <a href=\"index.php?module=home&amp;action=version_check\">بررسی برای بروزرسانی‌ها</a>.";
 $l['your_version'] = "نسخه‌شما";

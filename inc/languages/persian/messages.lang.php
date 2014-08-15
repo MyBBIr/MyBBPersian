@@ -1,7 +1,7 @@
 <?php 
 /**
  * MyBB 1.8 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
+ * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
  */
@@ -379,6 +379,21 @@ $l['email_emailuser'] = "{1}،
 {4}/usercp.php?action=options
 
 ------------------------------------------";
+
+$l['email_groupleader_joinrequest'] = "{1},
+
+{2} درخواست عضویت برای {3} را در {4} دارد (پایین را ببینید).
+
+دلیل: {5}
+
+برای قبول یا رد این درخواست به
+
+{6}/managegroup.php?gid={7}
+
+بروید.
+
+با سپاس،
+مدیریت {4}";
 
 $l['email_contact_subject'] = "تماس: {1}";
 $l['email_contact'] = "مشخصات انجمن: {1}

@@ -1,7 +1,7 @@
 <?php 
 /**
  * MyBB 1.8 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
+ * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
  */
@@ -45,6 +45,8 @@ $l['warning_pm_message'] = "{1} عزیز
 --
 
 --";
+$l['send_pm_options'] = "گزینه‌ها:";
+$l['send_pm_options_anonymous'] = "<strong>پیام‌خصوصی ناشناس</strong>: ارسال این پیام خصوصی به صورت ناشناس.";
 $l['expiration_never'] = "دائمی";
 $l['expiration_hours'] = "ساعت";
 $l['expiration_days'] = "روز";
@@ -53,6 +55,7 @@ $l['expiration_months'] = "ماه";
 $l['redirect_warned_banned'] = "همچنین کاربر به دلیل {2} به گروه {1} منتقل گردیده است.";
 $l['redirect_warned_suspended'] = "دسترسی این کاربران در ارسال به حالت تعلیق در آمده است {1}.";
 $l['redirect_warned_moderate'] = "تمام ارسال‌های این کاربر هم اکنون برای {1} {2} بررسی خواهد شد.";
+$l['redirect_warned_pmerror'] = "<br /><br />لطفا دقت کنید که این پیام خصوصی ارسال نشده‌است.";
 $l['redirect_warned'] = "درجه اخطار {1} به {2}% افزایش یافت.{3}<br /><br />شما اکنون به جایی که از آن امده اید بازگردانده خواهید شد.";
 $l['error_warning_system_disabled'] = "شما نمی‌توانید از سیستم اخطار استفاده نمایید زیرا توسط مدیریت تالار غیر فعال شده است.";
 $l['reached_max_warnings_day'] = "شما نمی‌توانید به هیچ کاربری اخطار بدهید زیرا حداکثر مقدار مجاز صدور اخطار در طی روز را داشته اید.<br /><br />حداکثر اخطاری که در هر روز می‌توانید صادر کنید {1} عدد است.";

@@ -1,7 +1,7 @@
 <?php 
 /**
  * MyBB 1.8 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
+ * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
  */
@@ -32,7 +32,7 @@ $l['reputation_count_desc'] = "میزان اعتباری که مورد نیاز 
 $l['post_count'] = "تعداد ارسال";
 $l['thread_count'] = "تعداد موضوع";
 $l['post_count_desc'] = "تعداد ارسال‌های مورد نیاز را وارد نمایید. نوع مقایسه برای ارسال‌ها را انتخاب کنید.";
-$l['post_count_desc'] = "تعداد موضوع‌های مورد نیاز را وارد نمایید. نوع مقایسه برای موضوع‌ها را انتخاب کنید.";
+$l['thread_count_desc'] = "تعداد موضوع‌های مورد نیاز را وارد نمایید. نوع مقایسه برای موضوع‌ها را انتخاب کنید.";
 $l['hours'] = "ساعت";
 $l['days'] = "روز";
 $l['weeks'] = "هفته";

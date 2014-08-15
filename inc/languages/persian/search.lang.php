@@ -1,7 +1,7 @@
 <?php 
 /**
  * MyBB 1.8 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
+ * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
  */
@@ -78,7 +78,8 @@ $l['inline_unapprove_posts'] = "ردتایید ارسال‌ها";
 $l['inline_post_moderation'] = "مدیریت درون خطی ارسال‌ها:";
 $l['inline_go'] = "برو";
 $l['clear'] = "پاک";
-$l['icon_dot'] = "شامل ارسالهای شما.";
+$l['icon_dot'] = "شامل ارسالهای شما. ";
+$l['icon_no_new'] = "بدون ارسال‌های جدید.";
 $l['icon_new'] = "دارای ارسال جدید";
 $l['icon_hot'] = "موضوع داغ.";
 $l['icon_lock'] = "موضوع بسته شده.";

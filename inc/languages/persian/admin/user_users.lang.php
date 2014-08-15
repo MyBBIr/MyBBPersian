@@ -1,7 +1,7 @@
 <?php 
 /**
  * MyBB 1.8 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
+ * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
  */
@@ -37,6 +37,7 @@ $l['error_invalid_view_perpage'] = "تعداد نتایج وارد شده جهت
 $l['error_invalid_view_sortby'] = "فیلد انتخاب شده جهت مرتب سازی نتایج معتبر نمی‌باشد";
 $l['error_invalid_view_sortorder'] = "ترتیب مرتب سازی انتخاب شده معتبر نمی‌باشد.";
 $l['error_invalid_view_delete'] = "نمای مدیریتی انتخاب شده جهت حذف، معتبر نمی‌باشد";
+$l['error_cannot_delete_view'] = "شما حداقل باید یک نمای مدیریتی داشته باشید.";
 $l['user_deletion_confirmation'] = "آیا از حذف این کاربر اطمینان دارید؟";
 $l['success_coppa_activated'] = "کاربر COPPA انتخاب شده با موفقیت فعال شد.";
 $l['success_activated'] = "کاربر انتخاب شده با موفقیت فعال شد.";
@@ -298,6 +299,7 @@ $l['ban_time'] = "طول محرومیت <em>*</em>";
 $l['ban_reason'] = "دلیل محرومیت";
 $l['mass_ban'] = "محرومیت جمعی کاربران";
 $l['important'] = "مهم";
+$l['mass_ban_info'] = "این کار برروی {1} کاربر صورت خواهد گرفت. تنها درصورتی که مطمئن هستید که چه می‌کنید ادامه دهید.";
 $l['ban_users'] = "محرومیت کاربران";
 $l['users_banned'] = "{1} کاربر محروم شده‌اند.";
 $l['confirm_multilift'] = "آیا اطمینان دارید که می‌خواهید محرومیت کاربران انتخابی را بردارید؟";

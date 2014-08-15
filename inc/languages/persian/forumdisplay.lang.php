@@ -1,7 +1,7 @@
 <?php 
 /**
  * MyBB 1.8 Persian Language Pack
- * Copyright 2013 My-BB.Ir Group & iora.ir, All Rights Reserved
+ * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
  * 
  * Translate By: iora.ir & My-BB.Ir
  */
@@ -75,6 +75,7 @@ $l['forum_announcements'] = "اعلانات انجمن";
 $l['sticky_threads'] = "موضوعات مهم";
 $l['normal_threads'] = "موضوعات معمولی";
 $l['icon_dot'] = "شامل ارسال‌های شما. ";
+$l['icon_no_new'] = "بدون ارسال‌های جدید.";
 $l['icon_new'] = "ارسال‌های جدید.";
 $l['icon_hot'] = " موضوع داغ.";
 $l['icon_lock'] = " موضوع قفل شده.";
