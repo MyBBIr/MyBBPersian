@@ -778,6 +778,8 @@ blockquote cite span.highlight {
 	display: block;
 	font-family: Monaco, Consolas, Courier, monospace;
 	font-size: 13px;
+	direction: ltr;
+	text-align: left;
 }
 
 .smilie {
@@ -1549,7 +1551,7 @@ a.button.report_user_button span {
 div.jqi {
 	width: 400px;
 	max-width:90%;
-	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
 	position: absolute;
 	background-color: #ffffff;
 	font-size: 11px;
@@ -4497,8 +4499,8 @@ if(use_xmlhttprequest == "1")
 <head>
 	<title>{$mybb->settings['bbname']} - {$lang->coppa_compliance}</title>
 	<style type="text/css">
-		body { font-family: Verdana, Arial, sans-serif; font-size: 13px; }
-		.largetext, h1 { font-family: Verdana, Arial, sans-serif; font-size: medium; font-weight: bold; margin: 0; }
+		body { font-family: Tahoma, Verdana, Arial, sans-serif; font-size: 13px; }
+		.largetext, h1 { font-family: Tahoma, Verdana, Arial, sans-serif; font-size: medium; font-weight: bold; margin: 0; }
 		.grey { color: #ccc; }
 		dl { margin-right: 40px; }
 		dt { width: 150px; float: right; clear: right; font-weight: bold; }
@@ -9519,8 +9521,8 @@ if(use_xmlhttprequest == "1")
 <title>{$thread['threadprefix']} {$thread['subject']} - {$lang->printable_version}</title>
 <meta http-equiv="Content-Type" content="text/html; charset={$charset}" />
 <style type="text/css">
-body { font-family: Verdana, Arial, sans-serif; font-size: 13px; }
-.largetext { font-family: Verdana, Arial, sans-serif; font-size: medium; font-weight: bold; }
+body { font-family: Tahoma, Verdana, Arial, sans-serif; font-size: 13px; }
+.largetext { font-family: Tahoma, Verdana, Arial, sans-serif; font-size: medium; font-weight: bold; }
 </style>
 </head>
 <body>
