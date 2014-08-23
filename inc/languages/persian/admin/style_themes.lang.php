@@ -1,7 +1,7 @@
 <?php 
 /**
  * MyBB 1.8 English Language Pack
- * Copyright 2012 MyBB Group, All Rights Reserved
+ * Copyright 2014 MyBB Group, All Rights Reserved
  * 
  * $Id: style_themes.lang.php 5828 2012-05-08 16:06:16Z Tomm $
  */
@@ -151,8 +151,8 @@ $l['created_by'] = "ساخته شده توسط";
 $l['error_invalid_stylesheet'] = "شما یک قالب بندی نامعتبر را انتخاب کرده‌اید.";
 $l['error_invalid_theme'] = "شما یک پوسته نامعتبر را انتخاب کرده‌اید.";
 $l['error_missing_name'] = "لطفاً نامی‌برای این پوسته وارد کنید.";
-$l['error_missing_url'] = "لطفاً پوسته ای را برای وارد کردن مشخص کنید";
-$l['error_theme_already_exists'] = "پوسته مشخص شده از قبل موجود است. لطفاً نام جدیدی برای این پوسته وارد کنید.";
+$l['error_missing_url'] = "لطفا یک آدرس معتبر را برای وارد‌کردن پوسته وارد کنید.";
+$l['error_theme_already_exists'] = "پوسته‌ای با نام‌مشابه قبلا وجود دارد، لطفا یک نام دیگر را وارد فرمائید.";
 $l['error_theme_security_problem'] = "یک مشکل امنیتی احتمالی در پوسته پیدا شد. پوسته اضافه نشد. لطفاً با سازنده پوسته و یا گروه MyBB تماس بگیرید.";
 $l['error_local_file'] = "فایل محلی باز نشد. آیا این فایل وجود دارد؟ لطفاً بررسی کرده و دوباره سعی کنید.";
 $l['error_uploadfailed'] = "آپلود شکست خورد. لطفاً دوباره سعی کنید.";
