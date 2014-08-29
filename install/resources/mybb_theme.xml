@@ -311,6 +311,7 @@ a:active {
 	height: 30px;
 	width: 30px;
 	background: url(images/forum_icon_sprite.png) no-repeat 0 0;
+	display: inline-block;
 }
 
 .forum_on {
@@ -434,6 +435,10 @@ table {
 	border-color: #fff #ffb8be #ffb8be #fff;
 }
 
+.no_bottom_border {
+	border-bottom: 0;
+}
+
 .post.unapproved_post {
 	background: #ffdde0;
 }
@@ -470,7 +475,7 @@ tr.trow_selected td {
 	color: #333;
 }
 
-.trow_sep {
+88.trow_sep {
 	background: #ddd;
 	color: #333;
 	border-bottom: 1px solid #c5c5c5;
@@ -2387,7 +2392,7 @@ a.button {
 </head>
 <body>
 {$header}
-<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder tfixed clear">
+<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder tfixed clear no_bottom_border">
 <tr>
 <td class="thead"><strong>{$lang->forum_announcement}</strong></td>
 <tr><td id="posts_container">
@@ -3714,7 +3719,7 @@ a.button {
 <a href="{$lastpost_link}" title="{$full_lastpost_subject}"><strong>{$lastpost_subject}</strong></a>
 <br />{$lastpost_date}<br />{$lang->by} {$lastpost_profilelink}</span>]]></template>
 		<template name="forumbit_depth2_cat" version="1800"><![CDATA[<tr>
-<td class="{$bgcolor}" align="center" valign="top" width="1"><div class="forum_status forum_{$lightbulb['folder']} ajax_mark_read" title="{$lightbulb['altonoff']}" id="mark_read_{$forum['fid']}"></div></td>
+<td class="{$bgcolor}" align="center" valign="top" width="1"><span class="forum_status forum_{$lightbulb['folder']} ajax_mark_read" title="{$lightbulb['altonoff']}" id="mark_read_{$forum['fid']}"></span></td>
 <td class="{$bgcolor}" valign="top">
 <strong><a href="{$forum_url}">{$forum['name']}</a></strong>{$forum_viewers_text}<div class="smalltext">{$forum['description']}{$subforums}</div>
 </td>
@@ -4258,16 +4263,16 @@ a.button {
 {$boardstats}
 
 <dl class="forum_legend smalltext">
-	<dt><div class="forum_status forum_on" title="{$lang->new_posts}"></div></dt>
+	<dt><span class="forum_status forum_on" title="{$lang->new_posts}"></span></dt>
 	<dd>{$lang->new_posts}</dd>
 
-	<dt><div class="forum_status forum_off" title="{$lang->no_new_posts}"></div></dt>
+	<dt><span class="forum_status forum_off" title="{$lang->no_new_posts}"></span></dt>
 	<dd>{$lang->no_new_posts}</dd>
 
-	<dt><div class="forum_status forum_offlock" title="{$lang->forum_locked}"></div></dt>
+	<dt><span class="forum_status forum_offlock" title="{$lang->forum_locked}"></span></dt>
 	<dd>{$lang->forum_locked}</dd>
 
-	<dt><div class="forum_status forum_offlink" title="{$lang->forum_redirect}"></div></dt>
+	<dt><span class="forum_status forum_offlink" title="{$lang->forum_redirect}"></span></dt>
 	<dd>{$lang->forum_redirect}</dd>
 </dl>
 <br class="clear" />
@@ -4782,49 +4787,23 @@ if(use_xmlhttprequest == "1")
 				{$reputation}
 				{$warning_level}
 			</table>
-
-			<br />
-			<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder tfixed">
-				<colgroup>
-				<col style="width: 30%;" />
-				</colgroup>
-				<tr>
-					<td colspan="2" class="thead"><strong>{$lang->users_contact_details}</strong></td>
-				</tr>
-				<tr>
-					<td class="trow1"><strong>{$lang->homepage}</strong></td>
-					<td class="trow1">{$website}</td>
-				</tr>
-				{$sendemail}
-				<tr>
-					<td class="{$bgcolors['pm']}"><strong>{$lang->pm}</strong></td>
-					<td class="{$bgcolors['pm']}"><a href="private.php?action=send&amp;uid={$memprofile['uid']}">{$lang->send_pm}</a></td>
-				</tr>
-				{$contact_fields['icq']}
-				{$contact_fields['aim']}
-				{$contact_fields['yahoo']}
-				{$contact_fields['skype']}
-				{$contact_fields['google']}
-			</table>
+			{$contact_details}
 		</td>
 		<td><img src="{$theme['imgdir']}/pixel.gif" height="1" width="8" alt=""/></td>
 		<td width="50%" valign="top">
-		{$profilefields}
-		{$signature}
-		{$modoptions}
-		{$adminoptions}
-			<br />
+			{$profilefields}
+			{$signature}
+			{$modoptions}
+			{$adminoptions}
 			<div style="text-align: center">{$buddy_options}{$ignore_options}{$report_options}</div>
 		</td>
 	</tr>
 </table>
-
 {$footer}
 </body>
 </html>]]></template>
 		<template name="member_profile_addremove" version="1800"><![CDATA[<a href="{$add_remove_options['url']}" class="button small_button {$add_remove_options['class']}"><span>{$add_remove_options['lang']}</span></a>]]></template>
-		<template name="member_profile_adminoptions" version="1800"><![CDATA[
-<br /><table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" width="100%" class="tborder">
+		<template name="member_profile_adminoptions" version="1800"><![CDATA[<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" width="100%" class="tborder">
 <tr>
 <td colspan="2" class="thead"><strong>{$lang->admin_options}</strong></td>
 </tr>
@@ -4836,14 +4815,53 @@ if(use_xmlhttprequest == "1")
 </ul>
 </td>
 </tr>
-</table>]]></template>
+</table>
+<br />]]></template>
 		<template name="member_profile_avatar" version="1800"><![CDATA[<img src="{$useravatar['image']}" alt="" {$useravatar['width_height']} />]]></template>
 		<template name="member_profile_away" version="1800"><![CDATA[<tr>
 <fieldset>
 <legend><strong>{$lang->away_note}</strong></legend>
 <em>{$lang->away_reason} {$awayreason}</em><br />
 <span class="smalltext">{$lang->away_since} {$awaydate} &mdash; {$lang->away_returns} {$returndate}</span>
-</fieldset>]]></template>
+</fieldset>
+<br />]]></template>
+		<template name="member_profile_contact_details" version="1800"><![CDATA[<br />
+<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder tfixed">
+	<colgroup>
+	<col style="width: 30%;" />
+	</colgroup>
+	<tr>
+		<td colspan="2" class="thead"><strong>{$lang->users_contact_details}</strong></td>
+	</tr>
+	{$website}
+	{$sendemail}
+	{$sendpm}
+	{$contact_fields['icq']}
+	{$contact_fields['aim']}
+	{$contact_fields['yahoo']}
+	{$contact_fields['skype']}
+	{$contact_fields['google']}
+</table>]]></template>
+		<template name="member_profile_contact_fields_aim" version="1800"><![CDATA[<tr>
+	<td class="{$bgcolors['aim']}"><strong>{$lang->aim_screenname}</strong></td>
+	<td class="{$bgcolors['aim']}"><a href="javascript:;" onclick="MyBB.popupWindow('/misc.php?action=imcenter&amp;imtype=aim&amp;uid={$uid}'); return false;">{$memprofile['aim']}</a></td>
+</tr>]]></template>
+		<template name="member_profile_contact_fields_google" version="1800"><![CDATA[<tr>
+	<td class="{$bgcolors['google']}"><strong>{$lang->google_id}</strong></td>
+	<td class="{$bgcolors['google']}">{$memprofile['google']}</td>
+</tr>]]></template>
+		<template name="member_profile_contact_fields_icq" version="1800"><![CDATA[<tr>
+	<td class="{$bgcolors['icq']}"><strong>{$lang->icq_number}</strong></td>
+	<td class="{$bgcolors['icq']}">{$memprofile['icq']}</td>
+</tr>]]></template>
+		<template name="member_profile_contact_fields_skype" version="1800"><![CDATA[<tr>
+	<td class="{$bgcolors['skype']}"><strong>{$lang->skype_id}</strong></td>
+	<td class="{$bgcolors['skype']}"><a href="javascript:;" onclick="MyBB.popupWindow('/misc.php?action=imcenter&amp;imtype=skype&amp;uid={$uid}'); return false;">{$memprofile['skype']}</a></td>
+</tr>]]></template>
+		<template name="member_profile_contact_fields_yahoo" version="1800"><![CDATA[<tr>
+	<td class="{$bgcolors['yahoo']}"><strong>{$lang->yahoo_id}</strong></td>
+	<td class="{$bgcolors['yahoo']}"><a href="javascript:;" onclick="MyBB.popupWindow('/misc.php?action=imcenter&amp;imtype=yahoo&amp;uid={$uid}'); return false;">{$memprofile['yahoo']}</a></td>
+</tr>]]></template>
 		<template name="member_profile_customfields" version="1800"><![CDATA[<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder tfixed">
 <colgroup>
 <col style="width: 30%;" />
@@ -4852,7 +4870,8 @@ if(use_xmlhttprequest == "1")
 <td colspan="2" class="thead"><strong>{$lang->users_additional_info}</strong></td>
 </tr>
 {$customfields}
-</table>]]></template>
+</table>
+<br />]]></template>
 		<template name="member_profile_customfields_field" version="1800"><![CDATA[<tr>
 <td class="{$bgcolor}"><strong>{$customfield['name']}:</strong></td>
 <td class="{$bgcolor} scaleimages">{$customfieldval}</td>
@@ -4862,11 +4881,11 @@ if(use_xmlhttprequest == "1")
 </ul>]]></template>
 		<template name="member_profile_customfields_field_multi_item" version="1800"><![CDATA[<li style="margin-right: 0;">{$val}</li>]]></template>
 		<template name="member_profile_email" version="120"><![CDATA[<tr>
-<td class="trow2"><strong>{$lang->email}</strong></td>
-<td class="trow2"><a href="member.php?action=emailuser&amp;uid={$memprofile['uid']}">{$lang->send_user_email}</a></td>
+<td class="{$bgcolor}"><strong>{$lang->email}</strong></td>
+<td class="{$bgcolor}"><a href="member.php?action=emailuser&amp;uid={$memprofile['uid']}">{$lang->send_user_email}</a></td>
 </tr>]]></template>
 		<template name="member_profile_groupimage" version="120"><![CDATA[<img src="{$displaygroup['image']}" alt="{$usertitle}" title="{$usertitle}" /><br />]]></template>
-		<template name="member_profile_modoptions" version="1800"><![CDATA[<br /><table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" width="100%" class="tborder">
+		<template name="member_profile_modoptions" version="1800"><![CDATA[<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" width="100%" class="tborder">
 <tr>
 <td colspan="2" class="thead"><strong>{$lang->mod_options}</strong></td>
 </tr>
@@ -4877,7 +4896,8 @@ if(use_xmlhttprequest == "1")
 {$editnotes}
 </td>
 </tr>
-</table>]]></template>
+</table>
+<br />]]></template>
 		<template name="member_profile_modoptions_banuser" version="1800"><![CDATA[<li><a href="{$mybb->settings['bburl']}/modcp.php?action=banuser&amp;uid={$uid}">{$lang->ban_in_mcp}</a></li>]]></template>
 		<template name="member_profile_modoptions_editnotes" version="1800"><![CDATA[<a href="{$mybb->settings['bburl']}/modcp.php?action=editprofile&amp;uid={$uid}#usernotes">{$lang->edit_usernotes}</a>]]></template>
 		<template name="member_profile_modoptions_editprofile" version="1800"><![CDATA[<li><a href="{$mybb->settings['bburl']}/modcp.php?action=editprofile&amp;uid={$uid}">{$lang->edit_in_mcp}</a></li>]]></template>
@@ -4894,6 +4914,10 @@ if(use_xmlhttprequest == "1")
 		<template name="member_profile_modoptions_viewnotes" version="1800"><![CDATA[[<a href="javascript:MyBB.viewNotes({$memprofile['uid']});">{$lang->view_all_notes}</a>]]]></template>
 		<template name="member_profile_offline" version="1400"><![CDATA[<span class="offline" style="font-weight: bold;">{$lang->postbit_status_offline}</span>]]></template>
 		<template name="member_profile_online" version="1400"><![CDATA[<a href="online.php"><span class="online" style="font-weight: bold;">{$lang->postbit_status_online}</span></a> ({$location} @ {$location_time})]]></template>
+		<template name="member_profile_pm" version="1800"><![CDATA[<tr>
+	<td class="{$bgcolor}"><strong>{$lang->pm}</strong></td>
+	<td class="{$bgcolor}"><a href="private.php?action=send&amp;uid={$memprofile['uid']}">{$lang->send_pm}</a></td>
+</tr>]]></template>
 		<template name="member_profile_referrals" version="1600"><![CDATA[<tr>
 <td class="{$bg_color}"><strong>{$lang->members_referred}</strong></td>
 <td class="{$bg_color}">{$memprofile['referrals']}</td>
@@ -4903,41 +4927,24 @@ if(use_xmlhttprequest == "1")
 	<td class="{$bg_color}">{$reputation} [<a href="reputation.php?uid={$memprofile['uid']}">{$lang->reputation_details}</a>] {$vote_link}</td>
 </tr>]]></template>
 		<template name="member_profile_reputation_vote" version="1800"><![CDATA[[<a href="javascript:MyBB.reputation({$memprofile['uid']});">{$lang->reputation_vote}</a>]]]></template>
-		<template name="member_profile_signature" version="1800"><![CDATA[<br />
-<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder tfixed">
+		<template name="member_profile_signature" version="1800"><![CDATA[<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder tfixed">
 <tr>
 <td class="thead"><strong>{$lang->users_signature}</strong></td>
 </tr>
 <tr>
 <td class="trow1 scaleimages">{$memprofile['signature']}</td>
 </tr>
-</table>]]></template>
+</table>
+<br />]]></template>
 		<template name="member_profile_userstar" version="1800"><![CDATA[<img src="{$starimage}" border="0" alt="*" />]]></template>
 		<template name="member_profile_warn" version="1400"><![CDATA[[<a href="warnings.php?action=warn&amp;uid={$memprofile['uid']}">{$lang->warn}</a>]]]></template>
 		<template name="member_profile_warninglevel" version="1600"><![CDATA[<tr>
 	<td class="{$bg_color}"><strong>{$lang->warning_level}</strong></td>
 	<td class="{$bg_color}"><a href="{$warning_link}">{$warning_level}</a> {$warn_user}</td>
 </tr>]]></template>
-		<template name="member_profile_website" version="1800"><![CDATA[<a href="{$memprofile['website']}" target="_blank">{$memprofile['website']}</a>]]></template>
-		<template name="member_profile_contact_fields_icq" version="1800"><![CDATA[<tr>
-	<td class="{$bgcolors['icq']}"><strong>{$lang->icq_number}</strong></td>
-	<td class="{$bgcolors['icq']}">{$memprofile['icq']}</td>
-</tr>]]></template>
-		<template name="member_profile_contact_fields_aim" version="1800"><![CDATA[<tr>
-	<td class="{$bgcolors['aim']}"><strong>{$lang->aim_screenname}</strong></td>
-	<td class="{$bgcolors['aim']}"><a href="javascript:;" onclick="MyBB.popupWindow('/misc.php?action=imcenter&amp;imtype=aim&amp;uid={$uid}'); return false;">{$memprofile['aim']}</a></td>
-</tr>]]></template>
-		<template name="member_profile_contact_fields_yahoo" version="1800"><![CDATA[<tr>
-	<td class="{$bgcolors['yahoo']}"><strong>{$lang->yahoo_id}</strong></td>
-	<td class="{$bgcolors['yahoo']}"><a href="javascript:;" onclick="MyBB.popupWindow('/misc.php?action=imcenter&amp;imtype=yahoo&amp;uid={$uid}'); return false;">{$memprofile['yahoo']}</a></td>
-</tr>]]></template>
-		<template name="member_profile_contact_fields_skype" version="1800"><![CDATA[<tr>
-	<td class="{$bgcolors['skype']}"><strong>{$lang->skype_id}</strong></td>
-	<td class="{$bgcolors['skype']}"><a href="javascript:;" onclick="MyBB.popupWindow('/misc.php?action=imcenter&amp;imtype=skype&amp;uid={$uid}'); return false;">{$memprofile['skype']}</a></td>
-</tr>]]></template>
-		<template name="member_profile_contact_fields_google" version="1800"><![CDATA[<tr>
-	<td class="{$bgcolors['google']}"><strong>{$lang->google_id}</strong></td>
-	<td class="{$bgcolors['google']}">{$memprofile['google']}</td>
+		<template name="member_profile_website" version="1800"><![CDATA[<tr>
+	<td class="{$bgcolor}"><strong>{$lang->homepage}</strong></td>
+	<td class="{$bgcolor}"><a href="{$memprofile['website']}" target="_blank">{$memprofile['website']}</a></td>
 </tr>]]></template>
 		<template name="member_register" version="1800"><![CDATA[<html>
 <head>
@@ -6248,8 +6255,8 @@ if(use_xmlhttprequest == "1")
 						<td class="{$trow}" align="center"><a href="modcp.php?action=edit_announcement&amp;aid={$aid}">{$lang->edit}</a></td>
 						<td class="{$trow}" align="center"><a href="modcp.php?action=delete_announcement&amp;aid={$aid}">{$lang->delete}</a></td>
 					</tr>]]></template>
-		<template name="modcp_announcements_announcement_active" version="1800"><![CDATA[<img src="{$theme['imgdir']}/minion.png" alt="({$lang->active})" title="{$lang->active_announcement}"  style="vertical-align: middle;" />]]></template>
-		<template name="modcp_announcements_announcement_expired" version="1800"><![CDATA[<img src="{$theme['imgdir']}/minioff.png" alt="({$lang->expired})" title="{$lang->expired_announcement}"  style="vertical-align: middle;" />]]></template>
+		<template name="modcp_announcements_announcement_active" version="1800"><![CDATA[<div class="subforumicon subforum_minion" title="{$lang->active_announcement}"></div>]]></template>
+		<template name="modcp_announcements_announcement_expired" version="1800"><![CDATA[<div class="subforumicon subforum_minioff" title="{$lang->expired_announcement}"></div>]]></template>
 		<template name="modcp_announcements_announcement_global" version="1400"><![CDATA[					<tr>
 						<td class="{$trow}">{$icon}<a href="modcp.php?action=edit_announcement&amp;aid={$aid}">{$subject}</a></td>
 						<td class="{$trow}" align="center"><a href="modcp.php?action=edit_announcement&amp;aid={$aid}">{$lang->edit}</a></td>
@@ -10080,7 +10087,7 @@ body { font-family: Tahoma, Verdana, Arial, sans-serif; font-size: 13px; }
 <tr>
 {$usercpnav}
 <td style="vertical-align: top;">
-<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder tfixed clear">
+<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder tfixed clear no_bottom_border">
 <tr>
 <td class="thead">
 <strong>{$pm['subject']}</strong>
@@ -10765,7 +10772,7 @@ document.write('<br /><span class="smalltext"><a href="#" onclick="UserCP.openBu
 <td class="tcat"><strong>{$lang->search_options}</strong></td>
 </tr>
 <tr>
-<td class="trow1" rowspan="{$rowspan}">{$srchlist}</td>
+<td class="trow1 no_bottom_border" rowspan="{$rowspan}">{$srchlist}</td>
 <td class="trow1">
 <select name="findthreadst">
 <option value="1">{$lang->threads_at_least}</option>
@@ -11160,7 +11167,7 @@ if(use_xmlhttprequest == "1")
 		{$newreply}
 	</div>
 	{$ratethread}
-	<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder tfixed clear">
+	<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder tfixed clear no_bottom_border">
 		<tr>
 			<td class="thead">
 				<div class="float_left">
