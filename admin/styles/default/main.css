@@ -688,14 +688,14 @@ input.radio_input {
 
 #flash_message.error {
 	border: 1px solid #FC6;
-	background: #FFC url('images/icons/error.png') no-repeat 80% 8px;
+	background: #FFC url('images/icons/error.png') no-repeat 99% 8px;
 	color: #C00;
 }
 
 #flash_message.success {
 	border: #080 1px solid;
 	color: #080;
-	background: #E8FCDC url('images/icons/success.png') no-repeat 80% 8px;
+	background: #E8FCDC url('images/icons/success.png') no-repeat 99% 8px;
 }
 
 .alert {
