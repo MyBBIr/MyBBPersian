@@ -1211,7 +1211,7 @@ div.jGrowl div.jGrowl-closer {
 
 /** jGrowl End **/
 
-.CodeMirror {
+.CodeMirror, #stylesheet, #template {
 	direction: ltr;
 	text-align: left;
 }
