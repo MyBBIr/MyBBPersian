@@ -705,7 +705,7 @@ input.radio_input {
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	background: #ffc url('images/icons/warning.png') no-repeat 90% 8px;
+	background: #ffc url('images/icons/warning.png') no-repeat 99% 8px;
 	color: #C00;
 	font-style: normal;
 	font-weight: bold;
@@ -1211,7 +1211,7 @@ div.jGrowl div.jGrowl-closer {
 
 /** jGrowl End **/
 
-.CodeMirror, #stylesheet, #template {
+.CodeMirror, textarea#stylesheet, textarea#template {
 	direction: ltr;
 	text-align: left;
 }
