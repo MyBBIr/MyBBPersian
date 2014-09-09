@@ -787,7 +787,7 @@ div.success ul, div.error.ul {
 	border-bottom: 0;
 	display: block;
 	font-family: Tahoma, Arial, Verdana, Sans-Serif;
-	font-size: 140%;
+	font-size: 100%;
 	letter-spacing: -1px;
 	color: #888;
 	padding: 5px 8px 3px;
