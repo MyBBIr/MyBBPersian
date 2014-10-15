@@ -510,3 +510,6 @@ $l['select2_selectiontoobig_single'] = "شما تنها می‌توانید یک
 $l['select2_selectiontoobig_plural'] = "شما تنها می‌توانید {1} گزینه‌را انتخاب کنید";
 $l['select2_loadmore'] = "درحال بارگذاری نتایج بیشتر…";
 $l['select2_searching'] = "درحال جستجو…";
+
+$l['stopforumspam_error_decoding'] = 'خطایی در رمزگشایی اطلاعات از StopForumSpam.com پیش آمده است.';
+$l['stopforumspam_error_retrieving'] = 'خطایی در بازیابی اطلاعات از StopForumSpam.com پیش‌آمده است.';

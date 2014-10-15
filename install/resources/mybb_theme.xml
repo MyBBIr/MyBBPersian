@@ -1646,7 +1646,7 @@ div.jqi .jqibuttons {
 
 div.jqi .jqibuttons button {
 	margin: 0;
-	padding: 15px 20px;
+	padding: 6px 20px;
 	background-color: transparent;
 	font-weight: normal;
 	border: none;
@@ -3778,7 +3778,7 @@ a.button {
 {$footer}
 </body>
 </html>]]></template>
-		<template name="forumdisplay_announcement_rating" version="1800"><![CDATA[	<td class="{$bgcolor} forumdisplay_announcement" align="center"><img src="{$theme['imgdir']}/pixel.gif" alt="" /></td>]]></template>
+		<template name="forumdisplay_announcement_rating" version="1801"><![CDATA[	<td class="{$bgcolor} forumdisplay_announcement" align="center">-</td>]]></template>
 		<template name="forumdisplay_announcements" version="120"><![CDATA[<tr>
 <td class="trow_sep" colspan="{$colspan}">{$lang->forum_announcements}</td>
 </tr>
@@ -3967,7 +3967,7 @@ a.button {
 	</td>]]></template>
 		<template name="forumdisplay_thread_rating_moved" version="1800"><![CDATA[<td class="{$bgcolor}" style="text-align: center;">-</td>]]></template>
 		<template name="forumdisplay_thread_unapproved_posts" version="1800"><![CDATA[ <span title="{$unapproved_posts_count}">({$thread['unapprovedposts']})</span>]]></template>
-		<template name="forumdisplay_threadlist" version="1800"><![CDATA[<div class="float_right">
+		<template name="forumdisplay_threadlist" version="1801"><![CDATA[<div class="float_right">
 	{$multipage}
 </div>
 <div class="float_left">
@@ -3998,31 +3998,30 @@ a.button {
 	<tr>
 		<td class="tfoot" align="left" colspan="{$colspan}">
 			<form action="forumdisplay.php" method="get">
-				<input type="hidden" name="selectall" value="" />
 				<input type="hidden" name="fid" value="{$fid}" />
 				<select name="sortby">
-					<option value="subject" {$sortsel['subject']}>{$lang->sort_by_subject}</option>
-					<option value="lastpost" {$sortsel['lastpost']}>{$lang->sort_by_lastpost}</option>
-					<option value="starter" {$sortsel['starter']}>{$lang->sort_by_starter}</option>
-					<option value="started" {$sortsel['started']}>{$lang->sort_by_started}</option>
+					<option value="subject"{$sortsel['subject']}>{$lang->sort_by_subject}</option>
+					<option value="lastpost"{$sortsel['lastpost']}>{$lang->sort_by_lastpost}</option>
+					<option value="starter"{$sortsel['starter']}>{$lang->sort_by_starter}</option>
+					<option value="started"{$sortsel['started']}>{$lang->sort_by_started}</option>
 					{$ratingsort}
-					<option value="replies" {$sortsel['replies']}>{$lang->sort_by_replies}</option>
-					<option value="views" {$sortsel['views']}>{$lang->sort_by_views}</option>
+					<option value="replies"{$sortsel['replies']}>{$lang->sort_by_replies}</option>
+					<option value="views"{$sortsel['views']}>{$lang->sort_by_views}</option>
 				</select>
 				<select name="order">
-					<option value="asc" {$ordersel['asc']}>{$lang->sort_order_asc}</option>
-					<option value="desc" {$ordersel['desc']}>{$lang->sort_order_desc}</option>
+					<option value="asc"{$ordersel['asc']}>{$lang->sort_order_asc}</option>
+					<option value="desc"{$ordersel['desc']}>{$lang->sort_order_desc}</option>
 				</select>
 				<select name="datecut">
-					<option value="1" {$datecutsel['1']}>{$lang->datelimit_1day}</option>
-					<option value="5" {$datecutsel['5']}>{$lang->datelimit_5days}</option>
-					<option value="10" {$datecutsel['10']}>{$lang->datelimit_10days}</option>
-					<option value="20" {$datecutsel['20']}>{$lang->datelimit_20days}</option>
-					<option value="50" {$datecutsel['50']}>{$lang->datelimit_50days}</option>
-					<option value="75" {$datecutsel['75']}>{$lang->datelimit_75days}</option>
-					<option value="100" {$datecutsel['100']}>{$lang->datelimit_100days}</option>
-					<option value="365" {$datecutsel['365']}>{$lang->datelimit_lastyear}</option>
-					<option value="9999" {$datecutsel['9999']}>{$lang->datelimit_beginning}</option>
+					<option value="1"{$datecutsel['1']}>{$lang->datelimit_1day}</option>
+					<option value="5"{$datecutsel['5']}>{$lang->datelimit_5days}</option>
+					<option value="10"{$datecutsel['10']}>{$lang->datelimit_10days}</option>
+					<option value="20"{$datecutsel['20']}>{$lang->datelimit_20days}</option>
+					<option value="50"{$datecutsel['50']}>{$lang->datelimit_50days}</option>
+					<option value="75"{$datecutsel['75']}>{$lang->datelimit_75days}</option>
+					<option value="100"{$datecutsel['100']}>{$lang->datelimit_100days}</option>
+					<option value="365"{$datecutsel['365']}>{$lang->datelimit_lastyear}</option>
+					<option value="9999"{$datecutsel['9999']}>{$lang->datelimit_beginning}</option>
 				</select>
 				{$prefixselect}
 				{$gobutton}
@@ -4063,8 +4062,10 @@ a.button {
 <br class="clear" />
 {$inline_edit_js}]]></template>
 		<template name="forumdisplay_threadlist_clearpass" version="1606"><![CDATA[ | <a href="misc.php?action=clearpass&amp;fid={$fid}&amp;my_post_key={$mybb->post_code}">{$lang->clear_stored_password}</a>]]></template>
-		<template name="forumdisplay_threadlist_prefixes" version="1800"><![CDATA[<select name="prefix">
-<option value="0"{$default_selected}>{$lang->prefix_all}</option>
+		<template name="forumdisplay_threadlist_prefixes" version="1801"><![CDATA[<select name="prefix">
+<option value="-2"{$default_selected['any']}>{$lang->prefix_any}</option>
+<option value="-1"{$default_selected['none']}>{$lang->prefix_none}</option>
+<option value="0"{$default_selected['all']}>{$lang->prefix_all}</option>
 {$prefixselect_prefix}
 </select>]]></template>
 		<template name="forumdisplay_threadlist_prefixes_prefix" version="1800"><![CDATA[<option value="{$prefix['pid']}"{$selected}>{$lang->prefix} {$prefix['prefix']}</option>]]></template>
@@ -4727,7 +4728,7 @@ if(use_xmlhttprequest == "1")
 {$footer}
 </body>
 </html>]]></template>
-		<template name="member_profile" version="1800"><![CDATA[<html>
+		<template name="member_profile" version="1801"><![CDATA[<html>
 <head>
 <title>{$mybb->settings['bbname']} - {$lang->profile}</title>
 {$headerinclude}
@@ -4756,7 +4757,7 @@ if(use_xmlhttprequest == "1")
 	</table>
 </fieldset>
 <br />
-{$awaybit}
+{$awaybit}{$bannedbit}
 <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
 	<tr>
 		<td width="50%" valign="top">
@@ -4790,7 +4791,7 @@ if(use_xmlhttprequest == "1")
 			</table>
 			{$contact_details}
 		</td>
-		<td><img src="{$theme['imgdir']}/pixel.gif" height="1" width="8" alt=""/></td>
+		<td>&nbsp;&nbsp;</td>
 		<td width="50%" valign="top">
 			{$profilefields}
 			{$signature}
@@ -4819,11 +4820,16 @@ if(use_xmlhttprequest == "1")
 </table>
 <br />]]></template>
 		<template name="member_profile_avatar" version="1800"><![CDATA[<img src="{$useravatar['image']}" alt="" {$useravatar['width_height']} />]]></template>
-		<template name="member_profile_away" version="1800"><![CDATA[<tr>
-<fieldset>
+		<template name="member_profile_away" version="1801"><![CDATA[<fieldset>
 <legend><strong>{$lang->away_note}</strong></legend>
 <em>{$lang->away_reason} {$awayreason}</em><br />
 <span class="smalltext">{$lang->away_since} {$awaydate} &mdash; {$lang->away_returns} {$returndate}</span>
+</fieldset>
+<br />]]></template>
+		<template name="member_profile_banned" version="1801"><![CDATA[<fieldset>
+<legend><strong>{$lang->ban_note}</strong></legend>
+<em>{$lang->banned_warning2}: {$memban['reason']}</em><br />
+<span class="smalltext"><strong>{$lang->ban_by}:</strong> {$memban['adminuser']} &mdash; <strong>{$lang->ban_length}:</strong> {$banlength} <span class="smalltext">{$timeremaining}</span></span>
 </fieldset>
 <br />]]></template>
 		<template name="member_profile_contact_details" version="1800"><![CDATA[<br />
@@ -6687,7 +6693,7 @@ if(use_xmlhttprequest == "1")
 								<td class="trow1" width="75%"><select name="usergroup">{$bangroup_option}</select></td>
 							</tr>]]></template>
 		<template name="modcp_banuser_bangroups_group" version="1800"><![CDATA[<option value="{$group['gid']}"{$selected}>{$group['title']}</option>]]></template>
-		<template name="modcp_banuser_bangroups_hidden" version="1800"><![CDATA[<input type="hidden" name="usergroup" value="{$group['gid']}" />]]></template>
+		<template name="modcp_banuser_bangroups_hidden" version="1801"><![CDATA[<input type="hidden" name="usergroup" value="{$banned_group}" />]]></template>
 		<template name="modcp_banuser_editusername" version="1400"><![CDATA[<tr>
 	<td class="trow1" width="25%"><strong>{$lang->ban_username}</strong></td>
 	<td class="trow1" width="75%">{$username}</td>
@@ -8079,9 +8085,15 @@ if(use_xmlhttprequest == "1")
 <form action="moderation.php" method="post">
 <input type="hidden" name="my_post_key" value="{$mybb->post_code}" />
 <input type="hidden" name="action" value="{$mybb->input['action']}" />
-<input type="hidden" name="modtype" value="{$mybb->input['modtype']}" />
-  <input type="hidden" name="tid" value="{$tid}" />
+<input type="hidden" name="modtype" value="{$modtype}" />
+<input type="hidden" name="tid" value="{$tid}" />
+<input type="hidden" name="pid" value="{$pid}" />
+<input type="hidden" name="fid" value="{$fid}" />
+<input type="hidden" name="pmid" value="{$pmid}" />
 <input type="hidden" name="confirm" value="1" />
+<input type="hidden" name="inlinetype" value="{$inlinetype}" />
+<input type="hidden" name="searchid" value="{$searchid}" />
+<input type="hidden" name="url" value="{$url}" />
 <table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder">
 <tr>
 <td class="thead" colspan="2"><strong>{$thread['subject']} - {$lang->confirm_execute_tool}</strong></td>
@@ -9470,7 +9482,7 @@ if(use_xmlhttprequest == "1")
 	{$post['replink']}{$post['profilefield']}{$post['warninglevel']}]]></template>
 		<template name="postbit_avatar" version="1800"><![CDATA[<div class="author_avatar"><a href="{$post['profilelink_plain']}"><img src="{$useravatar['image']}" alt="" {$useravatar['width_height']} /></a></div>]]></template>
 		<template name="postbit_away" version="1800"><![CDATA[<a href="{$post['profilelink_plain']}" title="{$lang->postbit_status_away}"><img src="{$theme['imgdir']}/buddy_away.png" border="0" alt="{$lang->postbit_status_away}" class="buddy_status" /></a>]]></template>
-		<template name="postbit_classic" version="1800"><![CDATA[{$ignore_bit}
+		<template name="postbit_classic" version="1801"><![CDATA[{$ignore_bit}
 <a name="pid{$post['pid']}" id="pid{$post['pid']}"></a>
 <div class="post classic {$unapproved_shade}" style="{$post_visibility}" id="post_{$post['pid']}">
 <div class="post_author scaleimages">
@@ -9488,7 +9500,7 @@ if(use_xmlhttprequest == "1")
 	</div>
 </div>
 <div class="post_content">
-	<div class="post_head" title="{$post['subject_title']}">
+	<div class="post_head">
 		{$post['posturl']}
 		{$post['icon']}
 		<span class="post_date">{$post['postdate']} <span class="post_edit" id="edited_by_{$post['pid']}">{$post['editedmsg']}</span></span>
@@ -9556,8 +9568,8 @@ if(use_xmlhttprequest == "1")
 		<template name="postbit_offline" version="1800"><![CDATA[<img src="{$theme['imgdir']}/buddy_offline.png" title="{$lang->postbit_status_offline}" alt="{$lang->postbit_status_offline}" class="buddy_status" />]]></template>
 		<template name="postbit_online" version="1800"><![CDATA[<a href="online.php" title="{$lang->postbit_status_online}"><img src="{$theme['imgdir']}/buddy_online.png" border="0" alt="{$lang->postbit_status_online}" class="buddy_status" /></a>]]></template>
 		<template name="postbit_pm" version="1800"><![CDATA[<a href="private.php?action=send&amp;uid={$post['uid']}" title="{$lang->postbit_pm}" class="postbit_pm"><span>{$lang->postbit_button_pm}</span></a>]]></template>
-		<template name="postbit_posturl" version="1800"><![CDATA[<div class="float_left" style="vertical-align: top">
-<strong><a href="{$post['postlink']}#pid{$post['pid']}">#{$post_number}</a></strong>
+		<template name="postbit_posturl" version="1801"><![CDATA[<div class="float_left" style="vertical-align: top">
+<strong><a href="{$post['postlink']}#pid{$post['pid']}" title="{$post['subject_title']}">#{$post_number}</a></strong>
 {$post['inlinecheck']}
 </div>]]></template>
 		<template name="postbit_profilefield" version="1800"><![CDATA[<br />{$post['fieldname']}: {$post['fieldvalue']}]]></template>
@@ -9869,14 +9881,14 @@ body { font-family: Tahoma, Verdana, Arial, sans-serif; font-size: 13px; }
 <tr>
 <td class="tcat" colspan="2"><strong>{$lang->folder} {$foldername}</strong></td>
 </tr>]]></template>
-		<template name="private_archive_html_message" version="1800"><![CDATA[<tr>
+		<template name="private_archive_html_message" version="1801"><![CDATA[<tr>
 <td class="trow1"><strong>{$lang->subject} {$message['subject']}</strong><br /><em>{$lang->to} {$message['tousername']}<br />{$lang->from} {$message['fromusername']}<br />{$lang->sent} {$senddate}</em></td>
 </tr>
 <tr>
 <td class="trow2">{$message['message']}</td>
 </tr>
 <tr>
-<td class="tcat" height="3"><img src="{$theme['imgdir']}/pixel.gif" height="3" width="1" alt="" /></td>
+<td class="tcat" height="3"> </td>
 </tr>]]></template>
 		<template name="private_archive_txt" version="120"><![CDATA[{$lang->private_messages_for}
 ({$lang->exported_date})
@@ -10012,8 +10024,8 @@ body { font-family: Tahoma, Verdana, Arial, sans-serif; font-size: 13px; }
 </tr>]]></template>
 		<template name="private_messagebit_denyreceipt" version="120"><![CDATA[ <span class="smalltext"><a href="private.php?action=read&amp;pmid={$message['pmid']}&amp;denyreceipt=1">{$lang->deny_receipt}</a></span>]]></template>
 		<template name="private_messagebit_icon" version="1800"><![CDATA[<img src="{$icon['path']}" alt="{$icon['name']}" title="{$icon['name']}" align="center" valign="middle" />]]></template>
-		<template name="private_messagebit_sep" version="120"><![CDATA[<tr>
-<td class="tcat" align="center" colspan="6" height="1"><img src="{$theme['imgdir']}/pixel.gif" height="1" width="1" alt=""/></td>
+		<template name="private_messagebit_sep" version="1801"><![CDATA[<tr>
+<td class="tcat" align="center" colspan="6" height="1"> </td>
 </tr>
     ]]></template>
 		<template name="private_move" version="1800"><![CDATA[<input type="hidden" value="{$mybb->input['fid']}" name="fromfid" />
@@ -10863,16 +10875,16 @@ if(use_xmlhttprequest == "1")
 {$forumlistbits}
 </select>]]></template>
 		<template name="search_forumlist_forum" version="1800"><![CDATA[<option value="{$forum['fid']}">{$depth} {$forum['name']}</option>]]></template>
-		<template name="search_moderator_options" version="1800"><![CDATA[<tr>
+		<template name="search_moderator_options" version="1801"><![CDATA[<tr>
 <td class="tcat"><strong>{$lang->mod_options}</strong></td>
 </tr>
 <tr>
 <td class="trow1" valign="top">
 <select name="visible">
-<option value="">{$lang->find_all}</option>
-<option value="1">{$lang->find_only_approved}</option>
-<option value="0">{$lang->find_only_unapproved}</option>
-<option value="-1">{$lang->find_only_softdeleted}</option>
+<option value="">{$lang->display_all}</option>
+<option value="1">{$lang->display_only_approved}</option>
+<option value="0">{$lang->display_only_unapproved}</option>
+<option value="-1">{$lang->display_only_softdeleted}</option>
 </select> {$lang->results}
 </td>
 </tr>]]></template>
@@ -11324,9 +11336,6 @@ if(use_xmlhttprequest == "1")
 </optgroup>]]></template>
 		<template name="showthread_moderationoptions_stickunstick" version="1800"><![CDATA[<option value="stick">{$lang->stick_unstick_thread}</option>]]></template>
 		<template name="showthread_moderationoptions_threadnotes" version="1800"><![CDATA[<option value="threadnotes" selected="selected">{$lang->thread_notes}</option>]]></template>
-		<template name="showthread_multipage" version="126"><![CDATA[<tr>
-<td class="tcat" colspan="2"> {$multipage}</td>
-</tr>]]></template>
 		<template name="showthread_newreply" version="1800"><![CDATA[<a href="newreply.php?tid={$tid}" class="button new_reply_button"><span>{$lang->new_reply}</span></a>&nbsp;]]></template>
 		<template name="showthread_newreply_closed" version="1800"><![CDATA[<a href="newreply.php?tid={$tid}" class="button closed_button"><span>{$lang->thread_closed}</span></a>&nbsp;]]></template>
 		<template name="showthread_newthread" version="1800"><![CDATA[<a href="newthread.php?fid={$fid}" class="button new_thread_button"><span>{$lang->post_thread}</span></a>&nbsp;]]></template>
@@ -13721,27 +13730,18 @@ if(use_xmlhttprequest == "1")
 		<template name="xmlhttp_buddyselect_online" version="1800"><![CDATA[					<tr>
 						<td class="trow1" onmouseover="this.className='trow2';" onmouseout="this.className='trow1';"><label><input type="checkbox" style="vertical-align: middle;" id="checkbox_{$buddy['uid']}" onclick="UserCP.selectBuddy('{$buddy['uid']}', '{$buddy['username']}');" /> <img src="{$theme['imgdir']}/buddy_online.png" alt="({$lang->online})" title="{$lang->online}" style="vertical-align: middle;" /> {$buddy_name}</label></td>
 					</tr>]]></template>
-		<template name="xmlhttp_inline_post_editor" version="1800"><![CDATA[<div class="clear">
-			<div>
-				<textarea style="width: 99%; padding: 4px; margin: 0;" rows="12" cols="80" id="quickedit_{$post['pid']}" tabindex="999">{$post['message']}</textarea>
-			</div>
-			<div class="editor_control_bar" style="width: 99%; padding: 4px; margin-top: 3px; text-align: left;">
-				<input type="button" class="button" onclick="Thread.quickEditSave({$post['pid']});" value="{$lang->save_changes}" tabindex="1000" />
-				<input type="button" class="button" onclick="Thread.quickEditCancel({$post['pid']});" value="{$lang->cancel_edit}" tabindex="1001" />
-			</div>
-		</div>]]></template>
 		<template name="attachment_icon" version="1800"><![CDATA[<img src="{$icon}" title="{$name}" border="0" alt=".{$ext}" />]]></template>		<template name="changeuserbox" version="1400"><![CDATA[<tr>
 <td class="trow1" width="20%"><strong>{$lang->username}</strong></td>
 <td class="trow1">{$mybb->user['username']} <span class="smalltext">[<strong><a href="member.php?action=logout&amp;logoutkey={$mybb->user['logoutkey']}">{$lang->change_user}</a></strong>]</span></td>
 </tr>]]></template>
-		<template name="codebuttons" version="1800"><![CDATA[<link rel="stylesheet" href="{$mybb->asset_url}/jscripts/sceditor/editor_themes/{$theme['editortheme']}" type="text/css" media="all" />
+		<template name="codebuttons" version="1801"><![CDATA[<link rel="stylesheet" href="{$mybb->asset_url}/jscripts/sceditor/editor_themes/{$theme['editortheme']}" type="text/css" media="all" />
 <script type="text/javascript" src="{$mybb->asset_url}/jscripts/sceditor/jquery.sceditor.bbcode.min.js"></script>
 <script type="text/javascript" src="{$mybb->asset_url}/jscripts/bbcodes_sceditor.js"></script>
 <script type="text/javascript">
 var partialmode = {$mybb->settings['partialmode']},
 opt_editor = {
 	plugins: "bbcode",
-	style: "{$mybb->asset_url}/jscripts/sceditor/jquery.sceditor.mybb.css",
+	style: "{$mybb->asset_url}/jscripts/sceditor/textarea_styles/jquery.sceditor.{$theme['editortheme']}",
 	rtl: {$lang->settings['rtl']},
 	locale: "mybblang",
 	enablePasteFiltering: true,

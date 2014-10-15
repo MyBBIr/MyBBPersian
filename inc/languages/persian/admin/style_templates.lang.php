@@ -105,6 +105,7 @@ $l['group_stats'] = "<span style=\"float:left\">Statistics Templates</span>قا�
 $l['group_xmlhttp'] = "<span style=\"float:left\">XMLHTTP Templates</span>قالب‌های ایکس‌ام‌ال اچ‌تی‌تی‌پی (XMLHTTP)";
 $l['group_footer'] = "<span style=\"float:left\">Footer Templates</span>قالب‌های پانوشت";
 $l['group_video'] = "<span style=\"float:left\">Video MyCode Templates</span>قالب‌های مای‌کد ویدیو";
+$l['group_sendthread'] = "<span style=\"float:left\">Send Thread Templates</span>قالب‌های ارسال موضوع";
 $l['expand'] = "باز کردن زیر شاخه‌ها";
 $l['collapse'] = "بستن زیر شاخه‌ها";
 $l['save_continue'] = "ذخیره و ادامه ویرایش";
