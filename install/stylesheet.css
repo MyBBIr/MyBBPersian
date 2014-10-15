@@ -11,6 +11,7 @@ body {
 	color: #333;
 	margin: 0;
 	direction: rtl;
+	text-rendering: optimizeLegibility;
 }
 
 a {

@@ -10,6 +10,7 @@ body {
 	color: #000000;
 	margin: 0;
 	direction: rtl;
+	text-rendering: optimizeLegibility;
 }
 
 a {
@@ -76,9 +77,9 @@ h2 {
 	margin: 0;
 	padding: 8px;
 	font-size: 14px;
-	border-radius: 5px 0 5px 0;
-	-moz-border-radius: 5px 0 5px 0;
-	-webkit-border-radius: 5px 0 5px 0;
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
 }
 
 input.text_input {
@@ -146,9 +147,9 @@ p.submit {
 	padding: 8px 10px;
 	margin: 8px -10px 0;
 	text-align: left;
-	border-radius: 0 5px 0 5px;
-	-moz-border-radius: 0 5px 0 5px;
-	-webkit-border-radius: 0 5px 0 5px;
+	border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
 }
 
 p.submit input {

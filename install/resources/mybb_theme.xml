@@ -18,6 +18,7 @@
 	font-family: Tahoma, Verdana, Arial, Sans-Serif;
 	font-size: 13px;
 	overflow-y: scroll;
+	text-rendering: optimizeLegibility;
 }
 
 a:link {
