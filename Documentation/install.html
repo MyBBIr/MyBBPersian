@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fa" lang="fa" dir="rtl">
+<head>
+	<title>مستندات مای بی‌بی - دستورالعمل‌های نصب و راه‌اندازی</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+	<style type="text/css">ol li { padding-bottom: 10px; }</style>
+</head>
+<body>
+<div id="container">
+	<div id="header">
+		<h1>مای بی‌بی</h1>
+		<div id="utilities">
+			<div id="syndication">
+				<h3>پیوندهای مای بی‌بی</h3>
+				<p>
+					<a href="http://mybb.com">وب‌سایت مای بی‌بی</a><br />
+					<a href="http://my-bb.ir">پشتیبانی فارسی مای بی‌بی</a><br />
+					<a href="http://docs.my-bb.ir">مستندات مای بی‌بی</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div id="primary-navigation">
+		<ul>
+			<li><a href="index.html">خوش‌آمد گویی</a></li>
+			<li><a href="license.html">قرارداد مجوز‌ها</a></li>
+			<li class="active"><a href="install.html">دستورالعمل نصب و راه‌اندازی</a></li>
+			<li><a href="upgrade.html">دستورالعمل بروزرسانی</a></li>
+			<li><a href="credits.html">سازندگان</a></li>
+		</ul>
+	</div>
+	<div id="page-content">
+		<div class="item">
+			<h3>دستورالعمل‌های نصب</h3>
+			<h4>مراحل ساده و سریع برای شما به منظور اجراکردن انجمنان</h4>
+			<p>این مراحل به هیچ وجه جامع و کاملا دقیق نیست. برای مشاهده‌ی مستندات کامل‌تر، لطفا <a href="http://docs.my-bb.ir/1.8/install/" target="_blank">مستندات مای بی‌بی - نصب‌کردن</a> را مشاهده فرمائید.</p>
+			<ol>
+				<li>بسته‌ی انتشار را در رایانه‌ی خود به وسیله‌ی یک نرم‌افزار امکان آرشیو کردن Unzip کنید. (<a href="http://www.winzip.com">WinZip</a>، <a href="http://www.rarsoft.com/">WinRAR</a>)</li>
+				<li>با استفاده از یک گیرنده‌ی FTP (<a href="http://www.flashfxp.com">FlashFXP</a>، <a href="http://filezilla-project.org/">FileZilla</a>، <a href="http://www.smartftp.com/">SmartFTP</a>)، یا یک مدیریت‌کننده‌ی فایل‌های در بسته‌ی هاست خود، محتویات پوشه‌ی Upload را در پوشه‌ی قابل دیدن هاست خود آپلود کنید (برای مثال، forum یا forums).</li>
+				<li>CHMOD فایل‌های زیر را به ۶۶۶ تغییر دهید (اطمینان حاصل کنید که پی‌اچ‌پی می‌تواند بر روی آنها بنویسد.).<br />./inc/settings.php<br />./inc/config.php (شما ابتدا باید <strong>config.default.php</strong> را به <strong>config.php</strong> تغییر نام دهید)<br />./inc/languages/*زبان شما*/*همه فایل‌ها* (اختیاری)<br />./inc/languages/*زبان شما*/admin/*همه فایل‌ها* (اختیاری)<br /><br />CHMOD فایل‌های زیر را بر روی ۷۷۷ قرار دهید (مطمئن شوید که پی‌اچ‌پی می‌تواند به نوشتن و اجرای فایل‌ها در آنها بپردازد).<br />./cache/<br />./cache/themes/<br />./uploads/<br />./uploads/avatars/<br />./admin/backups/ (اختیاری)</li>
+				<li>در مرورگر خود، آدرس جایی که انجمن خود را نصب کرده‌اید را مشاهده کنید، و  /install/ را به آخر آن اضافه فرمائید.<br /><br />اگر آدرس انجمن نصب شده‌ی شما http://www.yoursite.com/forums/ باشد، شما باید http://www.yoursite.com/forums/install/ را مشاهده کنید.</li>
+				<li>لطفا فرایند نصب مای بی‌بی را دنبال کنید، همچنین اطمینان حاصل کنید که موارد زیر را در دسترس دارید:
+					<ul>
+						<li><strong>اطلاعات پایگاه داده:</strong><br />MyBB 1.8 می‌تواند بر روی MySQL، SQLite و PostgreSQL اجرا شود. شما نیاز به اطلاعات پایگاه داده خود دارید تا مای بی‌بی بتواند به آن متصل شود. به طور کلی، میزبان شما باید قادر به عرضه این اطلاعات شود.<ul><li><strong>MySQL:</strong> شما نیاز به نام کاربری، رمزعبور، نام پایگاه داده و نام هاست یا آی‌پی سرور مای‌اس‌کیو‌ال خود دارید.</li><li><strong>SQLite:</strong> شما نیاز به مسیر پایگاه داده خود دارید.</li><li><strong>PostgreSQL:</strong> شما نیاز به نام کاربری، رمزعبور ، نام پایگاه‌داده و نام میزبان یا آی‌پی  سرور PostgreSQL خود دارید.</li></ul></li>
+						<li><strong>اطلاعات انجمن:</strong><br />این شامل نام انجمن شما، URL پوشه‌ی انجمن شما، نام وب‌سایت شماو آدرس وب‌سایت شما می‌شود.</li>
+						<li><strong>اطلاعات مدیر کل:</strong><br />در فرمایند نصب مای بی‌بی شما باید حساب کاربری مدیرکل را بسازید. شما نیاز خواهید داشت تا نام‌کاربری، رمز عبور و  آدرس رایانامه این حساب را بدانید.</li>
+					</ul></li>
+				<li>پس از اینکه فرایند نصب تمام شد، لطفا پوشه‌ی 'install' را از سرورخود پاک کنید.<br />نکته: برای امنیت بیشتر شما می‌توانید CHMOD فایل config.php را به 644، ویا حتی 444 برگردانید, ولی اطمینان حاصل کنید که settings.php را قابل نوشتن رها کرده باشید, و همچنین تمام فایل‌ها و پوشه‌ها با مجوز اضافی دیگر.</li>
+				<li>شما می‌توانید با اضافه کردن  /admin/ به آدرس انجمنتان به پنل مدیریت خود دسترسی پیدا کنید</li>
+			</ol>
+			<p>تبریک می‌گوییم، شما هم‌اکنون یک رونوشت از مای بی‌بی را بر روی وب‌سایت خود نصب کرده‌اید.</p>
+	</div>
+	<div id="footer">
+		<p>
+			&copy; 2014 MyBB Group. All Rights Reserved.
+		</p>
+	</div>
+</div>
+</body>
+</html>
