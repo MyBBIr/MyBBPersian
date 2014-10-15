@@ -207,7 +207,7 @@ if($mybb->input['action'] == "browse")
 	}
 
 	$search = new Form("index.php?module=style-themes&amp;action=browse", 'post', 'search_form');
-	echo "<div style=\"padding-bottom: 3px; margin-top: -9px; text-align: left;\">";
+	echo "<div style=\"padding-bottom: 3px; margin-top: -9px; text-align: right;\">";
 	if($mybb->input['keywords'])
 	{
 		$default_class = '';
