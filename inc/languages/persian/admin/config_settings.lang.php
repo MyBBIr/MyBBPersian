@@ -122,7 +122,7 @@ $l['setting_group_details'] = 'اطلاعات انجمن';
 $l['setting_group_details_desc'] = 'این بخش شامل تنظیمات مختلف از جمله نام انجمن شما و URL آن و همچنین نام وب‌سایت شما و URL آن است.';
 
 $l['setting_bbname'] = 'نام انجمن';
-$l['setting_bbname_desc'] = 'نام انجمن شما. ما پیشنهاد می‌کند که این بیش از ۷۵ کاراکتر نباشد.';
+$l['setting_bbname_desc'] = 'نام انجمن شما. ما پیشنهاد می‌کنیم که این بش از ۷۵ کاراکتر نباشد.';
 $l['setting_bburl'] = 'URL انجمن';
 $l['setting_bburl_desc'] = 'آدرس URL انجمن‌های شما.<br />به همراه http://. و نباید دارای «اسلش» پایانی باشد.';
 $l['setting_homename'] = 'نام صفحه‌ی خانگی';
@@ -385,58 +385,58 @@ $l['setting_usereferrals'] = 'استفاده از سیستم معرفی‌ها';
 $l['setting_usereferrals_desc'] = 'آیا شما می‌خواهید از سیستم معرفی‌ها در انجمنتان استفاده شود؟';
 $l['setting_coppa'] = 'پذیرش COPPA';
 $l['setting_coppa_desc'] = 'آیا شما می‌خواهید که  <a href="http://www.coppa.org/comply.htm">COPPA</a> را در انجمنتان فعال کنید، لطفا میزان مجاز را از زیر انتخاب کنید.';
-$l['setting_username_method'] = 'Allowed Login Methods';
-$l['setting_username_method_desc'] = 'The login methods you wish to allow for the username field. Username only, Email only, or allow both.';
-$l['setting_failedcaptchalogincount'] = 'Number of failed logins before verification required';
-$l['setting_failedcaptchalogincount_desc'] = 'The number of times to allow someone to attempt to login before required to enter a CAPTCHA verification. 0 to disable';
-$l['setting_failedlogincount'] = 'Number of times to allow failed logins';
-$l['setting_failedlogincount_desc'] = 'The number of times to allow someone to attempt to login. 0 to disable';
-$l['setting_failedlogintime'] = 'Time between failed logins';
-$l['setting_failedlogintime_desc'] = 'The amount of time (in minutes) before someone can try to login again, after they have failed to login the first time. Used if value above is not 0.';
-$l['setting_failedlogintext'] = 'Display number of failed logins';
-$l['setting_failedlogintext_desc'] = 'Do you wish to display a line of text telling the user how many more login attempts they have?';
-$l['setting_regtime'] = 'Minimum Registration Time';
-$l['setting_regtime_desc'] = 'The minimum time in seconds a user must take to fill out the registration form.  Used to prevent automated bot signups.  Setting this to 0 to disables the function.';
-$l['setting_securityquestion'] = 'Show Security Question';
-$l['setting_securityquestion_desc'] = 'Do you wish to show a question that users must answer when registering?';
+$l['setting_username_method'] = 'روشهای ورود کاربر به انجمن';
+$l['setting_username_method_desc'] = 'شما میتوانید روشهای ورود کاربر به انجمن را انتخاب کنید.ورود با ایمیل ، ورود با نام کاربری ، ورود با ایمیل و نمام کاربری.';
+$l['setting_failedcaptchalogincount'] = 'تعداد ورود‌های ناموفق قبل‌ازاینکه تایید هویت لازم باشد';
+$l['setting_failedcaptchalogincount_desc'] = 'تعداد دفعاتی که یک فرد می‌تواند تلاش به ورود کند قبل از اینکه نیاز شود یک  CAPTCHA برای تایید هویت وارد کند. برای غیرفعال‌سازی بر روی ۰ قرار دهید.';
+$l['setting_failedlogincount'] = 'دفعات مجاز برای ورود ناموفق';
+$l['setting_failedlogincount_desc'] = 'تعداد دفعات مجاز برای ورود ناموفق . برای غیرفعالسازی 0 را وارد کنید.';
+$l['setting_failedlogintime'] = 'زمان بین ورود‌های ناموفق';
+$l['setting_failedlogintime_desc'] = 'مقدار زمانی (به دقیقه) که یک فرد پس از آن بتواند تلاش به ورود مجدد کند.استفاده می‌شود اگر مقدار آن کمتر از  0 نباشد.';
+$l['setting_failedlogintext'] = 'نمایش تعداد ورود‌های ناموفق';
+$l['setting_failedlogintext_desc'] = 'آیا شما می‌خواهید تعداد ورود‌های ناموفق که هر فرد می‌تواند داشته باشد در یک خط برای کاربران گفته شود؟';
+$l['setting_regtime'] = 'حداقل زمان عضویت';
+$l['setting_regtime_desc'] = 'حداقل زمانی که کاربر باید در صفحه‌ی عضویت طی کند. برای جلوگیری از ثبت‌نام اسپمر‌ها استفاده می‌شود.  برای غیرفعال‌سازی این قابلیت این تنظیم را بر روی ۰ قرار دهید.';
+$l['setting_securityquestion'] = 'نمایش سوال امنیتی';
+$l['setting_securityquestion_desc'] = 'آیا شما می خواهید که سوال امنیتی که کاربران باید به آن پاسخ دهند در فرم ثبت‌نام نمایش داده';
 
 
 
 $l['setting_group_profile'] = 'گزینه‌های پروفایل';
-$l['setting_group_profile_desc'] = 'The options here control the various settings of user profiles around the forums.';
+$l['setting_group_profile_desc'] = 'این تنظیمات به شما در مدیریت تنظیمات مختلف پیرامون پروفایل‌کاربران کمک می‌کند.';
 
-$l['setting_sigmycode'] = 'Allow MyCode in Signatures';
-$l['setting_sigmycode_desc'] = 'Do you want to allow MyCode to be used in users\' signatures?';
-$l['setting_sigcountmycode'] = 'MyCode affects signature length';
-$l['setting_sigcountmycode_desc'] = 'Do you want MyCode to be counted as part of the limit when users use MyCode in their signature?';
-$l['setting_sigsmilies'] = 'Allow Smilies in Signatures';
-$l['setting_sigsmilies_desc'] = 'Do you want to allow smilies to be used in users\' signatures?';
-$l['setting_sightml'] = 'Allow HTML in Signatures';
-$l['setting_sightml_desc'] = 'Do you want to allow HTML to be used in users\' signatures?';
-$l['setting_sigimgcode'] = 'Allow [img] Code in Signatures';
-$l['setting_sigimgcode_desc'] = 'Do you want to allow [img] code to be used in users\' signatures?';
-$l['setting_maxsigimages'] = 'Maximum Number of Images per Signature';
-$l['setting_maxsigimages_desc'] = 'Enter the maximum number of images (including smilies) a user can put in their signature. Set to 0 to disable images in signatures altogether.';
-$l['setting_siglength'] = 'Length limit in Signatures';
-$l['setting_siglength_desc'] = 'The maximum number of characters a user can place in a signature.';
-$l['setting_useravatar'] = 'Default User Avatar';
-$l['setting_useravatar_desc'] = 'If the user does not set a custom avatar this image will be used instead.';
-$l['setting_useravatardims'] = 'Default Avatar Dimensions';
-$l['setting_useravatardims_desc'] = 'The dimensions of the default avatar; width by height (e.g. 40|40).';
-$l['setting_useravatarrating'] = 'Gravatar Rating';
-$l['setting_useravatarrating_desc'] = 'Allows you to set the maximum rating for Gravatars if a user chooses to use one. If a user avatar is higher than this rating a default avatar will be used. The ratings are:
+$l['setting_sigmycode'] = 'اجازه استفاده از مای‌کد در امضاها';
+$l['setting_sigmycode_desc'] = 'آیا شما می‌خواهید که اجازه‌دهید تا MyCode در امضای کاربران استفاده شود؟';
+$l['setting_sigcountmycode'] = 'MyCode در طول امضا اعمال شود؟';
+$l['setting_sigcountmycode_desc'] = 'آیا شما می‌خواهید که MyCode به عنوان بخشی از امضا در محدودیت طول امضا اعمال شود؟';
+$l['setting_sigsmilies'] = 'اجازه استفاده از شکلک‌ها در امضاها';
+$l['setting_sigsmilies_desc'] = 'آیا شما می خواهید که کاربران بتوانند از شکلک‌ها در امضایشان استفاده کنند؟';
+$l['setting_sightml'] = 'امکان استفاده از HTML در امضا‌ها';
+$l['setting_sightml_desc'] = 'آیا شما می‌خواهید که کاربران بتوانند از HTML در امضایشان استفاده کنند؟';
+$l['setting_sigimgcode'] = 'اجازه استفاده از کد [img] در امضا‌ها';
+$l['setting_sigimgcode_desc'] = 'آیا شما می‌خواهید که کاربران بتوانند از کد [img] در امضایشان استفاده کنند؟';
+$l['setting_maxsigimages'] = 'حداکثر تعداد عکس‌ها در امضاها';
+$l['setting_maxsigimages_desc'] = 'حداکثر تعداد عکس‌ها (شامل‌شکلک‌ها) که در امضا قابل استفاده باشد را وارد فرمائید. برای غیرفعال‌سازی عکس‌ها در شکلک‌ها بر روی ۰ قرار دهید.';
+$l['setting_siglength'] = 'محدودیت طول امضا';
+$l['setting_siglength_desc'] = 'حداکثر تعداد کاراکتر‌هایی که کاربر بتواند در امضای خود استفاده کند را وارد کنید.';
+$l['setting_useravatar'] = 'آواتار پیش‌فرض کاربران';
+$l['setting_useravatar_desc'] = 'اگر کاربری یک آواتار سفارشی برای خود انتخاب نکرده‌بود، این آواتار به جای آن استفاده خواهد شد.';
+$l['setting_useravatardims'] = 'اندازه‌های آواتار پیش فرض';
+$l['setting_useravatardims_desc'] = 'اندازه‌های آواتار پیش‌فرض؛ عرض در ارتفاع (مانند:  40|40).';
+$l['setting_useravatarrating'] = 'رتبه‌ی Gravatar';
+$l['setting_useravatarrating_desc'] = 'به شما اجازه می دهد تا حداکثر رتبه‌ی  Gravatar که کاربران بتوانند از ان استفاده کنند را تعیین کنید. اگر آواتار کاربر رتبه ای بیشتر از این رتبه داشت، آواتار پیش‌فرض استفاده خواهد شد. امتیاز‌ها عبارت اند از:
 
 <ul>
-<li><strong>G</strong>: suitable for display on all websites with any audience type</li>
-<li><strong>PG</strong>: may contain rude gestures, provocatively dressed individuals, the lesser swear words or mild violence</li>
-<li><strong>R</strong>: may contain such things as harsh profanity, intense violence, nudity or hard drug use</li>
-<li><strong>X</strong>: may contain hardcore sexual imagery or extremely disturbing violence</li>
+<li><strong>G</strong>: قابل نمایش برای همه‌ی سایت ها با هر موضوعی</li>
+<li><strong>PG</strong>: ممکن است شامل حرکات بی‌ادبی، لباس پوشیدن های تحریک برانگیز باشد کمتر شامل فحش و خشونت خفیف است.</li>
+<li><strong>R</strong>: ممکن است شامل فحش‌های خشن، خشونت شدید، برهنگی یا استفاده از مواد مخدر سخت باشد</li>
+<li><strong>X</strong>: ممکن است شامل تصاویر جنسی شدید یا خشونت بسیار نگران کننده باشد</li>
 </ul>';
-$l['setting_maxavatardims'] = 'Maximum Avatar Dimensions';
-$l['setting_maxavatardims_desc'] = 'The maximum dimensions that an avatar can be, in the format of width<b>x</b>height. If this is left blank then there will be no dimension restriction.';
-$l['setting_avatarsize'] = 'Max Uploaded Avatar Size';
-$l['setting_avatarsize_desc'] = 'Maximum file size (in kilobytes) of uploaded avatars.';
-$l['setting_avatarresizing'] = 'Avatar Resizing Mode';
+$l['setting_maxavatardims'] = 'حداکثر اندازه‌ی آواتار‌ها';
+$l['setting_maxavatardims_desc'] = 'حداکثر اندازه‌ای که آواتار بتواند داشته باشد، در فرمت عرض<b>x</b>ارتفاع. اگر این فیلد خالی باشد، محدودیتی برای ابعاد به وجود نمی‌آید.';
+$l['setting_avatarsize'] = 'حداکثر حجم فایل آواتار آپلود‌شده';
+$l['setting_avatarsize_desc'] = 'حداکثر اندازه حجم (به کیلوبایت) برای آواتارهای آپلودی.';
+$l['setting_avatarresizing'] = 'حالت تغییر اندازه‌ی آواتار';
 $l['setting_avatarresizing_desc'] = 'If you wish to automatically resize all large avatars, provide users the option of resizing their avatar, or not resize avatars at all you can change this setting.';
 $l['setting_avataruploadpath'] = 'Avatar Upload Path';
 $l['setting_avataruploadpath_desc'] = 'This is the path where custom avatars will be uploaded to. This directory <b>must be chmod 777</b> (writable) for uploads to work.';
@@ -520,84 +520,84 @@ $l['setting_attachthumbw_desc'] = 'حداکثر عرض برای بندانگشت
 
 
 $l['setting_group_memberlist'] = 'لیست کاربران';
-$l['setting_group_memberlist_desc'] = 'This section allows you to control various aspects of the board member listing (memberlist.php), such as how many members to show per page, and which features to enable or disable.';
+$l['setting_group_memberlist_desc'] = 'این بخش به شما اجازه می‌دهد تا جنبه‌های مختلف از لیست اعضا را کنترل و مدیریت کنید (memberlist.php)، مانند تعداد کاربرانی که در هرصفحه از لیست نمایش داده شود یا چه ویژگی‌های فعال باشند و چه ویژگی‌هایی غیرفعال.';
 
-$l['setting_enablememberlist'] = 'Enable Member List Functionality';
-$l['setting_enablememberlist_desc'] = 'If you wish to disable the member list on your board, set this option to no.';
-$l['setting_membersperpage'] = 'Members Per Page';
-$l['setting_membersperpage_desc'] = 'The number of members to show per page on the member list.';
-$l['setting_default_memberlist_sortby'] = 'Default Sort Field';
-$l['setting_default_memberlist_sortby_desc'] = 'Select the field that you want members to be sorted by default.';
-$l['setting_default_memberlist_order'] = 'Default Sort Order';
-$l['setting_default_memberlist_order_desc'] = 'Select the order that you want members to be sorted by default.<br />Ascending: A-Z / beginning-end<br />Descending: Z-A / end-beginning';
-$l['setting_memberlistmaxavatarsize'] = 'Maximum Display Avatar Dimensions';
-$l['setting_memberlistmaxavatarsize_desc'] = 'The maximum dimensions for avatars when being displayed in the member list. If an avatar is too large, it will automatically be scaled down.';
+$l['setting_enablememberlist'] = 'فعال‌سازی ویژگی لیست کاربران';
+$l['setting_enablememberlist_desc'] = 'اگر شما می‌خواهید لیست کاربران را در انجمنتان غیرفعال سازید، این تنظیم را بر روی خیرقرار دهید.';
+$l['setting_membersperpage'] = 'کاربران در هر صفحه';
+$l['setting_membersperpage_desc'] = 'تعداد کاربرانی که در هر صفحه از لیست اعضا نمایش داده شوند.';
+$l['setting_default_memberlist_sortby'] = 'حالت پیش‌فرض مرتب سازی';
+$l['setting_default_memberlist_sortby_desc'] = 'فیلدی که می‌خواهید کاربران با آن به صورت پیش‌فرض مرتب شوند را وارد فرمائید.';
+$l['setting_default_memberlist_order'] = 'ترتیب پیش فرض مرتب‌سازی';
+$l['setting_default_memberlist_order_desc'] = 'ترتیبی که می‌خواهید کاربران به صورت پیش‌فرض با آن مرتب شوند را وارد فرمائید.<br />Ascending: A-Z / آغاز - پایان<br />Descending: Z-A / پایان - آغاز';
+$l['setting_memberlistmaxavatarsize'] = 'حداکثر ابعاد آواتارهای مورد نمایش';
+$l['setting_memberlistmaxavatarsize_desc'] = 'حداکثر اندازه‌ای از آواتارکاربران که در لیست کاربران نمایش داده شود. اگر یک آواتار خیلی بزرگ بود، به صورت خودکار کوچک خواهد شد.';
 
 
 
 $l['setting_group_reputation'] = 'اعتبار';
-$l['setting_group_reputation_desc'] = 'The reputation system allows your users to rate others and leave a comment on the user. This section has settings to disable and change other aspects of the reputation page (reputation.php).';
+$l['setting_group_reputation_desc'] = 'سیستم اعتبار به کاربران اجازه می‌دهد که به یکدیگر به همراه نظری رتبه دهند. این بخش دارای تنظیماتی از قبیل غیرفعال‌سازی و دیگر موارد صفحه‌ی اعتبار می‌باشد (reputation.php).';
 
-$l['setting_enablereputation'] = 'Enable Reputation Functionality';
-$l['setting_enablereputation_desc'] = 'If you wish to disable the reputation system on your board, set this option to no.';
-$l['setting_posrep'] = 'Allow Positive Reputation';
-$l['setting_posrep_desc'] = 'Allow users to give others positive reputation?';
-$l['setting_negrep'] = 'Allow Negative Reputation';
-$l['setting_negrep_desc'] = 'Allow users to give others negative reputation?';
-$l['setting_neurep'] = 'Allow Neutral Reputation';
-$l['setting_neurep_desc'] = 'Allow users to give others neutral reputation?';
-$l['setting_multirep'] = 'Allow Multiple Reputation';
-$l['setting_multirep_desc'] = 'Can users give multiple reputations to the same user?<br />Note: Does not effect "Post" reputation';
-$l['setting_postrep'] = 'Allow Post Reputations';
-$l['setting_postrep_desc'] = 'Enable reputation to be linked to posts?';
-$l['setting_repsperpage'] = 'Reputation Comments Per Page';
-$l['setting_repsperpage_desc'] = 'Here you can enter the number of reputation comments to show per page on the reputation system';
-$l['setting_maxreplength'] = 'Maximum Reputation Length';
-$l['setting_maxreplength_desc'] = 'The maximum number of characters a reputation can be.';
-$l['setting_minreplength'] = 'Minimum Reputation Length';
-$l['setting_minreplength_desc'] = 'The minimum number of characters a reputation can be.';
+$l['setting_enablereputation'] = 'فعال‌سازی قابلیت اعتباردهی';
+$l['setting_enablereputation_desc'] = 'اگر شما می‌خواهید سیستم اعتبار‌ها را در انجمنتان غیرفعال کنید، این تنظیم را بر روی خیر قرار دهید.';
+$l['setting_posrep'] = 'امکان اعتبار مثبت';
+$l['setting_posrep_desc'] = 'اجازه‌دادن به کاربران برای اهدا اعتبار مثبت به یکدیگر؟';
+$l['setting_negrep'] = 'امکان اعتبار منفی';
+$l['setting_negrep_desc'] = 'اجازه دادن به کاربران برای اهدا اعتبار منفی به یکدیگر؟';
+$l['setting_neurep'] = 'امکان اعتبار خنثی';
+$l['setting_neurep_desc'] = 'اجازه دادن به کاربران برای اهدا اعتبار خنثی به یکدیگر؟';
+$l['setting_multirep'] = 'امکان اعتبار چندگانه';
+$l['setting_multirep_desc'] = 'آیا کاربران بتوانند چندین اعتبار به یک کاربر دهند؟<br />نکته: بر روی اعتباردهی از طریق ارسال تاثیری ندارد.';
+$l['setting_postrep'] = 'امکان اعتبار‌دهی به ارسال';
+$l['setting_postrep_desc'] = 'امکان پیوند کردن اعتبار‌ها به ارسال‌ها؟';
+$l['setting_repsperpage'] = 'نظر اعتبار‌ها در هر صفحه؟';
+$l['setting_repsperpage_desc'] = 'در اینجا شما می‌توانید تعداد اعتبار‌هایی که در هر صفحه از صفحه‌ی اعتبار نمایش داده شود را وارد فرمائید.';
+$l['setting_maxreplength'] = 'حداکثر طول اعتبار';
+$l['setting_maxreplength_desc'] = 'حداکثر تعداد حروفی که یک اعتبار می‌تواند داشته باشد.';
+$l['setting_minreplength'] = 'حداقل طول اعتبار';
+$l['setting_minreplength_desc'] = 'حداقل تعداد حروفی که یک اعتبار می‌تواند داشته‌باشد.';
 
 
 
 $l['setting_group_warning'] = 'تنظیمات سیستم اخطار';
-$l['setting_group_warning_desc'] = 'The warning system allows forum staff to warn users for rule violations. Here you can manage the settings that control the warning system (warnings.php).';
+$l['setting_group_warning_desc'] = 'سیستم اخطار به مدیران اجازه می‌دهد تا برای تخلفات به کاربران اخطار دهند. در اینجا تنظیماتی برای کنترل سیستم اخطار وجود دارد (warnings.php).';
 
-$l['setting_enablewarningsystem'] = 'Enable Warning System?';
-$l['setting_enablewarningsystem_desc'] = 'Set to no to completely disable the warning system.';
-$l['setting_allowcustomwarnings'] = 'Allow Custom Warning Types?';
-$l['setting_allowcustomwarnings_desc'] = 'Allow a custom reason and amount of points to be specified by those with permissions to warn users.';
-$l['setting_canviewownwarning'] = 'Can Users View Own Warnings?';
-$l['setting_canviewownwarning_desc'] = 'Set to yes to allow users to view recent warnings in their User CP and show their warning level to them in their profile.';
-$l['setting_allowanonwarningpms'] = 'Allow Anonymous Warning PMs';
-$l['setting_allowanonwarningpms_desc'] = 'Allow moderators to send anonymous warning PMs.';
-$l['setting_maxwarningpoints'] = 'Maximum Warning Points';
-$l['setting_maxwarningpoints_desc'] = 'The maximum warning points that can be given to a user before it is considered a warning level of 100%.';
+$l['setting_enablewarningsystem'] = 'فعال‌سازی سیستم اخطار؟';
+$l['setting_enablewarningsystem_desc'] = 'برای غیرفعال‌سازی کامل سیستم اخطار بر روی خیرقرار دهید.';
+$l['setting_allowcustomwarnings'] = 'اجازه دادن به انواع سفارشی اخطار؟';
+$l['setting_allowcustomwarnings_desc'] = 'آیا شما می‌خواهید به کسانی که مجوز اخطار‌دادن دارند، اجازه دهید تا دلیل و مقدار اخطار سفارشی‌ای را وارد کنند؟';
+$l['setting_canviewownwarning'] = 'کاربران بتوانند اخطار خود را ببینند؟';
+$l['setting_canviewownwarning_desc'] = 'اگر برروی بله قرار دهید، درصد اخطار کاربران در پروفایل و کنترل پنلشان برایشان نمایش داده خواهد شد.';
+$l['setting_allowanonwarningpms'] = 'اجازه‌ی ارسال پیام‌خصوصی اخطار به صورت ناشناس';
+$l['setting_allowanonwarningpms_desc'] = 'به مدیران اجازه می‌دهد تا پیام‌خصوصی اخطار را به صورت ناشناس ارسال کنند.';
+$l['setting_maxwarningpoints'] = 'حداکثر مقدار اخطار';
+$l['setting_maxwarningpoints_desc'] = 'حداکثر مقدار اخطاری که کاربر می تواند قبل از اینکه درصد اخطار او به  100% برسد بگیرد.';
 
 
 
 $l['setting_group_privatemessaging'] = 'پیام خصوصی';
-$l['setting_group_privatemessaging_desc'] = 'Various options with relation to the MyBB Private Messaging system (private.php) can be managed and set here.';
+$l['setting_group_privatemessaging_desc'] = 'گزینه‌های مختلف در رابطه با سیستم پیام‌های خصوصی مای بی‌بی (private.php) که می‌تواند در اینجا مدیریت و تنظیم شود.';
 
-$l['setting_enablepms'] = 'Enable Private Messaging Functionality';
-$l['setting_enablepms_desc'] = 'If you wish to disable the private messaging system on your board, set this option to no.';
-$l['setting_pmquickreply'] = 'Show Quick Reply Form';
-$l['setting_pmquickreply_desc'] = 'Allows you to set whether or not the quick reply form will be shown at the bottom of PMs.';
-$l['setting_pmsallowhtml'] = 'Allow HTML';
-$l['setting_pmsallowhtml_desc'] = 'Selecting yes will allow HTML to be used in private messages.';
-$l['setting_pmsallowmycode'] = 'Allow MyCode';
-$l['setting_pmsallowmycode_desc'] = 'Selecting yes will allow MyCode to be used in private messages.';
-$l['setting_pmsallowsmilies'] = 'Allow Smilies';
-$l['setting_pmsallowsmilies_desc'] = 'Selecting yes will allow Smilies to be used in private messages.';
-$l['setting_pmsallowimgcode'] = 'Allow [img] Code';
-$l['setting_pmsallowimgcode_desc'] = 'Selecting yes will allow [img] Code to be used in private messages.';
-$l['setting_pmsallowvideocode'] = 'Allow [video] Code';
-$l['setting_pmsallowvideocode_desc'] = 'Selecting yes will allow [video] Code to be used in private messages.';
-$l['setting_pmfloodsecs'] = 'Private Message Flood Time';
-$l['setting_pmfloodsecs_desc'] = 'Set the time (in seconds) users have to wait between sending messages, to be in effect; set to 0 to disable.';
-$l['setting_showpmip'] = 'Show Private Message IP Addresses';
-$l['setting_showpmip_desc'] = 'Do you wish to show ip addresses of users who send private messages, and who you want to show ip addresses to?';
-$l['setting_maxpmquotedepth'] = 'Maximum PM Nested Quote Tags';
-$l['setting_maxpmquotedepth_desc'] = 'The maximum depth level for quote tags. When quote-replying to a PM, all nested quotes which exceed this threshold are automatically removed. Note that this value is only enforced when quote-replying - it is still possible to manually enter quotes to exceed this limit, and this setting will not affect PMs already sent. Set to 0 to disable.';
+$l['setting_enablepms'] = 'فعال‌سازی ویژگی پیام های خصوصی';
+$l['setting_enablepms_desc'] = 'اگر شما می‌خواهید سیستم ارسال پیام‌خصوصی را غیرفعال سازید، این تنظیم را بر روی خیر قرار دهید.';
+$l['setting_pmquickreply'] = 'نمایش فرم پاسخ سریع';
+$l['setting_pmquickreply_desc'] = 'اجازه می‌دهد تا نمایش داده‌شدن فرم پاسخ‌سریع به پیام خصوصی را زیر پیام‌خصوصی‌ها را فعال یا غیرفعال سازید.';
+$l['setting_pmsallowhtml'] = 'اجازه ارسال HTML';
+$l['setting_pmsallowhtml_desc'] = 'اگر بله را انتخاب کنید HTML برای پیام‌های خصوصی استفاده خواهد شد.';
+$l['setting_pmsallowmycode'] = 'اجازه استفاده از MyCode';
+$l['setting_pmsallowmycode_desc'] = 'اگر بله را انتخاب کنید، امکان استفاده از MyCode در پیام‌های خصوصی فراهم می‌شود.';
+$l['setting_pmsallowsmilies'] = 'اجازه استفاده از شکلک‌ها';
+$l['setting_pmsallowsmilies_desc'] = 'اگر بر روی بله قرار گیرد، امکان استفاده از شکلک‌ها در پیام‌های خصوصی فراهم خواهد شد.';
+$l['setting_pmsallowimgcode'] = 'اجازه استفاده از کد [img]';
+$l['setting_pmsallowimgcode_desc'] = 'اگر بر روی بله قرار گیرد، امکان استفاده از کد [img] در پیام‌های خصوصی فراهم خواهد شد.';
+$l['setting_pmsallowvideocode'] = 'اجازه استفاده از کد [video]';
+$l['setting_pmsallowvideocode_desc'] = 'اگر بر روی به قرار گیرد، امکان استفاده از کد [video] در پیام‌های خصوصی فراهم خواهد شد.';
+$l['setting_pmfloodsecs'] = 'زمان صبر پیام‌ خصوصی';
+$l['setting_pmfloodsecs_desc'] = 'زمانی (به ثانیه) که کاربران باید بین ارسال دو پیام صبر کنند را وارد فرمائید، برای اینکه کاری نکند؛ بر روی ۰ قرار دهید.';
+$l['setting_showpmip'] = 'نمایش IP پیام‌های خصوصی';
+$l['setting_showpmip_desc'] = 'آیا شما می خواهید IP کسی که پیام خصوصی را ارسال‌کرده و کسی که پیام خصوصی به او ارسال شده‌است نمایش داده شود؟';
+$l['setting_maxpmquotedepth'] = 'حداکثر تعداد نقل‌قول‌های تودرتو در پیام‌خصپصی';
+$l['setting_maxpmquotedepth_desc'] = 'حداکثر عمق برای تگ نقل قول. هنگام پاسخ‌دادن به یک پ.خ، همه‌ی نقل‌قول‌های تودرتو باید حذف شوند. دقت کنید که این تنظیم تنها بر روی پاسخ با نقل‌قول کار می‌کند - امکان ورود نقل‌قول‌هایی که از این محدودیت عبورکنند به صورت دستی وجود دارد، و این تنظیم بر روی پیام‌هایی که قبلا ارسال شده‌اند تاثیری نخواهد داشت. برای غیرفعال‌سازی بر روی ۰ قرار دهید.';
 
 
 
@@ -642,30 +642,30 @@ $l['setting_prunethreads_desc'] = 'آیا می خواهید تمامی ارسا�
 
 
 $l['setting_group_portal'] = 'تنظیمات سردر';
-$l['setting_group_portal_desc'] = 'The portal page compiles several different pieces of information about your forum, including latest posts, who\'s online, forum stats, announcements, and more. This section has settings to control the aspects of the portal page (portal.php).';
+$l['setting_group_portal_desc'] = 'صفحه‌ی سردر اطلاعات مختلف در مورد انجمن شما را در یک جا جمع‌آوری می‌کند، از جمله، کاربارن آنلاین، آمار انجمن، اطلاعیه‌ها و .... این بخش به شما اجازه می دهد تا این تنظیمات در مورد سردر را مدیریت کنید (portal.php).';
 
-$l['setting_portal'] = 'Enable Portal';
-$l['setting_portal_desc'] = 'If you wish to disable the portal on your board, set this option to no.';
-$l['setting_portal_announcementsfid'] = 'Forums to pull announcements from';
-$l['setting_portal_announcementsfid_desc'] = 'Please select the forums you wish to pull the announcements from.';
-$l['setting_portal_numannouncements'] = 'Number of announcements to show';
-$l['setting_portal_numannouncements_desc'] = 'Please enter the number of announcements to show per page on the main page.';
-$l['setting_portal_showwelcome'] = 'Show the Welcome box';
-$l['setting_portal_showwelcome_desc'] = 'Do you want to show the welcome box to visitors / users.';
-$l['setting_portal_showpms'] = 'Show the number of PMs to users';
-$l['setting_portal_showpms_desc'] = 'Do you want to show the number of private messages the current user has in their pm system.';
-$l['setting_portal_showstats'] = 'Show forum statistics';
-$l['setting_portal_showstats_desc'] = 'Do you want to show the total number of posts, threads, members and the last registered member on the portal page?';
-$l['setting_portal_showwol'] = 'Show Who\'s Online';
-$l['setting_portal_showwol_desc'] = 'Do you want to show the \'Who\'s online\' information to users when they visit the portal page?';
-$l['setting_portal_showsearch'] = 'Show Search Box';
-$l['setting_portal_showsearch_desc'] = 'Do you want to show the search box, allowing users to quickly search the forums on the portal?';
-$l['setting_portal_showdiscussions'] = 'Show Latest Discussions';
-$l['setting_portal_showdiscussions_desc'] = 'Do you wish to show the current forum discussions on the portal page?';
-$l['setting_portal_showdiscussionsnum'] = 'Number of latest discussions to show';
-$l['setting_portal_showdiscussionsnum_desc'] = 'Please enter the number of current forum discussions to show on the portal page.';
-$l['setting_portal_excludediscussion'] = 'Forums to exclude latest discussions from';
-$l['setting_portal_excludediscussion_desc'] = 'Please select the forums you wish to exclude from the current forum discussions box.';
+$l['setting_portal'] = 'فعال‌سازی سردر';
+$l['setting_portal_desc'] = 'اگر شما می‌خواهید سردر را بر روی انجمن خود غیرفعال کنید بر روی خیر قرار دهید.';
+$l['setting_portal_announcementsfid'] = 'انجمن‌هایی که اطلاعیه‌ها از آنها برداشته شود';
+$l['setting_portal_announcementsfid_desc'] = 'لطفا انجمن‌هایی که می‌خواهید اطلاعیه‌ها از آنها برداشته شود را وارد فرمائید.';
+$l['setting_portal_numannouncements'] = 'تعداد اطلاعیه‌ها برای نمایش';
+$l['setting_portal_numannouncements_desc'] = 'لطفا تعداد اطلاعیه‌هایی که در هر صفحه از سردر نمایش داده شود را وارد فرمائید.';
+$l['setting_portal_showwelcome'] = 'نمایش جعبه‌ی خوش‌آمد گویی';
+$l['setting_portal_showwelcome_desc'] = 'آیا شما می‌خواهید که جعبه‌ی خوش‌آمدگویی برای بازدیدکنندگان نمایش داده شود؟';
+$l['setting_portal_showpms'] = 'نمایش تعداد پیام‌های خصوصی به کاربران';
+$l['setting_portal_showpms_desc'] = 'آیا شما می‌خواهید تعداد پیام‌های خصوصی که کاربر در سیستم پیام‌خصوصی‌ دارد به او نمایش داده شود؟';
+$l['setting_portal_showstats'] = 'نمایش آمار انجمن';
+$l['setting_portal_showstats_desc'] = 'آیا شما می‌خواهید که تعداد ارسال‌ها، موضوع‌ها، کاربارن و آخرین کاربر عضو شده در سردر نمایش داده شود؟';
+$l['setting_portal_showwol'] = 'نمایش افراد حاضر';
+$l['setting_portal_showwol_desc'] = 'آیا شما می‌خواهید که اطلاعات افراد حاضر درا نجمن در صفحه‌ی سردر نمایش داده شود؟';
+$l['setting_portal_showsearch'] = 'نمایش جعبه‌ی جستجو';
+$l['setting_portal_showsearch_desc'] = 'آیا شما می‌خواهید که جعبه‌ی جستجو به منظور جستجوی سریعتر در سردر نمایش داده شود؟';
+$l['setting_portal_showdiscussions'] = 'نمایش آخرین صحبت‌ها';
+$l['setting_portal_showdiscussions_desc'] = 'آیا شما می‌خواهید که آخرین موضوعات انجمن در سردر نمایش داده شود؟';
+$l['setting_portal_showdiscussionsnum'] = 'تعداد آخرین صحبت‌ها برای نمایش';
+$l['setting_portal_showdiscussionsnum_desc'] = 'لطفا تعداد صحبت‌های کنونی که در سردر نمایش داده شود را وارد فرمائید.';
+$l['setting_portal_excludediscussion'] = 'انجمن‌های معاف از نمایش داده بحث‌آنها در آخرین بحث‌ها';
+$l['setting_portal_excludediscussion_desc'] = 'لطفا انجمن‌هایی که نمی‌خواهید موضوعاتشان در آخرین بحث‌ها نمایش داده شود را انتخاب فرمائید.';
 
 
 
@@ -739,26 +739,26 @@ $l['setting_loginattemptstimeout_desc'] = 'اگر تعداد تلاش های ک�
 
 
 $l['setting_group_mailsettings'] = 'تنظیمات ایمیل';
-$l['setting_group_mailsettings_desc'] = 'This section allows you to control various aspects of the MyBB mail system, such as sending with PHP mail or with a off server SMTP server.';
+$l['setting_group_mailsettings_desc'] = 'این بخش به شما اجازه می‌دهد تا سیستم ایمیل مای بی‌بی را کنترل کنید، به طول مثال ارسال به وسیله‌ی  PHP یا به وسیله‌ی سرور SMTP.';
 
-$l['setting_mail_handler'] = 'Mail handler';
-$l['setting_mail_handler_desc'] = 'The medium through which MyBB will send outgoing emails.';
-$l['setting_smtp_host'] = 'SMTP hostname';
-$l['setting_smtp_host_desc'] = 'The hostname of the SMTP server through which mail should be sent.<br />Only required if SMTP Mail is selected as the Mail Handler.';
-$l['setting_smtp_port'] = 'SMTP port';
-$l['setting_smtp_port_desc'] = 'The port number of the SMTP server through which mail should be sent.<br />Only required if SMTP Mail is selected as the Mail Handler.';
-$l['setting_smtp_user'] = 'SMTP username';
-$l['setting_smtp_user_desc'] = 'The username used to authenticate with the SMTP server.<br />Only required if SMTP Mail is selected as the Mail Handler, and the SMTP server requires authentication.';
-$l['setting_smtp_pass'] = 'SMTP password';
-$l['setting_smtp_pass_desc'] = 'The corresponding password used to authenticate with the SMTP server.<br />Only required if SMTP Mail is selected as the Mail Handler, and the SMTP server requires authentication.';
-$l['setting_secure_smtp'] = 'SMTP Encryption Mode';
-$l['setting_secure_smtp_desc'] = 'Select the encryption required to communicate with the SMTP server.<br />Only required if SMTP Mail is selected as the Mail Handler.';
+$l['setting_mail_handler'] = 'گرداننده‌ی ایمیل';
+$l['setting_mail_handler_desc'] = 'روشی که مای بی‌بی به وسیله‌ی آن ایمیل‌های خارجی را ارسال کند.';
+$l['setting_smtp_host'] = 'نام میزبان SMTP';
+$l['setting_smtp_host_desc'] = 'نام میزبان سرور  SMTP که ایمیل‌ها به وسیله‌ی آن ارسال شود.<br />تنها لازم است اگر SMTP به عنوان گرداننده‌ی ایمیل انتخاب شده‌باشد.';
+$l['setting_smtp_port'] = 'پورت SMTP';
+$l['setting_smtp_port_desc'] = 'The port number of the SMTP server through which mail should be sent.<br />تنها لازم است اگر SMTP به عنوان گرداننده‌ی ایمیل انتخاب شده‌باشد.';
+$l['setting_smtp_user'] = 'نام‌کاربری SMTP';
+$l['setting_smtp_user_desc'] = 'The username used to authenticate with the SMTP server.<br />تنها لازم است اگر SMTP به عنوان گرداننده‌ی ایمیل انتخاب شده‌باشد, و سرور SMTP به احراز هویت نیاز داشته‌باشد.';
+$l['setting_smtp_pass'] = 'رمز‌عبور SMTP';
+$l['setting_smtp_pass_desc'] = 'The corresponding password used to authenticate with the SMTP server.<br />تنها لازم است اگر SMTP به عنوان گرداننده‌ی ایمیل انتخاب شده‌باشد, و سرور SMTP به احراز هویت نیاز داشته‌باشد.';
+$l['setting_secure_smtp'] = 'حالت رمزگذاری SMTP';
+$l['setting_secure_smtp_desc'] = 'Select the encryption required to communicate with the SMTP server.<br />تنها لازم است اگر SMTP به عنوان گرداننده‌ی ایمیل انتخاب شده‌باشد.';
 $l['setting_mail_parameters'] = 'Additional Parameters for PHP\'s mail()';
 $l['setting_mail_parameters_desc'] = 'This setting allows you to set additional parameters for the PHP mail() function. Only used when \'PHP mail\' is selected as Mail Handler. <a href="http://php.net/function.mail" target="_blank">More information</a>';
-$l['setting_mail_logging'] = 'Mail Logging';
-$l['setting_mail_logging_desc'] = 'This setting allows you to set how to log outgoing emails sent via the \'Send Thread to a Friend\' feature. In some countries it is illegal to log all content.';
-$l['setting_mail_message_id'] = 'Add message ID in mail headers';
-$l['setting_mail_message_id_desc'] = 'Disabling this option on some shared hosts resolves issues with forum emails being marked as spam.';
+$l['setting_mail_logging'] = 'ثبت ایمیل';
+$l['setting_mail_logging_desc'] = 'این تنظیم به شما اجازه می‌دهد تا چگونگی ثبت ایمیل‌های خروجی «ارسال موضوع به یک دوست» را تعیین کنید، در برخی از کشورها ثبت تمام مطالب غیرقانونی است.';
+$l['setting_mail_message_id'] = 'اضافه کردن ID در سرکدهای ایمیل';
+$l['setting_mail_message_id_desc'] = 'غیرفعال کردن این گزینه باعث می‌شود تا مشکل شناخته شده به عنوان اسپم بعضی از هاست‌های اشتراکی رفع شود.';
 
 
 
