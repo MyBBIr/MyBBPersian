@@ -58,6 +58,7 @@ $l['expiration_never'] = "هرگز";
 $l['error_invalid_warning_level'] = "سطح اخطار مشخص شده وجود ندارد.";
 $l['error_invalid_warning_percentage'] = "عدد وارد شده توسط شما نامعتبر است، لطفا عددی بین 1 تا 100 وارد نمائید.";
 $l['error_invalid_warning_type'] = "شیوه اخطار مشخص شده وجود ندارد.";
+$l['error_missing_action_type'] = "لطفا یکی از کارها را برای اینکه شیوه‌ی اخطار از به وسیله‌ی آن ایجاد شود را انتخاب کنید.";
 $l['error_missing_type_title'] = "شما عنوانی برای شیوه اخطار وارد نکرده‌اید";
 $l['error_missing_type_points'] = "لطفا یک عدد معتبر برای سطح اخطار وارد کنید. لطفا عددی بزرگتر از 0 ولی غیربزرگ‌تر از {1} وارد نمائید.";
 $l['success_warning_level_created'] = "سطح اخطار با موفقیت ساخته شده است.";
