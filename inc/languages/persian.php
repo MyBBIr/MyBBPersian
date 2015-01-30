@@ -10,7 +10,7 @@ $langinfo['author'] = "My-BB.Ir Group & iora.ir";
 $langinfo['website'] = "http://mybb.com/";
 
 /* Compatible version of MyBB */
-$langinfo['version'] = "1801";
+$langinfo['version'] = "1804";
 
 /* Sets if the translation includes the Admin CP (1 = yes, 0 = no) */
 $langinfo['admin'] = 1;

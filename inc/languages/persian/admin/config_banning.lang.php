@@ -16,6 +16,7 @@ $l['disallowed_email_addresses'] = "آدرسهای رایانامه پذیرفت
 $l['disallowed_email_addresses_desc'] = "در اینجا می‌توانید لیستی از آدرسهای رایانامه غیر معتبر که قابل استفاده برای کاربران نیستند را مشخص کنید.";
 $l['banned_ip_addresses'] = "آدرس آی‌پی‌های محروم شده";
 $l['username'] = "نام‌کاربری";
+$l['search_user'] = "جستجو یک کاربر";
 $l['date_disallowed'] = "تارخ رد شدن";
 $l['last_attempted_use'] = "آخرین تلاش برای استفاده";
 $l['email_address'] = "آدرس رایانامه";

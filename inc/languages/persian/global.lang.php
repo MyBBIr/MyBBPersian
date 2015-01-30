@@ -273,7 +273,6 @@ $l['postbit_button_forward'] = 'ارسال به‌دیگری';
 $l['postbit_button_delete_pm'] = 'حذف';
 $l['postbit_button_purgespammer'] = "پاک‌سازی اسمپر";
 $l['forumjump'] = "پرش به انجمن:";
-$l['forumjump_select'] = "لطفا یکی را انتخاب کنید:";
 $l['forumjump_pms'] = "پیام خصوصی";
 $l['forumjump_usercp'] = "کنترل پنل کاربر";
 $l['forumjump_wol'] = "افراد آنلاین";
@@ -384,8 +383,15 @@ $l['select_language'] = "انتخاب سریع زبان";
 $l['select_theme'] = "انتخاب سریع پوسته";
 $l['invalid_post_code'] = "عدم تطابق کد مجوز. آیا شما به این کارکرد به به طور درست دسترسی پیدا کردید؟ لطفا برگردید و دوباره تلاش نمایید.";
 $l['invalid_captcha'] = "لطفا برای ادامه کد تصویر امنیتی را وارد کنید، لطفا دقیقا همان چیز که در تصویر می‌بینید را وارد کنید";
+$l['invalid_nocaptcha'] = "لطفا reCAPTCHA را برای اینکه تایید کنید که ربات نیستید حل کنید.";
 $l['invalid_captcha_verify'] = "کد تصویر امنیتی وارد شده نادرست است. لطفا همان‌چیز که در تصویر می‌بینید ر وارد کنید";
+$l['image_verification'] = "تایید تصویری";
+$l['human_verification'] = "تایید انسان بودن";
+$l['verification_note'] = "لطفا متن داخل تصویر را عیناً وارد نمائید، این فرایند برای جلوگیری از ربات‌های هرزه‌گر خودکار می‌باشد.";
+$l['verification_note_nocaptcha'] = "لطفا چک‌باکسی که در مقابل می‌بینید را علامت بزنید، این فرایند برای جلوگیری از ربات‌های هرزه‌گر خودکار می‌باشد.";
+$l['verification_subnote'] = "(غیرحساس به بزرگی و کوچکی حروف)";
 $l['invalid_captcha_transmit'] = "برای تصویر امنیتی خطایی رخ داده‌است، لطفا مجدد تلاش فرمائید.";
+$l['invalid_nocaptcha_transmit'] = "خطایی در تایید ربات‌نبودن شما پیش آمده است. لطفا مجددا تلاش نمائید.";
 $l['captcha_fetch_failure'] = 'یک خطا در گرفتن تصویر امنیتی جدید رخ‌داده است.';
 $l['question_fetch_failure'] = 'یک خطا در گرفت سوال امنیتی جدید رخ‌داده است.';
 $l['invalid_ayah_result'] = "بازی آیا شما یک انسان‌هستید تکمیل نشده‌است، لطفا دوباره تلاش کنید.";
@@ -513,3 +519,10 @@ $l['select2_searching'] = "درحال جستجو…";
 
 $l['stopforumspam_error_decoding'] = 'خطایی در رمزگشایی اطلاعات از StopForumSpam.com پیش آمده است.';
 $l['stopforumspam_error_retrieving'] = 'خطایی در بازیابی اطلاعات از StopForumSpam.com پیش‌آمده است.';
+
+$l['sfs_error_username'] = 'نام کاربری';
+$l['sfs_error_ip'] = 'IP';
+$l['sfs_error_email'] = 'رایانامه';
+$l['sfs_error_or'] = 'یا';
+
+$l['boardclosed_reason'] = 'این انجمن تعمیرات بسته شده‌است. لطفا بعداً تلاش نمائید.';

@@ -96,9 +96,6 @@ $l['or'] =" | ";
 $l['quickreply_multiquote_deselect'] = "عدم انتخاب آنها";
 $l['search_thread'] = "جستجو در موضوع";
 $l['enter_keywords'] = "وارد کردن لغات کلیدی";
-$l['image_verification'] = "کد تصویری";
-$l['verification_note'] = "لطفاً کد نشان داده شده در تصویر را وارد نمایید. این اقدام جهت جلوگیری از ارسال‌های خودکار ضروری می‌باشد.";
-$l['verification_subnote'] = "(غیر حساس به بزرگی و کوچکی حروف)";
 
 $l['view_thread_notes'] = "یادداشت‌های موضوع";
 $l['view_all_notes'] = "مشاهده همه‌ی یادداشت‌ها";

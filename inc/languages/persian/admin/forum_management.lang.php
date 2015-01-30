@@ -146,6 +146,7 @@ $l['rules'] = "قوانین:";
 $l['forum_rules'] = "قوانین انجمن";
 $l['username'] = "نام‌کاربری";
 $l['moderator_username_desc'] = "نام‌کاربری مدیر افزوده شد";
+$l['search_user'] = "جستجو یک کاربر";
 $l['default_view_options'] = "تنظیمات پیش فرض نمایش";
 $l['default_date_cut'] = "تاریخ پیش فرض برش:";
 $l['default_sort_by'] = "مرتب سازی پیش فرض با:";
