@@ -336,7 +336,7 @@ if(!$mybb->input['action'])
 
 			if($log['fromuid'] > 0)
 			{
-				$find_from = "<div class=\"float_left\"><a href=\"index.php?module=tools-maillogs&amp;fromuid={$log['fromuid']}\"><img src=\"styles/{$page->style}/images/icons/find.png\" title=\"{$lang->find_emails_by_user}\" alt=\"{$lang->find}\" /></a></div>";
+				$find_from = "<div class=\"float_right\"><a href=\"index.php?module=tools-maillogs&amp;fromuid={$log['fromuid']}\"><img src=\"styles/{$page->style}/images/icons/find.png\" title=\"{$lang->find_emails_by_user}\" alt=\"{$lang->find}\" /></a></div>";
 			}
 
 			if(!$log['from_username'] && $log['fromuid'] > 0)

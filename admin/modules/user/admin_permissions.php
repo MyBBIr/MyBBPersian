@@ -74,9 +74,10 @@ if($mybb->input['action'] == "delete")
 		$newperms = array(
 			"permissions" => ''
 		);
-		$db->update_query("adminoptions", $newperms, "uid = '{$uid}'");
 
 		$plugins->run_hooks("admin_user_admin_permissions_delete_commit");
+
+		$db->update_query("adminoptions", $newperms, "uid = '{$uid}'");
 
 		// Log admin action
 		if($uid < 0)
@@ -338,7 +339,7 @@ if($mybb->input['action'] == "group")
 			$perm_type = "default";
 		}
 		$uid = -$group['gid'];
-		$table->construct_cell("<div class=\"float_left\"><img src=\"styles/{$page->style}/images/icons/{$perm_type}.png\" title=\"{$lang->permissions_type_group}\" alt=\"{$perm_type}\" /></div><div><strong><a href=\"index.php?module=user-admin_permissions&amp;action=edit&amp;uid={$uid}\" title=\"{$lang->edit_group}\">{$group['title']}</a></strong><br /></div>");
+		$table->construct_cell("<div class=\"float_lef\"><img src=\"styles/{$page->style}/images/icons/{$perm_type}.png\" title=\"{$lang->permissions_type_group}\" alt=\"{$perm_type}\" /></div><div><strong><a href=\"index.php?module=user-admin_permissions&amp;action=edit&amp;uid={$uid}\" title=\"{$lang->edit_group}\">{$group['title']}</a></strong><br /></div>");
 
 		if($group['permissions'] != "")
 		{
@@ -486,7 +487,7 @@ if(!$mybb->input['action'])
 		}
 		$usergroup_list = implode(", ", $usergroup_list);
 
-		$table->construct_cell("<div class=\"float_left\"><img src=\"styles/{$page->style}/images/icons/{$perm_type}.png\" title=\"{$lang->perms_type_user}\" alt=\"{$perm_type}\" /></div><div><strong><a href=\"index.php?module=user-admin_permissions&amp;action=edit&amp;uid={$admin['uid']}\" title=\"{$lang->edit_user}\">{$admin['username']}</a></strong><br /><small>{$usergroup_list}</small></div>");
+		$table->construct_cell("<div class=\"float_lef\"><img src=\"styles/{$page->style}/images/icons/{$perm_type}.png\" title=\"{$lang->perms_type_user}\" alt=\"{$perm_type}\" /></div><div><strong><a href=\"index.php?module=user-admin_permissions&amp;action=edit&amp;uid={$admin['uid']}\" title=\"{$lang->edit_user}\">{$admin['username']}</a></strong><br /><small>{$usergroup_list}</small></div>");
 
 		$table->construct_cell(my_date('relative', $admin['lastactive']), array("class" => "align_center"));
 
