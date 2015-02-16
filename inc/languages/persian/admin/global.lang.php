@@ -338,3 +338,9 @@ $l['comma'] = "، ";
 /* If the language string for "Username" is too cramped in the ACP Login box 
  then use this to define how much larger you want the gap to be (in px) */
 /* $l['login_field_width'] = "0"; */
+
+$l['my2fa'] = "احراز هویت دو فاکتوره";
+$l['my2fa_failed'] = "کد وارد شده صحیح نمی‌باشد، شما هم‌اکنون خارج شدید";
+$l['my2fa_code'] = "لطفا کد احرازهویت را وارد کنید.";
+$l['my2fa_label'] = "کد احراز هویت:";
+$l['my2fa_no_codes'] = "توجه: شما از همه‌ی کدهای بازیافت خودتان استفاده کرده‌اید. لطفا <a href=\"index.php?module=home-preferences&amp;action=recovery_codes\">صفحه‌ی کدهای بازیافت</a> برای ایجاد یک مجموعه‌ی جدید بازدید کنید.";

@@ -37,7 +37,7 @@ $l['viewing_whoposted'] = "در حال مشاهده چه کسانی ارسال �
 $l['viewing_whoposted2'] = "در حال مشاهده چه کسانی ارسال داشته اند در <a href=\"{1}\">{2}</a>";
 $l['marking_read'] = "<a href=\"misc.php?action=markread&amp;my_post_key={1}\">در حال نشانه گذاری انجمن به عنوان خوانده شده</a>";
 $l['viewing_helpdocs'] = "در حال مشاهده <a href=\"misc.php?action=help\">اسناد راهنما</a>";
-$l['viewing_buddylist'] = "در حال مشاهده <a href=\"misc.php?action=buddypopup\">لیست دوستان</a>";
+$l['viewing_buddylist'] = 'در حال مشاهده <a href="#" onclick="MyBB.popupWindow(\'/misc.php?action=buddypopup&amp;modal=1\'); return false;">لیست دوستان</a>';
 $l['viewing_smilies'] = "در حال مشاهده <a href=\"misc.php?action=smilies\">لیست شکلک‌ها</a>";
 $l['viewing_syndication'] = "در حال مشاهده <a href=\"misc.php?action=syndication\">پیوند سایتی آر‌اس‌اس</a>";
 $l['replying_thread'] = "در حال پاسخ دادن به موضوع";
@@ -66,8 +66,7 @@ $l['updating_options'] = "<a href=\"usercp.php?action=options\">در حال  ب�
 $l['editing_signature'] = "<a href=\"usercp.php?action=editsig\">در حال ویرایش امضا</a>";
 $l['changing_avatar'] = "<a href=\"usercp.php?action=avatar\">در حال تغییر آواتار</a>";
 $l['viewing_subscriptions'] = "در حال  مشاهده <a href=\"usercp.php?action=subscriptions\">موضوع‌های مشترک شده</a>";
-$l['viewing_favorites'] = "در حال  مشاهده <a href=\"usercp.php?action=favorites\">موضوع‌های مورد علاقه</a>";
-$l['editing_pad'] = "در حال  ویرایش <a href=\"usercp.php?action=notepad\">دفترچه یادداشت</a>";
+$l['editing_pad'] = "در حال  ویرایش <a href=\"usercp.php\">دفترچه یادداشت</a>";
 $l['editing_password'] = "در حال ویرایش <a href=\"usercp.php?action=password\">رمز عبور</a>";
 $l['user_cp'] = "در حال مشاهده <a href=\"usercp.php\">کنترل پنل کاربر</a>";
 $l['viewing_portal'] = "در حال مشاهده <a href=\"portal.php\">سردر</a>";

@@ -158,6 +158,9 @@ $l['admin_log_forum_moderation_queue_threads'] = "موضوعات تایید نش
 $l['admin_log_forum_moderation_queue_posts'] = "ارسال‌های تایید نشده مدیریت شدند";
 $l['admin_log_forum_moderation_queue_attachments'] = "ضمائم تایید نشده مدیریت شدند";
 
+$l['admin_log_home_preferences_enabled'] = "احراز هویت دوفاکتوره را فعال شد";
+$l['admin_log_home_preferences_disabled'] = "احراز هویت دوفاکتوره غیرفعال شد";
+
 $l['admin_log_style_templates_delete_set'] = "مجموعه قالب‌های #{1} ({2}) حذف شدند";
 $l['admin_log_style_templates_delete_template'] = "قالب #{1} ({2}) از مجموعه قالب‌های #{3} ({4}) حذف شد";
 $l['admin_log_style_templates_delete_template_global'] = "قالب #{1} ({2}) از مجموعه قالب‌های عمومی حذف شد";
