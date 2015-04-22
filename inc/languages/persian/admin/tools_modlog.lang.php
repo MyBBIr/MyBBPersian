@@ -28,7 +28,7 @@ $l['announcement'] = "اطلاعیه:";
 
 $l['filter_moderator_logs'] = "انتخابی کردن گزارشات ناظم";
 $l['forum_moderator'] = "ناظم انجمن:";
-$l['sort_by'] = "مرتب سازی بر اساس:";
+$l['sort_by'] = "چینش براساس:";
 $l['results_per_page'] = "نتایج در هر صفحه:";
 $l['all_moderators'] = "همه‌ی مدیران";
 $l['older_than'] = "قدیمی‌تر از ";
