@@ -6,8 +6,8 @@
  * Translate By: iora.ir & My-BB.Ir
  */
 
-$l['nav_online'] = "افراد حاضر در انجمن";
-$l['nav_onlinetoday'] = "افرادی که امروز در انجمن بوده اند";
+$l['nav_online'] = "افراد حاضر";
+$l['nav_onlinetoday'] = "افراد حاضر در امروز";
 $l['viewing_announcements'] = "در حال مشاهده اطلاعیه <a href=\"{1}\">{2}</a>";
 $l['viewing_announcements2'] = "در حال مشاهده اطلاعیه";
 $l['viewing_attachment'] = "در حال مشاهده پیوست";
