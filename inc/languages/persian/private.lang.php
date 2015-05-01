@@ -138,6 +138,7 @@ $l['advanced_search'] = "جستجوی پیشرفته";
 $l['search_pms'] = "جستجوی پیام‌های خصوصی";
 $l['advanced_private_message_search'] = "جستجوی پیشرفته پیام‌های خصوصی";
 $l['search_criteria'] = "معیارهای جستجو";
+$l['find_users'] = "جستجو برای یک کاربر";
 $l['keywords'] = "کلمات کلیدی";
 $l['search_in_subject'] = "جستجو در عنوان";
 $l['search_in_message'] = "جستجو در متن";

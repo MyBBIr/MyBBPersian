@@ -217,6 +217,7 @@ $l['postbit_group'] = "گروه کاربری:";
 $l['postbit_joined'] = "تاریخ عضویت:";
 $l['postbit_status'] = "آمار:";
 $l['postbit_attachments'] = "فایل‌های پیوست";
++$l['postbit_attachment_filename'] = "نام فایل:";
 $l['postbit_attachment_size'] = "اندازه";
 $l['postbit_attachment_downloads'] = "تعداد دانلود:";
 $l['postbit_attachments_images'] = "عکس(ها)";
