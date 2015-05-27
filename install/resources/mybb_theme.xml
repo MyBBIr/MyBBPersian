@@ -818,10 +818,8 @@ blockquote cite span.highlight {
 	height: auto;
 	max-height: 200px;
 	display: block;
-	font-family: Monaco, Consolas, Courier, monospace;
+	font-family: Tahoma, Monaco, Consolas, Courier, monospace;
 	font-size: 13px;
-	text-align: center;
-	direction: ltr;
 }
 
 .smilie {
@@ -4645,8 +4643,6 @@ if(use_xmlhttprequest == "1")
 <td width="40%" class="trow1"><strong>{$lang->your_email}</strong><br /><span class="smalltext">{$lang->email_note}</span></td>
 <td width="60%" class="trow1"><input type="text" class="textbox" size="50" name="fromemail"  value="{$fromemail}" /></td>
 </tr>]]></template>
-		<template name="member_emailuser_hidden" version="1800"><![CDATA[<input type="hidden" name="fromname" value="{$mybb->user['username']}" />
-<input type="hidden" name="fromemail" value="{$mybb->user['email']}" />]]></template>
 		<template name="member_loggedin_notice" version="1800"><![CDATA[<fieldset class="align_left smalltext">{$lang->already_logged_in}</fieldset>
 <br />]]></template>
 		<template name="member_login" version="1611"><![CDATA[<html>
@@ -6185,7 +6181,7 @@ if(use_xmlhttprequest == "1")
 <td class="{$altbg}">{$profile_link}</a></td>
 <td class="{$altbg}">{$poster['posts']}</td>
 </tr>]]></template>
-		<template name="modcp" version="1800"><![CDATA[<html>
+		<template name="modcp" version="1805"><![CDATA[<html>
 <head>
 <title>{$mybb->settings['bbname']} - {$lang->modcp}</title>
 {$headerinclude}
@@ -6219,8 +6215,8 @@ if(use_xmlhttprequest == "1")
 <td class="thead" align="center" colspan="1"><strong>{$lang->moderator_notes}</strong></td>
 </tr>
 <tr>
-<td class="tcat"><span class="smalltext"><strong>{$lang->notes_public_all}</strong></span>
-</td>
+<td class="tcat"><span class="smalltext"><strong>{$lang->notes_public_all}</strong></span></td>
+</tr>
 <tr>
 <td class="trow1"><textarea name="modnotes" style="width: 99%; height: 200px;" rows="5" cols="45">{$modnotes}</textarea></td>
 </tr>
@@ -14000,8 +13996,6 @@ $(function() {
 <td width="40%" class="trow1"><strong>{$lang->your_email}</strong><br /><span class="smalltext">{$lang->email_note}</span></td>
 <td width="60%" class="trow1"><input type="text" class="textbox" size="50" name="fromemail" value="{$fromemail}" /></td>
 </tr>]]></template>
-		<template name="sendthread_fromemail_hidden" version="1800"><![CDATA[<input type="hidden" name="fromname" value="{$mybb->user['username']}" />
-<input type="hidden" name="fromemail" value="{$mybb->user['email']}" />]]></template>
 		<template name="task_image" version="1800"><![CDATA[<img src="{$mybb->settings['bburl']}/task.php" width="1" height="1" alt="" />]]></template>
 		<template name="smilie" version="1800"><![CDATA[<img src="{$smilie['image']}" alt="{$smilie['name']}" title="{$smilie['name']}" class="smilie smilie_{$smilie['sid']}{$extra_class}"{$onclick} />]]></template>
 		<template name="global_board_offline_modal" version="1804"><![CDATA[<div class="modal">
