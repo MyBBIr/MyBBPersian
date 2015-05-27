@@ -818,8 +818,10 @@ blockquote cite span.highlight {
 	height: auto;
 	max-height: 200px;
 	display: block;
-	font-family: Tahoma, Monaco, Consolas, Courier, monospace;
+	font-family: Monaco, Consolas, Courier, monospace;
 	font-size: 13px;
+	text-align: left;
+	direction: ltr;
 }
 
 .smilie {
