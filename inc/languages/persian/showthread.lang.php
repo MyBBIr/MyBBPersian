@@ -8,7 +8,7 @@
 
 $l['delete_poll'] = "حذف نظرسنجی";
 $l['close_thread'] = "بستن موضوع";
-$l['stick_thread'] = "سنجاق کردن موضوع";
+$l['stick_thread'] = "مهم‌کردن موضوع";
 
 $l['author'] = "نویسنده";
 $l['message'] = "پیام";
@@ -33,7 +33,7 @@ $l['restore_thread'] = "بازگردانی موضوع";
 $l['delete_thread'] = "حذف موضوع برای همیشه";
 $l['delete_posts'] = "حذف ارسال‌های انتخابی";
 $l['move_thread'] = "انتقال/تکثیر موضوع";
-$l['stick_unstick_thread'] = "سنجاق/بدون سنجاق کردن موضوع";
+$l['stick_unstick_thread'] = "مهم/غیرمهم کردن موضوع";
 $l['split_thread'] = "جدا سازی ارسال‌های موضوع";
 $l['merge_threads'] = "ادغام موضوعات";
 $l['remove_redirects'] = "حذف ارجاعات";
