@@ -9,7 +9,7 @@
  */
 
 /**
- * Upgrade Script: 1.6.14, 1.6.15 or 1.6.16
+ * Upgrade Script: 1.6.14, 1.6.15, 1.6.16, 1.6.17 or 1.6.18
  */
 
 $upgrade_detail = array(
