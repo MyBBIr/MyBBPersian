@@ -331,8 +331,8 @@ $l['setting_postmaxavatarsize'] = 'حداکثر اندازه‌ی آواتار �
 $l['setting_postmaxavatarsize_desc'] = 'حداکثر اندازه‌ی آواتارها که در یک ارسال نمایش داده شود. اگر یک آواتار خیلی بزرگ باشد یه صورت خودکار کوچک خواهد شد.';
 $l['setting_threadreadcut'] = 'خواندن موضوع‌ها در پایگاه داده (روزها)';
 $l['setting_threadreadcut_desc'] = 'تعدادروزهایی که اطلاعات خوانده‌شدن موضوع‌ها در پایگاه‌داده نگه داشته شود. برای انجمن‌های بزرگ، که عدد بزرگی وارد شود. برای غیرفعال سازی بر روی ۰ قرار دهید.';
-$l['setting_threadusenetstyle'] = 'Usenet Style Thread View';
-$l['setting_threadusenetstyle_desc'] = 'Selecting yes will cause posts to look similar to how posts look in USENET. No will cause posts to look the modern way.';
+$l['setting_threadusenetstyle'] = 'نمایش موضوع به سبک گروه‌های خبری (یوزنت)';
+$l['setting_threadusenetstyle_desc'] = 'انتخاب بله ارسال‌ها را شبیه به گروه‌های خبری می‌کند. این حالت موضوعات را به صورت مدرن نشان نمی‌دهد.';
 $l['setting_quickreply'] = 'نمایش فرم پاسخ سریع';
 $l['setting_quickreply_desc'] = 'به شما اجازه می‌دهد تا انتخاب کنید که آیا فرم پاسخ‌سریع در پایین موضوع‌ها نمایش داده شود یا خیر.';
 $l['setting_multiquote'] = 'نمایش دکمه نقل قول چندگانه';
@@ -439,15 +439,15 @@ $l['setting_maxavatardims_desc'] = 'حداکثر اندازه‌ای که آوا
 $l['setting_avatarsize'] = 'حداکثر حجم فایل آواتار آپلود‌شده';
 $l['setting_avatarsize_desc'] = 'حداکثر اندازه حجم (به کیلوبایت) برای آواتارهای آپلودی.';
 $l['setting_avatarresizing'] = 'حالت تغییر اندازه‌ی آواتار';
-$l['setting_avatarresizing_desc'] = 'If you wish to automatically resize all large avatars, provide users the option of resizing their avatar, or not resize avatars at all you can change this setting.';
-$l['setting_avataruploadpath'] = 'Avatar Upload Path';
-$l['setting_avataruploadpath_desc'] = 'This is the path where custom avatars will be uploaded to. This directory <b>must be chmod 777</b> (writable) for uploads to work.';
-$l['setting_customtitlemaxlength'] = 'Custom User Title Maximum Length';
-$l['setting_customtitlemaxlength_desc'] = 'Maximum length a user can enter for the custom user title.';
-$l['setting_allowaway'] = 'Allow Away Statuses?';
-$l['setting_allowaway_desc'] = 'Should users be allowed to set their status to \'Away\' with a custom reason & return date?';
-$l['setting_allowbuddyonly'] = 'Allow Buddy-Only Messaging?';
-$l['setting_allowbuddyonly_desc'] = 'Allow users to send private messages only to people on their buddy list?';
+$l['setting_avatarresizing_desc'] = 'اگر شما می‌خواهید که آواتارها با اندازه‌ی بزرگ به صورت خودکار به اندازه‌ی کوچک تغییر اندازه داده شوند یا اینکه اصلا آواتارها تغییر اندازه داده نشوند این گزینه را تغییر دهید.';
+$l['setting_avataruploadpath'] = 'مسیر آپلود آواتارها';
+$l['setting_avataruploadpath_desc'] = 'این مسیری است که آواتارها در آن آپلود می‌شوند. این پوشه <b>باید chmod 777 داشته باشد</b> (قابل نوشتن) تا فرایند آپلود انجام شود.';
+$l['setting_customtitlemaxlength'] = 'حداکثر طول عنوان اختیاری کاربر';
+$l['setting_customtitlemaxlength_desc'] = 'حداکثر طولی که کاربر می‌تواند برای عنوان اختیاری وارد کند را وارد کنید.';
+$l['setting_allowaway'] = 'امکان حالت غایب؟';
+$l['setting_allowaway_desc'] = 'کاربران بتوانند حالت خود را روی «غایب» تنظیم کرده و برای آن دلیل و تاریخ بازگشت بنویسند؟';
+$l['setting_allowbuddyonly'] = 'امکان پیام‌های فقط دوستانه؟';
+$l['setting_allowbuddyonly_desc'] = 'آیا کاربران باید فقط به کسانی که در لیست دوستانشان هستند پیام ارسال کنند؟';
 
 
 $l['setting_group_posting'] = 'ارسال‌کردن';
@@ -748,15 +748,15 @@ $l['setting_mail_handler_desc'] = 'روشی که مای بی‌بی به وسی�
 $l['setting_smtp_host'] = 'نام میزبان SMTP';
 $l['setting_smtp_host_desc'] = 'نام میزبان سرور  SMTP که ایمیل‌ها به وسیله‌ی آن ارسال شود.<br />تنها لازم است اگر SMTP به عنوان گرداننده‌ی ایمیل انتخاب شده‌باشد.';
 $l['setting_smtp_port'] = 'پورت SMTP';
-$l['setting_smtp_port_desc'] = 'The port number of the SMTP server through which mail should be sent.<br />تنها لازم است اگر SMTP به عنوان گرداننده‌ی ایمیل انتخاب شده‌باشد.';
+$l['setting_smtp_port_desc'] = 'شماره‌ی پورت سرور SMTP شما که ایمیل از طریق آن ارسال شود.<br />تنها لازم است اگر SMTP به عنوان گرداننده‌ی ایمیل انتخاب شده‌باشد.';
 $l['setting_smtp_user'] = 'نام‌کاربری SMTP';
-$l['setting_smtp_user_desc'] = 'The username used to authenticate with the SMTP server.<br />تنها لازم است اگر SMTP به عنوان گرداننده‌ی ایمیل انتخاب شده‌باشد, و سرور SMTP به احراز هویت نیاز داشته‌باشد.';
+$l['setting_smtp_user_desc'] = 'نام‌کاربری‌ای که برای احرازهویت با سرور SMTP استفاده می‌شود را وارد کنید.<br />تنها لازم است اگر SMTP به عنوان گرداننده‌ی ایمیل انتخاب شده‌باشد, و سرور SMTP به احراز هویت نیاز داشته‌باشد.';
 $l['setting_smtp_pass'] = 'رمز‌عبور SMTP';
-$l['setting_smtp_pass_desc'] = 'The corresponding password used to authenticate with the SMTP server.<br />تنها لازم است اگر SMTP به عنوان گرداننده‌ی ایمیل انتخاب شده‌باشد, و سرور SMTP به احراز هویت نیاز داشته‌باشد.';
+$l['setting_smtp_pass_desc'] = 'رمزعبوری که برای احرازهویت با سرور SMTP استفاده می‌شود را وارد کنید.<br />تنها لازم است اگر SMTP به عنوان گرداننده‌ی ایمیل انتخاب شده‌باشد, و سرور SMTP به احراز هویت نیاز داشته‌باشد.';
 $l['setting_secure_smtp'] = 'حالت رمزگذاری SMTP';
-$l['setting_secure_smtp_desc'] = 'Select the encryption required to communicate with the SMTP server.<br />تنها لازم است اگر SMTP به عنوان گرداننده‌ی ایمیل انتخاب شده‌باشد.';
-$l['setting_mail_parameters'] = 'Additional Parameters for PHP\'s mail()';
-$l['setting_mail_parameters_desc'] = 'This setting allows you to set additional parameters for the PHP mail() function. Only used when \'PHP mail\' is selected as Mail Handler. <a href="http://php.net/function.mail" target="_blank">More information</a>';
+$l['setting_secure_smtp_desc'] = 'حالت رمز‌گذاری که برای وصل‌شدن به سرور SMTP لازم است را وارد کنید.<br />تنها لازم است اگر SMTP به عنوان گرداننده‌ی ایمیل انتخاب شده‌باشد.';
+$l['setting_mail_parameters'] = 'پارامتر‌های اضافه برای تابع mail() پی‌اچ‌پی';
+$l['setting_mail_parameters_desc'] = 'این تنظیم به شما اجازه می‌دهد تا پارامتر‌های اضافه برای تابع mail() تنظیم کنید. <br />تنها لازم است اگر PHP Mail به عنوان گرداننده‌ی ایمیل انتخاب شده‌باشد. <a href="http://php.net/function.mail" target="_blank">اطلاعات بیشتر</a>';
 $l['setting_mail_logging'] = 'ثبت ایمیل';
 $l['setting_mail_logging_desc'] = 'این تنظیم به شما اجازه می‌دهد تا چگونگی ثبت ایمیل‌های خروجی «ارسال موضوع به یک دوست» را تعیین کنید، در برخی از کشورها ثبت تمام مطالب غیرقانونی است.';
 $l['setting_mail_message_id'] = 'اضافه کردن ID در سرکدهای ایمیل';
@@ -848,4 +848,4 @@ $l['setting_group_statspage_desc'] = 'این بخش به شما اجازه می 
 $l['setting_statsenabled'] = 'فعال کردن صفحات آمار';
 $l['setting_statsenabled_desc'] = 'اگر میخواهید صفحه آمار را در انجمن خود غیر فعال کنید،این گزینه را روی "خیر" قرار دهید.';
 $l['setting_statscachetime'] = 'زمان کش آمار';
-$l['setting_statscachetime_desc'] = 'بازه ی زمانی به روز کردن کش صفحه آمار را به ساعت وارد کنید. برای غیرفعال کردن آن 0 را وارد کنید.';
+$l['setting_statscachetime_desc'] = 'بازه ی زمانی به روز کردن کش صفحه آمار را به ساعت وارد کنید. برای غیرفعال کردن آن 0 را وارد کنید.'; 
