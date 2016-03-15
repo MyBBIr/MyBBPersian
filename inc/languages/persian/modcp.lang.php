@@ -71,7 +71,6 @@ $l['ipaddress_search'] = "جستجوی آی‌پی";
 $l['ipaddress_misc_info'] = "متفرقه. اطلاعات برای '{1}'";
 $l['ipaddress_host_name'] = "نام میزبان:";
 $l['ipaddress_location'] = "موقعیت جغرافیایی آی‌پی:";
-$l['search_users'] = "جستجوی کاربران";
 $l['search_posts'] = "جستجوی ارسال‌ها";
 $l['ip_address'] = "آی‌پی:";
 $l['result'] = "نتیجه";
