@@ -2038,7 +2038,7 @@ activity=Order By Last Activity (DESC)]]></optionscode>
 			<description><![CDATA[The language of the control panel.]]></description>
 			<disporder>1</disporder>
 			<optionscode><![CDATA[adminlanguage]]></optionscode>
-			<settingvalue><![CDATA[english]]></settingvalue>
+			<settingvalue><![CDATA[persian]]></settingvalue>
 			<isdefault>1</isdefault>
 		</setting>
 		<setting name="cpstyle">

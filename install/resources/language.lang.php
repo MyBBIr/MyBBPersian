@@ -95,39 +95,39 @@ $l['req_step_reqtable'] = '<div class="border_wrapper">
 		</thead>
 		<tbody>
 		<tr class="first">
-			<td class="first">PHP Version:</td>
+			<td class="first">نسخه‌ی PHP:</td>
 			<td class="last alt_col">{1}</td>
 		</tr>
 		<tr class="alt_row">
-			<td class="first">Supported DB Extensions:</td>
+			<td class="first">افزودنی‌های پایگاه‌داده پشتیبانی‌شده:</td>
 			<td class="last alt_col">{2}</td>
 		</tr>
 		<tr class="alt_row">
-			<td class="first">Supported Translation Extensions:</td>
+			<td class="first">افزودنی‌های تفسیر پشتیبانی‌شده:</td>
 			<td class="last alt_col">{3}</td>
 		</tr>
 		<tr class="alt_row">
-			<td class="first">PHP XML Extensions:</td>
+			<td class="first">افزودنی‌های XML برای PHP:</td>
 			<td class="last alt_col">{4}</td>
 		</tr>
 		<tr class="alt_row">
-			<td class="first">Configuration File Writable:</td>
+			<td class="first">قابل‌نوشتن بودن فایل پیکربندی:</td>
 			<td class="last alt_col">{5}</td>
 		</tr>
 		<tr>
-			<td class="first">Settings File Writable:</td>
+			<td class="first">قابل‌نوشتن بودن فایل تنظیمات:</td>
 			<td class="last alt_col">{6}</td>
 		</tr>
 		<tr>
-			<td class="first">Cache Directory Writable:</td>
+			<td class="first">قابل‌نوشتن بودن پوشه‌ی کش:</td>
 			<td class="last alt_col">{7}</td>
 		</tr>
 		<tr class="alt_row">
-			<td class="first">File Uploads Directory Writable:</td>
+			<td class="first">قابل‌نوشتن بودن پوشه‌ی آپلود‌ها:</td>
 			<td class="last alt_col">{8}</td>
 		</tr>
 		<tr class="last">
-			<td class="first">Avatar Uploads Directory Writable:</td>
+			<td class="first">قابل‌نوشتن بودن پوشه‌ی آواتار‌ها:</td>
 			<td class="last alt_col">{9}</td>
 		</tr>
 		</tbody>
