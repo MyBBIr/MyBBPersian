@@ -17,9 +17,9 @@ $l['report_reason_profile'] = "گزارش مشخصات";
 $l['report_reason_reputation'] = "گزارش اعتبار";
 
 // Content reasons
+$l['report_reason_rules'] = "شکستن قوانین انجمن";
 $l['report_reason_bad'] = "محتویات نامناسب";
 $l['report_reason_spam'] = "محتوای هرزنامه";
-$l['report_reason_rules'] = "شکستن قوانین انجمن";
 $l['report_reason_wrong'] = "انجمن اشتباه";
 $l['report_reason_other'] = "دیگر";
 
@@ -27,5 +27,7 @@ $l['success_report_voted'] = "سپاس از شما برای گزارش این م
 
 $l['error_report_length'] = "لطفا یک دلیل برای گزارش خود انتخاب کنید.";
 $l['error_invalid_report'] = "این محتوا وجود ندارد یا نمی‌تواند گزارش شود.";
+$l['error_invalid_report_reason'] = "دلیل انتخاب شده نامعتبر است.";
+$l['error_comment_required'] = "یک نظر اضافه برای دلیل انتخاب شده لازم است.";
 $l['error_report_duplicate'] = "این محتوا توسط کاربری دیگری نیز گزارش شده است.<br />همچنین شما نیز می‌توانید این محتوا را گزارش کنید.";
-$l['report_reason_other_description'] = "اگر 'دیگر' را انتخاب کرده‌اید لطفا یک دلیل برای گزارش خود بنویسید.";
+$l['report_reason_other_description'] = "لطفا اطلاعات بیشتری را برای اینکه این محتوا را گزارش می‌دهید وارد کنید.";

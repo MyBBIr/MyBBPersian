@@ -39,4 +39,4 @@ $l['online_anon_singular'] = "هست";
 $l['online_guest_plural'] = "مهمان";
 $l['online_guest_singular'] = "مهمان";
 $l['online_note'] = "{1} {2} در {3} دقیقه گذشته ({4} {5}، که {6} نفر از آنها پنهان {7} و  {8} {9}).";
-$l['subforums'] = "<strong>زیر انجمن‌ها:</strong>";
+$l['subforums'] = "زیر انجمن‌ها:";
