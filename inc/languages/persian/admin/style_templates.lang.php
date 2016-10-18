@@ -106,6 +106,7 @@ $l['group_xmlhttp'] = "ایکس‌ام‌ال اچ‌تی‌تی‌پی (XMLHTTP
 $l['group_footer'] = "پانوشت";
 $l['group_video'] = "مای‌کد ویدیو";
 $l['group_sendthread'] = "ارسال موضوع";
+$l['group_mycode'] = "مای‌کد";
 $l['expand'] = "باز کردن زیر شاخه‌ها";
 $l['collapse'] = "بستن زیر شاخه‌ها";
 $l['save_continue'] = "ذخیره و ادامه ویرایش";

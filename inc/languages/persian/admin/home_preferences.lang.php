@@ -23,7 +23,7 @@ $l['codemirror'] = "روشن یا خاموش کردن کدمیرور";
 $l['use_codemirror_desc'] = "در صورتی که اینترنت شما کم سرعت است این را خاموش کنید. (کدمیرور سیستمی است که در قسمت ویرایش کدهای مختلف را رنگی می‌کند).";
 $l['success_preferences_updated'] = "تنظیم‌ها با موفقیت ذخیره شدند.";
 
-$l['use_2fa_desc'] = "احراز هویت دوفاکتوره روشی برای ایمن کردن حساب کاربری مدیریت شماست. بعد از اینکه این را فعال کردید، یک کد QR خواهید دید که باید آنرا با نرم‌افزاری همچون <a href=\"http://docs.mybb.com/1.8/administration/security/2fa/\" target=\"_blank\">Google Authenticator یا Authy</a> اسکن کنید. این برنامه‌ها کدی را برای هر ورود به پنل مدیریت به شما نشان خواهند داد.";
+$l['use_2fa_desc'] = "احراز هویت دوفاکتوره روشی برای ایمن کردن حساب کاربری مدیریت شماست. بعد از اینکه این را فعال کردید، یک کد QR خواهید دید که باید آنرا با نرم‌افزاری همچون <a href=\"https://docs.mybb.com/1.8/administration/security/2fa/\" target=\"_blank\">Google Authenticator یا Authy</a> اسکن کنید. این برنامه‌ها کدی را برای هر ورود به پنل مدیریت به شما نشان خواهند داد.";
 $l['my2fa_qr'] = "کد احراز هویت دوفاکتوره";
 $l['recovery_codes_desc'] = "<a href=\"index.php?module=home-preferences&amp;action=recovery_codes\">کدهای بازیافت</a> خود را مشاهده کنید.";
 $l['recovery_codes'] = "کدهای بازیافت";

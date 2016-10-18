@@ -44,6 +44,7 @@ $l['note_logs_locked'] = "به دلایل امنیتی، نمی‌توان گز�
 $l['admin_log_config_attachment_types_add'] = "پسوند پیوست افزوده شد #{1} ({2})";
 $l['admin_log_config_attachment_types_edit'] = "پسوند پیوست ویرایش شد #{1} ({2})";
 $l['admin_log_config_attachment_types_delete'] = "پسوند پیوست حذف شد #{1} ({2})";
+$l['admin_log_config_attachment_types_toggle_status'] = "وضعیت پیوست تغییر داده شد #{1} ({2})";
 
 $l['admin_log_config_badwords_add'] = "فیلتر کلمه اضافه شد #{1} ({2})";
 $l['admin_log_config_badwords_edit'] = "فیلتر کلمه ویرایش شد #{1} ({2})";
@@ -105,6 +106,10 @@ $l['admin_log_config_questions_edit'] = "ویرایش پرسش #{1} ({2})";
 $l['admin_log_config_questions_delete'] = "حذف پرسش #{1} ({2})";
 $l['admin_log_config_questions_enable'] = "فعال سازی پرسش #{1} ({2})";
 $l['admin_log_config_questions_disable'] = "غیرفعال‌سازی پرسش #{1} ({2})";
+
+$l['admin_log_config_report_reasons_add'] = "افزودن دلیل گزارش #{1} ({2})";
+$l['admin_log_config_report_reasons_edit'] = "ویرایش دلیل گزارش #{1} ({2})";
+$l['admin_log_config_report_reasons_delete'] = "حذف دلیل گزارش #{1} ({2})";
 
 $l['admin_log_config_settings_delete_duplicates'] = "تنظیمات و گروه تنظیمات تکراری حذف شدند";
 $l['admin_log_config_settings_addgroup'] = "جزئیات گروه تنظیمات اضافه شد #{1} ({2})";
