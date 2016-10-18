@@ -7,10 +7,10 @@ $langinfo['name'] = "فارسی (Persian)";
 $langinfo['author'] = "My-BB.Ir Group & iora.ir";
 
 /* The language authors website */
-$langinfo['website'] = "http://mybb.com/";
+$langinfo['website'] = "https://mybb.com/";
 
 /* Compatible version of MyBB */
-$langinfo['version'] = "1807";
+$langinfo['version'] = "1808";
 
 /* Sets if the translation includes the Admin CP (1 = yes, 0 = no) */
 $langinfo['admin'] = 1;

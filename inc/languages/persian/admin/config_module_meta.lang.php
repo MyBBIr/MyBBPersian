@@ -1,7 +1,9 @@
 <?php 
 /**
  * MyBB 1.8 Persian Language Pack
- * Copyright © 2012 iora.ir، All Rights Reserved
+ * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
+ * 
+ * Translate By: iora.ir & My-BB.Ir
  */
  
 $l['configuration'] = "پیکربندی";
@@ -27,6 +29,7 @@ $l['can_manage_custom_profile_fields'] = "بتواند فیلد‌های پرو�
 
 $l['thread_prefixes'] = "پیشوندهای موضوع";
 $l['security_questions'] = "پرسش‌های امنیتی";
+$l['report_reasons'] = "دلایل گزارش";
 
 $l['can_manage_smilies'] = "بتواند شکلک‌ها را مدیریت کند؟";
 $l['can_manage_bad_words'] = "بتواند فیلتر کلمات را مدیریت کند؟";
