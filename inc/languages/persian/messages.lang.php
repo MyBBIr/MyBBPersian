@@ -1,8 +1,8 @@
-<?php 
+<?php
 /**
  * MyBB 1.8 Persian Language Pack
  * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
- * 
+ *
  * Translate By: iora.ir & My-BB.Ir
  */
 
@@ -175,6 +175,8 @@ $l['email_reportreputation'] = "{1} از {2} این اعتبار را گزارش
 
 لطفا این اعتبار را هرچه سریع‌تر بررسی کنید.";
 
+$l['email_report_comment_extra'] = "{1}: {2}";
+
 $l['email_passwordreset'] = "{1}،
 
 رمز عبور شما {2} بازنشانی شد.
@@ -329,7 +331,7 @@ $l['email_reachedpmquota'] = "{1}،
 لطفا با حذف برخی از پیام‌های خصوصی ذخیره شده، و نیز آنها را از سطل زباله حذف شده کنید.
 
 باسپاس
-مدیریت {2} 
+مدیریت {2}
 {3}";
 $l['email_changeemail'] = "{1}،
 
@@ -409,7 +411,7 @@ $l['email_emailuser'] = "{1}،
 {5}
 ------------------------------------------
 با سپاس
-{3} 
+{3}
 {4}
 
 ------------------------------------------

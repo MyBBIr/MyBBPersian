@@ -1,8 +1,8 @@
-<?php 
+<?php
 /**
  * MyBB 1.8 Persian Language Pack
  * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
- * 
+ *
  * Translate By: iora.ir & My-BB.Ir
  */
 
@@ -40,7 +40,7 @@ $l['username_contains'] = "شامل";
 $l['search_website'] = "وب سایت";
 $l['search_aim'] = "AIM Screen Name";
 $l['search_skype'] = "Skype Address";
-$l['search_google'] = "Google Talk Address";
+$l['search_google'] = "Google Hangouts Address";
 $l['search_yahoo'] = "Yahoo! Messenger Screen Name";
 $l['search_icq'] = "ICQ Number";
 $l['search_options'] = "گزینه‌های جستجو";

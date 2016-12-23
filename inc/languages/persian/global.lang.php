@@ -1,8 +1,8 @@
-<?php 
+<?php
 /**
  * MyBB 1.8 Persian Language Pack
  * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
- * 
+ *
  * Translate By: iora.ir & My-BB.Ir
  */
 
@@ -194,6 +194,7 @@ $l['editor_metacafe'] = "MetaCafe";
 $l['editor_veoh'] = "Veoh";
 $l['editor_vimeo'] = "Vimeo";
 $l['editor_youtube'] = "Youtube";
+$l['editor_twitch'] = "Twitch";
 $l['editor_facebook'] = "Facebook";
 $l['editor_liveleak'] = "LiveLeak";
 $l['editor_insertvideo'] = "افزودن یک ویدیو";
@@ -254,6 +255,11 @@ $l['postbit_currently_ignoring_user'] = "محتویات این ارسال پنه
 $l['postbit_warning_level'] = "درصد اخطار:";
 $l['postbit_warn'] = "اخطار به نویسنده ارسال:";
 $l['postbit_purgespammer'] = "پاک‌سازی اسپمر";
++$l['postbit_post_deleted'] = "این ارسال حذف شده‌است.";
++$l['postbit_post_unapproved'] = "این ارسال منتظر تایید است.";
++$l['postbit_thread_deleted'] = "این موضوع حذف شده‌است.";
++$l['postbit_thread_unapproved'] = "این موضوع منتظر تایید است.";
++$l['postbit_deleted_post_user'] = "این ارسال توسط {1} حذف شده‌است.";
 
 $l['postbit_button_reputation_add'] = 'اهدا اعتبار';
 $l['postbit_button_website'] = 'وب‌سایت';
@@ -286,6 +292,7 @@ $l['smilieinsert'] = "شکلک‌ها";
 $l['smilieinsert_getmore'] = "بقیه شکلک‌ها";
 $l['on'] = "روشن";
 $l['off'] = "خاموش";
+$l['remote_avatar_disabled_default_avatar'] = "شما هم‌اکنون در حال استفاده از یک آواتار لینک‌داده‌شده هستید، که غیرفعال شده‌است. و آواتار پیش‌فرض به جای ان استفاده خواهد شد.";
 $l['unread_report'] = "هشدار ناظم: یک گزارش خوانده نشده موجود است";
 $l['unread_reports'] = "هشدار ناظم: {1} گزارش خوانده نشده موجود است";
 $l['pending_joinrequest'] = "هشدار رهبر گروه: یک کاربر درخواست عضویت در گروه را داده است.";
@@ -422,7 +429,7 @@ $l['timezone_gmt_350'] = "(GMT +3:30) Tehran (تهــــران)";
 $l['timezone_gmt_400'] = "(GMT +4:00) Moscow, Abu Dhabi, Baku, Muscat, Tbilisi";
 $l['timezone_gmt_450'] = "(GMT +4:30) Kabul";
 $l['timezone_gmt_500'] = "(GMT +5:00) Islamabad, Karachi, Tashkent";
-$l['timezone_gmt_550'] = "(GMT +5:30) Mumbai, Calcutta, Madras, New Delhi";
+$l['timezone_gmt_550'] = "(GMT +5:30) Mumbai, Kolkata, Chennai, New Delhi";
 $l['timezone_gmt_575'] = "(GMT +5:45) Kathmandu";
 $l['timezone_gmt_600'] = "(GMT +6:00) Almaty, Dhakra, Yekaterinburg";
 $l['timezone_gmt_650'] = "(GMT +6:30) Yangon";
@@ -507,6 +514,7 @@ $l['moderation_user_posts'] = "لطفا دقت کنید که ارسال‌های
 $l['moderation_forum_thread'] = "لطفا دقت کنید که موضوع‌های جدید در این انجمن نیاز به تایید مدیریت قبل از نمایش دارند.";
 $l['moderation_forum_edits'] = "لطفا دقت‌کنید که ارسال‌های ویرایش‌شده در این انجمن نیاز به تایید مدیریت قبل از نمایش دارند.";
 $l['moderation_forum_edits_quick'] = "لطفا دقت‌کنید ارسال‌های ویرایش‌شده در این انجمن نیاز به تایید مدیریت قبل از نمایش دارند.";
++$l['awaiting_message_link'] = " <a href=\"{1}/{2}/index.php?module=user-awaiting_activation\">به پنل مدیریت بروید</a>.";
 $l['awaiting_message_single'] = "یک حساب کاربری منتظر فعال‌سازی وجود دارد، لطفا برای فعال‌سازی کاربر به پنل مدیریت بروید.";
 $l['awaiting_message_plural'] = "{1} حساب کاربری منتظر فعال‌سازی وجود دارد، لطفا برای فعال‌سازی کاربران به پنل مدیریت بروید.";
 

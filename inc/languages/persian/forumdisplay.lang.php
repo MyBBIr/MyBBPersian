@@ -1,8 +1,8 @@
-<?php 
+<?php
 /**
  * MyBB 1.8 Persian Language Pack
  * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
- * 
+ *
  * Translate By: iora.ir & My-BB.Ir
  */
 
@@ -95,6 +95,8 @@ $l['page_selected'] = "همه <strong>{1}</strong> موضوع این صفحه ا
 $l['all_selected'] = "همه <strong>{1}</strong> موضوع این انجمن انتخاب شده اند.";
 $l['select_all'] = "انتخاب همه <strong>{1}</strong> موضوع این انجمن";
 $l['clear_selection'] = "پاک کردن انتخاب‌ها";
+$l['deleted_thread'] = "موضوع حذف شده";
+
 $l['error_containsnoforums'] = "متاسفیم، انجمنی که در حال مشاهده آن هستید فاقد زیرانجمن می‌باشد.";
 
 $l['inline_edit_description'] = '(برای ویرایش کلیک‌کرده و نگه‌دارید)';

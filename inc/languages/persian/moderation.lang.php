@@ -1,8 +1,8 @@
-<?php 
+<?php
 /**
  * MyBB 1.8 Persian Language Pack
  * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
- * 
+ *
  * Translate By: iora.ir & My-BB.Ir
  */
 
@@ -81,6 +81,7 @@ $l['post_separator'] = "جدا کننده ارسال‌ها";
 $l['new_line'] = "خط جدید";
 $l['horizontal_rule'] = "خط افقی";
 $l['resolve_fail'] = "N/A (امکان پذیر نیست)";
+$l['time'] = "زمان:";
 $l['opened'] = "باز شده";
 $l['closed'] = "بسته شده";
 $l['stuck'] = "مهم شده";

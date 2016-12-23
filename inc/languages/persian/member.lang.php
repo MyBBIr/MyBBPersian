@@ -1,8 +1,8 @@
-<?php 
+<?php
 /**
  * MyBB 1.8 Persian Language Pack
  * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
- * 
+ *
  * Translate By: iora.ir & My-BB.Ir
  */
 
@@ -59,7 +59,7 @@ $l['icq_number'] = "شماره ICQ: ";
 $l['aim_screenname'] = "شناسه AIM: ";
 $l['yahoo_id'] = "شناسه Yahoo: ";
 $l['skype_id'] = "شناسه Skype:";
-$l['google_id'] = "شناسه Google Talk:";
+$l['google_id'] = "شناسه Google Hangouts:";
 $l['avatar'] = "آواتار: ";
 $l['warning_level'] = "میزان اخطار: ";
 $l['warn'] = "اخطار";
