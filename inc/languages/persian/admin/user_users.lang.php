@@ -1,8 +1,8 @@
-<?php 
+<?php
 /**
  * MyBB 1.8 Persian Language Pack
  * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
- * 
+ *
  * Translate By: iora.ir & My-BB.Ir
  */
 
@@ -24,6 +24,7 @@ $l['show_ip_addresses'] = "نمایش آدرس آی‌پی";
 $l['show_ip_addresses_desc'] = "آدرس آی‌پی ثبت نام و ارسال‌های کاربران انتخاب شده در زیر نمایش داده شده است. اولین آدرس آی‌پی مربوط به آی‌پی ثبت نام می‌باشد و سایر آدرس‌های آی‌پی مربوط به آی‌پی ارسال‌های کاربر می‌باشد.";
 $l['error_avatartoobig'] = "متاسفانه ابعاد آواتار جدید شما از میزان تعیین شده بزرگتر بوده و با آواتار فعلی قابل جایگزینی نمی‌باشد. حداکثر ابعاد قابل قبول {1}x{2} (عرض x طول) می‌باشد.";
 $l['error_invalidavatarurl'] = "لینک آواتار وارد شده معتبر نمی‌باشد. لطفاً از صحت لینک وارد شده اطمینان حاصل نمایید.";
+$l['error_remote_avatar_not_allowed'] = "آواتار لینک‌داده شده توسط مدیریت غیرفعال شده‌است.";
 $l['error_invalid_user'] = "کاربر انتخاب شده معتبر نمی‌باشد.";
 $l['error_no_perms_super_admin'] = "شما قادر به ویرایش این کاربر نمی‌باشید. تنها مدیران ارشد مجوز این عملیات را دارند.";
 $l['error_invalid_user_source'] = "حساب کاربری مبدا موجود نمی‌باشد";
@@ -85,7 +86,7 @@ $l['icq_number'] = "شماره ICQ";
 $l['aim_handle'] = "پیام رسان AIM";
 $l['yahoo_messanger_handle'] = "پیام رسان Yahoo!";
 $l['skype_handle'] = "پیام‌رسان Skype";
-$l['google_handle'] = "پیام‌رسان Google Talk";
+$l['google_handle'] = "پیام‌رسان Google Hangouts";
 $l['birthday'] = "تاریخ تولد";
 $l['away_information'] = "اطلاعات غیبت";
 $l['away_status'] = "وضعیت غیبت:";
@@ -228,7 +229,7 @@ $l['icq_number_contains'] = "شماره ICQ شامل";
 $l['aim_handle_contains'] = "پیام رسان AIM شامل";
 $l['yahoo_contains'] = "پیام رسان Yahoo! شامل";
 $l['skype_contains'] = "شامل پیام‌رسان Skype";
-$l['google_contains'] = "شامل پیام‌رسان Google Talk";
+$l['google_contains'] = "شامل پیام‌رسان Google Hangouts";
 $l['signature_contains'] = "امضا شامل";
 $l['user_title_contains'] = "عنوان انتخابی کاربر شامل";
 $l['greater_than'] = "بیشتر از";

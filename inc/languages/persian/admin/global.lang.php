@@ -1,11 +1,11 @@
-<?php 
+<?php
 /**
  * MyBB 1.8 Persian Language Pack
  * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
- * 
+ *
  * Translate By: iora.ir & My-BB.Ir
  */
- 
+
 $l['today'] = "امروز";
 $l['yesterday'] = "دیروز";
 $l['size_yb'] = "YB";
@@ -46,9 +46,9 @@ $l['error_admin_session_expired'] = "دوره دسترسی مدیریتی شما
 $l['error_invalid_ip'] = "آدرس آی‌پی شما برای این دوره دسترسی معتبر نمی‌باشد";
 $l['error_mybb_admin_lockedout'] = "این حساب قفل شده است";
 $l['error_mybb_admin_lockedout_message'] = "حساب کاربری شما پس از {1} تلاش نا موفق برای ورود بسته شد. رایانامه‌ی برای شما ارسال گردیده که در آن نحوه‌ی بازگشایی مجدد حساب کاربری شما شرح داده شده است.";
-$l['error_invalid_secret_pin'] = 'شما کدامنیتی پین را اشتباه وارد کرده‌اید.';
-$l['error_invalid_username'] = "نام‌کاربری وارد شده نامعتبر است."; 
-$l['error_invalid_uid'] = "آی‌دی کاربر وارد شده نامعتبر است."; 
+
+$l['error_invalid_username'] = "نام‌کاربری وارد شده نامعتبر است.";
+$l['error_invalid_uid'] = "آی‌دی کاربر وارد شده نامعتبر است.";
 $l['error_invalid_token'] = "کد فعال‌سازی وارد شده نامعتبر است.";
 $l['success_logged_out'] = "شما با موفقیت خارج شده اید.";
 $l['error_invalid_username_password'] = "{1} و رمز ورود شما با یکدیگر همخوانی ندارد.";
@@ -188,7 +188,7 @@ $l['timezone_gmt_350'] = "(GMT +3:30) Tehran (تهــــــران)";
 $l['timezone_gmt_400'] = "(GMT +4:00) Moscow, Abu Dhabi, Baku, Muscat, Tbilisi";
 $l['timezone_gmt_450'] = "(GMT +4:30) Kabul";
 $l['timezone_gmt_500'] = "(GMT +5:00) Islamabad, Karachi, Tashkent";
-$l['timezone_gmt_550'] = "(GMT +5:30) Mumbai, Calcutta, Madras, New Delhi";
+$l['timezone_gmt_550'] = "(GMT +5:30) Mumbai, Kolkata, Chennai, New Delhi";
 $l['timezone_gmt_575'] = "(GMT +5:45) Kathmandu";
 $l['timezone_gmt_600'] = "(GMT +6:00) Almaty, Dhakra, Yekaterinburg";
 $l['timezone_gmt_650'] = "(GMT +6:30) Yangon";
@@ -344,7 +344,7 @@ $l['search_for_a_user'] = "جستجو‌ی یک کاربر";
 
 $l['mybb_engine'] = "موتور مای بی‌بی";
 
-/* If the language string for "Username" is too cramped in the ACP Login box 
+/* If the language string for "Username" is too cramped in the ACP Login box
  then use this to define how much larger you want the gap to be (in px) */
 /* $l['login_field_width'] = "0"; */
 

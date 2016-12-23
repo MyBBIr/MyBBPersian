@@ -1,8 +1,8 @@
-<?php 
+<?php
 /**
  * MyBB 1.8 Persian Language Pack
  * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
- * 
+ *
  * Translate By: iora.ir & My-BB.Ir
  */
 
@@ -79,7 +79,7 @@ $l['save_mod'] = "ذخیره مدیر";
 $l['no_forums'] = "انجمنی یافت نشد.";
 $l['no_moderators'] = "مدیری یافت نشد.";
 $l['success_forum_disporder_updated'] = "ترتیب نمایش انجمن با موفقیت به روز رسانی شد.";
-$l['success_forum_deleted'] = "انجمن انتخاب شده با موفقیت حذف گردید.";
+$l['success_forum_deleted'] = 'انجمن انتخاب شده با موفقیت حذف گردید. ایده‌آل است که شما هم‌اکنون ابزار‌های <a href="/index.php?module=tools-recount_rebuild">بازشماری و بازسازی</a> را اجرا کنید.';
 $l['success_moderator_deleted'] = "مدیر انتخاب شده با موفقیت حذف گردید.<br />لطفا به یاد داشته باشید که این دسترسی گروه کاربری را تغییر نمی‌دهد، آنها ممکن است هنوز قدرت مدیریت داشته باشند.";
 $l['success_forum_permissions_updated'] = "سطوح دسترسی انجمن با موفقیت به روز رسانی شد.";
 $l['success_forum_updated'] = "تنظیمات انجمن با موفقیت به روز رسانی شد.";
@@ -207,6 +207,8 @@ $l['editing_field_caneditposts'] = "بتواند ارسال‌های خودش ر
 $l['editing_field_candeleteposts'] = "بتواند ارسال‌های خودش را حذف کند؟";
 $l['editing_field_candeletethreads'] = "بتواند موضوعات خودش را حذف کند؟";
 $l['editing_field_caneditattachments'] = "بتواند پیوست‌های خود را ویرایش کند؟";
+$l['editing_field_canviewdeletionnotice'] = "بتواند اعلان‌های حذف را ببیند؟";
+
 $l['moderate_field_modposts'] = "ارسال‌های جدید مدیریت شوند؟";
 $l['moderate_field_modthreads'] = "موضوعات جدید مدیریت شوند؟";
 $l['moderate_field_modattachments'] = "پیوست‌های جدید مدیریت شوند؟";
@@ -214,6 +216,10 @@ $l['moderate_field_mod_edit_posts'] = "ارسال‌ها بعداز ویرایش
 $l['polls_field_canpostpolls'] = "امکان ارسال نظرسنجی؟";
 $l['polls_field_canvotepolls'] = "امکان شرکت در نظرسنجی‌ها؟";
 $l['misc_field_cansearch'] = "امکان جستجو در انجمن؟";
+
+$l['confirm_proceed_deletion'] = "برای ادامه‌ی فرایند حذف انجمن بر روی «اقدام» کلیک کنید.";
+$l['automatically_redirecting'] = "هدایت به طور خودکار...";
+
 $l['overview_allowed_actions'] = "بازبینی: اعمال مجاز";
 $l['overview_disallowed_actions'] = "بازبینی: اعمال غیر مجاز";
 $l['perm_drag_canview'] = "• نمایش";
