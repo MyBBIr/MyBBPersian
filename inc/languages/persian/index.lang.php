@@ -1,8 +1,8 @@
-<?php 
+<?php
 /**
  * MyBB 1.8 Persian Language Pack
  * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
- * 
+ *
  * Translate By: iora.ir & My-BB.Ir
  */
 
@@ -14,7 +14,6 @@ $l['forum_unapproved_posts_count'] = "{1} ارسال تایید نشده در ا
 $l['forum_unapproved_post_count'] = "یک ارسال تایید نشده در این انجمن وجود دارد";
 $l['forum_unapproved_threads_count'] = "{1} موضوع تایید نشده در این انجمن وجود دارد";
 $l['forum_unapproved_thread_count'] = "یک موضوع تایید نشده در این انجمن وجود دارد";
-$l['markread'] = "نشانه گذاری همه به عنوان خوانده شده";
 $l['forumteam'] = "تیم مدیریت";
 $l['forumstats'] = "آمار کامل";
 $l['todays_birthdays'] = "متولدین امروز";

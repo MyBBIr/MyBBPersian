@@ -19,6 +19,8 @@ $l['bottomlinks_contactus'] = "تماس با ما";
 $l['bottomlinks_returntop'] = "بازگشت به بالا";
 $l['bottomlinks_syndication'] = "پیوند سایتی آراِس‌اِس";
 $l['bottomlinks_litemode'] = "حالت آرشیو";
+$l['bottomlinks_markread'] = "علامت‌گذاری همه‌ی انجمن‌ها به عنوان خوانده شده";
+
 $l['welcome_usercp'] = "کنترل پنل کاربر";
 $l['welcome_modcp'] = "کنترل پنل ناظم";
 $l['welcome_admin'] = "کنترل پنل مدیریت";

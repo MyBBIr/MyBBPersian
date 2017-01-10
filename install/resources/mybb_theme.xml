@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<theme name="MyBB Master Style" version="1809">
+<theme name="MyBB Master Style" version="1810">
 	<properties>
 		<templateset><![CDATA[1]]></templateset>
 		<imgdir><![CDATA[images]]></imgdir>
@@ -3623,7 +3623,7 @@ var announcement_quickdelete_confirm = "{$lang->announcement_quickdelete_confirm
 </ol>
 <br />
 {$lang->error_nopermission_user_username}]]></template>
-		<template name="footer" version="1808"><![CDATA[<debugstuff>
+		<template name="footer" version="1810"><![CDATA[<debugstuff>
 	</div>
 </div>
 <div id="footer">
@@ -3636,6 +3636,7 @@ var announcement_quickdelete_confirm = "{$lang->announcement_quickdelete_confirm
 				<li><a href="{$mybb->settings['homeurl']}">{$mybb->settings['homename']}</a></li>
 				<li><a href="#top">{$lang->bottomlinks_returntop}</a></li>
 				<li><a href="<archive_url>">{$lang->bottomlinks_litemode}</a></li>
+				<li><a href="{$mybb->settings['bburl']}/misc.php?action=markread{$post_code_string}">{$lang->bottomlinks_markread}</a></li>
 				<li><a href="{$mybb->settings['bburl']}/misc.php?action=syndication">{$lang->bottomlinks_syndication}</a></li>
 			</ul>
 		</div>
@@ -4322,7 +4323,7 @@ $(".forumjump").change(function() {
 <td class="trow1"><span class="smalltext">{$bdays}</span></td>
 </tr>]]></template>
 		<template name="index_birthdays_birthday" version="1400"><![CDATA[{$comma}{$bdayuser['profilelink']}{$age}]]></template>
-		<template name="index_boardstats" version="1800"><![CDATA[<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder">
+		<template name="index_boardstats" version="1810"><![CDATA[<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder">
 <thead>
 <tr>
 <td class="thead{$collapsedthead['boardstats']}">
@@ -4339,7 +4340,6 @@ $(".forumjump").change(function() {
 	<td class="tfoot" style="text-align: left">
 		<span class="smalltext">
 			{$logoutlink}
-			<a href="misc.php?action=markread{$post_code_string}">{$lang->markread}</a> |
 			<a href="showteam.php">{$lang->forumteam}</a>
 			{$statspage}
 		</span>
@@ -5711,7 +5711,7 @@ if(use_xmlhttprequest == "1")
 </html>]]></template>
 		<template name="memberlist_referrals" version="1800"><![CDATA[<td class="tcat" width="10%" align="center"><span class="smalltext"><a href="{$sorturl}&amp;sort=referrals&amp;order=descending"><strong>{$lang->referrals}</strong></a> {$orderarrow['referrals']}</span></td>]]></template>
 		<template name="memberlist_referrals_bit" version="1600"><![CDATA[<td class="{$alt_bg}" align="center">{$user['referrals']}</td>]]></template>
-		<template name="memberlist_search" version="1807"><![CDATA[<html>
+		<template name="memberlist_search" version="1810"><![CDATA[<html>
 <head>
 <title>{$mybb->settings['bbname']} - {$lang->search_member_list}</title>
 {$headerinclude}
@@ -5743,36 +5743,11 @@ if(use_xmlhttprequest == "1")
 		<input type="text" class="textbox" name="website" id="website" />
 	</td>
 </tr>
-<tr>
-	<td class="trow1" width="20%"><strong><label for="aim">{$lang->search_aim}</label></strong></td>
-	<td class="trow1">
-		<input type="text" class="textbox" name="aim" id="aim" />
-	</td>
-</tr>
-<tr>
-	<td class="trow1" width="20%"><strong><label for="skype">{$lang->search_skype}</label></strong></td>
-	<td class="trow1">
-		<input type="text" class="textbox" name="skype" id="skype" />
-	</td>
-</tr>
-<tr>
-	<td class="trow1" width="20%"><strong><label for="google">{$lang->search_google}</label></strong></td>
-	<td class="trow1">
-		<input type="text" class="textbox" name="google" id="google" />
-	</td>
-</tr>
-<tr>
-	<td class="trow1" width="20%"><strong><label for="yahoo">{$lang->search_yahoo}</label></strong></td>
-	<td class="trow1">
-		<input type="text" class="textbox" name="yahoo" id="yahoo" />
-	</td>
-</tr>
-<tr>
-	<td class="trow1" width="20%"><strong><label for="icq">{$lang->search_icq}</label></strong></td>
-	<td class="trow1">
-		<input type="text" class="textbox" name="icq" id="icq" />
-	</td>
-</tr>
+{$contact_fields['aim']}
+{$contact_fields['skype']}
+{$contact_fields['google']}
+{$contact_fields['yahoo']}
+{$contact_fields['icq']}
 <tr>
 	<td class="tcat" colspan="2"><strong>{$lang->search_options}</strong></td>
 </tr>
@@ -5855,6 +5830,10 @@ if(use_xmlhttprequest == "1")
 </script>
 </body>
 </html>]]></template>
+		<template name="memberlist_search_contact_field" version="1810"><![CDATA[<tr>
+	<td class="{$bgcolors[$field]}" width="20%"><strong><label for="{$field}">{$lang_string}</label></strong></td>
+	<td class="{$bgcolors[$field]}"><input type="text" class="textbox" name="{$field}" id="{$field}" /></td>
+</tr>]]></template>
 		<template name="memberlist_user" version="1800"><![CDATA[<tr>
 	<td class="{$alt_bg}" align="center">{$user['avatar']}</td>
 	<td class="{$alt_bg}">{$user['profilelink']}<br />
@@ -6215,15 +6194,15 @@ if(use_xmlhttprequest == "1")
 {$forumlistbits}
 </select>]]></template>
 		<template name="misc_syndication_forumlist_forum" version="1808"><![CDATA[<option value="{$forum['fid']}" {$optionselected}>{$depth} {$forum['name']}</option>]]></template>
-		<template name="misc_whoposted" version="1800"><![CDATA[<div class="modal">
+		<template name="misc_whoposted" version="1810"><![CDATA[<div class="modal">
 	<div style="overflow-y: auto; max-height: 400px;">
 <table width="100%" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" border="0" align="center" class="tborder">
 <tr>
 <td colspan="2" class="thead"><strong>{$lang->total_posts} {$numposts}</strong></td>
 </tr>
 <tr>
-<td class="tcat"><span class="smalltext"><strong><a href="misc.php?action=whoposted&amp;tid={$tid}&amp;sort=username">{$lang->user}</a></strong></span></td>
-<td class="tcat"><span class="smalltext"><strong><a href="misc.php?action=whoposted&amp;tid={$tid}&amp;sort=numposts">{$lang->num_posts}</a></strong></span></td>
+<td class="tcat"><span class="smalltext"><strong><a href="javascript:void(0)" onclick="MyBB.whoPosted({$thread['tid']}, 'username'); return false;">{$lang->user}</a></strong></span></td>
+<td class="tcat"><span class="smalltext"><strong><a href="javascript:void(0)" onclick="MyBB.whoPosted({$thread['tid']}); return false;">{$lang->num_posts}</a></strong></span></td>
 </tr>
 {$whoposted}
 </table>
@@ -8826,13 +8805,15 @@ if(use_xmlhttprequest == "1")
 </html>]]></template>
 		<template name="newreply_disablesmilies" version="1809"><![CDATA[<label><input type="checkbox" class="checkbox" name="postoptions[disablesmilies]" value="1" tabindex="9"{$postoptionschecked['disablesmilies']} /> {$lang->options_disablesmilies}</label>]]></template>
 		<template name="newreply_draftinput" version="1808"><![CDATA[<input type="hidden" name="pid" value="{$pid}" />]]></template>
-		<template name="newreply_modoptions" version="1809"><![CDATA[<tr>
-<td class="{$bgcolor}" valign="top"><strong>{$lang->mod_options}</strong></td>
-<td class="{$bgcolor}"><span class="smalltext">
-<label><input type="checkbox" class="checkbox" name="modoptions[closethread]" value="1"{$closecheck} />&nbsp;{$lang->close_thread}</label><br />
-<label><input type="checkbox" class="checkbox" name="modoptions[stickthread]" value="1"{$stickycheck} />&nbsp;{$lang->stick_thread}</label>
-</span></td>
+		<template name="newreply_modoptions" version="1810"><![CDATA[<tr>
+	<td class="{$bgcolor}" valign="top"><strong>{$lang->mod_options}</strong></td>
+	<td class="{$bgcolor}"><span class="smalltext">
+		{$closeoption}
+		{$stickoption}
+	</span></td>
 </tr>]]></template>
+		<template name="newreply_modoptions_close" version="1810"><![CDATA[<label><input type="checkbox" class="checkbox" name="modoptions[closethread]" value="1"{$closecheck} />&nbsp;{$lang->close_thread}</label><br />]]></template>
+		<template name="newreply_modoptions_stick" version="1810"><![CDATA[<label><input type="checkbox" class="checkbox" name="modoptions[stickthread]" value="1"{$stickycheck} />&nbsp;{$lang->stick_thread}</label>]]></template>
 		<template name="newreply_multiquote_external" version="1809"><![CDATA[<div id="multiquote_unloaded"><span class="smalltext">{$multiquote_text} <a href="./newreply.php?tid={$tid}" onclick="return Post.loadMultiQuoted();">{$multiquote_quote}</a>, <a href="javascript:void(0)" onclick="Post.clearMultiQuoted(); return false;">{$multiquote_deselect}</a></span></div>]]></template>
 		<template name="newreply_postoptions" version="1809"><![CDATA[<tr>
 <td class="trow1" valign="top"><strong>{$lang->post_options}</strong></td>
@@ -8937,7 +8918,7 @@ if(use_xmlhttprequest == "1")
 {$lang->num_options} <input type="text" class="textbox" name="numpolloptions" value="{$numpolloptions}" size="10" /> {$lang->max_options}</span>
 </td>
 </tr>]]></template>
-		<template name="newthread_signature" version="1809"><![CDATA[<label><input type="checkbox" class="checkbox" name="postoptions[signature]" value="1" tabindex="7"{$postoptionschecked['signature']} /> {$lang->options_sig}</label>]]></template>
+		<template name="newthread_signature" version="1810"><![CDATA[<label><input type="checkbox" class="checkbox" name="postoptions[signature]" value="1" tabindex="7"{$postoptionschecked['signature']} /> {$lang->options_sig}</label><br />]]></template>
 		<template name="online" version="1400"><![CDATA[<html>
 <head>
 <title>{$mybb->settings['bbname']} - {$lang->users_online}</title>
@@ -10533,7 +10514,7 @@ if(use_xmlhttprequest == "1")
 		<template name="private_send_buddyselect" version="1809"><![CDATA[<script type="text/javascript"><!--
 document.write('<br /><span class="smalltext"><a href="javascript:void(0)" onclick="UserCP.openBuddySelect(\'{$buddy_select}\'); return false;"><img src="{$theme['imgdir']}/buddies.png" alt="" style="vertical-align: middle;" alt="" title="{$lang->select_from_buddies}" /> {$lang->select_from_buddies}</a></span>');
 // --></script>]]></template>
-		<template name="private_send_tracking" version="1805"><![CDATA[<br /><label><input type="checkbox" class="checkbox" name="options[readreceipt]" value="1" tabindex="8" {$optionschecked['readreceipt']} /> {$lang->options_read_receipt}</label>]]></template>
+		<template name="private_send_tracking" version="1810"><![CDATA[<br /><label><input type="checkbox" class="checkbox" name="options[readreceipt]" value="1" tabindex="8" {$optionschecked['readreceipt']} />{$lang->options_read_receipt}</label>]]></template>
 		<template name="private_tracking" version="1800"><![CDATA[<html>
 <head>
 <title>{$mybb->settings['bbname']} - {$lang->pm_tracking}</title>
@@ -13980,13 +13961,13 @@ $(function() {
 </html>]]></template>
 		<template name="debug_summary" version="1800"><![CDATA[<div id="debug">{$generated_in} {$debug_weight} <br />{$sql_queries} / {$server_load} / {$memory_usage}<br />[<a href="{$debuglink}" target="_blank">{$lang->debug_advanced_details}</a>]<br /></div>]]></template>
 		<template name="gobutton" version="120"><![CDATA[<input type="submit" class="button" value="{$lang->go}" />]]></template>
-		<template name="headerinclude" version="1807"><![CDATA[<link rel="alternate" type="application/rss+xml" title="{$lang->latest_threads} (RSS 2.0)" href="{$mybb->settings['bburl']}/syndication.php" />
+		<template name="headerinclude" version="1810"><![CDATA[<link rel="alternate" type="application/rss+xml" title="{$lang->latest_threads} (RSS 2.0)" href="{$mybb->settings['bburl']}/syndication.php" />
 <link rel="alternate" type="application/atom+xml" title="{$lang->latest_threads} (Atom 1.0)" href="{$mybb->settings['bburl']}/syndication.php?type=atom1.0" />
 <meta http-equiv="Content-Type" content="text/html; charset={$charset}" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <script type="text/javascript" src="{$mybb->asset_url}/jscripts/jquery.js?ver=1806"></script>
 <script type="text/javascript" src="{$mybb->asset_url}/jscripts/jquery.plugins.min.js?ver=1806"></script>
-<script type="text/javascript" src="{$mybb->asset_url}/jscripts/general.js?ver=1809"></script>
+<script type="text/javascript" src="{$mybb->asset_url}/jscripts/general.js?ver=1810"></script>
 
 {$stylesheets}
 <script type="text/javascript">

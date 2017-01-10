@@ -141,7 +141,7 @@ $l['email_notify'] = "اشتراک خودکار در موضوعاتی که در 
 $l['email_notify_desc'] = "با انتخاب این گزینه بطور خودکار در موضوعاتی که در آن ارسال دارید مشترک میشوید.";
 $l['receive_pms'] = "دریافت پیام خصوصی از سایر کاربران.";
 $l['receive_pms_desc'] = "شما را قادر به دریافت پیام خصوصی از سایر کاربران می‌کند.";
-$l['receive_from_buddy'] = "دریافت پیام تنها از کاربرانی که در <a href=\"#\" onclick=\"MyBB.popupWindow('/misc.php?action=buddypopup'); return false;\" target=\"_blank\">لیست دوستان</a> من هستند.";
+$l['receive_from_buddy'] = "دریافت پیام تنها از کاربرانی که در <a href=\"#\" onclick=\"MyBB.popupWindow('/misc.php?action=buddypopup'); return false;\" target=\"_blank\">لیست دوستان</a> من هستند. (این تنظیم تنها درصورتی اثر می‌کند که حداقل یک دوست در لیست دوستان باشد.)";
 $l['pm_notice'] = "آگاه سازی از دریافت پیام خصوصی جدید با نمایش متن.";
 $l['pm_notify'] = "آگاه سازی از دریافت پیام خصوصی جدید با ارسال رایانامه.";
 $l['show_codebuttons'] = "نمایش تنظیمات مای‌کد در صفحه ارسال مطلب.";
