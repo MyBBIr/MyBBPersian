@@ -17,7 +17,7 @@ $l['toplinks_help'] = "راهنما";
 $l['toplinks_portal'] = "سردر";
 $l['bottomlinks_contactus'] = "تماس با ما";
 $l['bottomlinks_returntop'] = "بازگشت به بالا";
-$l['bottomlinks_syndication'] = "پیوند سایتی آراِس‌اِس";
+$l['bottomlinks_syndication'] = "پیوند سایتی RSS";
 $l['bottomlinks_litemode'] = "حالت آرشیو";
 $l['bottomlinks_markread'] = "علامت‌گذاری همه‌ی انجمن‌ها به عنوان خوانده شده";
 
