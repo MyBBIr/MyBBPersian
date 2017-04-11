@@ -218,6 +218,8 @@ $l['admin_log_tools_index_utf8_conversion'] = "جدول {1} به UTF-8 تبدی�
 
 $l['admin_log_tools_mailerrors_prune'] = "{1} گزارش خطای رایانامه حذف شد";
 
+$l['admin_log_tools_maillogs_prune'] = "{1} گزارش رایانامه حذف شد.";
+
 $l['admin_log_tools_optimizedb_'] = "جداول بانک اطلاعاتی بهینه سازی شدند: {1}";
 
 $l['admin_log_tools_php_info_phpinfo'] = "پی‌اچ‌پی Info مشاهده شد";
@@ -235,6 +237,12 @@ $l['admin_log_tools_recount_rebuild_warning'] = "بازشماری و بازسا�
 $l['admin_log_tools_recount_rebuild_privatemessages'] = "بازشماری و بازسازی پیام‌های خصوصی";
 $l['admin_log_tools_recount_rebuild_referral'] = "بازشماری و بازسازی معرفی‌های کاربران";
 $l['admin_log_tools_recount_rebuild_threadrating'] = "بازشماری و بازسازی امتیاز موضوع";
+
+$l['admin_log_tools_spamlog_prune'] = "{4} گزارش هرزنامه‌ی قدیمی‌تر از {1} روز حذف شد.";
+$l['admin_log_tools_spamlog_prune_user'] = "{4} گزارش هرزنامه‌ی قدیمی‌تر از  {1} با نام‌کاربری  {2} حذف شد.";
+$l['admin_log_tools_spamlog_prune_email'] = "{4} گزارش هرزنامه‌ی قدیمی‌تر از {1} روز با رایانامه‌ی {3} حذف شد.";
+$l['admin_log_tools_spamlog_prune_user_email'] = "{4} گزارش هرزنامه‌ی قدیمی‌تر از {1} روز با نام‌کاربری {2} و رایانامه‌ی {3} حذف شد.";
+
 
 $l['admin_log_tools_tasks_add'] = "وظیفه #{1} ({2}) اضافه شد";
 $l['admin_log_tools_tasks_edit'] = "وظیفه #{1} ({2}) ویرایش شد";
