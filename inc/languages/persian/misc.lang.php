@@ -1,8 +1,8 @@
-<?php 
+<?php
 /**
  * MyBB 1.8 Persian Language Pack
  * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
- * 
+ *
  * Translate By: iora.ir & My-BB.Ir
  */
 
@@ -62,7 +62,7 @@ $l['forum_rules'] = "{1} - قوانین";
 $l['error_invalid_limit'] = "محدوده وارد شده برای نمایش آراِس‌اِس معتبر نمی‌باشد. لطفا یک محدوده معتبر را وارد نمایید.";
 $l['syndication'] = "آراِس‌اِس آخرین موضوعات";
 $l['syndication_generated_url'] = "آدرس آراِس‌اِس ایجاد شده برای شما:";
-$l['syndication_note'] = "در زیر شما می‌توانید لینک آراِس‌اِس ایجاد کنید. لینک‌ها می‌توانند برای هر تعداد از انجمن‌ها ایجاد شوند. سپس شما یک لینک آراِس‌اِس برای درج در آراِس‌اِس خوان خود دارید. <i><a href=\"http://fa.wikipedia.org/wiki/RSS\" target=\"_blank\">آراِس‌اِس چیست؟</a></i>";
+$l['syndication_note'] = "در زیر شما می‌توانید لینک آراِس‌اِس ایجاد کنید. لینک‌ها می‌توانند برای هر تعداد از انجمن‌ها ایجاد شوند. سپس شما یک لینک آراِس‌اِس برای درج در آراِس‌اِس خوان خود دارید. <i><a href=\"https://fa.wikipedia.org/wiki/RSS\" target=\"_blank\">آراِس‌اِس چیست؟</a></i>";
 $l['syndication_forum'] = "انجمن برای تهیه آراِس‌اِس:";
 $l['syndication_forum_desc'] = "لطفاً انجمنی را از لیست انتخاب نمایید. از کلید CTRL برای انتخاب همزمان چند انجمن استفاده نمایید.";
 $l['syndication_version'] = "نسخه خوراک آراِس‌اِس:";
