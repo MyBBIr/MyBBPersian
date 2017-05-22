@@ -28,3 +28,4 @@ $l['my2fa_qr'] = "کد احراز هویت دوفاکتوره";
 $l['recovery_codes_desc'] = "<a href=\"index.php?module=home-preferences&amp;action=recovery_codes\">کدهای بازیافت</a> خود را مشاهده کنید.";
 $l['recovery_codes'] = "کدهای بازیافت";
 $l['recovery_codes_warning'] = "<b>توجه:</b> این کدها باهر بار بازدید از این صفحه بازسازی می‌شوند و شما تنها یکبار می‌توانید از آنها استفاده کنید.";
+$l['print_recovery_codes'] = "چاپ‌کردن کدهای بازیافت";
