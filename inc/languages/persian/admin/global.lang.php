@@ -6,8 +6,8 @@
  * Translate By: iora.ir & My-BB.Ir
  */
 
-$l['today'] = "امروز";
-$l['yesterday'] = "دیروز";
+$l['today'] = "<span title=\"{1}\">امروز</span>";
+$l['yesterday'] = "<span title=\"{1}\">دیروز</span>";
 $l['size_yb'] = "YB";
 $l['size_zb'] = "ZB";
 $l['size_eb'] = "EB";
@@ -132,7 +132,7 @@ $l['saved'] = 'ذخیره‌شده';
 $l['rel_in'] = "در ";
 $l['rel_ago'] = "قبل";
 $l['rel_less_than'] = "کمتراز ";
-$l['rel_time'] = "{1}{2} {3} {4}";
+$l['rel_time'] = "<span title=\"{5}{6}\">{1}{2} {3} {4}</span>";
 $l['rel_minutes_single'] = "دقیقه";
 $l['rel_minutes_plural'] = "دقیقه";
 $l['rel_hours_single'] = "ساعت";
