@@ -997,7 +997,7 @@ ul.tabs li a.active {
 }
 
 .view_fields ul {
-	overflow: auto; // Scroll fix for Opera
+	overflow: auto; /* Scroll fix for Opera*/
 	overflow-y: auto;
 	overflow-x: hidden;
 	margin-top: 4px;
@@ -1040,7 +1040,7 @@ ul.tabs li a.active {
 }
 
 .quick_perm_fields ul {
-	overflow: auto; // Scroll fix for Opera
+	overflow: auto; /* Scroll fix for Opera*/
 	overflow-y: auto;
 	overflow-x: hidden;
 	height: 120px;

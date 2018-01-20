@@ -121,8 +121,10 @@ $l['no_subscribe'] = "عدم اشتراک گذاری";
 $l['no_subscribe_notification'] = "اشتراک گذاری بدون ارسال رایانامه برای اطلاع از پاسخ‌های جدید";
 $l['instant_email_subscribe'] = "اشتراک گذاری همراه با ارسال رایانامه برای اطلاع از پاسخ‌های جدید";
 $l['instant_pm_subscribe'] = "اشتراک گذاری همراه با ارسال پیام خصوصی برای اطلاع از پاسخ‌های جدید";
-$l['today'] = "<span title=\"{1}\">امروز</span>";
-$l['yesterday'] = "<span title=\"{1}\">دیروز</span>";
+$l['today_rel'] = "<span title=\"{1}\">امروز</span>";
+$l['yesterday_rel'] = "<span title=\"{1}\">دیروز</span>";
+$l['today'] = "امروز";
+$l['yesterday'] = "دیروز";
 $l['error'] = "پیام انجمن";
 $l['multipage_pages'] = "صفحه‌ها ({1}):";
 $l['multipage_last'] = "آخرین";
@@ -220,7 +222,7 @@ $l['postbit_group'] = "گروه کاربری:";
 $l['postbit_joined'] = "تاریخ عضویت:";
 $l['postbit_status'] = "آمار:";
 $l['postbit_attachments'] = "فایل‌های پیوست";
-$l['postbit_attachment_filename'] = "نام فایل:";
++$l['postbit_attachment_filename'] = "نام فایل:";
 $l['postbit_attachment_size'] = "اندازه";
 $l['postbit_attachment_downloads'] = "تعداد دانلود:";
 $l['postbit_attachments_images'] = "عکس(ها)";
@@ -257,11 +259,11 @@ $l['postbit_currently_ignoring_user'] = "محتویات این ارسال پنه
 $l['postbit_warning_level'] = "درصد اخطار:";
 $l['postbit_warn'] = "اخطار به نویسنده ارسال:";
 $l['postbit_purgespammer'] = "پاک‌سازی اسپمر";
-$l['postbit_post_deleted'] = "این ارسال حذف شده‌است.";
-$l['postbit_post_unapproved'] = "این ارسال منتظر تایید است.";
-$l['postbit_thread_deleted'] = "این موضوع حذف شده‌است.";
-$l['postbit_thread_unapproved'] = "این موضوع منتظر تایید است.";
-$l['postbit_deleted_post_user'] = "این ارسال توسط {1} حذف شده‌است.";
++$l['postbit_post_deleted'] = "این ارسال حذف شده‌است.";
++$l['postbit_post_unapproved'] = "این ارسال منتظر تایید است.";
++$l['postbit_thread_deleted'] = "این موضوع حذف شده‌است.";
++$l['postbit_thread_unapproved'] = "این موضوع منتظر تایید است.";
++$l['postbit_deleted_post_user'] = "این ارسال توسط {1} حذف شده‌است.";
 
 $l['postbit_button_reputation_add'] = 'اهدا اعتبار';
 $l['postbit_button_website'] = 'وب‌سایت';
@@ -534,6 +536,8 @@ $l['select2_searching'] = "درحال جستجو…";
 
 $l['stopforumspam_error_decoding'] = 'خطایی در رمزگشایی اطلاعات از StopForumSpam.com پیش آمده است.';
 $l['stopforumspam_error_retrieving'] = 'خطایی در بازیابی اطلاعات از StopForumSpam.com پیش‌آمده است.';
+$l['stopforumspam_invalid_email'] = 'آدرس ایمیل بر اساس اطلاعات StopForumSpam.com نامعتبر است.';
+$l['stopforumspam_invalid_ip_address'] = 'آی‌پی آدرس براساس اطلاعات StopForumSpam.com نامعتبر است.';
 
 $l['sfs_error_username'] = 'نام کاربری';
 $l['sfs_error_ip'] = 'IP';

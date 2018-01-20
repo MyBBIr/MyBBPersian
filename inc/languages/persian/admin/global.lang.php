@@ -6,8 +6,10 @@
  * Translate By: iora.ir & My-BB.Ir
  */
 
-$l['today'] = "<span title=\"{1}\">امروز</span>";
-$l['yesterday'] = "<span title=\"{1}\">دیروز</span>";
+$l['today_rel'] = "<span title=\"{1}\">امروز</span>";
+$l['yesterday_rel'] = "<span title=\"{1}\">دیروز</span>";
+$l['today'] = "امروز";
+$l['yesterday'] = "دیروز";
 $l['size_yb'] = "YB";
 $l['size_zb'] = "ZB";
 $l['size_eb'] = "EB";
@@ -128,6 +130,7 @@ $l['alt_disabled'] = "غیرفعال";
 $l['enable'] = "فعال";
 $l['disable'] = "غیرفعال";
 $l['saved'] = 'ذخیره‌شده';
+$l['guest'] = 'مهمان';
 
 $l['rel_in'] = "در ";
 $l['rel_ago'] = "قبل";

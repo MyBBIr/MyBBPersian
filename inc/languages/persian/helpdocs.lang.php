@@ -55,8 +55,8 @@ $l['d7_document'] = "<span dir=\"rtl\">نوع تگ‌ها و نمونه خروج
 <p>[email=info@my-bb.ir?subject=mybb-translate]رایانامه با موضوع به مترجم[/email]<br />&nbsp;&nbsp;&nbsp;<a href=\"mailto:info@my-bb.ir?subject=mybb-persian-translate\">رایانامه با موضوع به مترجم</a>
 <p><br />[quote]نقل قول[/quote]<br />&nbsp;&nbsp;&nbsp;<quote>نقل قول</quote>
 <p>[code]خروجی کد[/code]<br />&nbsp;&nbsp;&nbsp;<code>خروجی کد</code>
-<p><br />[img]http://www.php.net/images/php.gif[/img]<br />&nbsp;&nbsp;&nbsp;<img src=\"http://www.php.net/images/php.gif\">
-<p>[img=50x50]http://www.php.net/images/php.gif[/img]<br />&nbsp;&nbsp;&nbsp;<img src=\"http://www.php.net/images/php.gif\" width=\"50\" height=\"50\" />
+<p><br />[img]https://secure.php.net/images/php.gif[/img]<br />&nbsp;&nbsp;&nbsp;<img src=\"https://secure.php.net/images/php.gif\">
+<p>[img=50x50]https://secure.php.net/images/php.gif[/img]<br />&nbsp;&nbsp;&nbsp;<img src=\"https://secure.php.net/images/php.gif\" width=\"50\" height=\"50\" />
 <p><br />[color=red]متن قرمز[/color]<br />&nbsp;&nbsp;&nbsp;<font color=\"red\">متن قرمز</font>
 <p>[size=3]اندازه متن[/size]<br />&nbsp;&nbsp;&nbsp;<font size=\"3\">اندازه متن</font>
 <p>[font=Tahoma]نوع فونت[/font]<br />&nbsp;&nbsp;&nbsp;<font face=\"Tahoma\">نوع فونت</font>

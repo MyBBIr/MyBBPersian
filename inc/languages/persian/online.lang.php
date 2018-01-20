@@ -78,7 +78,7 @@ $l['viewing_reputation_report2'] = "در حال مشاهده اعتبار دهی
 $l['member_resendactivation'] = "در حال ارسال مجدد کد فعال سازی";
 $l['member_lostpw'] = "در حال <a href=\"member.php?action=lostpw\">بازگردانی رمز عبور</a>";
 $l['sending_thread'] = "در حال ارسال موضوعی به دوستان";
-$l['guest'] = "مهمان";
+
 $l['page'] = "صفحه";
 $l['users_online'] = "افراد حاضر";
 $l['on_username'] = "نام‌کاربری";
