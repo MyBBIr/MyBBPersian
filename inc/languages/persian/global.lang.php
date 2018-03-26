@@ -222,7 +222,7 @@ $l['postbit_group'] = "گروه کاربری:";
 $l['postbit_joined'] = "تاریخ عضویت:";
 $l['postbit_status'] = "آمار:";
 $l['postbit_attachments'] = "فایل‌های پیوست";
-+$l['postbit_attachment_filename'] = "نام فایل:";
+$l['postbit_attachment_filename'] = "نام فایل:";
 $l['postbit_attachment_size'] = "اندازه";
 $l['postbit_attachment_downloads'] = "تعداد دانلود:";
 $l['postbit_attachments_images'] = "عکس(ها)";
@@ -259,11 +259,11 @@ $l['postbit_currently_ignoring_user'] = "محتویات این ارسال پنه
 $l['postbit_warning_level'] = "درصد اخطار:";
 $l['postbit_warn'] = "اخطار به نویسنده ارسال:";
 $l['postbit_purgespammer'] = "پاک‌سازی اسپمر";
-+$l['postbit_post_deleted'] = "این ارسال حذف شده‌است.";
-+$l['postbit_post_unapproved'] = "این ارسال منتظر تایید است.";
-+$l['postbit_thread_deleted'] = "این موضوع حذف شده‌است.";
-+$l['postbit_thread_unapproved'] = "این موضوع منتظر تایید است.";
-+$l['postbit_deleted_post_user'] = "این ارسال توسط {1} حذف شده‌است.";
+$l['postbit_post_deleted'] = "این ارسال حذف شده‌است.";
+$l['postbit_post_unapproved'] = "این ارسال منتظر تایید است.";
+$l['postbit_thread_deleted'] = "این موضوع حذف شده‌است.";
+$l['postbit_thread_unapproved'] = "این موضوع منتظر تایید است.";
+$l['postbit_deleted_post_user'] = "این ارسال توسط {1} حذف شده‌است.";
 
 $l['postbit_button_reputation_add'] = 'اهدا اعتبار';
 $l['postbit_button_website'] = 'وب‌سایت';
@@ -518,7 +518,7 @@ $l['moderation_user_posts'] = "لطفا دقت کنید که ارسال‌های
 $l['moderation_forum_thread'] = "لطفا دقت کنید که موضوع‌های جدید در این انجمن نیاز به تایید مدیریت قبل از نمایش دارند.";
 $l['moderation_forum_edits'] = "لطفا دقت‌کنید که ارسال‌های ویرایش‌شده در این انجمن نیاز به تایید مدیریت قبل از نمایش دارند.";
 $l['moderation_forum_edits_quick'] = "لطفا دقت‌کنید ارسال‌های ویرایش‌شده در این انجمن نیاز به تایید مدیریت قبل از نمایش دارند.";
-+$l['awaiting_message_link'] = " <a href=\"{1}/{2}/index.php?module=user-awaiting_activation\">به پنل مدیریت بروید</a>.";
+$l['awaiting_message_link'] = " <a href=\"{1}/{2}/index.php?module=user-awaiting_activation\">به پنل مدیریت بروید</a>.";
 $l['awaiting_message_single'] = "یک حساب کاربری منتظر فعال‌سازی وجود دارد، لطفا برای فعال‌سازی کاربر به پنل مدیریت بروید.";
 $l['awaiting_message_plural'] = "{1} حساب کاربری منتظر فعال‌سازی وجود دارد، لطفا برای فعال‌سازی کاربران به پنل مدیریت بروید.";
 
