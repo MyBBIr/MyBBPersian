@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /* The friendly name of the language */
 $langinfo['name'] = "فارسی (Persian)";
@@ -10,7 +10,7 @@ $langinfo['author'] = "My-BB.Ir Group & iora.ir";
 $langinfo['website'] = "https://mybb.com/";
 
 /* Compatible version of MyBB */
-$langinfo['version'] = "1808";
+$langinfo['version'] = "1815";
 
 /* Sets if the translation includes the Admin CP (1 = yes, 0 = no) */
 $langinfo['admin'] = 1;

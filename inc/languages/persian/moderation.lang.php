@@ -1,8 +1,8 @@
-<?php 
+<?php
 /**
  * MyBB 1.8 Persian Language Pack
  * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
- * 
+ *
  * Translate By: iora.ir & My-BB.Ir
  */
 
@@ -81,6 +81,7 @@ $l['post_separator'] = "جدا کننده ارسال‌ها";
 $l['new_line'] = "خط جدید";
 $l['horizontal_rule'] = "خط افقی";
 $l['resolve_fail'] = "N/A (امکان پذیر نیست)";
+$l['time'] = "زمان:";
 $l['opened'] = "باز شده";
 $l['closed'] = "بسته شده";
 $l['stuck'] = "مهم شده";
@@ -169,7 +170,8 @@ $l['error_nosplitposts'] = "شما ارسالی را جهت جداسازی از 
 $l['error_movetosameforum'] = "شما نمی‌توانید این موضوع را به انجمنی که هم اکنون در آن قرار دارد منتقل کنید. لطفاً انجمن دیگری را انتخاب نمایید.";
 $l['error_mergewithself'] = "موضوعات نمی‌توانند با یکدیگر ادغام شوند.<br />لطفاً بازگردید و لینک معتبری را وارد نمایید.";
 $l['error_movetoself'] = "ارسال‌ها نمی‌توانند به موضوعی منتقل شوند که در آن قرار دارند.<br />لطفا بازگردید و آدرس معتبری را وارد کنید.";
-$l['error_delayedmoderation_unsupported_type'] = "متاسفیم، شما نوع مجازی از مدیریت تاخیری را انتخاب نکرده‌اید.";
+$l['error_movetononmodforum'] = "شما نمی‌توانید این موضوع را به انجمنی که مدیر آن نیستید یا دسترسی دیدن آن را ندارید انتقال دهید.";
+$l['error_delayedmoderation_unsupported_type'] = "متاسفیم، شما نوع مجازی از مدیریت تاخیری را انتخاب نکرده‌اید یا اجازه‌ی این کار را ندارید.";
 $l['error_delayedmoderation_unsupported_method'] = "متاسفیم، شما روش انتقال صحیحی را برای این مدیریت تاخیری انتخاب نکرده‌اید.";
 $l['error_delayedmoderation_invalid_date_day'] = "متاسفیم، ولی شما تاریخ معتبری را برای روز این اقدام مدیریت تاخیری انتخاب نکرده‌اید.";
 $l['error_delayedmoderation_invalid_date_month'] = "متاسفیم، ولی شما تاریخ معتبری را برای ماه این اقدام مدیریت تاخیری انتخاب نکرده‌اید.";

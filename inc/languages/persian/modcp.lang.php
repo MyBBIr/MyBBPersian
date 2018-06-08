@@ -1,8 +1,8 @@
-<?php 
+<?php
 /**
  * MyBB 1.8 Persian Language Pack
  * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
- * 
+ *
  * Translate By: iora.ir & My-BB.Ir
  */
 
@@ -39,10 +39,11 @@ $l['report_time'] = "گزارش شده";
 $l['mark_read'] = "علامت گذاری بعنوان خوانده شده";
 $l['no_reports'] = "هیچ گزارش خوانده‌نشده‌ای یافت نشد.";
 $l['no_logs'] = "هیچ اقدام مدیری وجود ندارد.";
-$l['error_noselected_reports'] = "شما ارسال گزارش شده‌ای را برای علامت گذاری به عنوان خوانده شده انتخاب نکرده‌اید. و یا اینکه ارسال‌های انتخاب شده قبلا توسط کاربری دیگر به عنوان خوانده شده علامت زده شده است.";
+$l['error_noselected_reports'] = "شما محتوا گزارش شده‌ای را برای علامت گذاری به عنوان خوانده شده انتخاب نکرده‌اید. و یا اینکه محتوا‌های انتخاب شده قبلا توسط کاربری دیگر به عنوان خوانده شده علامت زده شده است.";
 $l['error_missing_ipaddress'] = "شما یک آی‌پی را برای جستجو وارد نکرده‌اید.";
 $l['error_no_results'] = "متاسفیم، هیچ نتیجه‌ای با معیاری که انتخاب کرده‌اید یافته نشد.";
-$l['redirect_reportsmarked'] = "ارسال‌های گزارش شده انتخابی، به عنوان خوانده شده علامت گذاری شدند.";
+$l['redirect_reportsmarked'] = "محتواهای گزارش شده انتخابی، به عنوان خوانده شده علامت گذاری شدند.";
+$l['redirect_allreportsmarked'] = "همه‌ی محتواهای گزارش‌شده به عنوان خوانده‌شده علامت‌گذاری شدند.";
 $l['redirect_modnotes'] = "یادداشت‌های ناظم به روز رسانی شدند.";
 $l['for'] = "برای";
 $l['report_info'] = "محتوای گزارش شده";
@@ -56,6 +57,12 @@ $l['report_info_profile'] = "مشخصاتِ {1}";
 $l['report_info_reputation'] = "<a href=\"{1}\">اعتبار</a> از {2}";
 $l['report_info_rep_profile'] = "<br /><span class=\"smalltext\">در مشخصاتِ {1}</span>";
 $l['report_info_lastreporter'] = "{1}<br />توسط {2}";
+
+$l['page_selected'] = "همه‌ی <strong>{1}</strong> گزارش خوانده نشده‌ی این صفحه انتخاب شدند.";
+$l['all_selected'] = "همه‌ی  <strong>{1}</strong> گزارش‌های خوانده‌نشده انتخاب شدند.";
+$l['select_all'] = "انتخاب همه‌ی <strong>{1}</strong> گزارش خوانده‌نشده.";
+$l['clear_selection'] = "پاک‌کردن انتخاب.";
+
 $l['moderator_notes'] = "یادداشت‌های ناظم";
 $l['notes_public_all'] = "این یادداشت‌ها برای تمام ناظم‌ها قابل رویت است.";
 $l['save_notes'] = "ذخیره یادداشت";
@@ -87,6 +94,7 @@ $l['action'] = "عمل";
 $l['all_moderators'] = "تمام ناظمان";
 $l['ip'] = "آی‌پی";
 $l['info_on_ip'] = "اطلاعات درباره این آی‌پی";
+$l['search_ip_sfs']  = "جستجوی این آی‌پی در پایگاه داده‌ی جلوگیری از اسپم انجمن";
 $l['information'] = "اطلاعات";
 $l['filter_modlogs'] = "شخصی سازی کارهای ناظم";
 $l['forum'] = "انجمن";
@@ -122,7 +130,7 @@ $l['icq_number'] = "شماره ICQ:";
 $l['aim_screenname'] = "نام صفحه AIM:";
 $l['yahoo_id'] = "شناسه Yahoo:";
 $l['skype_id'] = "شناسه Skype:";
-$l['google_id'] = "شناسه Google Talk:";
+$l['google_id'] = "شناسه Google Hangouts:";
 $l['away_notice'] = "این گزینه به شما اجازه می‌دهد که اعلام نمایید آیا در دسترس هستید یا خیر.";
 $l['additional_information'] = "اطلاعات اضافی";
 $l['update_profile'] = "به روز رسانی پروفایل";
@@ -136,11 +144,11 @@ $l['additional_contact_details'] = "اطلاعات ارتباطی اضافی";
 $l['current_username'] = "نام‌کاربری:";
 $l['away_information'] = "اطلاعات غیبت";
 $l['away_status'] = "وضعیت غیبت:";
-$l['away_status_desc'] = "اجازه می‌دهد متنی را برای اعلام غیبت خود در تالار درج کنید.";
+$l['away_status_desc'] = "اجازه می‌دهد متنی را برای اعلام غیبت خود در انجمن درج کنید.";
 $l['im_away'] = "غایب هستم";
 $l['im_here'] = "حاضر هستم";
 $l['away_reason'] = "دلیل غیبت:";
-$l['away_reason_desc'] = "اجازه می‌دهد متنی را برای توضیح غیبت خود در تالار درج کنید (حداکثر 200 کاراکتر).";
+$l['away_reason_desc'] = "اجازه می‌دهد متنی را برای توضیح غیبت خود در انجمن درج کنید (حداکثر 200 کاراکتر).";
 $l['return_date'] = "تاریخ بازگشت:";
 $l['return_date_desc'] = "اگر میدانید چه زمانی برمیگردید، تاریخ بازگشت خود را مشخص کنید.";
 $l['error_modcp_return_date_past'] = "شما نمی‌توانید در گذشته باز گردید!";
@@ -262,8 +270,8 @@ $l['expired'] = "منقضی شده";
 $l['edit'] = "ویرایش";
 $l['add_announcement'] = "افزودن اعلان";
 $l['edit_announcement'] = "ویرایش اعلان";
-$l['no_forum_announcements'] = "در تالار شما هیچ اعلانی وجود ندارد.";
-$l['no_global_announcements'] = "در تالار شما هیچ اعلان عمومی‌ای وجود ندارد.";
+$l['no_forum_announcements'] = "در انجمن شما هیچ اعلانی وجود ندارد.";
+$l['no_global_announcements'] = "در انجمن شما هیچ اعلان عمومی‌ای وجود ندارد.";
 $l['add_global_announcement'] = "اضافه کردن اعلان عمومی";
 $l['global_announcements'] = "اعلانات عمومی";
 $l['title'] = "عنوان";

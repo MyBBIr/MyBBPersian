@@ -1,8 +1,8 @@
-<?php 
+<?php
 /**
  * MyBB 1.8 Persian Language Pack
  * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
- * 
+ *
  * Translate By: iora.ir & My-BB.Ir
  */
 
@@ -218,6 +218,8 @@ $l['admin_log_tools_index_utf8_conversion'] = "جدول {1} به UTF-8 تبدی�
 
 $l['admin_log_tools_mailerrors_prune'] = "{1} گزارش خطای رایانامه حذف شد";
 
+$l['admin_log_tools_maillogs_prune'] = "{1} گزارش رایانامه حذف شد.";
+
 $l['admin_log_tools_optimizedb_'] = "جداول بانک اطلاعاتی بهینه سازی شدند: {1}";
 
 $l['admin_log_tools_php_info_phpinfo'] = "پی‌اچ‌پی Info مشاهده شد";
@@ -229,12 +231,18 @@ $l['admin_log_tools_recount_rebuild_thread'] = "بازشماری و بازساز
 $l['admin_log_tools_recount_rebuild_poll'] = "بازشماری و بازسازی رای‌های نظرسنجی‌ها";
 $l['admin_log_tools_recount_rebuild_userposts'] = "بازشماری و بازسازی تعداد ارسال کاربران";
 $l['admin_log_tools_recount_rebuild_userthreads'] = "بازشماری و بازسازی تعداد موضوع کاربران";
-$l['admin_log_tools_recount_rebuild_attachmentthumbs'] = "بازشماری و بازسازی پیوست‌های بندانگشتی"; 
+$l['admin_log_tools_recount_rebuild_attachmentthumbs'] = "بازشماری و بازسازی پیوست‌های بندانگشتی";
 $l['admin_log_tools_recount_rebuild_reputation'] = "بازشماری و بازسازی اعتبارهای کاربر";
 $l['admin_log_tools_recount_rebuild_warning'] = "بازشماری و بازسازی اخطار‌ها";
 $l['admin_log_tools_recount_rebuild_privatemessages'] = "بازشماری و بازسازی پیام‌های خصوصی";
 $l['admin_log_tools_recount_rebuild_referral'] = "بازشماری و بازسازی معرفی‌های کاربران";
 $l['admin_log_tools_recount_rebuild_threadrating'] = "بازشماری و بازسازی امتیاز موضوع";
+
+$l['admin_log_tools_spamlog_prune'] = "{4} گزارش هرزنامه‌ی قدیمی‌تر از {1} روز حذف شد.";
+$l['admin_log_tools_spamlog_prune_user'] = "{4} گزارش هرزنامه‌ی قدیمی‌تر از  {1} با نام‌کاربری  {2} حذف شد.";
+$l['admin_log_tools_spamlog_prune_email'] = "{4} گزارش هرزنامه‌ی قدیمی‌تر از {1} روز با رایانامه‌ی {3} حذف شد.";
+$l['admin_log_tools_spamlog_prune_user_email'] = "{4} گزارش هرزنامه‌ی قدیمی‌تر از {1} روز با نام‌کاربری {2} و رایانامه‌ی {3} حذف شد.";
+
 
 $l['admin_log_tools_tasks_add'] = "وظیفه #{1} ({2}) اضافه شد";
 $l['admin_log_tools_tasks_edit'] = "وظیفه #{1} ({2}) ویرایش شد";
@@ -242,6 +250,9 @@ $l['admin_log_tools_tasks_delete'] = "وظیفه #{1} ({2}) حذف شد";
 $l['admin_log_tools_tasks_enable'] = "وظیفه #{1} ({2}) فعال شد";
 $l['admin_log_tools_tasks_disable'] = "وظیفه #{1} ({2}) غیر فعال شد";
 $l['admin_log_tools_tasks_run'] = "وظیفه #{1} ({2}) اجرا شد";
+
+$l['admin_log_user_awaiting_activation_activate_activated'] = "{2} کاربر فعال شدند";
+$l['admin_log_user_awaiting_activation_activate_deleted'] = "{2} کاربر حذف شدند";
 
 $l['admin_log_user_admin_permissions_delete_user'] = "سطوح دسترسی مدیریت برای کاربر #{1} ({2}) حذف شد";
 $l['admin_log_user_admin_permissions_delete_group'] = "سطوح دسترسی مدیریت برای گروه #{1} ({2}) حذف شد";
@@ -282,8 +293,8 @@ $l['admin_log_user_users_delete'] = "کاربر #{1} ({2}) حذف شد";
 $l['admin_log_user_users_ipaddresses'] = "آی‌پی کاربر #{1} ({2}) مشاهده شد";
 $l['admin_log_user_users_merge'] = "کاربر #{1} ({2}) در #{3} ({4}) ادغام شد";
 
-$l['admin_log_user_mass_mail_delete'] = "رایانامه گروهی #{1} ({2}) حذف شد"; 
- 
+$l['admin_log_user_mass_mail_delete'] = "رایانامه گروهی #{1} ({2}) حذف شد";
+
 $l['admin_log_config_languages_quick_phrases'] = "عبارت سریع ساخته شده در بسته‌ی زبان: {1}";
 $l['admin_log_config_thread_prefixes_add_prefix'] = 'پیشوند موضوع اضافه شده #{1} ({2})';
 $l['admin_log_config_thread_prefixes_edit_prefix'] = 'پیشوند موضوع ویرایش شده #{1} ({2})';

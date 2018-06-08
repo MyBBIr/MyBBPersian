@@ -1,8 +1,8 @@
-<?php 
+<?php
 /**
  * MyBB 1.8 Persian Language Pack
  * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
- * 
+ *
  * Translate By: iora.ir & My-BB.Ir
  */
 
@@ -28,7 +28,6 @@ $l['num_threads'] = "موضوعات انجمن:";
 $l['num_posts'] = "ارسالهای انجمن:";
 $l['full_stats'] = "آمار کامل";
 $l['welcome'] = "{1} عزیز، خوش‌آمدید.";
-$l['guest'] = "مهمان";
 $l['guest_welcome_registration'] = "شما می‌توانید از طریق <a href=\"{1}\">فرم ثبت‌نام</a> در انجمن عضو شوید.";
 $l['username'] = "نام‌کاربری";
 $l['password'] = "رمز عبور";

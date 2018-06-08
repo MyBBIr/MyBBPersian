@@ -15,6 +15,7 @@ $l['edit_question'] = "ویرایش پرسش";
 $l['edit_question_desc'] = "در اینجا شما یک پرسش امنیتی را ویرایش می‌کنید.";
 
 $l['options'] = "گزینه‌ها";
+$l['shown'] = "نشان داده‌شده";
 $l['correct'] = "درست";
 $l['incorrect'] = "نادرست";
 $l['disable_question'] = "غیرفعال سازی پرسش";
@@ -40,4 +41,3 @@ $l['success_question_enabled'] = "پرسش با موفقیت فعال شد.";
 $l['success_question_deleted'] = "پرسش با موفقیت حذف شد.";
 
 $l['confirm_question_deletion'] = "آیا شما از حذف این پرسش اطمینان دارید؟";
-

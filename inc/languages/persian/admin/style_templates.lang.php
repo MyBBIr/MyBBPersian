@@ -1,11 +1,11 @@
-<?php 
+<?php
 /**
  * MyBB 1.8 Persian Language Pack
  * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
- * 
+ *
  * Translate By: iora.ir & My-BB.Ir
  */
- 
+
 $l['template_sets'] = "مجموعه‌های قالب";
 $l['template_set'] = "مجموعه قالب‌";
 $l['templates'] = "قالب‌های {1}";
@@ -146,7 +146,8 @@ $l['error_invalid_set'] = "لطفاً یک مجموعه قالب معتبر را
 $l['error_invalid_template_set'] = "مجموعه قالب انتخاب شده نامعتبر می‌باشد.";
 $l['error_themes_attached_template_set'] = "این مجموعه قالب قابل حذف نیست زیرا پوسته‌هایی موجود می‌باشد که به این مجموعه قالب پیوست شده‌اند.";
 $l['error_missing_group_prefix'] = "لطفا پیشوندِ گروه‌قالب وارد کنید.";
-$l['error_missing_group_title'] = "لطفا عنوان گروه‌قالب را وارد کنید..";
+$l['error_invalid_group_title'] = "به دلیل اینکه زیرخط (_) به عنوان جداکننده‌ی پیشوند قالب از نام قالب استفاده می‌شود، استفاده از آن در نام قالب ممنوع است. لطفا پیشوند دیگری را انتخاب کنید.";
+$l['error_missing_group_title'] = "لطفا عنوان گروه‌قالب را وارد کنید.";
 $l['error_duplicate_group_prefix'] = "این گروه‌قالب با این پیشوند قبلا وجود داشته‌است، لطفا پیشوند دیگری را انتخاب کنید..";
 $l['error_missing_template_group'] = "این گروه‌قالب نمی‌تواند پیدا شود.";
 $l['error_default_template_group'] = "شما نمی‌توانید گروه‌قالب‌های پیشفرض را ویرایش یا حذف کنید.";

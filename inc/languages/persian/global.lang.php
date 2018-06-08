@@ -1,8 +1,8 @@
-<?php 
+<?php
 /**
  * MyBB 1.8 Persian Language Pack
  * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
- * 
+ *
  * Translate By: iora.ir & My-BB.Ir
  */
 
@@ -17,8 +17,10 @@ $l['toplinks_help'] = "راهنما";
 $l['toplinks_portal'] = "سردر";
 $l['bottomlinks_contactus'] = "تماس با ما";
 $l['bottomlinks_returntop'] = "بازگشت به بالا";
-$l['bottomlinks_syndication'] = "پیوند سایتی آراِس‌اِس";
+$l['bottomlinks_syndication'] = "پیوند سایتی RSS";
 $l['bottomlinks_litemode'] = "حالت آرشیو";
+$l['bottomlinks_markread'] = "علامت‌گذاری همه‌ی انجمن‌ها به عنوان خوانده شده";
+
 $l['welcome_usercp'] = "کنترل پنل کاربر";
 $l['welcome_modcp'] = "کنترل پنل ناظم";
 $l['welcome_admin'] = "کنترل پنل مدیریت";
@@ -119,9 +121,12 @@ $l['no_subscribe'] = "عدم اشتراک گذاری";
 $l['no_subscribe_notification'] = "اشتراک گذاری بدون ارسال رایانامه برای اطلاع از پاسخ‌های جدید";
 $l['instant_email_subscribe'] = "اشتراک گذاری همراه با ارسال رایانامه برای اطلاع از پاسخ‌های جدید";
 $l['instant_pm_subscribe'] = "اشتراک گذاری همراه با ارسال پیام خصوصی برای اطلاع از پاسخ‌های جدید";
+$l['today_rel'] = "<span title=\"{1}\">امروز</span>";
+$l['yesterday_rel'] = "<span title=\"{1}\">دیروز</span>";
 $l['today'] = "امروز";
 $l['yesterday'] = "دیروز";
 $l['error'] = "پیام انجمن";
+
 $l['multipage_pages'] = "صفحه‌ها ({1}):";
 $l['multipage_last'] = "آخرین";
 $l['multipage_first'] = "اولین";
@@ -194,6 +199,7 @@ $l['editor_metacafe'] = "MetaCafe";
 $l['editor_veoh'] = "Veoh";
 $l['editor_vimeo'] = "Vimeo";
 $l['editor_youtube'] = "Youtube";
+$l['editor_twitch'] = "Twitch";
 $l['editor_facebook'] = "Facebook";
 $l['editor_liveleak'] = "LiveLeak";
 $l['editor_insertvideo'] = "افزودن یک ویدیو";
@@ -217,7 +223,7 @@ $l['postbit_group'] = "گروه کاربری:";
 $l['postbit_joined'] = "تاریخ عضویت:";
 $l['postbit_status'] = "آمار:";
 $l['postbit_attachments'] = "فایل‌های پیوست";
-+$l['postbit_attachment_filename'] = "نام فایل:";
+$l['postbit_attachment_filename'] = "نام فایل:";
 $l['postbit_attachment_size'] = "اندازه";
 $l['postbit_attachment_downloads'] = "تعداد دانلود:";
 $l['postbit_attachments_images'] = "عکس(ها)";
@@ -254,6 +260,11 @@ $l['postbit_currently_ignoring_user'] = "محتویات این ارسال پنه
 $l['postbit_warning_level'] = "درصد اخطار:";
 $l['postbit_warn'] = "اخطار به نویسنده ارسال:";
 $l['postbit_purgespammer'] = "پاک‌سازی اسپمر";
+$l['postbit_post_deleted'] = "این ارسال حذف شده‌است.";
+$l['postbit_post_unapproved'] = "این ارسال منتظر تایید است.";
+$l['postbit_thread_deleted'] = "این موضوع حذف شده‌است.";
+$l['postbit_thread_unapproved'] = "این موضوع منتظر تایید است.";
+$l['postbit_deleted_post_user'] = "این ارسال توسط {1} حذف شده‌است.";
 
 $l['postbit_button_reputation_add'] = 'اهدا اعتبار';
 $l['postbit_button_website'] = 'وب‌سایت';
@@ -286,6 +297,7 @@ $l['smilieinsert'] = "شکلک‌ها";
 $l['smilieinsert_getmore'] = "بقیه شکلک‌ها";
 $l['on'] = "روشن";
 $l['off'] = "خاموش";
+$l['remote_avatar_disabled_default_avatar'] = "شما هم‌اکنون در حال استفاده از یک آواتار لینک‌داده‌شده هستید، که غیرفعال شده‌است. و آواتار پیش‌فرض به جای ان استفاده خواهد شد.";
 $l['unread_report'] = "هشدار ناظم: یک گزارش خوانده نشده موجود است";
 $l['unread_reports'] = "هشدار ناظم: {1} گزارش خوانده نشده موجود است";
 $l['pending_joinrequest'] = "هشدار رهبر گروه: یک کاربر درخواست عضویت در گروه را داده است.";
@@ -324,7 +336,7 @@ $l['seconds_short'] = "s";
 $l['rel_in'] = "در ";
 $l['rel_ago'] = "قبل";
 $l['rel_less_than'] = "کمتر‌از ";
-$l['rel_time'] = "{1}{2} {3} {4}";
+$l['rel_time'] = "<span title=\"{5}{6}\">{1}{2} {3} {4}</span>";
 $l['rel_minutes_single'] = "دقیقه";
 $l['rel_minutes_plural'] = "دقیقه";
 $l['rel_hours_single'] = "ساعت";
@@ -422,7 +434,7 @@ $l['timezone_gmt_350'] = "(GMT +3:30) Tehran (تهــــران)";
 $l['timezone_gmt_400'] = "(GMT +4:00) Moscow, Abu Dhabi, Baku, Muscat, Tbilisi";
 $l['timezone_gmt_450'] = "(GMT +4:30) Kabul";
 $l['timezone_gmt_500'] = "(GMT +5:00) Islamabad, Karachi, Tashkent";
-$l['timezone_gmt_550'] = "(GMT +5:30) Mumbai, Calcutta, Madras, New Delhi";
+$l['timezone_gmt_550'] = "(GMT +5:30) Mumbai, Kolkata, Chennai, New Delhi";
 $l['timezone_gmt_575'] = "(GMT +5:45) Kathmandu";
 $l['timezone_gmt_600'] = "(GMT +6:00) Almaty, Dhakra, Yekaterinburg";
 $l['timezone_gmt_650'] = "(GMT +6:30) Yangon";
@@ -507,6 +519,7 @@ $l['moderation_user_posts'] = "لطفا دقت کنید که ارسال‌های
 $l['moderation_forum_thread'] = "لطفا دقت کنید که موضوع‌های جدید در این انجمن نیاز به تایید مدیریت قبل از نمایش دارند.";
 $l['moderation_forum_edits'] = "لطفا دقت‌کنید که ارسال‌های ویرایش‌شده در این انجمن نیاز به تایید مدیریت قبل از نمایش دارند.";
 $l['moderation_forum_edits_quick'] = "لطفا دقت‌کنید ارسال‌های ویرایش‌شده در این انجمن نیاز به تایید مدیریت قبل از نمایش دارند.";
+$l['awaiting_message_link'] = " <a href=\"{1}/{2}/index.php?module=user-awaiting_activation\">به پنل مدیریت بروید</a>.";
 $l['awaiting_message_single'] = "یک حساب کاربری منتظر فعال‌سازی وجود دارد، لطفا برای فعال‌سازی کاربر به پنل مدیریت بروید.";
 $l['awaiting_message_plural'] = "{1} حساب کاربری منتظر فعال‌سازی وجود دارد، لطفا برای فعال‌سازی کاربران به پنل مدیریت بروید.";
 
@@ -524,6 +537,8 @@ $l['select2_searching'] = "درحال جستجو…";
 
 $l['stopforumspam_error_decoding'] = 'خطایی در رمزگشایی اطلاعات از StopForumSpam.com پیش آمده است.';
 $l['stopforumspam_error_retrieving'] = 'خطایی در بازیابی اطلاعات از StopForumSpam.com پیش‌آمده است.';
+$l['stopforumspam_invalid_email'] = 'ایمیل بر اساس بایگانی اطلاعات StopForumSpam.com نامعتبر است.';
+$l['stopforumspam_invalid_ip_address'] = 'آدرس IP براساس بایگانی اطلاعات StopForumSpam.com نامعتبر است.';
 
 $l['sfs_error_username'] = 'نام کاربری';
 $l['sfs_error_ip'] = 'IP';

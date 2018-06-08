@@ -1,8 +1,8 @@
-<?php 
+<?php
 /**
  * MyBB 1.8 Persian Language Pack
  * Copyright 2014 My-BB.Ir Group & iora.ir, All Rights Reserved
- * 
+ *
  * Translate By: iora.ir & My-BB.Ir
  */
 
@@ -15,6 +15,7 @@ $l['prune_mod_logs_desc'] = "در اینجا شما می‌توانید گزار
 $l['no_modlogs'] = "هیچ گزارشی با الگوی مشخص شده وجود ندارد.";
 
 $l['username'] = "نام‌کاربری";
+$l['na_deleted'] = "نامعلوم - پاک شده‌است";
 $l['date'] = "تاریخ";
 $l['action'] = "کار";
 $l['information'] = "اطلاعات";
